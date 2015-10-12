@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts-config PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 1.3//EN"
+        "http://jakarta.apache.org/struts/dtds/struts-config_1_3.dtd">
+
+
+<struts-config>
+    <form-beans>
+        <form-bean name="FileUploadForm" type="com.myapp.struts.FileUploadForm"/>
+        <form-bean name="MSupplyChAction" type="com.myapp.struts.MSupplyChAction"/>
+        <form-bean name="MSupplyChForm" type="com.myapp.struts.MSupplyChForm"/>
+        <form-bean name="PassActionForm" type="com.myapp.struts.PassActionForm"/>
+        <form-bean name="DictionariActionForm" type="com.myapp.struts.DictionariActionForm"/>
+        <form-bean name="DetalViewActionForm" type="com.myapp.struts.DetalViewActionForm"/>
+        <form-bean name="TabActionForm" type="com.myapp.struts.TabActionForm"/>
+        <form-bean name="loginActionForm" type="com.myapp.struts.loginActionForm"/>
+        <form-bean name="SupplychainActionForm" type="com.myapp.struts.SupplychainActionForm"/>
+        <form-bean name="ChangestuForm" type="com.myapp.struts.ChangestuForm"/>
+        <form-bean name="fileUploadForm" type="com.myapp.struts.FileUploadForm"/>
+
+    </form-beans>
+    <global-forwards>
+        <forward name="welcome"  path="/Welcome.do"/>
+    </global-forwards>
+
+    <action-mappings>
+        <!--                     ТУ                                          -->
+        <action input="/frame/tab.jsp"
+                name="DetalViewActionForm"
+                path="/frame/tab"
+                scope="session"
+                type="com.myapp.struts.DetalViewStrutsAction">
+        <forward name="success" path="/frame/tab.jsp"/>
+        <forward name="isadd" path="/frame/grid.jsp?page=0"/>
+        <forward name="test" path="/frame/savecustomer.jsp"/>
+        </action>
+        <action input="/frame/detailedview/dataobjects.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/dataobjects"
+                scope="session"
+                type="detalview.action.DVDataobjectAction">
+        <forward name="success" path="/frame/detailedview/dataobjects.jsp"/>
+        </action>
+        <action input="/frame/detailedview/dataobjects2.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/dataobjects2"
+                scope="session"
+                type="detalview.action.DVDataobject2Action">
+        <forward name="success" path="/frame/detailedview/dataobjects2.jsp"/>
+        </action>
+        <action input="/frame/detailedview/customer.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/customer"
+                scope="session"
+                type="detalview.action.DVCustomerAction">
+        <forward name="success" path="/frame/detailedview/customer.jsp"/>
+        </action>
+        <action input="/frame/detailedview/tund.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/tund"
+                scope="session"
+                type="detalview.action.DVtundAction">
+        <forward name="success" path="/frame/detailedview/tund.jsp"/>
+        </action>
+        <action input="/frame/detailedview/admission.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/admission"
+                scope="session"
+                type="detalview.action.DVAdmissionAction">
+        <forward name="success" path="/frame/detailedview/admission.jsp"/>
+        </action>
+        <action input="/frame/detailedview/admissionAndConnection.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/admissionAndConnection"
+                scope="session"
+                type="detalview.action.DVAdmissionConnectionAction">
+        <forward name="success" path="/frame/detailedview/admissionAndConnection.jsp"/>
+        </action>
+        <action input="/frame/detailedview/design.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/design"
+                scope="session"
+                type="detalview.action.DVDesignAction">
+        <forward name="success" path="/frame/detailedview/design.jsp"/>
+        </action>
+        <action input="/frame/detailedview/suplplychain.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/suplplychain"
+                scope="session"
+                type="detalview.action.DVSupplychain">
+        <forward name="success" path="/frame/detailedview/suplplychain.jsp"/>
+        </action>
+        <action input="/frame/detailedview/join_price.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/join_price"
+                scope="session"
+                type="detalview.action.DVJoinPriceAction">
+        <forward name="success" path="/frame/detailedview/join_price.jsp"/>
+         </action>
+        <action input="/frame/detailedview/join_price_ns.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/join_price_ns"
+                scope="session"
+                type="detalview.action.DVJoinPriceNSAction">
+        <forward name="success" path="/frame/detailedview/join_price_ns.jsp"/>
+        </action>
+        <action input="/frame/detailedview/vkb_tab.jsp"
+                name="DetalViewActionForm"
+                path="/frame/detailedview/vkb"
+                scope="session"
+                type="detalview.action.DVVkbAction">
+        <forward name="success" path="/frame/detailedview/vkb_tab.jsp"/>
+        </action>
+
+        <!--     Зміни в ТУ (Changestu)        -->
+        <action input="/frame/changestu/edit.jsp"
+                parameter="method"
+                name="ChangestuForm"
+                path="/frame/changestu/changestuxp"
+                scope="session"
+                type="com.myapp.struts.ChangestuAction">
+        <forward name="success" path="/frame/changestu/edit.jsp" />
+        <forward name="isadd" path="/frame/changestu/changestuxp.jsp"/>
+        </action>
+        <!--                Авторизація                 -->
+        <action input="/frame/login.jsp"
+                parameter="method"
+                name="loginActionForm"
+                path="/frame/login"
+                scope="session"
+                type="com.myapp.struts.loginAction">
+        <forward name="success" path="/frame/main.jsp"/>
+        <forward name="error" path="/frame/login.jsp"/>
+        </action>
+
+        <!--                   Довідники                          -->
+        <action input="/frame/dictionaries.jsp"
+                name="DictionariActionForm"
+                path="/frame/dictionaries"
+                scope="session"
+                type="com.myapp.struts.DictionariAction">
+        <forward name="success" path="/frame/dictionaries.jsp"/>
+        </action>
+        <!--                    Зміна паролю                      -->
+        <action input="/frame/pass.jsp"
+                parameter="method"
+                name="PassActionForm"
+                path="/frame/pass"
+                scope="session"
+                type="com.myapp.struts.PassAction">
+        <forward name="success" path="/frame/pass.jsp"/>
+        </action>
+        <action input="/frame/search_detal.jsp"
+                name="DetalViewActionForm"
+                path="/frame/search_detal"
+                scope="session"
+                type="com.myapp.struts.searchAction">
+        <forward name="success" path="/frame/search_detal.jsp"/>
+        </action>
+        <action input="/frame/msupplych/new.jsp"
+                name="MSupplyChForm"
+                path="/frame/msupplych/new"
+                scope="session"
+                type="com.myapp.struts.MSuppluChAction">
+        <forward name="success" path="/frame/msupplych/new.jsp" />
+        <forward name="isadd"   path="/frame/msupplych/show.jsp"/>
+        </action>
+        <action
+		path="/UploadPage"
+		type="org.apache.struts.actions.ForwardAction"
+		parameter="/frame/FileUpload/fileupload.jsp"/>
+
+	<action
+		path="/Upload"
+		type="detalview.action.FileUploadAction"
+		name="fileUploadForm"
+                scope="session"
+		validate="true"
+		input="/frame/FileUpload/fileupload.jsp">
+	<forward name="success" path="/frame/FileUpload/fileupload.jsp"/>
+	</action>
+    </action-mappings>
+
+    <message-resources
+            parameter="ApplicationResource" />
+
+    <plug-in className="org.apache.struts.tiles.TilesPlugin">
+        <set-property property="definitions-config"
+                      value="/WEB-INF/tiles-defs.xml"/>
+    </plug-in>
+
+
+</struts-config>

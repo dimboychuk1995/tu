@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+    <display-name>Технічні умови ver0.1.5</display-name>
+    <filter>
+        <filter-name>Set Character Encoding</filter-name>
+        <filter-class>com.myapp.struts.CharEncodingFilter</filter-class>
+        <init-param>
+            <param-name>encoding</param-name>
+            <param-value>UTF-8</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>Set Character Encoding</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    <filter>
+        <filter-name>UserAuthFilter</filter-name>
+        <filter-class>com.myapp.filter.UserAuthFilter </filter-class>
+        <init-param>
+            <param-name>avoid-urls</param-name>
+            <param-value>login.do,.css,.jpg,.png</param-value>
+        </init-param>
+    </filter>
+    <filter-mapping>
+        <filter-name>UserAuthFilter</filter-name>
+        <url-pattern>/frame/*</url-pattern>
+    </filter-mapping>
+    <servlet>
+        <servlet-name>action</servlet-name>
+        <servlet-class>org.apache.struts.action.ActionServlet</servlet-class>
+        <init-param>
+            <param-name>config</param-name>
+            <param-value>/WEB-INF/struts-config.xml</param-value>
+        </init-param>
+        <init-param>
+            <param-name>debug</param-name>
+            <param-value>2</param-value>
+        </init-param>
+        <init-param>
+            <param-name>detail</param-name>
+            <param-value>2</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+        <servlet-name>GetRTR</servlet-name>
+        <servlet-class>ua.ifr.oe.tu.ajax.GetRTR</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>GetMainGrid</servlet-name>
+        <servlet-class>ua.ifr.oe.tu.ajax.GetMainGrid</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AppealsImport</servlet-name>
+        <servlet-class>ua.ifr.oe.tu.ajax.AppealsImport</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>action</servlet-name>
+        <url-pattern>*.do</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetRTR</servlet-name>
+        <url-pattern>/getRTR</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>GetMainGrid</servlet-name>
+        <url-pattern>/getMainGrid</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AppealsImport</servlet-name>
+        <url-pattern>/AppealsImport</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>360</session-timeout>
+    </session-config>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+
+</web-app>

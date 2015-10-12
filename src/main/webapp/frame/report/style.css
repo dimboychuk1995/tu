@@ -1,0 +1,11 @@
+  .tabl {border: 1px solid black; border-collapse: collapse;}
+  .text {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	position:relative;
+	background-color: #CCCCCC; 
+	layer-background-color: #CCCCCC; 
+	border: 1px none #000000; 
+	padding-left:0px;
+	height:75px;
+}

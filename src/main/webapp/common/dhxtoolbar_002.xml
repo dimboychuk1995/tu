@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<toolbar>
+        <item id="new_f" type="button"  img="new_dis.gif" text="Новий Споживач" imgdis="new_dis.gif"/>
+	<item id="sep1" type="separator"/>
+	<item id="open" type="button"  img="open.gif" text="Показати список ТУ" imgdis="open_dis.gif"/>
+        <item id="reminder" type="button"  img="open.gif" text="Показати список протермінованих" imgdis="open_dis.gif"/>
+        <item id="search" type="button"  img="search.jpeg" text="Пошук споживача" imgdis="search.jpeg"/>
+	<item id="chengestu" type="button" img="open.gif" text="Журнал змін в ТУ" imgdis="open_dis.gif"/>
+</toolbar>
