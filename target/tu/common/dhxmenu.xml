@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<menu>
+	<item id="file" text="Файл">
+		<item id="new_f" text="Новий Споживач" img="new.gif"/>
+		<item id="file_sep_1" type="separator"/>
+                <item id="open" text="Показати список ТУ" img="open.gif"/>
+                <item id="chengestu" text="Журнал змін в ТУ" img="open.gif"/>
+		<item id="file_sep_3" type="separator"/>
+		<item id="close" text="Close" img="close.gif"/>
+	</item>
+	<item id="report" text="Звіти">
+		<item id="rep1" text="Звіт по укладених договорах" />
+                <item id="rep2" text="Виконавці по реалізації ТУ" />
+                <item id="rep3" text="Звіт по виданих технічних умовах" />
+                <item id="rep4" text="Звіт по укладених договорах" />
+                <item id="rep5" text="Динаміка освоєння ринку" />
+                <item id="rep6" text="Довідник всіх підстанцій і повітряних ліній в Івано-Франківській області" />
+	</item>
+        <item id="dic" text="Довідники">
+		<item id="dic1" text="Функціональне призначення обекта" />
+                <item id="dic2" text="Населені пункти" />
+                <item id="dic3" text="Тип договору" />
+                <item id="dic4" text="Причина видачі" />
+                <item id="dic5" text="Термін продовження" />
+                <item id="dic6" text="Соціальний статус" />
+                <item id="dic7" text="Виконавці" />
+	</item>
+        <item id="text" text="Формат таблиці ТУ">
+		<item id="cust" text="Замовник" >
+			<item id="cust1" text="зам1" type="checkbox" checked="true"/>
+			<item id="cust2" text="зам2" type="checkbox" />
+			<item id="cust3" text="зам3" type="checkbox" />
+			<item id="cust4" text="зам4" type="checkbox" />
+                        <item id="custSeparator" type="separator"/>
+                        <item id="cust5" text="всі" type="checkbox" />
+		</item>
+	</item>
+	<item id="help" text="Допомога">
+		<item id="about" text="Про програму..." img="about.gif"/>
+		<item id="needhelp" text="Допомога" img="help.gif"/>
+	</item>
+</menu>
