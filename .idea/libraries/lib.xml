@@ -3,6 +3,7 @@
     <CLASSES>
       <root url="file://$PROJECT_DIR$/src/main/webapp/lib" />
     </CLASSES>
+    <JAVADOC />
     <SOURCES />
     <jarDirectory url="file://$PROJECT_DIR$/src/main/webapp/lib" recursive="false" />
   </library>
