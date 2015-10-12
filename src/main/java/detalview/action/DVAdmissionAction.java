@@ -42,4 +42,6 @@ public class DVAdmissionAction extends org.apache.struts.action.Action {
         detailview=(DetalViewActionForm)ses.getAttribute("tcCustomer");
         return mapping.findForward(SUCCESS);
     }
+
+    //some text
 }

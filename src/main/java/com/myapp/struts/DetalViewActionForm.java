@@ -795,8 +795,11 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                             + "<br><b>Телефон Замовника:</b> " + telephone + "<br><b>Тип приєднання:</b> " + type_join
                             + "<br><b>Замовлена потужність:</b> " + pow + " кВт.";
                     //MailSender.sendHTMLEmail("aeg.info1@gmail.com", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-                    MailSender.sendHTMLEmail("aeg.info1@gmail.com", "dmytro.boychuk@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-                    //MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+
+                    MailSender.sendHTMLEmail("aeg.info1@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                    MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                    MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+
                 }
             }
         } catch (SQLException sqle) {
