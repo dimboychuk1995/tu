@@ -94,10 +94,10 @@
             var ps =$("#ps_"+type+"_disp_name :selected").text();
             var ps_red =$("#ps_10_disp_name :selected");
             var ps_selected =$("#ps_"+type+"_disp_name :selected"); 
-                
+
             var tuid = "<%=request.getParameter("tu_id")%>";
             $("#ps_"+type+"_reserv").attr("value","");
-            //alert('ajax.jsp?ps_id='+id+"&tu_id="+tuid);
+            alert('ajax'+type+'.jsp?ps_id='+id+"&tu_id="+tuid+"&ps="+ps);
             $.ajax({
                 url: 'ajax'+type+'.jsp?ps_id='+id+"&tu_id="+tuid+"&ps="+ps,
                 dataType : "json",
