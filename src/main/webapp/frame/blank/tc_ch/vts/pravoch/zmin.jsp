@@ -270,7 +270,7 @@
                             <strong><%=rs.getString("type_c")%> <%= rs.getString("customer_adress")%></strong><br>
                             р/р <%= rs.getString("bank_account")%> МФО <%= rs.getString("bank_mfo")%><br>
                             _________________________________________________<br>
-                            <strong>_____________________________________</strong><br>
+                            <strong>_____________________________________</strong>  <br>
                             Код ЄДРПОУ    <%= rs.getString("bank_identification_number")%><br>
                             Свідоцтво платника ПДВ № _____________________<br>
                             Індивідуальний податковий №    ___________________<br>
