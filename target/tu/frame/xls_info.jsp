@@ -88,6 +88,7 @@
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Дата подання напруги</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Дата приймання інших витрат</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Інші витрати, грн.</td>
+        <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Існуюча потужність, кВт.</td>
     </tr>
     <tr>
         <td rowspan="1" align="center" valign="middle"  bgcolor="#CCCCCC">110/35/10(6)</td>
@@ -140,7 +141,8 @@
         <td align="center" valign="middle"> <%= rs.getString(31)%></td>
         <td align="center" valign="middle"> <%= rs.getString(32)%></td>
         <td align="center" valign="middle"> <%= rs.getString(33)%></td>
-        
+        <td align="center" valign="middle"> <%= rs.getString(33)%></td>
+
     </tr>
     <%}
         } catch (SQLException e) {

@@ -226,22 +226,22 @@
                 1. Місцезнаходження об’єкта Замовника: <span style="text-align: center"><strong> <%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</strong></span><br>
                 Функціональне призначення об'єкта: <strong><%= rs.getString("functional_target")%></strong><br>
                 Прогнозований рік уведення  об’єкта в експлуатацію:  <strong><%= rs.getString("date_intro_eksp").replaceAll("1900", "_____")%></strong><br>
-                2. Величина максимального розрахункового навантаження  <strong><%= rs.getString("request_power").replace(".", ",")%> кВт</strong>, у тому числі для:<br> 
+                2. Величина максимального розрахункового навантаження  <strong><%= rs.getString("request_power").replace(".", ",")%> кВт</strong>, у тому числі для:<br>
                 <%if (!rs.getString("power_old").equals("0.00")) {%>
                 існуюча потужність <%=rs.getString("power_old")%> кВт, договір №<%=rs.getString("nom_data_dog")%><%}%>
                 <%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%>
                 <strong>I категорія</strong><br>
                 <%}%>
                 <%if (rs.getString("reliabylity_class_2").toUpperCase().equals("TRUE")) {%>
-                <strong>II категорія</strong><br>
+                <strong>II категорія</strong> <strong><%= rs.getString("reliabylity_class_2_val").replace(".", ",")%> кВт</strong><br>
                 <%}%>
                 <%if (rs.getString("reliabylity_class_3").toUpperCase().equals("TRUE")) {%>
 
             <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="347" valign="top">
-                        <span class="style1">III категорія </span></td>
-                    <td width="340" valign="top"><span class="style1"><%= rs.getString("request_power").replace(".", ",")%> кВт,</span></td>
+                        <span class="style1">III категорія <%= rs.getString("reliabylity_class_3_val").replace(".", ",")%> кВт </span></td>
+                    <td width="340" valign="top"></td>
                 </tr>
                 <%if ((!rs.getString("power_plit").equals("_____")) || (!rs.getString("power_boil").equals("_____")) || (!rs.getString("power_for_electric_devices").equals("_________"))) {%><tr>
                     <td width="347" valign="top"><span class="style1">Встановлена потужність електронагрівальних установок:</span></td>

@@ -43,7 +43,7 @@ public class PassAction extends org.apache.struts.action.Action {
         if (request.getParameter("method").equals("edit"))
         {
             InitialContext ic = new InitialContext();
-            DataSource ds = (DataSource)ic.lookup("java:comp/env/jdbc/mydatabase");
+            DataSource ds = (DataSource)ic.lookup("java:comp/env/jdbc/TUWeb");
             Connection Conn = ds.getConnection();
             PreparedStatement pstmt = Conn.prepareStatement("{call dbo.TC_CH_PSWD(?,?,?,?,?)}");
             pstmt.setString(1, pass.getUser_name());
