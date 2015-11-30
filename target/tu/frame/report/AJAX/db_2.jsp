@@ -2,6 +2,7 @@
 <script type="text/javascript">
     document.getElementById("img").style.visibility="hidden";
 </script>
+
 <%-- 
     Document   : index
     Created on : 18 трав 2010, 12:22:46
