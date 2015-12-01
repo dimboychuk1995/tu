@@ -797,11 +797,11 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     //MailSender.sendHTMLEmail("aeg.info1@gmail.com", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
 
                     MailSender.sendHTMLEmail("aeg.info1@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-                    MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-                    MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-//                    //////////////////////////////////////////////////////////
-                    MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-                    MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+//                    MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+//                    MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+
+//                    MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+//                    MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
                 }
             }
         } catch (SQLException sqle) {

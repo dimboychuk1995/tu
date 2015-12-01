@@ -60,7 +60,6 @@
                                     <option value="210">Галицький</option>
                                     <option value="220">Городенківський</option>
                                     <option value="230">Долинський</option>
-                                    <option value="240">Івано-Франківський</option>
                                     <option value="250">Калуський</option>
                                     <option value="260">Коломийський М</option>
                                     <option value="270">Коломийський Р</option>
@@ -85,6 +84,8 @@
                             <div class="button_holder">
                                 <html:submit property="method" value="login" styleClass="button_login"/>
                             </div>
+                            <p>Для входу в Франківську базу перейдіть будь-ласка за посиланням</p>
+                            <a href="http://obl-java:8080/tu/frame/login.do?method=view">Перейти до Франківської бази--></a>
                         </html:form>
                         <div class="clr"></div>
                     </div>
