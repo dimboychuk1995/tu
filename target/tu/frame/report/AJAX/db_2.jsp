@@ -30,7 +30,6 @@
         int i = 0;
         rsmd = rs.getMetaData();
         int numCols = rsmd.getColumnCount();
-
 %>
 
 
@@ -48,22 +47,23 @@
         <td width="150" align="center">Назва ПС 110 кВ (до якої привязані ТУ) </td>
         <td width="150"  align="center">Потужність по виданих ТУ, кВт</td>
         <td width="150"  align="center">Потужність реалізованих ТУ кВт</td>
-        <td width="150"  align="center">Фактичне навантаження ПС 110 кВ(дані зимового максимального заміру). МВТ</td>
-        <td width="150"  align="center">Резерв, МВТ</td>
+        <td width="150"  align="center">Фактичне навантаження ПС 110 кВ(дані зимового максимального заміру). кВт</td>
+        <td width="150"  align="center">Резерв, кВт</td>
+        <td width="150"  align="center">ТУ, що набули чинності</td>
     </tr>
     <%
         while (rs.next()) {
             i++;
     %>  
     <tr>
-        <td align="center"><% out.print(i);%></td>
-        <%--td bgcolor="#CCCCCC">&nbsp;</td--%>
-        <td align="center">&nbsp;<%=rs.getString("ps110")%></td>
-        <td align="center">&nbsp;<%= rs.getString("vydani")%></td>
-        <td align="center">&nbsp;<%= rs.getString("dopuscheni")%></td>
-        <td align="center">&nbsp;<%= rs.getString("ps_nav")%></td>
-        <td align="center">&nbsp;<%= rs.getString("ps_rez")%></td>
-    </tr>
+    <td align="center"><% out.print(i);%></td>
+    <%--td bgcolor="#CCCCCC">&nbsp;</td--%>
+    <td align="center">&nbsp;<%=rs.getString("ps110")%></td>
+    <td align="center">&nbsp;<%= rs.getString("vydani")%></td>
+    <td align="center">&nbsp;<%= rs.getString("dopuscheni")%></td>
+    <td align="center">&nbsp;<%= rs.getString("ps_nav")%></td>
+    <td align="center">&nbsp;<%= rs.getString("ps_rez")%></td>
+</tr>
     <%}%>
     <%} catch (SQLException e) {
             e.printStackTrace();
