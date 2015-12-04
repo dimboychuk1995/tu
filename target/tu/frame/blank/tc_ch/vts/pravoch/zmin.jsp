@@ -220,8 +220,8 @@
             <%} else  if (!rs.getString("join2").equals("2")) {%>
             <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
-                    <td width="328" valign="top"><p>Електропередавальна    організація:</p></td>
-                    <td width="329" valign="top"><p>Замовник:</p></td>
+                <td width="328" valign="top"><p>Електропередавальна    організація:</p></td>
+                <td width="329" valign="top"><p>Замовник:</p></td>
                 </tr>
                 <tr>
                     <td width="328" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>                            
