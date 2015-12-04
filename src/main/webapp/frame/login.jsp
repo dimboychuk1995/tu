@@ -29,13 +29,6 @@
         </STYLE>
     </head>
     <body>
-
-        <div class="modal-1 reloadDatabase">
-            <script type="text/javascript">
-                alert("База буде перезавантажена в 12:45");
-            </script>
-        </div>
-
         <div id="element-box" class="login">
             <div class="t">
                 <div class="t">
