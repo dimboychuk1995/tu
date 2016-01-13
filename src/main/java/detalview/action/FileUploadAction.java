@@ -62,17 +62,17 @@ public class FileUploadAction extends Action {
             folder.mkdir();
         }
         String fileName = dtime + file.getFileName().replaceAll("\\s", "");
-        if (!("").equals(fileName)) {
-            File newFile = new File(filePath1, fileName);
-            if (!newFile.exists()) {
-                FileOutputStream fos = new FileOutputStream(newFile);
-                fos.write(file.getFileData());
-                fos.flush();
-                fos.close();
-            }
-            String full_path = filePath + fileName;
-            fileUploadForm.add(fileName, full_path, comment);
-            if (null != engineer) {
+            if (!("").equals(fileName)) {
+                File newFile = new File(filePath1, fileName);
+                if (!newFile.exists()) {
+                    FileOutputStream fos = new FileOutputStream(newFile);
+                    fos.write(file.getFileData());
+                    fos.flush();
+                    fos.close();
+                }
+                String full_path = filePath + fileName;
+                fileUploadForm.add(fileName, full_path, comment);
+                if (null != engineer) {
                 mailTo = hm.get(engineer);
                 MailSender.sendEmail(mailTo, mailFrom, mailSubject, mailText, mailSmtpHost);
             }

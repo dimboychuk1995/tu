@@ -83,6 +83,7 @@
             <td class="rated_current">Номінальний струм ввідного автомата</td>
             <td id="rated_current_machine"><html:select name="DetalViewActionForm"  property="rated_current_machine">
                 <html:option value="0"></html:option>
+                <html:option value="630">6.3</html:option>
                 <html:option value="10">10</html:option>
                 <html:option value="16">16</html:option>
                 <html:option value="20">20</html:option>

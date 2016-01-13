@@ -78,7 +78,7 @@
                                 <html:submit property="method" value="login" styleClass="button_login"/>
                             </div>
                             <p>Для входу в Франківську базу перейдіть будь-ласка за посиланням</p>
-                            <a href="http://obl-java:8080/tu/frame/login.do?method=view">Перейти до Франківської бази--></a>
+                            <a href="http://10.93.10.25:8080/tu/frame/login.do?method=view">Перейти до Франківської бази--></a>
                         </html:form>
                         <div class="clr"></div>
                     </div>

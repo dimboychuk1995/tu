@@ -13,7 +13,7 @@
 
 <html:form action="/frame/pass">
     <input type="hidden" name="user_name" value="<bean:write name="log" property="user"/>">
-    <input type="hidden" name="user_id_rem" value="<bean:write name="log" property="id_rem"/>">
+    <!--<input type="hidden" name="user_id_rem" value="<bean:write name="log" property="id_rem"/>">   -->
     <table>
         <tr>
             <td>Старий пароль</td>

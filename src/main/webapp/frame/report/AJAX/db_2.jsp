@@ -63,6 +63,7 @@
     <td align="center">&nbsp;<%= rs.getString("dopuscheni")%></td>
     <td align="center">&nbsp;<%= rs.getString("ps_nav")%></td>
     <td align="center">&nbsp;<%= rs.getString("ps_rez")%></td>
+    <td align="center">&nbsp;<%= rs.getString("sum_vyd_tu")%></td>
 </tr>
     <%}%>
     <%} catch (SQLException e) {

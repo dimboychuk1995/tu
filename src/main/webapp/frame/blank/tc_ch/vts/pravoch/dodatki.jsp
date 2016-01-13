@@ -327,9 +327,9 @@
                     <td width="295" valign="top"><p>
                             <strong>ПАТ «Прикарпаттяобленерго»</strong><br>
                             м. Івано-Франківськ, вул. Індустріальна 34 <br>
-                        <% if ((rs.getString("type_join").equals("1")) || (rs.getString("type_join").equals("2"))) { %>
+                        <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -363,9 +363,9 @@
                 <tr>
                     <td width="328" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>                            
                             <u>м. Івано-Франківськ, вул. Індустріальна, 34</u><br>
-                        <% if ((rs.getString("type_join").equals("1")) || (rs.getString("type_join").equals("2"))) { %>
+                        <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -403,9 +403,9 @@
                     <td width="295" valign="top"><p>
                             <strong>ПАТ «Прикарпаттяобленерго»</strong><br>
                             м. Івано-Франківськ, вул. Індустріальна 34 <br>
-                        <% if ((rs.getString("type_join").equals("1")) || (rs.getString("type_join").equals("2"))) { %>
+                        <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -1274,9 +1274,9 @@
                     <td width="295" valign="top"><p>
                             <strong>ПАТ «Прикарпаттяобленерго»</strong><br>
                             м. Івано-Франківськ, вул. Індустріальна 34 <br>
-                        <% if ((rs.getString("type_join").equals("1")) || (rs.getString("type_join").equals("2"))) { %>
+                        <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -1314,9 +1314,9 @@
                 <tr>
                     <td width="328" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>                            
                             <u>м. Івано-Франківськ, вул. Індустріальна, 34</u><br>
-                        <% if ((rs.getString("type_join").equals("1")) || (rs.getString("type_join").equals("2"))) { %>
+                        <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -1351,9 +1351,9 @@
                   <tr>
                     <td width="355" valign="top"><font size="-1"><strong>ПАТ «Прикарпаттяобленерго»</strong> <br>
                     <strong>м.    Івано-Франківськ, вул. Індустріальна, 34</strong><br>
-                        <% if ((rs.getString("type_join").equals("1")) || (rs.getString("type_join").equals("2"))) { %>
+                        <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -1687,9 +1687,9 @@
             <tr>
                 <td width="328" valign="top"><p><strong>ПАТ «Прикарпаттяобленерго»</strong><br>                            
                         м. Івано-Франківськ, вул. Індустріальна, 34<br>
-                    <% if ((rs.getString("type_join").equals("1")) || (rs.getString("type_join").equals("2"))) { %>
+                    <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                     Код ЄДРПОУ 00131564<br>
-                    п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                    п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                     Код МФО 300023<br>
                     <% } else { %>
                     Код ЄДРПОУ 00131564<br>
