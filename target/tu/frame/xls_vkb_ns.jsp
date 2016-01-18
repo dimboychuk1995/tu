@@ -81,6 +81,10 @@
             <td rowspan="3" align="center" bgcolor="#CCCCCC">Термін виконання робіт по приєднанню</td>
             <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Дата приймання інших витрат</td>
             <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Інші витрати, грн.</td>    
+            <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Тип лічильника</td>
+            <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Заводський номер лічильника №</td>
+            <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Існуюча потужність КВт</td>
+            <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Вимоги до розрахункового обліку електричної енергії</td>
         </tr>
         <tr>
             <td rowspan="2" align="center" bgcolor="#CCCCCC">назва</td>

@@ -1629,6 +1629,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                 + "price_join_ns=" + price_join_ns
                 + "sum_other_price_ns=" + sum_other_price_ns
                 + "rez_pow_for_date=" + rez_pow_for_date
+                + "stage_join=" + stage_join
                 + "/join_price=";
         return join_price;
     }

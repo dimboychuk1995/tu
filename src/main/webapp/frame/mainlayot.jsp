@@ -141,6 +141,7 @@
                     <option>2013</option>
                     <option>2014</option>
                     <option>2015</option>
+                    <option>2016</option>
                 </select><br/>
                 <input type="button" id="excelExport" value="Експортувати" style="margin-left: 40%;">
             </div>

@@ -18,7 +18,6 @@
         calc_price();
         $("#rate_choice").change(function () {
             calc_price();
-
         });
     });
     function convert(data) {
@@ -26,6 +25,7 @@
     }
     function calc_price() {
         var rt_choice = $("#rate_choice option:selected").val();
+        var stage_join = $("#stage_join").val();
         var req_pow = $("#request_power").val();
         var isn_pow = $("#power_old").val();
         var registration_date = $("#registration_date").val();
@@ -41,7 +41,7 @@
 
         if (rt_choice != 0){
             $.ajax({
-                url: 'ajax/join_price_calc.jsp?rt_choice=' + rt_choice + '&registration_date=' + registration_date,
+                url: 'ajax/join_price_calc.jsp?rt_choice=' + rt_choice + '&registration_date=' + registration_date + '&stage_join=' + stage_join,
                 dataType: "json",
                 success: function (data, textStatus) {
                     var rate = data.rate;
@@ -86,6 +86,9 @@
                            styleId="registration_date" styleClass=""/></td>
             <td><html:text name="DetalViewActionForm" property="request_power" size="8" onkeypress="isDigit()"
                            styleId="request_power"/></td>
+            <td><html:text name="DetalViewActionForm" property="stage_join" size="8" onkeypress="isDigit()"
+                           styleId="stage_join"/></td>
+
         </tr>
         <tr>
             <td>Потужність:</td>
