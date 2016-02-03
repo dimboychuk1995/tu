@@ -207,6 +207,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
     private String date_filling_voltage; //Дата подання напруги
     private String date_kill_voltage; //Дата подання заявки на відключення
     private String rated_current_machine;//Номінальний струм ввідного автомата
+    private String voltage; //Напруга додано 01.02.2016
     private String taxpayer;
     private String date_z_proj;
     private List rate_join_list;
@@ -473,6 +474,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + ",[date_filling_voltage]"
                     + ",[date_kill_voltage]"
                     + ",[rated_current_machine]"
+                    + ",[voltage]"
                     + ",[date_z_proj]"
                     + ",[visible_state]"
                     + ",[offer_state]"
@@ -677,6 +679,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + formatData(date_filling_voltage, 0) + ","
                     + formatData(date_kill_voltage, 0) + ","
                     + formatData(rated_current_machine, 0) + ","
+                    + formatData(voltage, 0) + ","
                     + formatData(date_z_proj, 0) + ","
                     + formatbool(visible_state) + ","
                     + formatbool(offer_state) + ","
@@ -955,6 +958,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + " date_filling_voltage=" + formatData(date_filling_voltage, 0) + " , "
                     + " date_kill_voltage=" + formatData(date_kill_voltage, 0) + " , "
                     + " rated_current_machine=" + formatData(rated_current_machine, 0) + " , "
+                    + " voltage=" + formatData(voltage, 0) + " , "
                     + " date_z_proj=" + formatData(date_z_proj, 0) + " , "
                     + " visible_state=" + formatbool(visible_state) + " ,"
                     + " offer_state=" + formatbool(offer_state) + " ,"
@@ -1205,6 +1209,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + ",isnull(convert (varchar(15),date_filling_voltage,104),'') as date_filling_voltage"
                     + ",isnull(convert (varchar(15),date_kill_voltage,104),'') as date_kill_voltage"
                     + ",isnull(convert (varchar(15),rated_current_machine,104),'') as rated_current_machine"
+                    + ",isnull(convert (varchar(15),voltage,104),'') as voltage"
                     + ",isnull(taxpayer,'') as taxpayer"
                     + ",isnull(convert (varchar(15),date_z_proj,104),'') as date_z_proj"
                     + ",isnull(visible_state,'') as visible_state"
@@ -1426,6 +1431,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                 date_filling_voltage = (rs.getString("date_filling_voltage"));
                 date_kill_voltage = (rs.getString("date_kill_voltage"));
                 rated_current_machine = (rs.getString("rated_current_machine"));
+                voltage = (rs.getString("voltage"));
                 taxpayer = (rs.getString("taxpayer"));
                 date_z_proj = (rs.getString("date_z_proj"));
                 visible_state = (rs.getBoolean("visible_state"));
@@ -1874,6 +1880,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         date_filling_voltage = null;
         date_kill_voltage = null;
         rated_current_machine = null;
+        voltage = null;
         taxpayer = null;
         date_z_proj = null;
         term_for_joining = null;
@@ -2769,6 +2776,12 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
 
     public void setRated_current_machine(String rated_current_machine){
         this.rated_current_machine = rated_current_machine;
+    }
+
+    public String getVoltage(){return voltage;}
+
+    public void setVoltage(String voltage){
+        this.voltage = voltage;
     }
 
     public String getDo9() {

@@ -49,7 +49,6 @@
         <td width="150"  align="center">Потужність реалізованих ТУ кВт</td>
         <td width="150"  align="center">Фактичне навантаження ПС 110 кВ(дані зимового максимального заміру). кВт</td>
         <td width="150"  align="center">Резерв, кВт</td>
-        <td width="150"  align="center">ТУ, що набули чинності</td>
     </tr>
     <%
         while (rs.next()) {
@@ -63,7 +62,6 @@
     <td align="center">&nbsp;<%= rs.getString("dopuscheni")%></td>
     <td align="center">&nbsp;<%= rs.getString("ps_nav")%></td>
     <td align="center">&nbsp;<%= rs.getString("ps_rez")%></td>
-    <td align="center">&nbsp;<%= rs.getString("sum_vyd_tu")%></td>
 </tr>
     <%}%>
     <%} catch (SQLException e) {

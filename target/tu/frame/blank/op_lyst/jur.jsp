@@ -157,7 +157,7 @@
             BufferedWriter outb = new BufferedWriter(fstream);
             System.out.println("Заработало");
             bat = "@echo off "
-                    + "\\\\10.93.1.55" + rtfTarget.replaceAll("/", "\\\\").substring(2);
+                    + "\\\\10.93.104.55" + rtfTarget.replaceAll("/", "\\\\").substring(2);
             bat = new String(bat.getBytes("CP866"));
             outb.write(bat);
             //    );

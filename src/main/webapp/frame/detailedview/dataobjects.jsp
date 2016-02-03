@@ -260,6 +260,10 @@
         </tr>
         <tr><td colspan="4"><hr></td></tr>
         <tr>
+            <td colspan="2">Напруга</td>
+            <td><html:text name="DetalViewActionForm"  property="voltage" size="8"  onkeypress ="isDigit()" styleId="2_15" styleClass=""/>В</td>
+        </tr>
+        <tr>
             <td colspan="2"><bean:message key="dataobjects.request_power" /></td>
             <td><html:text name="DetalViewActionForm"  property="request_power" size="8"  onkeypress ="isDigit()" styleId="2_15" styleClass=""/><bean:message key="CIkV"/></td>
         </tr>
