@@ -36,19 +36,22 @@ function menuClick(id) {
             $('#dialog').dialog('open');
             // window.open('xls_all.jsp');
             //   window.open('xlstest.jsp');
-        
+
             break
         case "rep31":
             $('#dialog_nastya').dialog('open');
-            break    
+            break
         case "rep32":
             $('#dialog_list_deals').dialog('open');
-            break    
+            break
         case "rep4":
             window.open('xls_vkb.jsp');
             break
         case "rep41":
             window.open('xls_vkb_ns.jsp');
+            break
+        case "rep42":
+            window.open('xls_vkb_from14.jsp');
             break
         case "rep5":
             window.open('diff_days.jsp');
