@@ -128,6 +128,7 @@
                 <li><a href="detailedview/join_price_ns.jsp?tu_id=<%=tu_id%>">Плата за нестандартне приєднання</a></li>
                 <li><a href="detailedview/vkb_tab.jsp?tu_id=<%=tu_id%>">Дані ВКБ</a></li>
                 <li><a href="#file_tab">Прикріплені файли</a></li>
+                <li><a href="#DKEE_data">Дані ДКЕЕ</a></li>
                 <%}%>
             </ul>
             <%if (!role.equals("128")) {%>
@@ -149,6 +150,23 @@
                 }
                 if (!role.equals("128")) {
             %>
+            <div id="DKEE_data">
+                <table border="0">
+                    <tr>
+                        <td style="vertical-align: baseline; padding-top: 10px;">Договір про користування електричною енергією</td>
+                        <td>
+                            <div class="doc_vud">
+                                <logic:equal value="1" name="DetalViewActionForm" property="type_contract">
+                                    <logic:equal value="0" name="DetalViewActionForm" property="executor_company">
+                                        <a href="blank/DKEE/agreement_on_the_use_of_electricity.jsp?tu_id=<%= tu_id%>" target="_blank"
+                                           class="button_vudaty">Видати</a>
+                                    </logic:equal>
+                                </logic:equal>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
             <div id="doc_tabs">
                 <table border="0">
                     <tr>
