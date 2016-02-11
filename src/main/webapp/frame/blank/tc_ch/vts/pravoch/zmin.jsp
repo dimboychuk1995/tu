@@ -178,7 +178,7 @@
             <table width="100%"><tr><td width="50%">м. Івано-Франківськ </td><td align="right">“_____”______________ 20____ р.</td></tr></table>
             <p style="text-align:justify;text-indent:20pt">ПАТ “Прикарпаттяобленерго”, що  діє за умовами та правилами Ліцензії АБ №  177333 (далі – <%= rs.getString("executor_template")%>), в особі
                 Технічного директора ПАТ  «Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі  довіреності 
-                № 816 від 11.08.2014 року, з однієї сторони,
+                № 927 від 25.08.2015 року, з однієї сторони,
                 та <strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong>,  надалі ― <strong>Замовник</strong>, який діє на
                 підставі <%= rs.getString("constitutive_documents")%>, з іншої  сторони, (далі – Сторони), враховуючи заяву Замовника від <%= rs.getString("send_date_lenner")%> року,  домовились про наступне: </p>
             <p style="text-align:justify;text-indent:20pt">Внести зміни до Договору про  <%= rs.getString("type_join")%> до електричних мереж (далі – Договір)

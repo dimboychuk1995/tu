@@ -327,7 +327,7 @@
             </tr>
         </table>
         На підставі наказу, розпорядження <u>            <em>ПАТ “Прикарпаттяобленерго”</em> </u><br />
-        <em>від  ”<u>05 </u>”  <u>січня 2015р.</u>          №  04 </em><br />
+        <em>від  ”<u>04 </u>”  <u>січня 2016р.</u>  </em><br />
         Проведений огляд <%=rs.getString("selecting_point")%> <%=rs.getString("type_join")%>, що приймається (передається) в експлуатацію від <u><%=rs.getString("type_jobs_vkb")%> підрядним  способом.</u> <br />
         В момент приймання  (передачі) об’єкт знаходиться в <%=rs.getString("object_adress")%>.
         <table cellspacing="0" cellpadding="0" class="tab">
