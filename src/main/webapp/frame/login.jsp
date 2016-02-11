@@ -16,6 +16,11 @@
         alert('Рекомендовано використовувати інший браузер (наприклад Chrome, Firefox)!');
     </script>
 <![endif]-->
+
+        <script type="text/javascript">
+            location="http://10.93.105.25:8080/tu/";
+        </script>
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="files/login000.css" rel="stylesheet" type="text/css" />
