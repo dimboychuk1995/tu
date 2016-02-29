@@ -12,10 +12,10 @@
 <html>
     <head>
         <!--[IF IE]>
-    <script type="text/javascript">
-        alert('Рекомендовано використовувати інший браузер (наприклад Chrome, Firefox)!');
-    </script>
-<![endif]-->
+            <script type="text/javascript">
+                alert('Рекомендовано використовувати інший браузер (наприклад Chrome, Firefox)!');
+            </script>
+        <![endif]-->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="files/login000.css" rel="stylesheet" type="text/css" />
@@ -53,7 +53,7 @@
                                     <option value="210">Галицький</option>
                                     <option value="220">Городенківський</option>
                                     <option value="230">Долинський</option>
-                                    <option value="240">Івано-Франківський</option>
+                                    <%--<option value="240">Івано-Франківський</option>--%>
                                     <option value="250">Калуський</option>
                                     <option value="260">Коломийський М</option>
                                     <option value="270">Коломийський Р</option>

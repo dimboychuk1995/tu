@@ -12,10 +12,10 @@
 <html>
     <head>
         <!--[IF IE]>
-    <script type="text/javascript">
-        alert('Рекомендовано використовувати інший браузер (наприклад Chrome, Firefox)!');
-    </script>
-<![endif]-->
+            <script type="text/javascript">
+                alert('Рекомендовано використовувати інший браузер (наприклад Chrome, Firefox)!');
+            </script>
+        <![endif]-->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link href="files/login000.css" rel="stylesheet" type="text/css" />
@@ -48,23 +48,23 @@
                             <p id="form-login-username">
                                 <label for="modlgn_username">РЕМ</label>
                                 <select name="rem" id="lang" class="inputbox">
-                                    <option value="190">Богородчанський</option>
-                                    <option value="200">Верховинський</option>
-                                    <option value="210">Галицький</option>
-                                    <option value="220">Городенківський</option>
-                                    <option value="230">Долинський</option>
+                                    <%--<option value="190">Богородчанський</option>--%>
+                                    <%--<option value="200">Верховинський</option>--%>
+                                    <%--<option value="210">Галицький</option>--%>
+                                    <%--<option value="220">Городенківський</option>--%>
+                                    <%--<option value="230">Долинський</option>--%>
                                     <option value="240">Івано-Франківський</option>
-                                    <option value="250">Калуський</option>
-                                    <option value="260">Коломийський М</option>
-                                    <option value="270">Коломийський Р</option>
-                                    <option value="280">Косівський</option>
-                                    <option value="290">Лисецький</option>
-                                    <option value="300">Надвірнянський</option>
-                                    <option value="310">Рогатинський</option>
-                                    <option value="320">Рожнятівський</option>
-                                    <option value="330">Снятинський</option>
-                                    <option value="340">Тлумацький</option>
-                                    <option value="350">Яремчанський</option>
+                                    <%--<option value="250">Калуський</option>--%>
+                                    <%--<option value="260">Коломийський М</option>--%>
+                                    <%--<option value="270">Коломийський Р</option>--%>
+                                    <%--<option value="280">Косівський</option>--%>
+                                    <%--<option value="290">Лисецький</option>--%>
+                                    <%--<option value="300">Надвірнянський</option>--%>
+                                    <%--<option value="310">Рогатинський</option>--%>
+                                    <%--<option value="320">Рожнятівський</option>--%>
+                                    <%--<option value="330">Снятинський</option>--%>
+                                    <%--<option value="340">Тлумацький</option>--%>
+                                    <%--<option value="350">Яремчанський</option>--%>
                                     <option value="360">OE</option>
                                 </select>
 

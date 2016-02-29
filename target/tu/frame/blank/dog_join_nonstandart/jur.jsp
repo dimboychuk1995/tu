@@ -146,7 +146,7 @@
             <table width="100%"><tr><td width="50%">м. Івано-Франківськ</td>
                     <td align="right"><%=rs.getString("date_customer_contract_tc")%> р.</td></tr></table><br >
 
-            <div align="justify" style="text-align:justify;"><strong>ПАТ «Прикарпаттяобленерго»</strong>, в особі технічного директора ПАТ «Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>,&nbsp;який  діє на підставі довіреності № 816&nbsp;від 11.08.2014&nbsp;з  однієї сторони (далі - Виконавець послуг), та <strong>
+            <div align="justify" style="text-align:justify;"><strong>ПАТ «Прикарпаттяобленерго»</strong>, в особі технічного директора ПАТ «Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>,&nbsp;який  діє на підставі довіреності № 927 від 25.08.2015 з  однієї сторони (далі - Виконавець послуг), та <strong>
                     <%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
                     <%= rs.getString("name")%></strong>, (далі ―

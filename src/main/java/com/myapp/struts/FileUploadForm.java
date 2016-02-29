@@ -62,7 +62,7 @@ public class FileUploadForm extends org.apache.struts.action.ActionForm {
             return errors;
 
         }
-        File newFile = new File("\\\\Obl-devel\\TUFiles\\", file.getFileName().replaceAll("\\s", ""));
+        File newFile = new File("\\\\10.93.104.55\\TUFiles\\", file.getFileName().replaceAll("\\s", ""));
         if (newFile.exists()) {
             errors.add("common.file.exists",
                     new ActionMessage("error.common.file.textfile.exists"));

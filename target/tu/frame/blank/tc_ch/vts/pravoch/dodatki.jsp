@@ -1129,8 +1129,7 @@
 
             <div style="text-align:justify; text-indent:20pt"><font size="-1"><strong>Публічне акціонерне товариство «Прикарпаттяобленерго»</strong>,&nbsp;надалі ―
                     <strong>Електропередавальна організація (далі – ЕО)</strong>,&nbsp;що здійснює ліцензовану діяльність з передачі електроенергії, в особі технічного директора  ПАТ «Прикарпаттяобленерго»&nbsp;
-                    <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності №
-                    <strong>653</strong>&nbsp;від&nbsp;<strong>29.03.2013</strong>
+                    <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 927 від 25.08.2015
                     &nbsp;року, з однієї сторони, та&nbsp;<strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong>, надалі ―
                     <strong>Замовник</strong>, <%if (!rs.getString("customer_soc_status_1").equals("15")
                                 && !rs.getString("customer_soc_status_1").equals("11")) {%> в особі <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}%> який діє на підставі <strong><u><%= rs.getString("constitutive_documents")%></u></strong>

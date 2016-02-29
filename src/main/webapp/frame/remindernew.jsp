@@ -43,7 +43,7 @@
 <sql:setDataSource
     var="DB"
     driver="com.microsoft.sqlserver.jdbc.SQLServerDriver"
-    url="jdbc:sqlserver://obl-devel:1433;databaseName=${db};charSet=UTF8;"
+    url="jdbc:sqlserver://10.93.104.55:1433;databaseName=${db};charSet=UTF8;"
     user="sa" password="Gjdybq<h'l?55" />
 <sql:update dataSource="${DB}" >
     DECLARE	@return_value int
