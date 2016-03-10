@@ -47,7 +47,7 @@ public class FileUploadAction extends Action {
         String mailTo = "Dmytro.Boychuk@oe.if.ua";
         String mailFrom = "Dmytro.Boychuk@oe.if.ua";
         String mailSubject = getPersonalData(tu_id, request);
-        String mailText = "Повідомлення про завантаження нового файлу до ТУ";
+        String mailText = "Mesage about add a new file to TU";
         String connName = (String) request.getParameter("rem");
         String engineer = request.getParameter("engineer");
         Map<String,String> hm = new HashMap();
@@ -56,7 +56,7 @@ public class FileUploadAction extends Action {
         hm.put("3", "viktor.yatskovyi@oe.if.ua");
         hm.put("4", "mykola.tymchenko@oe.if.ua");
         hm.put("5", "oksana.solonychna@oe.if.ua");
-       // hm.put("5", "Roman.Vintoniak@oe.if.ua");
+        hm.put("5", "Dmytro.Boychuk@oe.if.ua");
         File folder = new File(filePath1);
         if (!folder.exists()) {
             folder.mkdir();
