@@ -1,0 +1,32 @@
+body {
+    background: url(flick/images/background.jpg) no-repeat;
+    background-size: 100%;
+    color: aliceblue;
+}
+
+form{
+    padding: 0px 0px 0px 120px;
+    margin-top: -90px;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+.container{
+    width: 1000px;
+}
+
+.form-control{
+    width: 50%;
+}
+
+.info_text{
+    font-size: large;
+    color: aliceblue;
+}
+
+.message{
+    color: #AA0000;
+    font-size: large;
+}
