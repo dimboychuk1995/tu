@@ -162,11 +162,11 @@
                 <td width="50%">м. Івано-Франківськ</td>
                 <td align="right">___.___._____ р.</td></tr></table><br >
 
-        <div align="justify" style="text-align:justify;"><strong>ПАТ «Прикарпаттяобленерго»</strong>, в особі технічного директора <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № 927 від 25.08.2015 з однієї сторони, та <% if (rs.getString("customer_type").equals("0")) {%>громадянин(ка) <strong><%=rs.getString("PIP")%></strong>, (далі – <strong>Замовник</strong>), <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>,<%} else {
+        <div align="justify" style="text-align:justify;"><strong>ПАТ «Прикарпаттяобленерго»</strong>, в особі технічного директора <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № 927 від 25.08.2015 з однієї сторони, та <% if (rs.getString("customer_type").equals("0")) {%>громадянин(ка) <strong><%=rs.getString("PIP")%></strong>, (далі – замовник), <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>,<%} else {
             %> <%if (!rs.getString("customer_soc_status_1").equals("9")
                         && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
             <%= rs.getString("name")%></strong>, (далі ―
-        <strong>Замовник)</strong>, 
+        Замовник,
         <%if ((!rs.getString("customer_soc_status_1").equals("15")
                     && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі  <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                         if (rs.getString("customer_type").equals("1")) {%> який (яка) діє на підставі<%}%> <strong><%= rs.getString("constitutive_documents")%></strong>,<%}%> з іншої сторони,  названі у подальшому «Сторони», відповідно до п. 3.1.3, 4.1 укладеного між сторонами <strong><%= rs.getString("date_contract")%></strong> року Договору про приєднання до електричних мереж, Методики розрахунку плати за приєднання, уклали дану додаткову угоду про наступне:<br>

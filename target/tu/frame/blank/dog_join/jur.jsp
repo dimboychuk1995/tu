@@ -141,7 +141,7 @@
             <div align="justify" style="text-align:justify; text-indent:20pt"><strong>ПАТ  «Прикарпаттяобленерго»</strong>, що здійснює ліцензовану діяльність з передачі  електроенергії,  в особі директора філії <strong>&quot;<%= rs.getString("rem_name")%> РЕМ&quot;</strong> <strong><%= rs.getString("director_rod")%></strong>, який діє  на підставі довіреності <%= rs.getString("dovirenist")%> року, далі - Виконавець послуг з однієї сторони, та &nbsp;<strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                         && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
                     <%= rs.getString("name")%></strong>, надалі ―
-                <strong>Замовник</strong>, <%if ((!rs.getString("customer_soc_status_1").equals("15")
+                замовник, <%if ((!rs.getString("customer_soc_status_1").equals("15")
                             && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі  <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                                 if (rs.getString("customer_type").equals("1")) {%> який (яка) діє на підставі<%}%> <strong><%= rs.getString("constitutive_documents")%></strong>
                 , з іншої сторони,  уклали цей Договір про  приєднання електроустановок Замовника до електричних мереж (далі ―  Договір).<br>

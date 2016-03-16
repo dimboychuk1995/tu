@@ -150,7 +150,7 @@
                     <%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
                     <%= rs.getString("name")%></strong>, (далі ―
-                <strong>Замовник)</strong>, 
+                Замовник,
                 <%if ((!rs.getString("customer_soc_status_1").equals("15")
                             && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі  <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                                 if (rs.getString("customer_type").equals("1")) {%> який (яка) діє на підставі<%}%> <strong><%= rs.getString("constitutive_documents")%></strong>, з іншої сторони (далі – Сторони), уклали цей  договір про нестандартне приєднання електроустановок Замовника до електричних мереж (далі –  Договір).

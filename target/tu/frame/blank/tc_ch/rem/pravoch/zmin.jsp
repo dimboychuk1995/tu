@@ -113,7 +113,7 @@
                 “<%= rs.getString("rem_name")%> РЕМ” <%= rs.getString("director_rod")%>, який діє на підставі Положення про філію та 
                 довіреності <%= rs.getString("dovirenist")%>, з однієї сторони, та житель  
                 <u><%= rs.getString("customer_adress")%></u><strong> <%=rs.getString("name")%></strong>, надалі –
-                <strong>Замовник</strong>, <%=rs.getString("constitutive_documents")%>, ідентифікаційний код 
+                замовник, <%=rs.getString("constitutive_documents")%>, ідентифікаційний код 
                 <%=rs.getString("bank_identification_number")%>, з іншої сторони, далі – Сторони, домовилися про наступне:<br>
                 Внести зміни до Договору про <%= rs.getString("type_join")%> до  електричних мереж (далі – Договір)
                 № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> року в пункт ______ . Підписаний Сторонами Додаток  № 1 до Договору є невід’ємною частиною даного Додаткового правочину.</p>
@@ -127,7 +127,7 @@
             <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="400" valign="top"><p><strong>Електропередавальна організація:</strong></p></td>
-                    <td width="400" valign="top"><p><strong>Замовник:</strong></p></td>
+                    <td width="400" valign="top"><p>замовник</p></td>
                 </tr>
                 <tr>
                     <td width="400" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>
@@ -198,7 +198,7 @@
             <table border="0" cellspacing="0" cellpadding="0" width="716">
                 <tr>
                     <td><strong><%=rs.getString("executor_template")%>:</strong></td>
-                    <td><strong>Замовник:</strong></td>
+                    <td>замовник</td>
                 </tr>
                 <tr>
                     <td width="295" valign="top"><p>

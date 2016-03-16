@@ -301,7 +301,7 @@
                 </tr>
             </table>
             <p style="text-align:justify;text-indent:20pt"><strong>ПАТ “Прикарпаттяобленерго”,</strong> що&nbsp; діє за  умовами та правилами Ліцензії АБ № 177333 (далі – <%=rs.getString("executor_template")%>), в особі технічного директора ПАТ  «Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі  довіреності № 927 від 25.08.2015 року, з однієї сторони,  та  <strong><%if (!rs.getString("customer_soc_status_1").equals("9")
-                                && !rs.getString("customer_soc_status_1").equals("12")) {%><%= rs.getString("customer_soc_status")%><%}%> <%= rs.getString("name")%></strong>, надалі ― <strong>Замовник</strong>, <%if ((!rs.getString("customer_soc_status_1").equals("15")
+                                && !rs.getString("customer_soc_status_1").equals("12")) {%><%= rs.getString("customer_soc_status")%><%}%> <%= rs.getString("name")%></strong>, надалі ― замовник, <%if ((!rs.getString("customer_soc_status_1").equals("15")
                                             && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                                                         if (rs.getString("customer_type").equals("1")) {%> який діє на підставі <%}%><strong><%= rs.getString("constitutive_documents")%></strong>, з іншої сторони, (далі – Сторони), враховуючи заяву  Замовника від <%= rs.getString("send_date_lenner")%> року, домовились про наступне: </p>
                 <%--<p style="text-align:justify;text-indent:20pt">
@@ -321,7 +321,7 @@
             <table border="0" cellspacing="0" cellpadding="0" width="716">
                 <tr>
                     <td><strong><%=rs.getString("executor_template")%>:</strong></td>
-                    <td><strong>Замовник:</strong></td>
+                    <td>замовник</td>
                 </tr>
                 <tr>
                     <td width="295" valign="top"><p>
@@ -358,7 +358,7 @@
             <table border="0" cellspacing="0" cellpadding="0" width="716">
                 <tr>
                     <td><strong><%=rs.getString("executor_template")%>:</strong></td>
-                    <td><strong>Замовник:</strong></td>
+                    <td>замовник</td>
                 </tr>
                 <tr>
                     <td width="328" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>                            
@@ -397,7 +397,7 @@
             <table border="0" cellspacing="0" cellpadding="0" width="716">
                 <tr>
                     <td><strong>Власник мереж:</strong></td>
-                    <td><strong>Замовник:</strong></td>
+                    <td>замовник</td>
                 </tr>
                 <tr>
                     <td width="295" valign="top"><p>
@@ -1074,7 +1074,7 @@
         <table border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td width="391" valign="top" class="style2"><p><strong>Власник</strong></p></td>
-                <td width="240" valign="top" class="style2"><p><strong>Замовник</strong></p></td>
+                <td width="240" valign="top" class="style2"><p>замовник</p></td>
             </tr>
             <tr>
                 <td width="391" valign="top" class="style2"><p><strong>&nbsp;</strong></p>
@@ -1094,7 +1094,7 @@
         <table border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td width="391" valign="top"><p class="style1"><strong>Власник</strong></p></td>
-                <td width="240" valign="top"><p class="style1"><strong>Замовник</strong></p></td>
+                <td width="240" valign="top"><p class="style1">замовник</p></td>
             </tr>
             <tr>
                 <td width="391" valign="top"><p class="style1">М. П.</p>
@@ -1131,7 +1131,7 @@
                     <strong>Електропередавальна організація (далі – ЕО)</strong>,&nbsp;що здійснює ліцензовану діяльність з передачі електроенергії, в особі технічного директора  ПАТ «Прикарпаттяобленерго»&nbsp;
                     <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 927 від 25.08.2015
                     &nbsp;року, з однієї сторони, та&nbsp;<strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong>, надалі ―
-                    <strong>Замовник</strong>, <%if (!rs.getString("customer_soc_status_1").equals("15")
+                    замовник, <%if (!rs.getString("customer_soc_status_1").equals("15")
                                 && !rs.getString("customer_soc_status_1").equals("11")) {%> в особі <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}%> який діє на підставі <strong><u><%= rs.getString("constitutive_documents")%></u></strong>
                     , з іншої сторони, далі ― Сторони, уклали цей Договір про <%=rs.getString("type_join")%> електроустановок Замовника до електричних мереж ЕО (надалі ― Договір).</font></div>
             <div style="text-align: justify; text-indent:20pt"><font size="-1">При виконанні умов  цього Договору, а також вирішенні всіх питань, що не обумовлені цим Договором,  сторони зобов'язуються керуватися Законом України “Про електроенергетику”,  Законом України &quot;Про архітектурну діяльність&quot;, Законом України “Про  регулювання містобудівної діяльності” та іншими нормативно-правовими актами. Підписавши цей Договір, Сторони підтверджують, що  відповідно до законодавства та установчих документів, мають право укладати цей  Договір, його укладання відповідає справжнім намірам сторін, які ґрунтуються на  правильному розумінні предмету та всіх інших умов договору, наслідків його  виконання та свідомо бажають настання цих наслідків.</font></div>
@@ -1186,7 +1186,7 @@
                     директора  ПАТ «Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № <strong>816</strong>
                     &nbsp;від&nbsp;<strong>11.08.2014</strong> року, з однієї сторони, та <strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%>
-                        <%= rs.getString("name")%></strong> надалі ― <strong>Замовник</strong>,
+                        <%= rs.getString("name")%></strong> надалі ― замовник,
                         <%if ((!rs.getString("customer_soc_status_1").equals("15")
                                 && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі  <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                                     if (rs.getString("customer_type").equals("1")) {%> який (яка) діє на підставі<%}%> <strong><u><%= rs.getString("constitutive_documents")%></u></strong>, з іншої сторони,
@@ -1390,7 +1390,7 @@
             <strong>про стандартне приєднання до електричних мереж</strong></p>
         <table width="100%"><tr><td width="50%"><%=rs.getString("rem_licality").substring(0, rs.getString("rem_licality").indexOf(','))%></td><td align="right"><%=rs.getString("date_customer_contract_tc")%> р.</td></tr></table><br >
 
-        <div align="justify" style="text-align:justify; text-indent:20pt"><strong>ПАТ  «Прикарпаттяобленерго»</strong>,  що здійснює ліцензовану діяльність з передачі  електроенергії, в особі директора філії <strong>&quot;<%= rs.getString("rem_name")%> РЕМ&quot; </strong><strong><%= rs.getString("director_rod")%></strong> , який діє на підставі довіреності <%= rs.getString("dovirenist")%> року, далі - Виконавець послуг з однієї сторони, та громадянин (ка) <strong><%=rs.getString("PIP")%></strong>, надалі – <strong>Замовник</strong>,  <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>, з іншої сторони,  уклали цей Договір про  приєднання електроустановок Замовника до електричних мереж (далі ―  Договір).<br>
+        <div align="justify" style="text-align:justify; text-indent:20pt"><strong>ПАТ  «Прикарпаттяобленерго»</strong>,  що здійснює ліцензовану діяльність з передачі  електроенергії, в особі директора філії <strong>&quot;<%= rs.getString("rem_name")%> РЕМ&quot; </strong><strong><%= rs.getString("director_rod")%></strong> , який діє на підставі довіреності <%= rs.getString("dovirenist")%> року, далі - Виконавець послуг з однієї сторони, та громадянин (ка) <strong><%=rs.getString("PIP")%></strong>, надалі – замовник,  <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>, з іншої сторони,  уклали цей Договір про  приєднання електроустановок Замовника до електричних мереж (далі ―  Договір).<br>
         </div>
         <div align="justify" style="text-align:justify; text-indent:20pt">При виконанні умов цього  Договору, а також вирішенні всіх питань, що не обумовлені цим Договором,  сторони зобов'язуються керуватися Законом України "Про електроенергетику "  та іншими нормативно-правовими актами у сфері приєднання електроустановок до електромереж.<br> 
         </div>
@@ -1557,7 +1557,7 @@
                 <td width="50%">м. Івано-Франківськ</td>
                 <td align="right"><%=rs.getString("date_customer_contract_tc")%> р.</td></tr></table><br >
 
-        <div align="justify" style="text-align:justify;"><strong>ПАТ «Прикарпаттяобленерго»</strong>, в особі технічного директора ПАТ «Прикарпаттяобленерго»&nbsp; <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 816&nbsp;від 11.08.2014&nbsp;з однієї сторони (далі - Виконавець послуг), та громадянин (ка) <strong><%=rs.getString("PIP")%></strong>, (далі – <strong>Замовник</strong>), <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>, з іншої сторони (далі – Сторони), уклали цей  договір про нестандартне приєднання електроустановок Замовника до електричних мереж (далі –  Договір).<br>
+        <div align="justify" style="text-align:justify;"><strong>ПАТ «Прикарпаттяобленерго»</strong>, в особі технічного директора ПАТ «Прикарпаттяобленерго»&nbsp; <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 816&nbsp;від 11.08.2014&nbsp;з однієї сторони (далі - Виконавець послуг), та громадянин (ка) <strong><%=rs.getString("PIP")%></strong>, (далі – замовник), <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>, з іншої сторони (далі – Сторони), уклали цей  договір про нестандартне приєднання електроустановок Замовника до електричних мереж (далі –  Договір).<br>
         </div>
         <div align="justify" style="text-align:justify; text-indent:20pt">При виконанні умов цього Договору Сторони  зобов'язуються діяти відповідно до чинного законодавства, зокрема, Правил  приєднання електроустановок до електричних мереж, затверджених постановою  Національної комісії, що здійснює державне регулювання у сфері енергетики № 32 від 17.01.2013 року, Методики розрахунку плати за приєднання,  затвердженою Постановою НКРЕ № 115 від 28.02.2013 року, Закону України «Про  електроенергетику», Закону України «Про регулювання містобудівної діяльності».<br> 
         </div>

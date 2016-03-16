@@ -410,7 +410,7 @@ $(document).ready(function(){
     <table border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="391" valign="top"><p class="style2"><strong>Власник</strong></p></td>
-            <td width="240" valign="top"><p class="style2"><strong>Замовник</strong></p></td>
+            <td width="240" valign="top"><p class="style2">замовник</p></td>
         </tr>
         <tr>
             <td width="328" valign="top">М.П.

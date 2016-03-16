@@ -125,7 +125,7 @@
             Степановича, який діє на підставі  довіреності № 927 від 25.08.2015 року, з однієї сторони, та
             <%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%>, 
 
-            надалі ― <strong>Замовник</strong>,  
+            надалі ― замовник,
             <%if ((!rs.getString("customer_soc_status_1").equals("15")
                         && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%>
             в особі <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,
@@ -150,7 +150,7 @@
     <table border="0" cellspacing="0" cellpadding="0" width="672">
         <tr>
             <td width="358" valign="top"><p><strong><%=rs.getString("type_join_owner")%></strong><strong>:</strong></p>
-            <td width="400" valign="top"><p><strong>Замовник:</strong></p></td>
+            <td width="400" valign="top"><p>замовник</p></td>
         </tr>
         <tr>
             <td>
@@ -182,7 +182,7 @@
     <table border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="400" valign="top"><p><strong>Електропередавальна організація:</strong></p></td>
-            <td width="400" valign="top"><p><strong>Замовник:</strong></p></td>
+            <td width="400" valign="top"><p>замовник</p></td>
         </tr>
         <tr>
             <td width="400" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>

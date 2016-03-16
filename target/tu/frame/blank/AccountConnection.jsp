@@ -105,7 +105,7 @@
                 <table border="1" align="center" cellpadding="0" cellspacing="0">
                   <tr>
                     <td width="384" valign="top"><p align="left"><strong>Електропередавальна організація:</strong></p></td>
-                    <td width="287" valign="top"><p><strong>Замовник:</strong></p></td>
+                    <td width="287" valign="top"><p>замовник</p></td>
                   </tr>
                   <tr>
                     <td width="384" valign="top"><p><strong>ВАТ «Прикарпаттяобленерго»</strong><strong> </strong><br>
