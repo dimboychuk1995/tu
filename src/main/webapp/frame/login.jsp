@@ -27,13 +27,13 @@
     </head>
 
     <body>
-    <script type="text/javascript">
-        $(document).ready(function(){
-            $('#lang').on('change', function(){
-                $('.button_holder').children().eq(0).removeAttr('disabled');
-            });
-        });
-    </script>
+    <%--<script type="text/javascript">--%>
+        <%--$(document).ready(function(){--%>
+            <%--$('#lang').on('change', function(){--%>
+                <%--$('.button_holder').children().eq(0).removeAttr('disabled');--%>
+            <%--});--%>
+        <%--});--%>
+    <%--</script>--%>
     <div id="element-box" class="login">
         <div class="container">
             <div class="row">
@@ -81,7 +81,7 @@
                                                styleClass="form-control" size="15"/>
                             </p>
                             <div class="button_holder">
-                                <html:submit property="method" value="login" styleClass="btn btn-warning" disabled="true"/>
+                                <html:submit property="method" value="login" styleClass="btn btn-warning"/>
                             </div>
                         </html:form>
                     </div>

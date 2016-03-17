@@ -198,6 +198,7 @@ Author     : AsuSV
             <dt align="justify">1.<strong>Найменування філії: </strong><span class="style1"><%=rs.getString("rem_name")%></span> РЕМ</dt>
             <dt align="justify">Найменування,  місцезнаходження, телефон замовника: <span class="style1">Громадянин(ка)</span> <%= rs.getString("PIP")%>, <span class="style1"><%= rs.getString("type_o")%><%= rs.getString("customer_adress")%>,тел. <%= rs.getString("customer_telephone")%>.</span></dt>
             <dt>2. <strong>Назва, місцезнаходження об’єкта замовника</strong>: <span style="text-align: center"><%= rs.getString("object_name")%></span> в <%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</dt>
+            <dt>Вкажіть тип будівлі або споруди: цегляна, дерев’яна, металева, інше. Наявність утеплення: Так / НІ. (підкресліть необхідне).</dt>
             <dt>3.Дата поступлення коштів від замовника :  <%= rs.getString("date_pay_join")%> року.</dt>
             <dt align="justify">4. <strong>Величини розрахункового максимального навантаження: </strong> <%= rs.getString("request_power").replace(".", ",")%> кВт, в тому числі:</dt>
             <dt>існуюча потужність <%= rs.getString("power_old")%> кВт, договір № <%= rs.getString("nom_data_dog")%></dt><br>

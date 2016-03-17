@@ -145,8 +145,9 @@
     <p class="parag"><strong>1. Стор. 5,  п. 1.1 «Пояснювальної записки» викласти в  наступній редакції: </strong><br />
     <strong>Технічні умови № <%= rs.getString("number")%>  від <%= rs.getString("initial_registration_date_rem_tu")%> № <%= rs.getString("registration_no_contract")%> </strong><br />
     <strong>Видані: <%= rs.getString("rem_name")%> РЕМ</strong><br />
-    <strong>Адреса об’єкта: <%= rs.getString("object_adress")%></strong><br>
-    <strong><%= rs.getString("object_name")%></strong><br>
+    <strong>Адреса об’єкта: <%= rs.getString("object_adress")%></strong><br/>
+    <strong><%= rs.getString("object_name")%></strong><br/>
+    <strong>Вкажіть тип будівлі або споруди: цегляна, дерев’яна, металева, інше. Наявність утеплення: Так / НІ. (підкресліть необхідне).</strong><br/>
     <strong>2. Величина максимального розрахункового навантаження <%= rs.getString("request_power").replace(".", ",")%> кВт, у тому числі для:</strong><br>
     <strong>існуюча потужність <%= rs.getString("power_old")%> кВт, договір №<%= rs.getString("nom_data_dog")%></strong>
         <%--<%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%>

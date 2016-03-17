@@ -20,6 +20,10 @@
         font-size: 12pt;
         font-weight: bold;
     }
+    .styleToZamovnyk{
+        font-size: 12pt;
+        font-weight: normal;
+    }
     @page Section1
     {
         margin:1.0cm 1.0cm 1.0cm 2.5cm;

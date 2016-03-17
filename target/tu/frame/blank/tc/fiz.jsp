@@ -275,7 +275,7 @@
             <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="391" valign="top"><p class="style1"><strong>Власник</strong></p></td>
-                    <td width="240" valign="top"><p class="style1">замовник</p></td>
+                    <td width="240" valign="top"><p class="styleToZamovnyk">замовник</p></td>
                 </tr>
                 <tr>
                     <td width="391" valign="top"><p class="style1">М. П.</p>
@@ -283,9 +283,9 @@
                         <p class="style1"><%= rs.getString("golovnyi_ingener")%></p>
                         <p class="style1">____________<br>
                             Підпис</p></td>
-                    <td width="240" valign="top"><p class="style1">М. П.</p>
-                        <p class="style1">Громадянин (ка)</p>
-                        <p class="style1"><%= rs.getString("PIP")%> <br>
+                    <td width="240" valign="top"><p class="styleToZamovnyk">М. П.</p>
+                        <p class="styleToZamovnyk">Громадянин (ка)</p>
+                        <p class="styleToZamovnyk"><%= rs.getString("PIP")%> <br>
                             <br>
                             ____________<br>
                             Підпис</p></td>
