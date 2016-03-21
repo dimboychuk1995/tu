@@ -40,7 +40,8 @@
       "ISNULL(dbo.TC_V2.name_locality,'') AS name_locality," +
       "ISNULL(dbo.TC_V2.object_adress,'') AS object_adress," +
       "ISNULL(CONVERT(VARCHAR,dbo.TC_V2.request_power,104),'') AS request_power," +
-      "CASE WHEN TC_V2.reliabylity_class_3_val IS NOT NULL THEN 'третя категорія надійності'" +
+      "CASE WHEN TC_V2.reliabylity_class_3_val IS NOT NULL " +
+      "THEN 'третя категорія надійності'" +
       "ELSE 'друга категорія надійності'" +
       "END AS kategory," +
       "        ISNULL(dbo.TC_V2.voltage,'') AS voltage," +

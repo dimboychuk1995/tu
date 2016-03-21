@@ -244,6 +244,16 @@
     <p align="center"><strong>Підготував  інженер ВТГ    </strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;                                                                            _____________________________</p>
     <p align="center"><strong>Погоджено Головний інженер </strong>&nbsp;                                                                _____________________________</p>
 
+
+
+    <table style="">
+        <tr>
+            <td><strong>Опора СВ 10,5-5</strong></td>
+            <td><strong>шт</strong></td>
+            <td></td>
+        </tr>
+    </table>
+
     <dt align="justify">&nbsp;</dt>
     <dt align="justify">&nbsp;</dt>
 </body>

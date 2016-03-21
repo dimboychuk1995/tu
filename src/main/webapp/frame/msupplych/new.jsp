@@ -104,7 +104,7 @@
                 success: function (data, textStatus) {
                     $("#ps_"+type+"_u").attr("value",data.ps_u);
                     $("#ps_"+type+"_nom").attr("value",data.ps_nom);
-                    var ps_zav_tr =data.ps_zav;
+                    var ps_zav_tr = data.ps_zav;
                     var d_p=(data.p_max*1/(data.koef)-data.sum_pow-data.ps_rez+parseFloat(data.pow));
                     var p_max_new=$("#ps_"+type+"_pow_after_rec").attr("value");
                     var ps_inc_rez=(p_max_new-(data.p_max))/data.koef;
