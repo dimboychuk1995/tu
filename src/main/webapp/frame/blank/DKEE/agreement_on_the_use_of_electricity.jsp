@@ -72,7 +72,7 @@
       "ISNULL(dbo.TC_V2.customer_telephone,'') AS customer_telephone," +
       " ISNULL(dbo.TC_V2.customer_zipcode,'') AS customer_zipcode" +
 
-      " FROM TUWeb.dbo.rem, TUWeb190.dbo.TC_V2" +
+      " FROM TUWeb.dbo.rem, dbo.TC_V2" +
       " JOIN dbo.TC_LIST_locality ON dbo.TC_V2.customer_locality = dbo.TC_LIST_locality.id" +
             " where TC_V2.id=" + request.getParameter("tu_id");
     System.out.println(qry);
