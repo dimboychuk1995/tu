@@ -36,7 +36,7 @@
     <%--</script>--%>
     <div id="element-box" class="login">
         <div class="container">
-            <div class="row">
+            <div class="row square_login">
                 <div class="col-md-8">
                     <h1>Вхід в програму технічні умови </h1>
                 </div>

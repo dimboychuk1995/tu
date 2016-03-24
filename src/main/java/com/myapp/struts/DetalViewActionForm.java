@@ -794,17 +794,23 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     String type_join = rs.getString("type_join");
                     String pow = rs.getString("request_power");
 
-                    String body = "<b>Прізвище І.П.:</b> " + name.replace("\"", "\\\"") + "<br><b>Адреса об'єкту:</b> " + address.replace("\"", "\\\"")
-                            + "<br><b>Телефон Замовника:</b> " + telephone + "<br><b>Тип приєднання:</b> " + type_join
-                            + "<br><b>Замовлена потужність:</b> " + pow + " кВт.";
-                    //MailSender.sendHTMLEmail("aeg.info1@gmail.com", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                    //System.out.println(rs.getString("type_join").equalsIgnoreCase("нестандартне"));
+                    //Альфа Енерго Груп хоче, щоб їх сповіщували тільки про нестандартні приєднання
 
-                    MailSender.sendHTMLEmail("aeg.info1@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-//                    MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-//                    MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                    if(rs.getString("type_join").equalsIgnoreCase("нестандартне")) {
+                        System.out.println(true);
+                        String body = "<b>Прізвище І.П.:</b> " + name.replace("\"", "\\\"") + "<br><b>Адреса об'єкту:</b> " + address.replace("\"", "\\\"")
+                                + "<br><b>Телефон Замовника:</b> " + telephone + "<br><b>Тип приєднання:</b> " + type_join
+                                + "<br><b>Замовлена потужність:</b> " + pow + " кВт.";
+                        //MailSender.sendHTMLEmail("aeg.info1@gmail.com", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
 
-//                    MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
-//                    MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                        MailSender.sendHTMLEmail("aeg.info1@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                        //MailSender.sendHTMLEmail("Dmytro.Boychuk@oe.if.ua", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                        //MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                        //MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "tu_mail@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                        //MailSender.sendHTMLEmail("tu_mail@oe.if.ua", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                        //MailSender.sendHTMLEmail("dimboychuk1995@gmail.com", "test@oe.if.ua", "Повідомлення з ПЗ ТУ", body, "10.93.1.63");
+                    }
                 }
             }
         } catch (SQLException sqle) {

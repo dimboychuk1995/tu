@@ -54,10 +54,8 @@ public class FileUploadAction extends Action {
         hm.put("1", "liubov.kutsa@oe.if.ua");
         hm.put("2", "oleh.kushyna@oe.if.ua");
         hm.put("3", "viktor.yatskovyi@oe.if.ua");
-        //hm.put("4", "mykola.tymchenko@oe.if.ua");
         hm.put("4", "oksana.solonychna@oe.if.ua");
-        hm.put("5", "Dmytro.Boychuk@oe.if.ua");
-        hm.put("6", "Vasyl.Ostap'yuk@oe.if.ua");
+        hm.put("5", "Vasyl.Ostap'yuk@oe.if.ua");
         File folder = new File(filePath1);
         if (!folder.exists()) {
             folder.mkdir();

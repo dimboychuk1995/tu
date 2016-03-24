@@ -1,7 +1,6 @@
 body {
-    background: url(flick/images/background.jpg) no-repeat;
-    background-size: 100%;
-    color: aliceblue;
+    <!--background: url(flick/images/background.jpg) no-repeat;-->
+    background-color: cornflowerblue;
 }
 
 form{
@@ -23,10 +22,19 @@ form{
 
 .info_text{
     font-size: large;
-    color: aliceblue;
+    color: #0B55C4;
 }
 
 .message{
     color: #AA0000;
     font-size: large;
+    margin-top: 28px;
+}
+
+.square_login{
+    border-radius: 1px;
+    border-color: #000000;
+    border-width: 3px;
+    border-style: solid;
+    margin-top: 100px;
 }
