@@ -303,7 +303,7 @@ font-size: 11pt;
             </tr>
             <tr>
               <td colspan="2"><%=rs.getString("full_name")%>, об'єкт якого розташований за
-                адресою <%=rs.getString("customer_locality")%> <%=rs.getString("customer_adress")%>, далі іменується
+                адресою <%=rs.getString("name_locality")%>, <%=rs.getString("object_adress")%>, далі іменується
                 Споживач, з однієї сторони та ПАТ "Прикарпаттяобленерго", в особі директора філії <%=rs.getString("rem_name")%> РЕМ
                 <%=rs.getString("Director")%>, який діє на підставі Положення та довіреності <%=rs.getString("dovirenist")%>
                 далі іменується Енергопостачальник, з іншої сторони, уклали цей договір про користування
