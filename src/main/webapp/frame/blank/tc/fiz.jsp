@@ -269,8 +269,6 @@
                 <dd><em>11.2. <u>До початку будівництва проект електропостачання погодити з <%=rs.getString("rem_name").substring(0, rs.getString("rem_name").length() - 1)%>м РЕМ.</u></em></dd>
                 <dt>12. Акт допуску на підключення оформити в  <%=rs.getString("rem_name").substring(0, rs.getString("rem_name").length() - 2)%>ому РЕМ.</dt>
                 <%if (!rs.getString("performance_data_tc_no").equals("")) {%> <dt>13. Виконання технічних умов можливе спільно з технічними умовами №<%=rs.getString("performance_data_tc_no")%> </dt><%}%>
-                <dt style="text-align: justify">13. До початку будівництва винести із зони забудови існуючі ЛЕП. Параметри ліній, що підлягають під винос, отримати в філії “<%=rs.getString("rem_name")%> РЕМ”. </dt>
-                <dt>14.  У випадку наявності існуючих ЛЕП в зоні забудови, винести їх з даної зони відповідно до технічного завдання, отриманого в філії «______________»</dt>
             </dl>
             <p>&nbsp;</p>
             <table border="0" cellspacing="0" cellpadding="0">

@@ -63,6 +63,7 @@
       "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 24.6 AND dbo.TC_V2.request_power <= 31 THEN '100'" +
       "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 31.1 AND dbo.TC_V2.request_power <= 39 THEN '120'" +
       "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 39.1 AND dbo.TC_V2.request_power <= 49 THEN '160'" +
+            " ELSE '-'" +
       "END AS amperage," +
       "        ISNULL(dbo.TC_V2.connection_treaty_number,'') AS connection_treaty_number," +
       "ISNULL(dbo.TC_V2.constitutive_documents,'') AS constitutive_documents," +
@@ -74,7 +75,8 @@
 
       " FROM TUWeb.dbo.rem, dbo.TC_V2" +
       " JOIN dbo.TC_LIST_locality ON dbo.TC_V2.customer_locality = dbo.TC_LIST_locality.id" +
-            " where TC_V2.id=" + request.getParameter("tu_id");
+            " where TC_V2.id=" + request.getParameter("tu_id") +
+            " and dbo.TC_V2.department_id = TUWeb.dbo.rem.rem_id ";
     System.out.println(qry);
       pstmt = c.prepareStatement(qry);
     rs = pstmt.executeQuery();
@@ -188,7 +190,8 @@ font-size: 11pt;
                 Споживач: <u><%=rs.getString("full_name")%>,
                  <%=rs.getString("constitutive_documents")%>,
                  <%=rs.getString("customer_zipcode")%></u>.<br/>
-                Адреса, телефон: <u><%=rs.getString("customer_telephone")%> + тут має бути правильна адреса</u>.<br/>
+                Адреса, телефон: <u><%=rs.getString("customer_telephone")%>, <%=rs.getString("name_locality")%>
+              , <%=rs.getString("object_adress")%></u>.<br/>
                 Електронна адреса _________________________________________________. Підпис Споживача про згоду отримувати від
                 Енергопостачальника на електронну адресу рахунки на оплату за електроенергію та інші повідомлення   __________________.<br/>
                 Сторони зобов'язуються своєчасно письмово сповіщати про всі зміни реквізитів (найменування організації, рахунки тощо).<br/>
@@ -329,10 +332,9 @@ font-size: 11pt;
                   При заміні приладу обліку  або пломб на ньому, складається відповідний документ,
                 який підписується Споживачем, та в якому вказується характер проведених робіт.
                 Схема підключення однофазного (трифазного) електролічильника перевірена при укладенні цього договору і відповідає вимогам ПУЕ.<br/>
-                6.Наявність трифазного електрообладнання дозволено для застосування: ________________________________________________.<br/>
-                7. Приміщення Споживача обладнані:
-                стаціонарною електроплитою _____________________________________________________________________________________<br/>
-                8. Межа розподілу встановлюється: <%=rs.getString("connection_treaty_number")%><br/>
+                6. Наявність трифазного електрообладнання дозволено для застосування: _________________________________________.<br/>
+                7. Приміщення Споживача обладнані: стаціонарною електроплитою _____________________________________________<br/>
+                8. Межа розподілу встановлюється: <u><%=rs.getString("connection_treaty_number")%></u><br/>
               </td>
             </tr>
             <tr>
