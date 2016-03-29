@@ -39,7 +39,7 @@
             <td align="center" bgcolor="#CCCCCC">Соц. Статус</td>
             <td align="center" bgcolor="#CCCCCC">Споживач</td>
             <td align="center" bgcolor="#CCCCCC">Тип договору</td>
-            <td align="center" bgcolor="#CCCCCC">Юрид. назва замовника</td>
+            <td align="center" bgcolor="#CCCCCC">Юрид. назва Замовника</td>
             <td align="center" bgcolor="#CCCCCC">Прізвище І.П.</td>
             <td align="center" bgcolor="#CCCCCC">Заявлена потужність кВт.</td>
             <td align="center" bgcolor="#CCCCCC">Потужність по ТП</td>

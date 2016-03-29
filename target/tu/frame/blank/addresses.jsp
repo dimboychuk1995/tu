@@ -29,7 +29,7 @@
             <td align="center" bgcolor="#CCCCCC">РЕМ</td>
             <td align="center" bgcolor="#CCCCCC">Тип приєднання</td>
             <td align="center" bgcolor="#CCCCCC">Дата звернення (реєстрації в РЕМ)</td>
-            <td align="center" bgcolor="#CCCCCC">Юрид. назва замовника</td>
+            <td align="center" bgcolor="#CCCCCC">Юрид. назва Замовника</td>
             <td align="center" bgcolor="#CCCCCC">Прізвище І.П.</td>
             <td align="center" bgcolor="#CCCCCC">Підстава видачі ТУ</td>
             <td align="center" bgcolor="#CCCCCC">Назва</td>

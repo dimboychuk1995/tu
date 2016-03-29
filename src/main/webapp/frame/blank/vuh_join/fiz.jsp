@@ -189,9 +189,9 @@
                 <strong>по приєднанню електроустановок  Замовників до електричних мереж</strong></h5>
             <p align="left">
                 <strong><u>І. Загальні дані</u></strong><br>
-                <u>1. Найменування, місцезнаходження, телефон замовника: <strong><%=rs.getString("customer_soc_status")%> <%=rs.getString("name")%>,
+                <u>1. Найменування, місцезнаходження, телефон Замовника: <strong><%=rs.getString("customer_soc_status")%> <%=rs.getString("name")%>,
                         <%=rs.getString("type_c")%> <%=rs.getString("customer_adress")%>.</strong></u><br>
-                <u>2. Назва, місцезнаходження об’єкту замовника:</u><strong> <%=rs.getString("object_name")%> <%=rs.getString("type_o")%> <%=rs.getString("object_adress")%>.</strong><br>
+                <u>2. Назва, місцезнаходження об’єкту Замовника:</u><strong> <%=rs.getString("object_name")%> <%=rs.getString("type_o")%> <%=rs.getString("object_adress")%>.</strong><br>
                 <u>3. Заявлена потужність, <strong><%=rs.getString("request_power")%> </strong> <em>кВт; </em> категорія з надійності електропостачання
                     <%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%><%="(I)"%><%}%>
                     <%if (rs.getString("reliabylity_class_2").toUpperCase().equals("TRUE")) {%><%="(II)"%><%}%>
@@ -278,7 +278,7 @@
                 </tr>
                 <tr>
                     <td width="44" nowrap valign="top" align="center">2&nbsp;</td>
-                    <td width="316" valign="top">Дані замовника    (найменування):&nbsp;</td>
+                    <td width="316" valign="top">Дані Замовника    (найменування):&nbsp;</td>
                     <td width="312" colspan="3" valign="top" align="center"><strong><%=rs.getString("customer_soc_status")%> <%=rs.getString("name")%>,
                             <%=rs.getString("type_c")%> <%=rs.getString("customer_adress")%></strong></td>
                 </tr>
@@ -333,7 +333,7 @@
                 </tr>
                 <tr>
                     <td width="44" nowrap valign="top" align="center">5&nbsp;</td>
-                    <td width="628" colspan="4" valign="top">Характеристика ПС, від яких передбачають забезпечення  потужності електроустановок замовника</td>
+                    <td width="628" colspan="4" valign="top">Характеристика ПС, від яких передбачають забезпечення  потужності електроустановок Замовника</td>
                 </tr>
                 <tr>
                     <td width="44" nowrap valign="top" align="center">5.1&nbsp;</td>
@@ -358,7 +358,7 @@
                 </tr>
                 <tr>
                     <td width="44" nowrap valign="top" align="center">5.1.3</td>
-                    <td width="316" valign="top">дозволена потужність для замовників згідно з діючими технічними умовами та договорами про надання доступу (про приєднання), кВт</td>
+                    <td width="316" valign="top">дозволена потужність для Замовників згідно з діючими технічними умовами та договорами про надання доступу (про приєднання), кВт</td>
                     <td width="124" colspan="2" valign="top" align="center">&nbsp;</td>
                     <td width="188" valign="top">Додається списком (Додаток 1)</td>
                 </tr>
@@ -385,7 +385,7 @@
                 </tr>
                 <tr>
                     <td width="44" nowrap valign="top" align="center">5.2.3&nbsp;</td>
-                    <td width="316" valign="top">дозволена потужність для замовників згідно з діючими технічними умовами та договорами про надання доступу (про приєднання), кВт&nbsp;</td>
+                    <td width="316" valign="top">дозволена потужність для Замовників згідно з діючими технічними умовами та договорами про надання доступу (про приєднання), кВт&nbsp;</td>
                     <td width="124" colspan="2" valign="top" align="center">&nbsp;</td>
                     <td width="188" valign="top">Додається списком (Додаток 2)</td>
                 </tr>
@@ -412,7 +412,7 @@
                 </tr>
                 <tr>
                     <td width="44" nowrap valign="top" align="center">5.3.3&nbsp;</td>
-                    <td width="316" valign="top">дозволена потужність для замовників згідно з діючими технічними умовами та договорами про надання    доступу (про приєднання), кВт&nbsp;</td>
+                    <td width="316" valign="top">дозволена потужність для Замовників згідно з діючими технічними умовами та договорами про надання    доступу (про приєднання), кВт&nbsp;</td>
                     <td width="124" colspan="2" valign="top" align="center">&nbsp;</td>
                     <td width="188" valign="top">Додається списком (Додаток 3)</td>
                 </tr>
@@ -439,7 +439,7 @@
                 </tr>
                 <tr>
                     <td width="44" nowrap valign="top" align="center">5.4.3&nbsp;</td>
-                    <td width="316" valign="top">дозволена потужність для замовників згідно з діючими технічними умовами або договорами про надання доступу (про приєднання), кВт&nbsp;</td>
+                    <td width="316" valign="top">дозволена потужність для Замовників згідно з діючими технічними умовами або договорами про надання доступу (про приєднання), кВт&nbsp;</td>
                     <td width="124" colspan="2" valign="top" align="center"><%=rs.getString("ps_rez10")%>&nbsp;</td>
                     <td width="188" valign="top">Додається списком (Додаток 4)</td>
                 </tr>

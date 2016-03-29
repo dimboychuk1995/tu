@@ -189,7 +189,7 @@
             <div style="text-align:justify;"><p style="text-indent: 40px">ПАТ «Прикарпаттяобленерго», що здійснює ліцензовану  діяльність з передачі електроенергії, в особі <%if (rs.getString("type_join2").equals("1")) {%>директора філії &quot;<%= rs.getString("rem_name")%> РЕМ&quot;  <%= rs.getString("director_rod")%>, який діє на підставі довіреності <%= rs.getString("dovirenist")%> року<%} else {%> Технічного директора ПАТ «Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі довіреності № 927 від 25.08.2015<%}%> (Виконавець послуг), з однієї сторони, та <strong><%if (!rs.getString("customer_soc_status").equals("9")
                     && !rs.getString("customer_soc_status").equals("12")) {%> <%= rs.getString("customer_soc_status1")%><%}%>
                     <%= rs.getString("name")%></strong>, надалі ―
-                замовник, <%if ((!rs.getString("customer_soc_status").equals("15")
+                Замовник, <%if ((!rs.getString("customer_soc_status").equals("15")
                         && !rs.getString("customer_soc_status").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі  <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                     if (rs.getString("customer_type").equals("1")) {%> який (яка) діє на підставі<%}%> <strong><%= rs.getString("constitutive_documents")%></strong>,  з іншої сторони, названі у подальшому «Сторони», відповідно до ст. ст. 651, 653, 654 Цивільного кодексу  України уклали цей додатковий правочин про наступне:</p>
                 <dt>1. Сторони дійшли згоди  розірвати Договір № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року про <%=rs.getString("type_join")%>  до електричних мереж.</dt>

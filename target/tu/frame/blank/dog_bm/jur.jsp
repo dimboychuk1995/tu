@@ -118,7 +118,7 @@
                     Електропередавальна організація (далі – ЕО)</strong>, що здійснює  ліцензовану діяльність з передачі електроенергії, в особі технічного
                 директора  ПАТ «Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № 927 від 25.08.2015 року, з однієї сторони, та <strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                             && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%>
-                    <%= rs.getString("name")%></strong> надалі ― замовник,
+                    <%= rs.getString("name")%></strong> надалі ― Замовник,
                 <%if ((!rs.getString("customer_soc_status_1").equals("15")
                             && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі  <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                             if (rs.getString("customer_type").equals("1")) {%> який (яка) діє на підставі<%}%> <strong><u><%= rs.getString("constitutive_documents")%></u></strong>, з іншої сторони,
@@ -197,7 +197,7 @@
             <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="345" valign="top"><p><strong>Електропередавальна    організація:</strong></p></td>
-                    <td width="350" valign="top"><p>замовник</p></td>
+                    <td width="350" valign="top"><p>Замовник</p></td>
                 </tr>
                 <tr>
                     <td width="345" valign="top"><strong>ПАТ «Прикарпаттяобленерго»</strong><br>

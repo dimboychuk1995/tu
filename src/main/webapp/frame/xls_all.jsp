@@ -75,7 +75,7 @@
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Ступінь приєднання</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Дата звернення (реєстрації в РЕМ)</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">№ звернення (реєстрації в РЕМ)</td>
-            <td align="center" bgcolor="#CCCCCC" rowspan="2">Юрид. назва замовника</td>
+            <td align="center" bgcolor="#CCCCCC" rowspan="2">Юрид. назва Замовника</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Прізвище І.П.</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Установчий документ</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Розрахунковий рахунок</td>
@@ -120,14 +120,14 @@
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Влаштування захисту від пошкоджень та обмеження дозволеної потужності</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Вимоги до релейного захисту й автоматики, захисту від коротких замикань та перевантажень, компенсації струмів однофазного замикання в мережах з ізольованою шиною нейтралі тощо</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Вимоги до телемеханіки та зв’язку</td>
-            <td align="center" bgcolor="#CCCCCC" rowspan="2">Специфічні вимоги щодо живлення електроустановок замовника, які стосуються резервного живлення, допустимості паралельної роботи елементів електричної мережі</td>
+            <td align="center" bgcolor="#CCCCCC" rowspan="2">Специфічні вимоги щодо живлення електроустановок Замовника, які стосуються резервного живлення, допустимості паралельної роботи елементів електричної мережі</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Вимоги до ізоляції захисту від перенапруги</td>
             <%}%>
             <%if (tund.equals("true")) {%>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Номер Договору (ТУ)</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Вихідна дата реєстрації ТУ в РЕМ</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Вихідний номер РЕМ</td>
-            <td align="center" bgcolor="#CCCCCC" rowspan="2">Дата видачі замовнику ТУ та договору</td>
+            <td align="center" bgcolor="#CCCCCC" rowspan="2">Дата видачі Замовнику ТУ та договору</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Дата вхідної заяви у ВАТ</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Дата передачі у РЕМ</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Дата повернення підписаного примірника з РЕМ</td>
@@ -255,10 +255,10 @@
         
         <tr>
             <%if (pricejoin_ns.equals("true")) {%>
-            <td align="center" bgcolor="#CCCCCC">Плата за приєднання електроустановки замовника, грн.</td>
+            <td align="center" bgcolor="#CCCCCC">Плата за приєднання електроустановки Замовника, грн.</td>
             <td align="center" bgcolor="#CCCCCC">Сума оплати, грн</td>
             <td align="center" bgcolor="#CCCCCC">Питома вартість резерву приєднаної потужності, грн.</td>
-            <td align="center" bgcolor="#CCCCCC">Плата за приєднання електроустановки замовника, грн.</td>
+            <td align="center" bgcolor="#CCCCCC">Плата за приєднання електроустановки Замовника, грн.</td>
             <td align="center" bgcolor="#CCCCCC">Сума оплати, грн</td>
         <%}%>
         </tr>        

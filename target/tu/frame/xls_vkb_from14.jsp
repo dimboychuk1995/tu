@@ -69,7 +69,7 @@
 <td rowspan="3" align="center" bgcolor="#CCCCCC">Приєднана потужність, Pp, кВт</td>
 <td rowspan="3" align="center" bgcolor="#CCCCCC">Рівень напруги в точці приєднання, кВ</td>
 <td rowspan="3" align="center" bgcolor="#CCCCCC">Точка забезпечення потужності </td>
-<td rowspan="3" align="center" bgcolor="#CCCCCC">Для приєднання замовника необхідно виконати</td>
+<td rowspan="3" align="center" bgcolor="#CCCCCC">Для приєднання Замовника необхідно виконати</td>
 <td align="center" bgcolor="#CCCCCC" colspan="4" rowspan="2">Інвентарні номера обєктів реконструкції (при влаштуванні вводу - номер ПЛ 0,4кВ)</td>
 <td align="center" bgcolor="#CCCCCC" colspan="4">Проектні роботи</td>
 <td align="center" bgcolor="#CCCCCC" colspan="6">Будівельно-монтажні роботи</td>

@@ -35,7 +35,7 @@
             <td align="center" bgcolor="#CCCCCC">Споживач</td>
             <td align="center" bgcolor="#CCCCCC">Тип приєднання</td>
             <td align="center" bgcolor="#CCCCCC">Дата звернення</td>
-            <td align="center" bgcolor="#CCCCCC">Юридична назва замовника</td>
+            <td align="center" bgcolor="#CCCCCC">Юридична назва Замовника</td>
             <td align="center" bgcolor="#CCCCCC">Прізвище І.Б.</td>
             <td align="center" bgcolor="#CCCCCC">Телефон</td>
             <td align="center" bgcolor="#CCCCCC">Ідентифікаційний номер</td>

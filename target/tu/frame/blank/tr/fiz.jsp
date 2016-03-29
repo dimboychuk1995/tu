@@ -216,7 +216,7 @@
             <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="391" valign="top"><p class="style1"><strong>Власник</strong></p></td>
-                    <td width="240" valign="top"><p class="style1">замовник</p></td>
+                    <td width="240" valign="top"><p class="style1">Замовник</p></td>
                 </tr>
                 <tr>
                     <td width="391" valign="top"><p class="style1">М. П.</p>

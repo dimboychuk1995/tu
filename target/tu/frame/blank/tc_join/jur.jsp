@@ -222,7 +222,7 @@
                 № <%= rs.getString("number")%></p>
             <p>Дата видачі <%= rs.getString("initial_registration_date_rem_tu")%> року № <%=rs.getString("registration_no_contract")%> <br>
 
-                Назва об'єкту та повне найменування замовника: <%--<span style="text-align: center"><strong><%= rs.getString("reason_tc")%>--%><span style="text-align: center"><strong><%= rs.getString("object_name")%>, <%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%>.</strong></span><br>
+                Назва об'єкту та повне найменування Замовника: <%--<span style="text-align: center"><strong><%= rs.getString("reason_tc")%>--%><span style="text-align: center"><strong><%= rs.getString("object_name")%>, <%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%>.</strong></span><br>
                 1. Місцезнаходження об’єкта Замовника: <span style="text-align: center"><strong> <%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</strong></span><br>
                 Функціональне призначення об'єкта: <strong><%= rs.getString("functional_target")%></strong><br>
                 Прогнозований рік уведення  об’єкта в експлуатацію:  <strong><%= rs.getString("date_intro_eksp").replaceAll("1900", "_____")%></strong><br>
@@ -295,14 +295,14 @@
                 <dt>4. Точка забезпечення потужності: <strong><%= rs.getString("point_zab_power")%></strong></dt>
                 <dt>5. Точка приєднання: <strong><%= rs.getString("connection_treaty_number")%></strong></dt> 
                 <dt>6. Прогнозовані межі балансової належності та експлуатаційної відповідальності встановлюються в точці приєднання електроустановки.<br>
-                <p align="center"><strong> 7. Вимоги до електроустановок замовника</strong></p>
+                <p align="center"><strong> 7. Вимоги до електроустановок Замовника</strong></p>
                 </dd>
                 <dt>
                 <div align="justify" style="text-align:justify">
-                    <dt>1. Для одержання потужності замовнику необхідно виконати:</dt> 
-                    <dt>1.1. Вимоги до технічного узгодження електроустановок Замовника та електропередавальної організації: відсутні.</dt> 
+                    <dt>1. Для одержання потужності Замовнику необхідно виконати:</dt>
+                    <dt>1.1. Вимоги до технічного узгодження електроустановок Замовника та електропередавальної організації: відсутні.</dt>
                     <dt>1.2. Вимоги до ізоляції, пристроїв захисного відключення, засобів стабілізації, захисту від перенапруги: Виконати монтаж контуру захисного заземлення, заземлити та занулити  ввідний пристрій 0,4(23) кВ з опором заземлення не більше 4,0 Ом;</dt> 
-                    <dt>1.3Для укладення ДКЕЕ замовник повинен надати наступні документи: </dt> 
+                    <dt>1.3Для укладення ДКЕЕ Замовник повинен надати наступні документи: </dt>
                     <dt>-	оригінал та копію паспорта власника (користувача) об’єкта;</dt> 
                     <dt>-	ідентифікаційний код власника (користувача) об’єкта;</dt> 
                     <dt>-	документ, який засвідчує право власності (користування) на об’єкт. При відсутності документа про право на власність, документ який засвідчує право власності (користування) на земельну ділянку.</dt> 
@@ -316,7 +316,7 @@
         <table border="0" cellspacing="0" cellpadding="0">
             <tr>
                 <td width="391" valign="top"><p class="style2"><strong>Власник</strong></p></td>
-                <td width="240" valign="top"><p class="style2">замовник</p></td>
+                <td width="240" valign="top"><p class="style2">Замовник</p></td>
             </tr>
             <tr>
                 <td width="328" valign="top">М.П.

@@ -209,7 +209,7 @@
                     <td width="149" style="text-align:left">Назва об'єкта:</td>
                     <td width="1129" style="text-align:center"><strong><u><%= rs.getString("object_name")%></u></strong>.</td></tr></table>
             <dl>
-                <dt>1 Місцезнаходження об’єкта замовника: <strong><%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</strong></dt>
+                <dt>1 Місцезнаходження об’єкта Замовника: <strong><%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</strong></dt>
                 <dt>2 Величина розрахункового максимального навантаження: <strong><%= rs.getString("request_power")%> кВт</strong>,</dt>
                     <dt>у тому числі: <%if (rs.getInt("kilk") > 1) {
                             do {%> <%=rs.getString("type_source")%>-<%=rs.getString("ps10_name")%>:<%=rs.getString("power")%> кВт.<%} while (rs.next());
@@ -380,7 +380,7 @@
                 <dt>7.7 Вимоги до релейного захисту й  автоматики, захисту від коротких замикань та перевантажень, компенсації струмів  однофазного замикання в мережах з ізольованою шиною нейтралі тощо: <%=rs.getString("do6")%></dt>
                 <dt>7.8 Вимоги до телемеханіки та зв’язку: <%if (rs.getString("do7").equals("")) {%> <%=rs.getString("do7")%><%} else {%>відсутні<%}%>.</dt>
                 <dt>7.9 Вимоги до ізоляції, захисту від  перенапруги: відсутні.</dt>
-                <dt>7.10 Специфічні вимоги щодо живлення  електроустановок замовника, які стосуються резервного живлення, допустимості  паралельної роботи елементів електричної мережі: 
+                <dt>7.10 Специфічні вимоги щодо живлення  електроустановок Замовника, які стосуються резервного живлення, допустимості  паралельної роботи елементів електричної мережі:
                     <%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%> <strong>
                         встановити блокуючий пристрій для неможливості подачі генерованої напруги в мережі ПАТ «Прикарпаттяобленерго». Встановити АВР 
                         на напрузі 0,4 кВ (централізовано на вводах в споруду чи децентралізовано у електроприймачів І категорії по надійності 
@@ -393,7 +393,7 @@
             <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="391" valign="top"><p class="style2"><strong>Власник</strong></p></td>
-                    <td width="240" valign="top"><p class="style2">замовник</p></td>
+                    <td width="240" valign="top"><p class="style2">Замовник</p></td>
                 </tr>
                 <tr>
                     <td width="328" valign="top">М.П.

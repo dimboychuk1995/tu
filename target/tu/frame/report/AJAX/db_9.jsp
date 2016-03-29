@@ -159,7 +159,7 @@
         <td colspan="3" rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Замовник/Споживач електричної енергії (найменування, адреса,    контактний телефон)</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Адреса обєкту</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Приєднана потужність,    Pp, кВт</td>
-        <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Ставка плати (для    стандартного приєднання) або доля участі замовника в розвитку мереж для    нестандартного приєднання</td>
+        <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Ставка плати (для    стандартного приєднання) або доля участі Замовника в розвитку мереж для    нестандартного приєднання</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Надходження коштів за    договором про приєднання, тис.грн</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Рівень напруги в    точці приєднання, кВ</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Точка забезпечення    потужності назва лінії електропередач та номер опори (відстань до кабельної    врізки) та/або  назва (номер)    підстанції  згідно системи кодифікації    назв</td>

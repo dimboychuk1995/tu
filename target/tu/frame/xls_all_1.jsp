@@ -73,7 +73,7 @@
             <td align="center" bgcolor="#CCCCCC">Вибір бланку договору/ТУ</td>
             <td align="center" bgcolor="#CCCCCC">Дата звернення (реєстрації в РЕМ)</td>
             <td align="center" bgcolor="#CCCCCC">№ звернення (реєстрації в РЕМ)</td>
-            <td align="center" bgcolor="#CCCCCC">Юрид. назва замовника</td>
+            <td align="center" bgcolor="#CCCCCC">Юрид. назва Замовника</td>
             <td align="center" bgcolor="#CCCCCC">Прізвище І.П.</td>
             <td align="center" bgcolor="#CCCCCC">Установчий документ</td>
             <td align="center" bgcolor="#CCCCCC">Розрахунковий рахунок</td>
@@ -110,11 +110,11 @@
             <td align="center" bgcolor="#CCCCCC">Влаштування захисту від пошкоджень та обмеження дозволеної потужності</td>
             <td align="center" bgcolor="#CCCCCC">Вимоги до релейного захисту й автоматики, захисту від коротких замикань та перевантажень, компенсації струмів однофазного замикання в мережах з ізольованою шиною нейтралі тощо</td>
             <td align="center" bgcolor="#CCCCCC">Вимоги до телемеханіки та зв’язку</td>
-            <td align="center" bgcolor="#CCCCCC">Специфічні вимоги щодо живлення електроустановок замовника, які стосуються резервного живлення, допустимості паралельної роботи елементів електричної мережі</td>
+            <td align="center" bgcolor="#CCCCCC">Специфічні вимоги щодо живлення електроустановок Замовника, які стосуються резервного живлення, допустимості паралельної роботи елементів електричної мережі</td>
             <td align="center" bgcolor="#CCCCCC">Номер Договору (ТУ)</td>
             <td align="center" bgcolor="#CCCCCC">Вихідна дата реєстрації ТУ в РЕМ</td>
             <td align="center" bgcolor="#CCCCCC">Вихідний номер РЕМ</td>
-            <td align="center" bgcolor="#CCCCCC">Дата видачі замовнику ТУ та договору</td>
+            <td align="center" bgcolor="#CCCCCC">Дата видачі Замовнику ТУ та договору</td>
             <td align="center" bgcolor="#CCCCCC">Дата вхідної заяви у ВАТ</td>
             <td align="center" bgcolor="#CCCCCC">Дата передачі у РЕМ</td>
             <td align="center" bgcolor="#CCCCCC">Дата повернення підписаного примірника з РЕМ</td>

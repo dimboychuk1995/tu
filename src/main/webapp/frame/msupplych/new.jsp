@@ -102,6 +102,8 @@
                 url: 'ajax'+type+'.jsp?ps_id='+id+"&tu_id="+tuid+"&ps="+ps,
                 dataType : "json",
                 success: function (data, textStatus) {
+                    console.log('ps_zav =  '+data.ps_zav);
+                    console.log(data);
                     $("#ps_"+type+"_u").attr("value",data.ps_u);
                     $("#ps_"+type+"_nom").attr("value",data.ps_nom);
                     var ps_zav_tr = data.ps_zav;

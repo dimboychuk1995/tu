@@ -122,7 +122,7 @@
             «Прикарпаттяобленерго» “<%= rs.getString("rem_name")%> РЕМ” <%= rs.getString("director_rod")%>, який діє на підставі
             Положення про філію  та довіреності <%= rs.getString("dovirenist")%> р., з однієї сторони, та житель 
             <u><%= rs.getString("type_c")%> <%= rs.getString("customer_adress")%></u> <strong><%=rs.getString("name")%></strong>, 
-            надалі – замовник, <%=rs.getString("constitutive_documents")%>,
+            надалі – Замовник, <%=rs.getString("constitutive_documents")%>,
             ідентифікаційний  код  <%=rs.getString("bank_identification_number")%>, з іншої сторони, далі –  Сторони, домовилися про наступне:</p><p>&nbsp;</p>
         <p style="text-align:justify; text-indent:20pt"><strong>Продовжити термін дії Договору про <%= rs.getString("type_join")%> до електричних мереж 
                 № <%= rs.getString("number")%> від <%=rs.getString("date_customer_contract_tc")%> <strong>(<%=rs.getString("object_name")%> 
@@ -136,7 +136,7 @@
     <table border="0" cellspacing="0" cellpadding="0">
         <tr>
             <td width="400" valign="top"><p><strong>Електропередавальна організація:</strong></p></td>
-            <td width="400" valign="top"><p>замовник</p></td>
+            <td width="400" valign="top"><p>Замовник</p></td>
         </tr>
         <tr>
             <td width="400" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>
@@ -171,7 +171,7 @@
     <table border="0" cellspacing="0" cellpadding="0" width="672">
         <tr>
             <td width="358" valign="top"><p><strong><%=rs.getString("type_join_owner")%></strong><strong>:</strong></p>
-            <td width="400" valign="top"><p>замовник</p></td>
+            <td width="400" valign="top"><p>Замовник</p></td>
         </tr>
         <tr>
             <td>

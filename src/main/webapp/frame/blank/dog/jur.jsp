@@ -118,7 +118,7 @@
                     &nbsp;року, з однієї сторони, та&nbsp;<strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
                         <%= rs.getString("name")%></strong>, надалі ―
-                    замовник, <%if ((!rs.getString("customer_soc_status_1").equals("15")
+                    Замовник, <%if ((!rs.getString("customer_soc_status_1").equals("15")
                                 && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі  <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                                     if (rs.getString("customer_type").equals("1")) {%> який (яка) діє на підставі<%}%> <strong><u><%= rs.getString("constitutive_documents")%></u></strong>
                     , з іншої сторони, далі ― Сторони, уклали цей Договір про надання доступу електроустановок Замовника до електричних мереж ЕО (надалі ― Договір).</div>

@@ -94,7 +94,7 @@
         <div id="tabs0">
             <table border="0" >
                 <tr>
-                    <td>Плата за приєднання електроустановки замовника, грн.</td>
+                    <td>Плата за приєднання електроустановки Замовника, грн.</td>
                     <td><input type="text" id="price_el_dev" readonly="true"/></td>
                 </tr>
                 <tr>
@@ -114,7 +114,7 @@
                     <td><input type="text" id="p_price_join" readonly="true" /></td>
                     <td>&nbsp;</td>
                     <td>&nbsp;</td>
-                    <td>Участь замовника у фінансуванні капітального будівництва, грн</td>
+                    <td>Участь Замовника у фінансуванні капітального будівництва, грн</td>
                     <td><input type="text" id="customer_participate" readonly="true"/></td>
                 </tr>
                 <tr>
@@ -122,7 +122,7 @@
                     <td><html:text name="DetalViewActionForm" property="sum_join_pow" onchange="calc_price_ns()" styleId="sum_join_pow"/></td>
                 </tr>
                 <tr>
-                    <td>Плата за приєднання електроустановки замовника, грн.</td>
+                    <td>Плата за приєднання електроустановки Замовника, грн.</td>
                     <td><input type="text" id="price_el_dev_1" readonly="true"/></td>
                 </tr>
                 <tr>

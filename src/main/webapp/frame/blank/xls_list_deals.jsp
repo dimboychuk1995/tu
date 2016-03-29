@@ -43,7 +43,7 @@
         </tr>
         <tr>
             <td align="center" bgcolor="#CCCCCC">РЕМ</td>
-            <td align="center" bgcolor="#CCCCCC">Юридична назва замовника</td>
+            <td align="center" bgcolor="#CCCCCC">Юридична назва Замовника</td>
             <td align="center" bgcolor="#CCCCCC">Прізвище І.Б.</td>
             <td align="center" bgcolor="#CCCCCC">Назва об'єкту</td>
             <td align="center" bgcolor="#CCCCCC">Адреса Об'єкта</td>

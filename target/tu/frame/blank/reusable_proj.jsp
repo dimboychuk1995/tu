@@ -141,7 +141,7 @@
         <center><p><strong><em>Аркуш змін до типового проекту шифр  <strong><%= rs.getString("code")%></strong></p></em></strong></center>
     <center>Згідно ТУ №<%=rs.getString("number")%>(<%=rs.getString("name")%><%if(rs.getString("customer_telephone")!=null){%> - тел: <%=rs.getString("customer_telephone")%><%}%>)</center>
     <p>&nbsp;</p>
-    <p>Дата поступлення коштів від замовника: <%= rs.getString("date_pay_join")%> року.</p>
+    <p>Дата поступлення коштів від Замовника: <%= rs.getString("date_pay_join")%> року.</p>
     <p class="parag"><strong>1. Стор. 5,  п. 1.1 «Пояснювальної записки» викласти в  наступній редакції: </strong><br />
     <strong>Технічні умови № <%= rs.getString("number")%>  від <%= rs.getString("initial_registration_date_rem_tu")%> № <%= rs.getString("registration_no_contract")%> </strong><br />
     <strong>Видані: <%= rs.getString("rem_name")%> РЕМ</strong><br />
@@ -232,7 +232,7 @@
     <strong>2.1 Самоутримний  ізольований провід з алюмінієвою жилою AsXSn  _x___мм2 довжиною <%= rs.getString("fid_04_leng")%> км.</strong><br />
     <strong>3.1 Труба гофрована діаметром 25 мм, довжиною <%= rs.getString("fid_04_leng")%> км.</strong></p>
     <strong>Додаткові матеріали:</strong>
-    <dt><strong>Для приєднання замовника  необхідно виконати проектування та будівництво, реконструкцію об’єктів: </strong></dt>
+    <dt><strong>Для приєднання Замовника  необхідно виконати проектування та будівництво, реконструкцію об’єктів: </strong></dt>
 
     <%= rs.getString("do1").replace("7.1.1", "<br>-").replace("7.1.2", "<br>-").replace("7.1.3", "<br>-").replace("7.1.4", "<br>-").replace("7.1.5", "<br>-").replace("7.1.6", "<br>-").replace("7.1.7", "<br>-")%>
     <dl><dt> <%= rs.getString("do2").replace("7.2.1", "<br>-").replace("7.2.2", "<br>-").replace("7.2.3", "<br>-").replace("7.2.4", "<br>-").replace("7.2.5", "<br>-").replace("7.2.6", "<br>-").replace("7.2.7", "<br>-")%>

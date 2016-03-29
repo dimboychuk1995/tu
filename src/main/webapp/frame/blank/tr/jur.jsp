@@ -199,7 +199,7 @@
                 вихідний номер реєстрації у РЕМ № <%= rs.getString("registration_no_contract")%></p>
             <p class="style1">Назва об'єкту: <span style="text-align: center"><strong> <%= rs.getString("object_name")%></strong>.</span><br/></p>
             <dl>
-                <dt>1 Місцезнаходження об’єкта замовника: <strong><%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</strong></dt>
+                <dt>1 Місцезнаходження об’єкта Замовника: <strong><%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</strong></dt>
                 <dt>2 Величина розрахункового максимального навантаження <strong><%= rs.getString("request_power")%> кВт.</strong></dt>
                 <dt>3 Напруга <%= rs.getString("join_point").substring(16)%> кВ.</dt>
                 <dt>4 Джерело електропостачання:<strong>
@@ -238,7 +238,7 @@
             <table border="0" cellspacing="0" cellpadding="0">
                 <tr>
                     <td width="391" valign="top"><p class="style1"><strong>Власник</strong></p></td>
-                    <td width="240" valign="top"><p class="style1">замовник</p></td>
+                    <td width="240" valign="top"><p class="style1">Замовник</p></td>
                 </tr>
                 <tr>
                     <td width="391" valign="top"><p class="style1">М. П.</p>

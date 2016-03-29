@@ -93,6 +93,7 @@
                         + "  WHEN ptw.ps_nom_nav<ptw.ps_nom_nav_2 THEN 0.92*ptw.ps_nom_nav*1.4"
                         + "  ELSE 0 end  "
                         + " FROM TUWeb.dbo.ps_tu_web ptw WHERE ptw.ps_id='" + request.getParameter("ps_id") + "')  AS p_max";
+
         String SQL1 = "SELECT "
                 + "SumPow , "
                 + " CASE "
@@ -121,6 +122,7 @@
         ps_rez = rs.getString("ps_rez");
         p_max = rs.getString("p_max");
         pow = rs.getString("request_power");
+                    System.out.println(SQL);
         if (rs1.next()) {
             sum_pow = rs1.getString("SumPow");
             koef = rs1.getString("koef");

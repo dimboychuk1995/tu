@@ -198,11 +198,11 @@
             <dt align="justify">Шифр типового проекту: <%= rs.getString("code")%> </dt>
             <dt align="justify">Необхідність виконання за типовим проектом : <%= rs.getString("yes_no")%></dt> 
             <dt align="justify">1.<strong>Найменування філії: </strong> <span class="style1"><%=rs.getString("rem_name")%></span> РЕМ</dt>
-            <dt align="justify">Найменування,  місцезнаходження, телефон замовника: <span class="style1"><%if (!rs.getString("customer_soc_status_1").equals("9")
+            <dt align="justify">Найменування,  місцезнаходження, телефон Замовника: <span class="style1"><%if (!rs.getString("customer_soc_status_1").equals("9")
                         && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
                     <%= rs.getString("name")%>, <span class="style1"><%= rs.getString("type_o")%><%= rs.getString("customer_adress")%>, тел. <%= rs.getString("customer_telephone")%>.</span></dt>
-            <dt>2. <strong>Назва, місцезнаходження об’єкта замовника</strong>: <span style="text-align: center"><%= rs.getString("object_name")%></span> в <%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</dt>
-            <dt>3. Дата поступлення коштів від замовника :  <%= rs.getString("date_pay_join")%> року.            </dt>
+            <dt>2. <strong>Назва, місцезнаходження об’єкта Замовника</strong>: <span style="text-align: center"><%= rs.getString("object_name")%></span> в <%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</dt>
+            <dt>3. Дата поступлення коштів від Замовника :  <%= rs.getString("date_pay_join")%> року.            </dt>
             <dt align="justify">4. <strong>Величини розрахункового максимального навантаження: </strong> <%= rs.getString("request_power").replace(".", ",")%> кВт, в тому числі:</dt>
             <%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%>
             <strong>I категорія</strong><br>
@@ -270,7 +270,7 @@
             <dt align="justify">7. <strong>Точка забезпечення потужності: </strong><%= rs.getString("point_zab_power")%></dt>
             <dt align="justify">8. <strong>Точка приєднання : </strong><%= rs.getString("connection_treaty_number")%></dt>
             <dt>9. <strong>Довжина вводу (марка, січення):</strong>________________________________________________</dt>
-            <dt align="justify">10. <strong>Для приєднання замовника  необхідно виконати проектування та будівництво, реконструкцію об’єктів: </strong></dt>
+            <dt align="justify">10. <strong>Для приєднання Замовника  необхідно виконати проектування та будівництво, реконструкцію об’єктів: </strong></dt>
             <dl><%= rs.getString("do1").replace("7.1.1", "<br>-").replace("7.1.2", "<br>-").replace("7.1.3", "<br>-").replace("7.1.4", "<br>-").replace("7.1.5", "<br>-").replace("7.1.6", "<br>-").replace("7.1.7", "<br>-")%>
                 <dt><%= rs.getString("do2").replace("7.2.1", "<br>-").replace("7.2.2", "<br>-").replace("7.2.3", "<br>-").replace("7.2.4", "<br>-").replace("7.2.5", "<br>-").replace("7.2.6", "<br>-").replace("7.2.7", "<br>-")%>
                 </dt><dt> <%= rs.getString("do3").replace("7.2.1", "<br>-").replace("7.2.2", "<br>-").replace("7.2.3", "<br>-").replace("7.2.4", "<br>-").replace("7.2.5", "<br>-").replace("7.2.6", "<br>-").replace("7.2.7", "<br>-")%></dt>

@@ -179,7 +179,7 @@
             <p style="text-align:justify;text-indent:20pt">ПАТ “Прикарпаттяобленерго”, що  діє за умовами та правилами Ліцензії АБ №  177333 (далі – <%= rs.getString("executor_template")%>), в особі
                 Технічного директора ПАТ  «Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі  довіреності 
                 № 927 від 25.08.2015 року, з однієї сторони,
-                та <strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong>,  надалі ― замовник, який діє на
+                та <strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong>,  надалі ― Замовник, який діє на
                 підставі <%= rs.getString("constitutive_documents")%>, з іншої  сторони, (далі – Сторони), враховуючи заяву Замовника від <%= rs.getString("send_date_lenner")%> року,  домовились про наступне: </p>
             <p style="text-align:justify;text-indent:20pt">Внести зміни до Договору про  <%= rs.getString("type_join")%> до електричних мереж (далі – Договір)
                 № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> року в пункт. </p>
@@ -190,7 +190,7 @@
             <table border="0" cellspacing="0" cellpadding="0" width="672">
                 <tr>
                     <td><strong><%= rs.getString("executor_template")%>:</strong></td>
-                    <td>замовник</td>
+                    <td>Замовник</td>
                 </tr>
                 <tr><font size="-1">
                     <td width="358" valign="top">
@@ -264,7 +264,7 @@
             <table border="0" cellspacing="0" cellpadding="0" width="716">
                 <tr>
                     <td><strong><%=rs.getString("executor_template")%>:</strong></td>
-                    <td>замовник</td>
+                    <td>Замовник</td>
                 </tr>
                 <tr>
                     <td width="295" valign="top"><p>

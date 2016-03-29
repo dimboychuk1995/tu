@@ -65,7 +65,7 @@
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Назва об'єкту</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Приєднана потужність,    Pp, кВт</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Назва ставки</td>
-        <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Ставка плати (для    стандартного приєднання) або доля участі замовника в розвитку мереж для    нестандартного приєднання</td>
+        <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Ставка плати (для    стандартного приєднання) або доля участі Замовника в розвитку мереж для    нестандартного приєднання</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Надходження коштів за    договором про приєднання, тис.грн</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Дата оплати за приєднання</td>
         <td rowspan="2" align="center" valign="middle"  bgcolor="#CCCCCC">Рівень напруги в    точці приєднання, кВ</td>

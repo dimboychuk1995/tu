@@ -44,8 +44,8 @@
     <tr>
         <td align="center" valign="middle">№п/п</td>
         <td align="center" valign="middle">Соціальний статус</td>
-        <td align="center" valign="middle">Юридична назва замовника або Прізвище І.П.</td>
-        <td align="center" valign="middle">Адреса об'єкта замовника</td>
+        <td align="center" valign="middle">Юридична назва Замовника або Прізвище І.П.</td>
+        <td align="center" valign="middle">Адреса об'єкта Замовника</td>
         <td align="center" valign="middle">Номер договору(ТУ)</td>
         <td align="center" valign="middle">Виконавець проекту</td>
         <td align="center" valign="middle">Виконавець робіт по виконанню ТУ</td>
