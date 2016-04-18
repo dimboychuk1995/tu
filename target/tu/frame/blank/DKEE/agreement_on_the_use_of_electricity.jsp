@@ -16,7 +16,7 @@
   ResultSet rs = null;
   ResultSetMetaData rsmd = null;
   HttpSession ses = request.getSession();
-  String db = new String();
+  String db;
   if (!ses.getAttribute("db_name").equals(null)) {
     db = (String) ses.getAttribute("db_name");
   } else {
@@ -37,8 +37,9 @@
       "ISNULL(TUWeb.dbo.rem.city_town_village, '') AS city_town_village," +
       "ISNULL(dbo.TC_V2.id,'') AS id," +
       "ISNULL(TC_V2.[f_name],'')+' '+isnull(TC_V2.[s_name],'')+' '+isnull(TC_V2.[t_name],'') AS full_name," +
-      "ISNULL(dbo.TC_V2.name_locality,'') AS name_locality," +
       "ISNULL(dbo.TC_V2.object_adress,'') AS object_adress," +
+      "ISNULL(CONVERT(VARCHAR,dbo.TC_V2.power_plit,104),'') AS power_plit," +
+      "CASE WHEN power_plit <> 0 THEN 'стаціонарною електроплитою' ELSE ' ' END AS power_plit_prod," +
       "ISNULL(CONVERT(VARCHAR,dbo.TC_V2.request_power,104),'') AS request_power," +
       "CASE WHEN TC_V2.reliabylity_class_3_val IS NOT NULL " +
       "THEN 'третя категорія надійності'" +
@@ -68,16 +69,18 @@
       "        ISNULL(dbo.TC_V2.connection_treaty_number,'') AS connection_treaty_number," +
       "ISNULL(dbo.TC_V2.constitutive_documents,'') AS constitutive_documents," +
       "ISNULL(dbo.TC_V2.bank_identification_number,'') AS bank_identification_number," +
-        "ISNULL(dbo.TC_LIST_locality.name,'') AS customer_locality," +
+      "ISNULL(dbo.TC_LIST_locality.name,'') AS customer_locality," +
+      "ISNULL(dbo.TC_LIST_locality.name,'') AS name_locality," +
       "ISNULL(dbo.TC_V2.customer_adress,'') AS customer_adress," +
       "ISNULL(dbo.TC_V2.customer_telephone,'') AS customer_telephone," +
       " ISNULL(dbo.TC_V2.customer_zipcode,'') AS customer_zipcode" +
 
       " FROM TUWeb.dbo.rem, dbo.TC_V2" +
       " JOIN dbo.TC_LIST_locality ON dbo.TC_V2.customer_locality = dbo.TC_LIST_locality.id" +
+            " and  dbo.TC_V2.name_locality = dbo.TC_LIST_locality.id" +
             " where TC_V2.id=" + request.getParameter("tu_id") +
             " and dbo.TC_V2.department_id = TUWeb.dbo.rem.rem_id ";
-    System.out.println(qry);
+    //System.out.println(qry);
       pstmt = c.prepareStatement(qry);
     rs = pstmt.executeQuery();
     rsmd = rs.getMetaData();
@@ -191,8 +194,10 @@ font-size: 11pt;
                  <%=rs.getString("constitutive_documents")%>,
                  <%=rs.getString("customer_zipcode")%></u>.<br/>
                 Адреса, телефон: <u><%=rs.getString("customer_telephone")%>, <%=rs.getString("customer_locality")%>
-              , <%=rs.getString("customer_adress")%></u>.<br/>
-                Електронна адреса _________________________________________________. Підпис Споживача про згоду отримувати від
+                , <%=rs.getString("customer_adress")%></u>.<br/>
+                  Ідентифікаційний номер <%=rs.getString("bank_identification_number")%><br/>
+                Електронна адреса _________________________________________________.<br/>
+                Підпис Споживача про згоду отримувати від
                 Енергопостачальника на електронну адресу рахунки на оплату за електроенергію та інші повідомлення   __________________.<br/>
                 Сторони зобов'язуються своєчасно письмово сповіщати про всі зміни реквізитів (найменування організації, рахунки тощо).<br/>
               </td>
@@ -207,7 +212,7 @@ font-size: 11pt;
             </tr>
             <tr>
               <td align="left">
-                Директор філії <u><%=rs.getString("Director")%></u><br/>
+                Директор філії <u><%=rs.getString("Director")%></u>
                 ______________<br/>
                 "____"__________________________ 20__p.
               </td>
@@ -306,7 +311,7 @@ font-size: 11pt;
             </tr>
             <tr>
               <td colspan="2"><%=rs.getString("full_name")%>, об'єкт якого розташований за
-                адресою <%=rs.getString("name_locality")%>, <%=rs.getString("object_adress")%>, далі іменується
+                адресою <%=rs.getString("name_locality")%>, <%=rs.getString("object_adress")%>,<br/> далі іменується
                 Споживач, з однієї сторони та ПАТ "Прикарпаттяобленерго", в особі директора філії <%=rs.getString("rem_name")%> РЕМ
                 <%=rs.getString("Director")%>, який діє на підставі Положення та довіреності <%=rs.getString("dovirenist")%>
                 далі іменується Енергопостачальник, з іншої сторони, уклали цей договір про користування
@@ -327,13 +332,14 @@ font-size: 11pt;
                 3. Параметри якості електричної енергії повинні відповідати державним стандартам.<br/>
                 4. Встановлені запобіжники чи запобіжні автомати типу <u> AB</u>, на напругу <u><%=rs.getString("voltage")%></u>В,
                 струм <u><%=rs.getString("amperage")%></u>А .<br/>
-                5. Номер однофазного (трифазного) приладу обліку _________________________________ , дата повірки ____________________ .
+                5. Номер однофазного (трифазного) приладу обліку _________________________________ ,<br/>
+                дата повірки ____________________ .
                 Показники приладу обліку на момент укладення договору ___________________.
                   При заміні приладу обліку  або пломб на ньому, складається відповідний документ,
                 який підписується Споживачем, та в якому вказується характер проведених робіт.
                 Схема підключення однофазного (трифазного) електролічильника перевірена при укладенні цього договору і відповідає вимогам ПУЕ.<br/>
                 6. Наявність трифазного електрообладнання дозволено для застосування: _________________________________________.<br/>
-                7. Приміщення Споживача обладнані: стаціонарною електроплитою _____________________________________________<br/>
+                7. Приміщення Споживача обладнані:<u><%=rs.getString("power_plit_prod")%></u><br/>
                 8. Межа розподілу встановлюється: <u><%=rs.getString("connection_treaty_number")%></u><br/>
               </td>
             </tr>

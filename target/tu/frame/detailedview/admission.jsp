@@ -139,7 +139,7 @@
         </tr>
         
         <tr>
-            <td>Загальна вартість виконання ТУ згідно з розробленим (погодженим) ПКД</td>
+            <td>Загальна вартість виконання ТУ</td>
             <td><html:text name="DetalViewActionForm" property="estimated_total_lump_pitch_tu" styleId="etpt" styleClass="admission date_vud_zam rem"/></td>
         </tr>
         

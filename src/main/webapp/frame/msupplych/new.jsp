@@ -358,6 +358,10 @@
                             <td><bean:message key="Supplychain.Fid_disp_name" /></td>
                             <td><html:select property="fid_10_disp_name">
                                     <html:optionsCollection name="MSupplyChForm" property="fid_10_disp_name_list" label="name" value="id" styleClass="suplychain"/>
+                                        <!--При занесенні потрібного поля, потрібно бути уважним, тому що в запиті є join
+                                            from feed_35_110_tu_web
+                                            left join ps_feed_rem_tu_web ON feed_35_110_tu_web.feed_id=ps_feed_rem_tu_web.feed_tu_web_id
+                                        -->
                                 </html:select>
                             </td>
                         </tr>

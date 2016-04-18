@@ -440,7 +440,7 @@
                                                        target="_blank"
                                                        class="button_vudaty">Видати</a>
                                                 </c:when>
-                                                <%--<c:when test="${DetalViewActionForm.type_join==3}">TODO</c:when>--%>
+                                                <%--<c:when test="${DetalViewActionForm.type_join==3}">/</c:when>--%>
                                             </c:choose>
                                         </c:when>
                                         <c:otherwise>

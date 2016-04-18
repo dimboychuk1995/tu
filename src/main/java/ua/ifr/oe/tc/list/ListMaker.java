@@ -11,7 +11,6 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
 
@@ -146,10 +145,15 @@ public class ListMaker {
                 + "left join ps_feed_rem_tu_web on (ps_tu_web.ps_id=ps_feed_rem_tu_web.ps_tu_web_id) "
                 + "where ps_tu_web.ps_nominal=3 and ps_feed_rem_tu_web.rem_id=" + rem_id + " "
                 + "order by name");
-        Fid_10_disp_name_list = getList1("select NULL as id,'' as name union select feed_35_110_tu_web.feed_id,feed_35_110_tu_web.feed_name from feed_35_110_tu_web "
-                + "left join ps_feed_rem_tu_web on (feed_35_110_tu_web.feed_id=ps_feed_rem_tu_web.feed_tu_web_id) "
-                + "where feed_35_110_tu_web.feed_nominal=3 and ps_feed_rem_tu_web.rem_id=" + rem_id + " "
-                + "order by name");
+
+        String SQL_Fid_10_disp_name_list = "select NULL as id,'' as name union select feed_35_110_tu_web.feed_id,feed_35_110_tu_web.feed_name from feed_35_110_tu_web" +
+                " left join ps_feed_rem_tu_web on (feed_35_110_tu_web.feed_id=ps_feed_rem_tu_web.feed_tu_web_id) " +
+                " where feed_35_110_tu_web.feed_nominal=3 and ps_feed_rem_tu_web.rem_id=" + rem_id + " " +
+                " order by name";
+        Fid_10_disp_name_list = getList1(SQL_Fid_10_disp_name_list);
+
+        System.out.println(SQL_Fid_10_disp_name_list);
+
         Executor_vkb_list = getList1("select NULL as id,'' as name union select id, name from Executor_vkb_project");
         reusable_project_list = getList1("select NULL as id,'' as code union select id, code from [Reusable_project]");
         Executor_build_vkb_list = getList1("select NULL as id,'' as name union select id, name from Executor_build_jobs_vkb");

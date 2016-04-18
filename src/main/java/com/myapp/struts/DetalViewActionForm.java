@@ -787,6 +787,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                         + " WHERE tv.id=" + id);
 
                 rs = pstmt.executeQuery();
+                System.out.println(pstmt.toString());
                 while (rs.next()) {
                     String name = rs.getString("full_name");
                     String address = rs.getString("object_adress");

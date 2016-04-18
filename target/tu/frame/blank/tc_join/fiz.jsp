@@ -156,7 +156,7 @@
 
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
         <title>JSP Page</title>
         <jsp:include page="../word_page_format_12pt.jsp"/>
         <style type="text/css">
@@ -186,33 +186,33 @@
         <div class="Section1">
             <p align="right" class="style1">ОП 4.1-Ґ</p>
             <p align="center">
-                 &nbsp;<span class="style1">ФІЛІЯ ПАТ «ПРИКАРПАТТЯОБЛЕНЕРГО»<br>
+                 &nbsp;<span class="style1">ФІЛІЯ ПАТ «ПРИКАРПАТТЯОБЛЕНЕРГО»<br/>
                     “<%=rs.getString("rem_name").toUpperCase()%> РАЙОН ЕЛЕКТРИЧНИХ МЕРЕЖ”</span></p>
 
             <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
                 <tr>
                     <td width="70%" valign="top"><p align="left" class="style1"><%=rs.getString("rem_licality")%></p>
-                        <p align="left" class="style1">На № <%=rs.getString("no_zvern")%> від <%=rs.getString("registration_date")%> р.<br>
-                            Обов’язковий додаток до проекту.<br></p></td>
-                    <td valign="top"><p class="style1">Громадянин (ка)<br> <strong><%= rs.getString("PIP")%></strong><br>
+                        <p align="left" class="style1">На № <%=rs.getString("no_zvern")%> від <%=rs.getString("registration_date")%> р.<br/>
+                            Обов’язковий додаток до проекту.<br/></p></td>
+                    <td valign="top"><p class="style1">Громадянин (ка)<br/> <strong><%= rs.getString("PIP")%></strong><br>
                             <%= rs.getString("type_o")%><%= rs.getString("customer_adress").replace("вул.", "<br>вул.")%>
                         </p></td>
                 </tr>
             </table>
-            <p align="center"><span class="style1"><strong>ТЕХНІЧНІ УМОВИ СТАНДАРТНОГО ПРИЄДНАННЯ № <%= rs.getString("number")%></strong><br>
-                    <strong>до електричних мереж електроустановок</strong><br></span></p>
-            <p align="right" class="style1">Додаток 1<br>
-                до договору про стандартне приєднання<br>
+            <p align="center"><span class="style1"><strong>ТЕХНІЧНІ УМОВИ СТАНДАРТНОГО ПРИЄДНАННЯ № <%= rs.getString("number")%></strong><br/>
+                    <strong>до електричних мереж електроустановок</strong><br/></span></p>
+            <p align="right" class="style1">Додаток 1<br/>
+                до договору про стандартне приєднання<br/>
                 до електричних мереж  від<br>
-                <%= rs.getString("date_contract")%> року<br>
+                <%= rs.getString("date_contract")%> року<br/>
                 № <%= rs.getString("number")%></p>
-            <p>Дата видачі <%= rs.getString("initial_registration_date_rem_tu")%> року № <%=rs.getString("registration_no_contract")%> <br>
+            <p>Дата видачі <%= rs.getString("initial_registration_date_rem_tu")%> року № <%=rs.getString("registration_no_contract")%> </p><br/>
 
-                Назва об'єкту та повне найменування Замовника: <%--<span style="text-align: center"><strong><%= rs.getString("reason_tc")%>--%><span style="text-align: center"><%= rs.getString("object_name")%>, громадянин (ка)<br> <strong><%= rs.getString("PIP")%></strong>.</span><br>
-                1. Місцезнаходження об’єкта Замовника: <span style="text-align: center"><strong> <%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</strong></span><br>
-                Функціональне призначення об'єкта: <strong><%= rs.getString("functional_target")%>.</strong><br>
-                Прогнозований рік уведення  об’єкта в експлуатацію:  <strong><%= rs.getString("date_intro_eksp").replaceAll("1900", "_____")%>.</strong><br>
-                2. Величина максимального розрахункового навантаження <strong><%= rs.getString("request_power").replace(".", ",")%> кВт</strong>, у тому числі для:<br> 
+                Назва об'єкту та повне найменування Замовника: <%--<span style="text-align: center"><strong><%= rs.getString("reason_tc")%>--%><span style="text-align: center"><%= rs.getString("object_name")%>, громадянин (ка)<br/> <strong><%= rs.getString("PIP")%></strong>.</span><br>
+                1. Місцезнаходження об’єкта Замовника: <span style="text-align: center"><strong> <%= rs.getString("type_o")%> <%= rs.getString("object_adress")%>.</strong></span><br/>
+                Функціональне призначення об'єкта: <strong><%= rs.getString("functional_target")%>.</strong><br/>
+                Прогнозований рік уведення  об’єкта в експлуатацію:  <strong><%= rs.getString("date_intro_eksp").replaceAll("1900", "_____")%>.</strong><br/>
+                2. Величина максимального розрахункового навантаження <strong><%= rs.getString("request_power").replace(".", ",")%> кВт</strong>, у тому числі для:<br/>
                 <%if (!rs.getString("power_old").equals("0.00")) {%>
                 існуюча потужність <%=rs.getString("power_old")%> кВт, договір №<%=rs.getString("nom_data_dog")%><%}%>
                 <%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%>
@@ -288,9 +288,9 @@
                 <div align="justify" style="text-align:justify">
                     <dt>1. Для одержання потужності Замовнику необхідно виконати:</dt>
                     <dt>1.1. Вимоги до технічного узгодження електроустановок Замовника та електропередавальної організації:
-                        До початку виконання робіт електропередавальну організацію по наданню послуг приєднання
+                        <strong>До початку виконання робіт електропередавальну організацію по наданню послуг приєднання
                         забезпечити місце для встановлення приладу обліку(цегляна стіна висотою 1,8 м, термостійка огорожа...)
-                        та письмово повідомити ЕО про готовність такого місця для встановлення приладу обліку електроенегрії на ньому.</dt>
+                        та письмово повідомити ЕО про готовність такого місця для встановлення приладу обліку електроенергії на ньому.</strong></dt>
                     <dt>1.2. Вимоги до ізоляції, пристроїв захисного відключення, засобів стабілізації, захисту від перенапруги: Виконати монтаж контуру захисного заземлення, заземлити та занулити  ввідний пристрій 0,4(23) кВ з опором заземлення не більше 4,0 Ом;</dt> 
                     <dt>1.3  Для укладення ДКЕЕ Замовник повинен надати наступні документи: </dt>
                     <dt>-	оригінал та копію паспорта власника (користувача) об’єкта;</dt> 
@@ -299,13 +299,13 @@
                     <dt>Для укладення договору про постачання електричної енергії або договору про спільне використання технологічних електричних мереж заявник (власник технологічних електричних мереж (основний споживач)) має надати документи, передбачені п. 5.4 Правил користування електричною енергією.</dt> 
                     <dt>1.4. Вимоги до електропостачання приладів та пристроїв, які використовуються для будівництва та реконструкції об’єктів електромереж:  </dt> 
                     <dt>- <%=rs.getString("do10")%></dt>
-                    <dt>2  У випадку наявності існуючих ЛЕП в зоні забудови, винести їх з даної зони відповідно до технічного завдання, отриманого в філії «<%=rs.getString("rem_name")%>»</dt>
+                    <dt>2  У випадку наявності існуючих ЛЕП в зоні забудови, винести їх з даної зони відповідно до технічного завдання, отриманого в філії «<%=rs.getString("rem_name")%> РЕМ»</dt>
             </dl></div>
 
         <br>
         <table border="0" cellspacing="0" cellpadding="0">
             <tr>
-                <td width="391" valign="top"><p class="style2"><strong>Власник</strong></p></td>
+                <td width="391" valign="top"><p class="styleToZamovnyk">Власник</p></td>
                 <td width="240" valign="top"><p class="styleToZamovnyk">Замовник</p></td>
             </tr>
             <tr>

@@ -7,10 +7,7 @@
 --%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <style type="text/css">
-  <!--
-  body,td,th {
-    font-size: 8 pt;
-  }
+
   .style1 {
     font-size: 7pt;
     font-weight: bold;
@@ -22,10 +19,14 @@
   @page Section1
   {
     margin:1.0cm 1.0cm 1.0cm 1.0cm;
+    font-size: 7pt;
   }
+  .Section1{
+    font-size: 7pt;
+  }
+
   div.Section1
   {page:Section1;}
-  -->
   <xml>
    <w:WordDocument>
    <w:View>Print</w:View> <w:GrammarState>Clean</w:GrammarState> <w:HyphenationZone>21</w:HyphenationZone> <w:ValidateAgainstSchemas/>

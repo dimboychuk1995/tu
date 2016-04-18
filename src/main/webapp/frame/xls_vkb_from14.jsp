@@ -88,6 +88,7 @@
 <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Тип ЛЕП</td>
 <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Довжина будівництва/реконструкції ЛЕП 0,4 кВ, км</td>
 <td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Довжина будівництва/реконструкції ЛЕП 10(6) кВ, км</td><td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Тип лічильника</td><td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Заводський номер лічильника №</td><td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Існуюча потужність КВт</td><td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Вимоги до розрахункового обліку електричної енергії</td>
+<td rowspan="3" align="center" valign="middle"  bgcolor="#CCCCCC">Загальна вартість виконання ТУ</td>
 </tr>
 <tr>
 <td rowspan="2" align="center" bgcolor="#CCCCCC">назва</td>
