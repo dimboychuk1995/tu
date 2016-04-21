@@ -218,6 +218,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
     private String date_admission_akt;
     //ВКБ
     private String type_jobs_vkb;
+    private String type_OZ;
     private String executor_vkb;
     private String date_of_reception;
     private String develop_price_proj;
@@ -493,6 +494,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + ",[do18]"
                     + ",[do19]"
                     + ",[type_jobs_vkb]"
+                    + ",[type_OZ]"
                     + ",[executor_vkb]"
                     + ",[date_of_reception] "
                     + ",[develop_price_proj] "
@@ -698,6 +700,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + formatData(do18, 0) + ","
                     + formatData(do19, 0) + ","
                     + formatData(type_jobs_vkb, 0) + ","
+                    + formatData(type_OZ, 0) + ","
                     + formatData(executor_vkb, 0) + ","
                     + formatData(date_of_reception, 0) + ","
                     + formatData(develop_price_proj, 1) + ","
@@ -984,6 +987,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + " do18=" + formatData(do18, 0) + " , "
                     + " do19=" + formatData(do19, 0) + " , "
                     + " type_jobs_vkb=" + formatData(type_jobs_vkb, 0) + ","
+                    + " type_OZ=" + formatData(type_OZ, 0) + ","
                     + " executor_vkb=" + formatData(executor_vkb, 0) + ","
                     + " date_of_reception=" + formatData(date_of_reception, 0) + ","
                     + " develop_price_proj=" + formatData(develop_price_proj, 1) + ","
@@ -1236,6 +1240,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + ",isnull(do18,'') as do18"
                     + ",isnull(do19,'') as do19"
                     + ",isnull(type_jobs_vkb,0) as type_jobs_vkb"
+                    + ",isnull(type_OZ,0) as type_OZ"
                     + ",isnull(executor_vkb,'') as executor_vkb"
                     + ",isnull(convert (varchar(15),date_of_reception,104),'') as date_of_reception"
                     + ",isnull(convert (varchar(15),develop_price_proj),'') as develop_price_proj"
@@ -1459,6 +1464,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                 do19 = (rs.getString("do19"));
                 //ВКБ
                 type_jobs_vkb = (rs.getString("type_jobs_vkb"));
+                type_OZ = (rs.getString("type_OZ"));
                 executor_vkb = (rs.getString("executor_vkb"));
                 date_of_reception = (rs.getString("date_of_reception"));
                 develop_price_proj = (rs.getString("develop_price_proj"));
@@ -1896,6 +1902,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         date_giving_akt = null;
         date_admission_akt = null;
         type_jobs_vkb = null;
+        type_OZ = null;
         executor_vkb = null;
         date_of_reception = null;
         develop_price_proj = null;
@@ -2327,6 +2334,14 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
 
     public void setType_jobs_vkb(String type_jobs_vkb) {
         this.type_jobs_vkb = type_jobs_vkb;
+    }
+
+    public String getType_OZ(){
+        return type_OZ;
+    }
+
+    public void setType_OZ(String type_OZ){
+        this.type_OZ = type_OZ;
     }
 
     public String getExecutor_vkb() {

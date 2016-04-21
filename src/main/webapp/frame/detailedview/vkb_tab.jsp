@@ -41,11 +41,21 @@
         <tr>
             <td>Вид робіт:</td>
             <td><html:select property="type_jobs_vkb">
-                <html:option value="0">-</html:option>
-                <html:option value="1">будівництво</html:option>
-                <html:option value="2">реконструкція</html:option>
-                <html:option value="3">технічне переоснащення</html:option>
-            </html:select>
+                    <html:option value="0">-</html:option>
+                    <html:option value="1">будівництво</html:option>
+                    <html:option value="2">реконструкція</html:option>
+                    <html:option value="3">технічне переоснащення</html:option>
+                </html:select>
+            </td>
+            <td>
+                Вид ОЗ:
+            </td>
+            <td>
+                <html:select property="type_OZ">
+                    <html:option value="0">-</html:option>
+                    <html:option value="1">ОЗ 1</html:option>
+                    <html:option value="2">ОЗ 2</html:option>
+                </html:select>
             </td>
         </tr>
         <tr>
