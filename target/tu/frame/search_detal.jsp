@@ -68,6 +68,10 @@
                     <td><input type="text" name="f_name"size="20" /></td>
                 </tr>
                 <tr>
+                    <td><bean:message key="customer.bank_identification_number" /></td>
+                    <td><input type="text" name="bank_identification_number" /></td>
+                </tr>
+                <tr>
                     <td><bean:message key="dataobjects.object_name" /></td>
                     <td><input type="text" name="object_name" size="50"/></td>
                 </tr>

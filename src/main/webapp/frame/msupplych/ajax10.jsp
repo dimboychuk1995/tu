@@ -122,7 +122,7 @@
         ps_rez = rs.getString("ps_rez");
         p_max = rs.getString("p_max");
         pow = rs.getString("request_power");
-                    System.out.println(SQL);
+                    //System.out.println(SQL);
         if (rs1.next()) {
             sum_pow = rs1.getString("SumPow");
             koef = rs1.getString("koef");

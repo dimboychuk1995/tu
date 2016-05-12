@@ -92,7 +92,7 @@
                 + " left join SUPPLYCH on SUPPLYCH.tc_id=TC_V2.id "
                 + " left join [TUweb].[dbo].[type_join] tj on TC_V2.type_join=tj.id"
                 + " where ch.id=" + request.getParameter("id");
-        System.out.println(qry);
+        //System.out.println(qry);
         pstmt = c.prepareStatement(qry);
         rs = pstmt.executeQuery();
         rsmd = rs.getMetaData();

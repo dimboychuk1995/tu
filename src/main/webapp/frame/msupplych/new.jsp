@@ -97,7 +97,7 @@
 
             var tuid = "<%=request.getParameter("tu_id")%>";
             $("#ps_"+type+"_reserv").attr("value","");
-            alert('ajax'+type+'.jsp?ps_id='+id+"&tu_id="+tuid+"&ps="+ps);
+            //alert('ajax'+type+'.jsp?ps_id='+id+"&tu_id="+tuid+"&ps="+ps);
             $.ajax({
                 url: 'ajax'+type+'.jsp?ps_id='+id+"&tu_id="+tuid+"&ps="+ps,
                 dataType : "json",
@@ -293,6 +293,7 @@
                         <tr>
                             <td>Інвертарний номер рекунструйованої ТП</td>
                             <td><html:text property="inv_num_tp"/></td>
+
                         </tr>
                         <tr>
                             <td>Потужність</td>

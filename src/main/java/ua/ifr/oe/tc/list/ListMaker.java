@@ -152,7 +152,7 @@ public class ListMaker {
                 " order by name";
         Fid_10_disp_name_list = getList1(SQL_Fid_10_disp_name_list);
 
-        System.out.println(SQL_Fid_10_disp_name_list);
+        //System.out.println(SQL_Fid_10_disp_name_list);
 
         Executor_vkb_list = getList1("select NULL as id,'' as name union select id, name from Executor_vkb_project");
         reusable_project_list = getList1("select NULL as id,'' as code union select id, code from [Reusable_project]");

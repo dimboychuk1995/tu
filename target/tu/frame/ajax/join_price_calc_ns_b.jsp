@@ -37,7 +37,7 @@
                 + " left join [SUPPLYCH] s on tv.id = s.tc_id"
                 + " where tv.id='" + request.getParameter("tu_id") + "'";
         pstmt = c.prepareStatement(SQL);
-        System.out.println(SQL);
+        //System.out.println(SQL);
         rs = pstmt.executeQuery();
         while (rs.next()) {
             price_el_dev = rs.getString("price_el_dev");
