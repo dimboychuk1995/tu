@@ -9,7 +9,7 @@
 <style type="text/css">
 
   .style1 {
-    font-size: 7pt;
+    font-size: 4pt;
     font-weight: bold;
   }
   .shablon {

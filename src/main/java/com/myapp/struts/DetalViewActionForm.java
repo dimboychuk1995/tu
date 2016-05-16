@@ -799,7 +799,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     String pow = rs.getString("request_power");
 
                     //System.out.println(rs.getString("type_join").equalsIgnoreCase("нестандартне"));
-                    //Альфа Енерго Груп хоче, щоб їх сповіщували тільки про нестандартні приєднання
+                    //Альфа Енерго Груп хоче, щоб їх сповіщували тільки про   нестандартні приєднання
 
                     if(rs.getString("type_join").equalsIgnoreCase("нестандартне")) {
                         System.out.println(true);

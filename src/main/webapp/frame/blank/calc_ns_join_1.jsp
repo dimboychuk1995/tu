@@ -104,7 +104,7 @@
            + "SET @Bpr_lin = (select ISNULL(tv.price_rec_build,0) FROM TC_V2 tv LEFT JOIN SUPPLYCH s ON s.tc_id = tv.id	where tv.id=@tu_id) \n"
            + "SET @Bj_unmount = (select ISNULL(tv.unmount_devices_price,0) FROM TC_V2 tv LEFT JOIN SUPPLYCH s ON s.tc_id = tv.id	where tv.id=@tu_id) \n"
            + "SET @Bpkd = (select ISNULL(tv.devellopment_price,0) FROM TC_V2 tv LEFT JOIN SUPPLYCH s ON s.tc_id = tv.id	where tv.id=@tu_id) \n"
-           + "SET @Hpj = (@Bps_cap + @Bj_unmount)/@Pdelta_j \n"
+           + "SET @Hpj = (@Bps_cap - @Bj_unmount)/@Pdelta_j \n"
            + "SET @Bps_sob = @connection_price+@price_conn \n"
            + "SET @P = (select (ISNULL(tv.request_power,0)-ISNULL(tv.power_old,0)) FROM TC_V2 tv LEFT JOIN SUPPLYCH s ON s.tc_id = tv.id	where tv.id=@tu_id) \n"
            + "SET @Pij = @dPj * 250 + (@P-@dPj) * @Hpj + @Bpr_lin + @Bps_sob - @Bpkd \n"
@@ -137,9 +137,11 @@
            + "		FROM TC_V2 tv \n"
            + "		LEFT JOIN SUPPLYCH s ON s.tc_id = tv.id \n"
            + "		where tv.id=@tu_id";
+
         pstmt = c.prepareStatement(sql);
         rs = pstmt.executeQuery();
         rsmd = rs.getMetaData();
+        System.out.println(sql);
         int numCols = rsmd.getColumnCount();
         rs.next();
 

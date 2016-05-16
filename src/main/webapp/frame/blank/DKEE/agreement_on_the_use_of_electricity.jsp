@@ -80,7 +80,7 @@
             " and  dbo.TC_V2.name_locality = dbo.TC_LIST_locality.id" +
             " where TC_V2.id=" + request.getParameter("tu_id") +
             " and dbo.TC_V2.department_id = TUWeb.dbo.rem.rem_id ";
-    //System.out.println(qry);
+    System.err.println(qry);
       pstmt = c.prepareStatement(qry);
     rs = pstmt.executeQuery();
     rsmd = rs.getMetaData();
@@ -92,18 +92,18 @@
 "http://www.w3.org/TR/html4/loose.dtd">
 
 <html>
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
-<title>JSP Page</title>
-<jsp:include page="../word_page_formatDKEE.jsp"/>
-<style type="text/css">
-<!--
-body,td,th {
-font-size: 11pt;
-}
--->
-</style>
-</head>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      <title>JSP Page</title>
+      <jsp:include page="../word_page_formatDKEE.jsp"/>
+      <style type="text/css">
+      <!--
+      body,td,th {
+      font-size: 11pt;
+      }
+      -->
+      </style>
+  </head>
 <body>
 <div class="Section1">
     <table width="100%">
