@@ -30,14 +30,14 @@
         c = ds.getConnection();
         String SQL = ""
                 + "SELECT ((ISNULL(tv.request_power, 0) - ISNULL(tv.power_old, 0))*250+ISNULL(tv.price_rec_build,0)+ISNULL(tv.fact_costs_build,0)-isnull(tv.devellopment_price,0)) as price_el_dev, \n"
-                + "ISNULL(cast(((ISNULL(tv.cap_costs_build,0)-ISNULL(tv.unmount_devices_price,0))/NULLIF(s.ps_10_inc_rez,0)) AS NUMERIC(10,2)),0) AS p_price_join,"
-                + "ISNULL(CAST(((ISNULL(tv.request_power,0)/NULLIF(tv.sum_join_pow,0))*(ISNULL(tv.rez_pow_for_date,0)*250+(ISNULL(tv.sum_join_pow,0)-ISNULL(tv.rez_pow_for_date,0))*ISNULL(cast(((ISNULL(tv.cap_costs_build,0)-ISNULL(tv.unmount_devices_price,0))/NULLIF(s.ps_10_inc_rez,0)) as numeric(10,2)),0)+ISNULL(tv.price_rec_build,0)+ISNULL(tv.fact_costs_build,0)-isnull(tv.devellopment_price,0)))AS NUMERIC(10,2)),0) AS price_el_dev_1 "
-                + ",ISNULL(CAST(((ISNULL(tv.request_power,0)/NULLIF(tv.sum_join_pow,0))* ((ISNULL(tv.sum_join_pow,0) -  ISNULL(s.ps_10_reserv,0))/(NULLIF(s.ps_10_inc_rez,0)))*ISNULL(tv.cap_costs_build,0)) AS NUMERIC(15,2)),0) AS customer_participate "
-                + " FROM   TC_V2 tv"
-                + " left join [SUPPLYCH] s on tv.id = s.tc_id"
+                + "ISNULL(cast(((ISNULL(tv.cap_costs_build,0)-ISNULL(tv.unmount_devices_price,0))/NULLIF(s.ps_10_inc_rez,0)) AS NUMERIC(10,2)),0) AS p_price_join, \n"
+                + "ISNULL(CAST(((ISNULL(tv.request_power,0)/NULLIF(tv.sum_join_pow,0))*(ISNULL(tv.rez_pow_for_date,0)*250+(ISNULL(tv.sum_join_pow,0)-ISNULL(tv.rez_pow_for_date,0))*ISNULL(cast(((ISNULL(tv.cap_costs_build,0)-ISNULL(tv.unmount_devices_price,0))/NULLIF(s.ps_10_inc_rez,0)) as numeric(10,2)),0)+ISNULL(tv.price_rec_build,0)+ISNULL(tv.fact_costs_build,0)-isnull(tv.devellopment_price,0)))AS NUMERIC(10,2)),0) AS price_el_dev_1 \n"
+                + ",ISNULL(CAST(((ISNULL(tv.request_power,0)/NULLIF(tv.sum_join_pow,0))* ((ISNULL(tv.sum_join_pow,0) -  ISNULL(s.ps_10_reserv,0))/(NULLIF(s.ps_10_inc_rez,0)))*ISNULL(tv.cap_costs_build,0)) AS NUMERIC(15,2)),0) AS customer_participate \n"
+                + " FROM   TC_V2 tv \n"
+                + " left join [SUPPLYCH] s on tv.id = s.tc_id \n"
                 + " where tv.id='" + request.getParameter("tu_id") + "'";
         pstmt = c.prepareStatement(SQL);
-        //System.out.println(SQL);
+        System.out.println(SQL);
         rs = pstmt.executeQuery();
         while (rs.next()) {
             price_el_dev = rs.getString("price_el_dev");

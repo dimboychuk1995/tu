@@ -165,6 +165,19 @@
                             </div>
                         </td>
                     </tr>
+                    <tr>
+                        <td style="vertical-align: baseline; padding-top: 10px;">Договір про користування електричною енергією2</td>
+                        <td>
+                            <div class="doc_vud">
+                                <logic:equal value="1" name="DetalViewActionForm" property="type_contract">
+                                    <logic:equal value="0" name="DetalViewActionForm" property="executor_company">
+                                        <a href="blank/DKEE/agreement_on_the_use_of_electric2.jsp?tu_id=<%= tu_id%>" target="_blank"
+                                           class="button_vudaty">Видати</a>
+                                    </logic:equal>
+                                </logic:equal>
+                            </div>
+                        </td>
+                    </tr>
                 </table>
             </div>
             <div id="doc_tabs">

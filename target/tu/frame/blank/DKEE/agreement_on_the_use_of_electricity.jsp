@@ -70,17 +70,47 @@
       "ISNULL(dbo.TC_V2.constitutive_documents,'') AS constitutive_documents," +
       "ISNULL(dbo.TC_V2.bank_identification_number,'') AS bank_identification_number," +
       "ISNULL(dbo.TC_LIST_locality.name,'') AS customer_locality," +
-      "ISNULL(dbo.TC_LIST_locality.name,'') AS name_locality," +
+      "CASE" +
+      "  WHEN dbo.TC_LIST_locality.type = '1' THEN 'м. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150))" +
+      "  WHEN dbo.TC_LIST_locality.type = '2' THEN 'c. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150))" +
+      "  WHEN dbo.TC_LIST_locality.type = '3' THEN 'смт. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150))" +
+      "END AS name_locality," +
       "ISNULL(dbo.TC_V2.customer_adress,'') AS customer_adress," +
       "ISNULL(dbo.TC_V2.customer_telephone,'') AS customer_telephone," +
-      " ISNULL(dbo.TC_V2.customer_zipcode,'') AS customer_zipcode" +
+      " ISNULL(dbo.TC_V2.customer_zipcode,'') AS customer_zipcode," +
 
-      " FROM TUWeb.dbo.rem, dbo.TC_V2" +
+      " CASE" +
+      "  WHEN dbo.TC_V2.department_id = 190 THEN 'Богородчанський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 200 THEN 'Верховинський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 210 THEN 'Галицький р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 220 THEN 'Городенківський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 230 THEN 'Долинський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 240 THEN ''" +
+      "  WHEN dbo.TC_V2.department_id = 250 THEN 'Калуський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 260 THEN ''" +
+      "  WHEN dbo.TC_V2.department_id = 270 THEN 'Коломийський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 280 THEN 'Косівський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 290 THEN 'Тисминецький р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 300 THEN 'Надвірнянський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 310 THEN 'Рогатинський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 320 THEN 'Рожнятівський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 330 THEN 'Снятинський р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 340 THEN 'Тлумацький р-н, '" +
+      "  WHEN dbo.TC_V2.department_id = 350 THEN 'Яремчанський р-н, '" +
+      "  END AS customer_ray_center," +
+
+      "          CASE" +
+      "  WHEN dbo.TC_LIST_locality.type = '1' THEN 'м. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress" +
+      "  WHEN dbo.TC_LIST_locality.type = '2' THEN 'c. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress" +
+      "  WHEN dbo.TC_LIST_locality.type = '1' THEN 'смт. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress" +
+      " END AS customer_adress_new" +
+
+    " FROM TUWeb.dbo.rem, dbo.TC_V2" +
       " JOIN dbo.TC_LIST_locality ON dbo.TC_V2.customer_locality = dbo.TC_LIST_locality.id" +
             " and  dbo.TC_V2.name_locality = dbo.TC_LIST_locality.id" +
             " where TC_V2.id=" + request.getParameter("tu_id") +
             " and dbo.TC_V2.department_id = TUWeb.dbo.rem.rem_id ";
-    System.err.println(qry);
+    System.out.println(qry);
       pstmt = c.prepareStatement(qry);
     rs = pstmt.executeQuery();
     rsmd = rs.getMetaData();
@@ -96,13 +126,8 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
       <title>JSP Page</title>
       <jsp:include page="../word_page_formatDKEE.jsp"/>
-      <style type="text/css">
-      <!--
-      body,td,th {
-      font-size: 11pt;
-      }
-      -->
-      </style>
+
+
   </head>
 <body>
 <div class="Section1">
@@ -193,9 +218,9 @@
                 Споживач: <u><%=rs.getString("full_name")%>,
                  <%=rs.getString("constitutive_documents")%>,
                  <%=rs.getString("customer_zipcode")%></u>.<br/>
-                Адреса, телефон: <u><%=rs.getString("customer_telephone")%>, <%=rs.getString("customer_locality")%>
-                , <%=rs.getString("customer_adress")%></u>.<br/>
-                  Ідентифікаційний номер <%=rs.getString("bank_identification_number")%><br/>
+                Адреса, телефон: <u><%=rs.getString("customer_telephone")%>, <%=rs.getString("customer_ray_center")%>,
+                , <%=rs.getString("customer_adress_new")%></u>.<br/>
+                  Ідентифікаційний номер <u><%=rs.getString("bank_identification_number")%></u><br/>
                 Електронна адреса _________________________________________________.<br/>
                 Підпис Споживача про згоду отримувати від
                 Енергопостачальника на електронну адресу рахунки на оплату за електроенергію та інші повідомлення   __________________.<br/>
@@ -224,12 +249,12 @@
             </tr>
             <tr>
               <td colspan="2">
-                •	узгоджувати з Енергопостачальником нові підключення та переобладнання внутрішньої електропроводки,
-                здійснювані з метою збільшення споживання електричної потужності;<br/>
-                •	забезпечувати доступ представникам Енергопостачальника, які пред’явили свої службові посвідчення,
-                до квартири (будинку) або іншого об’єкта для обстеження приладу обліку, електроустановок та
-                електропроводки та надавати розрахункові (платіжні) документи, а також підтверджуючі документи
-                про користування пільгами і субсидіями на вимогу представників Енергопостачальника для перевірки правильності оплати;<br/>
+                •	здійснює планові повірку, обслуговування та ремонт приладів обліку;<br/>
+                •	дає рекомендації щодо можливості та доцільності використання електричної енергії для опалення,
+                а також щодо     енергозбереження та режимів споживання електричної енергії;<br/>
+                •	надає інформацію щодо якості електричної енергії, умов та режимів її споживання, тарифів (цін), порядку оплати;<br/>
+                •	видає бланки типових договорів, розрахункові книжки з бланками квитанцій або платіжні документи,
+                електронну картку оплату електричної енергії.<br/>
                 •	не перешкоджати обрізуванню гілок дерев, які ростуть на території, що належить Споживачу,
                 для забезпечення відстані не менше 1 метра від проводів повітряної лінії електромережі напругою
                 0,4 кВ та на відстані 2 м для електричних ліній напругою 10 кВ та не садити дерева в охоронній зоні
@@ -302,7 +327,7 @@
           <table width="100%">
             <tr>
               <td colspan="2" align="center">
-                <strong>Договір про користування електричною енергією №___________</strong>
+                <strong>ДОГОВІР про користування електричною енергією №___________</strong>
               </td>
             </tr>
             <tr>
@@ -310,8 +335,10 @@
               <td align="right">"___"________20__p.</td>
             </tr>
             <tr>
-              <td colspan="2"><%=rs.getString("full_name")%>, об'єкт якого розташований за
-                адресою <%=rs.getString("name_locality")%>, <%=rs.getString("object_adress")%>,<br/> далі іменується
+              <td colspan="2"
+                  style="line-height: 1.5em;">
+                  <%=rs.getString("full_name")%>, об'єкт якого розташований за
+                адресою <%=rs.getString("customer_ray_center")%>,  <%=rs.getString("name_locality")%>, вул.<%=rs.getString("object_adress")%>,<br/> далі іменується
                 Споживач, з однієї сторони та ПАТ "Прикарпаттяобленерго", в особі директора філії <%=rs.getString("rem_name")%> РЕМ
                 <%=rs.getString("Director")%>, який діє на підставі Положення та довіреності <%=rs.getString("dovirenist")%>
                 далі іменується Енергопостачальник, з іншої сторони, уклали цей договір про користування
@@ -322,7 +349,8 @@
               <td colspan="2" align="center"><strong>Предмет договору</strong></td>
             </tr>
             <tr>
-              <td colspan="2">
+              <td colspan="2"
+                  style="line-height: 1.5em;">
                 1. За цим договором Енергопостачальник бере на себе зобов’язання надійно постачати
                 Споживачеві електричну енергію у необхідних йому обсягах відповідно до потужності <u><%=rs.getString("request_power")%></u> кВт
                 електроустановок Споживача, з гарантованим рівнем надійності, безпеки і якості, а
@@ -332,8 +360,7 @@
                 3. Параметри якості електричної енергії повинні відповідати державним стандартам.<br/>
                 4. Встановлені запобіжники чи запобіжні автомати типу <u> AB</u>, на напругу <u><%=rs.getString("voltage")%></u>В,
                 струм <u><%=rs.getString("amperage")%></u>А .<br/>
-                5. Номер однофазного (трифазного) приладу обліку _________________________________ ,<br/>
-                дата повірки ____________________ .
+                5. Номер однофазного (трифазного) приладу обліку _________________________________ , дата повірки ____________________ .
                 Показники приладу обліку на момент укладення договору ___________________.
                   При заміні приладу обліку  або пломб на ньому, складається відповідний документ,
                 який підписується Споживачем, та в якому вказується характер проведених робіт.
@@ -384,12 +411,12 @@
             </tr>
             <tr>
               <td colspan="2">
-                •	здійснює планові повірку, обслуговування та ремонт приладів обліку;<br/>
-                •	дає рекомендації щодо можливості та доцільності використання електричної енергії для опалення,
-                а також щодо     енергозбереження та режимів споживання електричної енергії;<br/>
-                •	надає інформацію щодо якості електричної енергії, умов та режимів її споживання, тарифів (цін), порядку оплати;<br/>
-                •	видає бланки типових договорів, розрахункові книжки з бланками квитанцій або платіжні документи,
-                електронну картку оплату електричної енергії.<br/>
+                •	узгоджувати з Енергопостачальником нові підключення та переобладнання внутрішньої електропроводки,
+                здійснювані з метою збільшення споживання електричної потужності;<br/>
+                •	забезпечувати доступ представникам Енергопостачальника, які пред’явили свої службові посвідчення,
+                до квартири (будинку) або іншого об’єкта для обстеження приладу обліку, електроустановок та
+                електропроводки та надавати розрахункові (платіжні) документи, а також підтверджуючі документи
+                про користування пільгами і субсидіями на вимогу представників Енергопостачальника для перевірки правильності оплати;<br/>
               </td>
             </tr>
             <tr>

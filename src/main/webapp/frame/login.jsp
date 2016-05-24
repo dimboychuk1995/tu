@@ -21,7 +21,7 @@
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="../css/login.css" rel="stylesheet" type="text/css">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <script src="../js/jquery-1.11.0.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
         <script src="../js/bootstrap.min.js"></script>
     </head>
@@ -51,13 +51,12 @@
                         <html:form  action="/frame/login" styleId="form-login" style="clear: both;">
                             <p id="form-login-username">
                                 <select name="rem" id="lang" class="inputbox form-control">
-                                    <option value="999">Виберіть РЕМ</option>
                                     <option value="190">Богородчанський</option>
                                     <option value="200">Верховинський</option>
                                     <option value="210">Галицький</option>
                                     <option value="220">Городенківський</option>
                                     <option value="230">Долинський</option>
-                                    <%--<option value="240">Івано-Франківський</option>--%>
+                                    <option value="240">Івано-Франківський</option>
                                     <option value="250">Калуський</option>
                                     <option value="260">Коломийський М</option>
                                     <option value="270">Коломийський Р</option>

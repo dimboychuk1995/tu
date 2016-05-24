@@ -8,7 +8,7 @@
 <style type="text/css">
     <!--
     body,td,th {
-        font-size: 3 pt;
+        font-size: 100%;
     }
     .style1 {
         font-size: 10pt;

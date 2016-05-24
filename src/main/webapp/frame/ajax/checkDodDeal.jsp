@@ -27,7 +27,8 @@ try {
         ds = (DataSource) ic.lookup("java:comp/env/jdbc/" + db);
         c = ds.getConnection();
         
-        String sql = "IF EXISTS (SELECT [id] FROM [dbo].[Changestc] WHERE type_letter=15 AND id_tc ='" + request.getParameter("tu_id") + "') "
+        String sql = "IF EXISTS (SELECT [id] FROM [dbo].[Changestc] WHERE type_letter=15 AND id_tc ='"
+                + request.getParameter("tu_id") + "') "
            + "    SELECT 'true' as [check] "
            + "ELSE "
            + "   SELECT 'false' as [check] ";
