@@ -34,6 +34,21 @@
             }
         });
     </script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+            var price = (
+                    ($("input[ name='develop_price_akt']" ).val() + $("input[ name='develop_price_proj']" ).val() +
+                    $("input[ name='other_develop_price_proj']" ).val())/1.2).toFixed(2);
+            $( "input[ name='commissioning_price']" ).val(price);
+
+            var counter = (($("input[ name='counter_price']" ).val())/1.2).toFixed(2);
+            $( "input[ name='vkb_O1']" ).val(counter);
+
+            var O2 = ($("input[ name='commissioning_price']" ).val()- $( "input[ name='vkb_O1']" ).val()).toFixed(2);
+            $( "input[ name='vkb_O2']" ).val(O2);
+        });
+    </script>
 </head>
 <body>
 <html:form action="/frame/detailedview/vkb">
@@ -154,6 +169,21 @@
 
             <td>Сума введення, грн</td>
             <td><html:text name="DetalViewActionForm" property="commissioning_price" size="14"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>O1</td>
+            <td><html:text name="DetalViewActionForm" property="vkb_O1" size="14" value=""/></td>
+
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>O2</td>
+            <td><html:text name="DetalViewActionForm" property="vkb_O2" size="14" value=""/></td>
         </tr>
         <tr>
             <td>Довжина збудованої ПЛ-0,4кВ,км</td>

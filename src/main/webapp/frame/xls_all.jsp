@@ -60,7 +60,7 @@
             <%if (admision.equals("true")) {%><td colspan="22" align="center" bgcolor="#CCCCCC">Допуск та проектування</td><%}%>
             <%if (supplychain.equals("true")) {%><td colspan="11" align="center" bgcolor="#CCCCCC">Схема приєднання</td><%}%>
             <%if (pricejoin.equals("true")) {%><td colspan="7" align="center" bgcolor="#CCCCCC">Плата за приєднання</td><%}%>
-            <%if (vkb.equals("true")) {%><td colspan="27" align="center" bgcolor="#CCCCCC">Дані ВКБ</td><%}%>
+            <%if (vkb.equals("true")) {%><td colspan="29" align="center" bgcolor="#CCCCCC">Дані ВКБ</td><%}%>
             <%if (change.equals("true")) {%><td colspan="8" align="center" bgcolor="#CCCCCC">Журнал змін</td><%}%>
             <%if (admision2.equals("true")) {%><td colspan="15" align="center" bgcolor="#CCCCCC">Допуск та підключення</td><%}%>
             <%if (pricejoin_ns.equals("true")) {%><td colspan="10" align="center" bgcolor="#CCCCCC">Плата за нестандартне приєднання</td><%}%>
@@ -214,6 +214,8 @@
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Додатковий провід</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Заміна проводу</td>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Заміна опор, шт.</td>
+            <td align="center" bgcolor="#CCCCCC" rowspan="2">О1, грн.</td>
+            <td align="center" bgcolor="#CCCCCC" rowspan="2">О2, грн</td>
             <%}%>
             <%if (change.equals("true")) {%>
             <td align="center" bgcolor="#CCCCCC" rowspan="2">Номер додаткового правочину</td>

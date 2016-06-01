@@ -101,11 +101,11 @@
 <td rowspan="2" align="center" bgcolor="#CCCCCC">№ акту</td>
 <td rowspan="2" align="center" bgcolor="#CCCCCC">дата</td>
 <td rowspan="2" align="center" bgcolor="#CCCCCC">сума</td>
-<td align="center" bgcolor="#CCCCCC"colspan="4">ЛЕП, км</td>
+<td align="center" bgcolor="#CCCCCC" colspan="4">ЛЕП, км</td>
 <td align="center" bgcolor="#CCCCCC" colspan="2">Трансформатор</td>
 </tr>
 <tr>
-<td align="center" bgcolor="#CCCCCC">номер</td>
+<td align="center" bgcolor="#CCCCCC">номер</td>ob
 <td align="center" bgcolor="#CCCCCC">дата</td>
 <td align="center" bgcolor="#CCCCCC">сума,грн</td>
 <td align="center" bgcolor="#CCCCCC">дата</td>

@@ -237,6 +237,8 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
     private String counter_price;
     private String commissioning_date;
     private String commissioning_price;
+    private String vkb_O1;
+    private String vkb_O2;
     private String l_built_pl_04;
     private String l_built_kl_04;
     private String tp_built_power;
@@ -514,6 +516,8 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + ",[commissioning_date]"
                     + ",[date_pay_ns]"
                     + ",[commissioning_price]"
+                    + ",[vkb_O1]"
+                    + ",[vkb_O2]"
                     + ",[devellopment_price]"
                     + ",[price_rec_build]"
                     + ",[cap_costs_build]"
@@ -720,6 +724,8 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + formatData(commissioning_date, 0) + ","
                     + formatData(date_pay_ns, 0) + ","
                     + formatData(commissioning_price, 1) + ","
+                    + formatData(vkb_O1, 1) + ","
+                    + formatData(vkb_O2, 1) + ","
                     + formatData(devellopment_price, 1) + ","
                     + formatData(price_rec_build, 1) + ","
                     + formatData(cap_costs_build, 1) + ","
@@ -1007,6 +1013,8 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + " commissioning_date=" + formatData(commissioning_date, 0) + ","
                     + " date_pay_ns=" + formatData(date_pay_ns, 0) + ","
                     + " commissioning_price=" + formatData(commissioning_price, 1) + ","
+                    + " vkb_O1=" + formatData(vkb_O1, 1) + ","
+                    + " vkb_O2=" + formatData(vkb_O2, 1) + ","
                     + " devellopment_price=" + formatData(devellopment_price, 1) + ","
                     + " price_rec_build=" + formatData(price_rec_build, 1) + ","
                     + " cap_costs_build=" + formatData(cap_costs_build, 1) + ","
@@ -1260,6 +1268,8 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + ",isnull(convert (varchar(15),commissioning_date,104),'') as commissioning_date"
                     + ",isnull(convert (varchar(15),date_pay_ns,104),'') as date_pay_ns"
                     + ",isnull(convert (varchar(15),commissioning_price),'') as commissioning_price"
+                    + ",isnull(convert (varchar(15),vkb_O1),'') as vkb_O1"
+                    + ",isnull(convert (varchar(15),vkb_O2),'') as vkb_O2"
                     + ",isnull(convert (varchar(15),devellopment_price),'') as devellopment_price"
                     + ",isnull(convert (varchar(15),price_rec_build),'') as price_rec_build"
                     + ",isnull(convert (varchar(15),cap_costs_build),'') as cap_costs_build"
@@ -1483,6 +1493,8 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                 counter_price = (rs.getString("counter_price"));
                 commissioning_date = (rs.getString("commissioning_date"));
                 commissioning_price = (rs.getString("commissioning_price"));
+                vkb_O1 = (rs.getString("vkb_O1"));
+                vkb_O2 = (rs.getString("vkb_O2"));
                 price_rec_build = (rs.getString("price_rec_build"));
                 cap_costs_build = (rs.getString("cap_costs_build"));
                 fact_costs_build = (rs.getString("fact_costs_build"));
@@ -1921,6 +1933,8 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         counter_price = null;
         commissioning_date = null;
         commissioning_price = null;
+        vkb_O1 = null;
+        vkb_O2 = null;
         devellopment_price = null;
         l_built_pl_04 = null;
         l_built_kl_04 = null;
@@ -2470,6 +2484,22 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
 
     public void setCommissioning_price(String commissioning_price) {
         this.commissioning_price = commissioning_price;
+    }
+
+    public String getVkb_O1(){
+        return vkb_O1;
+    }
+
+    public void setVkb_O1(String vkb_O1){
+        this.vkb_O1 = vkb_O1;
+    }
+
+    public String getVkb_O2(){
+        return vkb_O2;
+    }
+
+    public void setVkb_O2(String vkb_O2){
+        this.vkb_O2 = vkb_O2;
     }
 
     public String getL_built_pl_04() {
