@@ -763,6 +763,10 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + (type_object == null || "0".equals(type_object) ? "NULL" : "'" + type_object + "'") + ","
                     + formatData(counter_number, 0) + ","
                     + formatData(taxpayer, 0) + ")";
+
+
+
+
             pstmt = Conn.prepareStatement(qry, Statement.RETURN_GENERATED_KEYS);
             History his = new History();
             his.setTc_id(getTu_id());
