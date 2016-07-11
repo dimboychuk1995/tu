@@ -40,7 +40,7 @@
     <body>
         <form method="post" name="form">
             <table class="table1" border="0" >
-                <tr><th>РЕМ</th><th>Директор</th><th>Адреса</th><th>Довіреність</th><th>Номер поточного рахунку зі спеціальним режимом</th><th>Номер поточного рахунку для інших платежів</th><th></th></tr>
+                <tr><th>РЕМ</th><th>Директор</th><th>Адреса</th><th>Довіреність</th><th>Номер поточного рахунку зі спеціальним режимом</th><th>Номер поточного рахунку для інших платежів</th><th>Інженер</th><th></th></tr>
                 <%
                     Connection c = null;
                     PreparedStatement pstmt = null;
@@ -56,7 +56,8 @@
                                 + "       [rem_licality], "
                                 + "       [dovirenist], "
                                 + "       [rek_bank_with_spec], "
-                                + "       [rek_bank_withOut_spec] "
+                                + "       [rek_bank_withOut_spec], "
+                                + "       [golovnyi_ingener] "
                                 + "FROM   [TUWeb].[dbo].[rem] "
                                 + "WHERE rem_id BETWEEN 190 AND 350";
                         pstmt = c.prepareStatement(SQL);
@@ -69,6 +70,7 @@
                     <td><%=rs.getString(5)%></td>
                     <td><%=rs.getString(6)%></td>
                     <td><%=rs.getString(7)%></td>
+                    <td><%=rs.getString(8)%></td>
                     <td><input type="button" name="edit" value="Редагувати" style="background-color:#49743D;font-weight:bold;color:#ffffff;border-radius:7px;" onclick="editRecord(<%=rs.getString(1)%>);" ></td>
                         <%--<td><input type="button" name="delete" value="Видалити" style="background-color:#D64937; font-weight:bold;color: #444;border-radius:7px;" onclick="deleteRecord(<%=rs.getString(1)%>);" ></td>--%>
                 </tr>

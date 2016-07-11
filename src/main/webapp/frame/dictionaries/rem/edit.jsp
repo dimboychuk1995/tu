@@ -38,7 +38,8 @@
                                 + "       [rem_name], "
                                 + "       [Director], "
                                 + "       [rem_licality], "
-                                + "       [dovirenist] "
+                                + "       [dovirenist], "
+                                + "       [golovnyi_ingener] "
                                 + "FROM   [TUWeb].[dbo].[rem] "
                                 + "WHERE rem_id='" + no + "'";
                         pstmt = c.prepareStatement(SQL);
@@ -49,6 +50,7 @@
                     <td><input type="text" name="dir_name" value="<%=rs.getString(3)%>" style="text-align:center;" size="35">></td>
                     <td><input type="text" name="rem_loc" value="<%=rs.getString(4)%>"style="text-align:center;" size="45">></td>
                     <td><input type="text" name="dovirenist" value="<%=rs.getString(5)%>" style="text-align:center;" size="20">></td>
+                    <td><input type="text" name="golovnyi_ingener" value="<%=rs.getString(6)%>" style="text-align:center;" size="20">></td>
                     <td><input type="Submit" name="edit" value="Зберегти" style="background-color:#49743D; font-weight:bold;color:#ffffff;border-radius:7px;" ></td>
                     <td><input type="button" name="edit" value="Назад" style="background-color:#9999FF;font-weight:bold;color:#ffffff;border-radius:7px;" onclick="history.back();" ></td>
                     <td hidden="true"><input type="hidden" name="rem_id" value="<%=rs.getString(1)%>"></td>

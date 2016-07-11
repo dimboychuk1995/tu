@@ -34,21 +34,21 @@
             }
         });
     </script>
-    <script type="text/javascript">
-        $(document).ready(function(){
+    <%--<script type="text/javascript">--%>
+        <%--$(document).ready(function(){--%>
 
-            var price = (
-                    ($("input[ name='develop_price_akt']" ).val() + $("input[ name='develop_price_proj']" ).val() +
-                    $("input[ name='other_develop_price_proj']" ).val())/1.2).toFixed(2);
-            $( "input[ name='commissioning_price']" ).val(price);
+            <%--var price = (--%>
+                    <%--($("input[ name='develop_price_akt']" ).val() + $("input[ name='develop_price_proj']" ).val() +--%>
+                    <%--$("input[ name='other_develop_price_proj']" ).val())/1.2).toFixed(2);--%>
+            <%--$( "input[ name='commissioning_price']" ).val(price);--%>
 
-            var counter = (($("input[ name='counter_price']" ).val())/1.2).toFixed(2);
-            $( "input[ name='vkb_O1']" ).val(counter);
+            <%--var counter = (($("input[ name='counter_price']" ).val())/1.2).toFixed(2);--%>
+            <%--$( "input[ name='vkb_O1']" ).val(counter);--%>
 
-            var O2 = ($("input[ name='commissioning_price']" ).val()- $( "input[ name='vkb_O1']" ).val()).toFixed(2);
-            $( "input[ name='vkb_O2']" ).val(O2);
-        });
-    </script>
+            <%--var O2 = ($("input[ name='commissioning_price']" ).val()- $( "input[ name='vkb_O1']" ).val()).toFixed(2);--%>
+            <%--$( "input[ name='vkb_O2']" ).val(O2);--%>
+        <%--});--%>
+    <%--</script>--%>
 </head>
 <body>
 <html:form action="/frame/detailedview/vkb">
