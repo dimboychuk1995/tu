@@ -34,6 +34,9 @@
           <element id="library" level="project" name="Maven: org.apache.struts:struts-tiles:1.3.10" />
           <element id="library" level="project" name="Maven: org.json:json:20140107" />
           <element id="library" level="project" name="Maven: oro:oro:2.0.8" />
+          <element id="library" level="project" name="sqljdbc" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="axis-ant" />
         </element>
       </element>
     </root>

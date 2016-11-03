@@ -17,7 +17,7 @@
             </script>
         <![endif]-->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
+        <title>Технічні умови</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
         <link href="../css/login.css" rel="stylesheet" type="text/css">
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

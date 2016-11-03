@@ -323,7 +323,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         this.request = request;
         this.user_name = (String) session.getAttribute("user_name");
         this.db_name = "java:comp/env/jdbc/" + (String) session.getAttribute("db_name");
-
+        System.out.println("initCustomer");
         try {
             ListMaker listMaker = new ListMaker(db_name, rem_id);
             listMaker.make();
@@ -340,6 +340,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         this.request = request;
         this.user_name = (String) session.getAttribute("user_name");
         this.db_name = "java:comp/env/jdbc/" + (String) session.getAttribute("db_name");
+        System.out.println("initSearch");
         this.tu_id = "-1";
 
         try {
@@ -1082,6 +1083,8 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         return sql;
     }
 
+
+
     public void SetCustomer(String tu_id) {
 
         InitialContext ic = null;
@@ -1089,6 +1092,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         PreparedStatement pstmt = null;
         ResultSet rs = null;
         try {
+
             ic = new InitialContext();
             DataSource ds = (DataSource) ic.lookup(db_name);
             Conn = ds.getConnection();
@@ -3958,5 +3962,13 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
 
     public void setTypeJoinList(List typeJoinList) {
         this.typeJoinList = typeJoinList;
+    }
+
+    public String getDb_name() {
+        return db_name;
+    }
+
+    public void setDb_name(String db_name) {
+        this.db_name = db_name;
     }
 }
