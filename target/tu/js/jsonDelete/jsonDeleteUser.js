@@ -5,7 +5,7 @@ function deleteUserAjax(id) {
     var msg   = $('#formDeletedUser' + id).serialize();
     $.ajax({
         type: 'POST',
-        url: '../../UserController',
+        url: '/UserController',
         data: msg,
         success: function(data) {
             $('#results').html(data);
@@ -21,4 +21,9 @@ function deleteUserAjax(id) {
             alert('Помилка видалення даних: ' + xhr.responseCode);
         }
     });
+}
+
+function deleteRow(r) {
+    var i = r.parentNode.parentNode.rowIndex;
+    document.getElementById("usersTable").deleteRow(i);
 }

@@ -53,7 +53,6 @@ public class UserController extends HttpServlet {
             stmt = connection.createStatement();
             rs = stmt.executeQuery(qry);
 
-
             while (rs.next()){
                 User user = new User();
                 user.setId(rs.getInt("USER_ID"));
@@ -72,15 +71,6 @@ public class UserController extends HttpServlet {
     }
 
     public ArrayList<User> AllUsers() throws SQLException, NamingException {
-//        Integer id = Integer.valueOf(request.getParameter("USER_ID"));
-//        String name = request.getParameter("USER_NAME");
-//        String pass = request.getParameter("USER_PASS");
-//        String PIP = request.getParameter("USER_PIP");
-//        Integer tab_no = Integer.valueOf(request.getParameter("USER_TAB_NO"));
-//        Integer idRem = Integer.valueOf(request.getParameter("USER_ID_REM   "));
-//        Integer role = Integer.valueOf(request.getParameter("USER_ROLE"));
-//        String tel_number = request.getParameter("TEL_NUMBER");
-//        Integer permission = Integer.valueOf(request.getParameter("USER_PERMISIONS"));
 
         String allUsers = "SELECT \n" +
                 "[USER_ID] \n" +
@@ -115,6 +105,44 @@ public class UserController extends HttpServlet {
         stmt.close();
     }
 
+    protected void updateUsers(HttpServletRequest request, HttpServletResponse response) throws NamingException, SQLException, IOException{
+        Integer id = Integer.valueOf(request.getParameter("USER_ID"));
+        String name = request.getParameter("USER_NAME");
+        String pass = request.getParameter("USER_PASS");
+        String PIP = request.getParameter("USER_PIP");
+        Integer tab_no = Integer.valueOf(request.getParameter("USER_TAB_NO"));
+        Integer idRem = Integer.valueOf(request.getParameter("USER_ID_REM   "));
+        Integer role = Integer.valueOf(request.getParameter("USER_ROLE"));
+        String tel_number = request.getParameter("TEL_NUMBER");
+        Integer permission = Integer.valueOf(request.getParameter("USER_PERMISIONS"));
+
+        ic = new InitialContext();
+        DataSource ds = (DataSource) ic.lookup(db_name);
+        connection = ds.getConnection();
+        stmt = connection.createStatement();
+
+        String sql = "" +
+                "UPDATE [TUWeb].[dbo].[TC_USER] \n" +
+                "SET \n" +
+                "USER_NAME = " + name + "\n" +
+                "USER_PASS = " + pass + "\n" +
+                "USER_PIP = " + PIP + "\n" +
+                "USER_TAB_NO" + tab_no + "\n" +
+                "USER_ID_REM" + idRem + "\n" +
+                "USER_ROLE" + role + "\n" +
+                "TEL_NUMBER" + tel_number + "\n" +
+                "USER_PERMISIONS" + permission + "\n" +
+                "WHERE USER_ID = " + id;
+
+
+        stmt.executeUpdate(sql);
+        response.sendRedirect("users/users.jsp");
+
+        connection.close();
+        stmt.close();
+
+    }
+
     @Override
     protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/html; charset=UTF-8");
@@ -137,6 +165,14 @@ public class UserController extends HttpServlet {
             } catch (SQLException e) {
                 e.printStackTrace();
             }
+        }else if(request.getParameterMap().size() == 8){
+            try {
+                updateUsers(request, response);
+            } catch (NamingException e) {
+                e.printStackTrace();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
     }
     @Override
@@ -145,6 +181,14 @@ public class UserController extends HttpServlet {
         if(request.getParameterMap().size() == 1){
             try {
                 deleteUser(request, response);
+            } catch (NamingException e) {
+                e.printStackTrace();
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
+        }else if(request.getParameterMap().size() == 8){
+            try {
+                updateUsers(request, response);
             } catch (NamingException e) {
                 e.printStackTrace();
             } catch (SQLException e) {

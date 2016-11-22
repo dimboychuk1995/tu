@@ -30,7 +30,7 @@
                     document.location.href = 'grid.jsp';
                 },
                 error: function (error, textStatus, errorThrown) {
-                    progresdlg("Помилка !!! \n Дані незбережено!!!");
+                    progresdlg("Помилка !!! \n Дані не збережено!!!");
                 }
             });
 
@@ -91,7 +91,7 @@
         String role = ((loginActionForm) ses.getAttribute("log")).getRole();
         String remID = ((loginActionForm) ses.getAttribute("log")).getUREM_ID();
         final String tu_id = request.getParameter("tu_id");
-        if (!role.equals("128")) {
+         {
     %>
     <div>
         <html:button styleId="save_upd" property="method" value="update" styleClass="button_save"/>

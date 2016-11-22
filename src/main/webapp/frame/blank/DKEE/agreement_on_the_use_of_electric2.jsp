@@ -26,88 +26,88 @@
   DataSource ds = (DataSource) ic.lookup("java:comp/env/jdbc/" + db);
   try {
     c = ds.getConnection();
-    String qry = "SELECT TOP 1" +
-            "ISNULL(TUWeb.dbo.rem.Director,'') AS Director," +
-            "ISNULL(TUWeb.dbo.rem.rem_name,'') AS rem_name," +
-            "ISNULL(TUWeb.dbo.rem.contacts,'') AS contacts," +
-            "ISNULL(TUWeb.dbo.rem.rem_licality,'') AS rem_licality," +
-            "ISNULL(TUWeb.dbo.rem.dovirenist,'') AS dovirenist," +
-            "ISNULL(TUWeb.dbo.rem.rek_bank_withOut_spec,'') AS rek_bank_withOut_spec," +
-            "ISNULL(TUWeb.dbo.rem.rek_bank_with_spec,'') AS rek_bank_with_spec," +
-            "ISNULL(TUWeb.dbo.rem.city_town_village, '') AS city_town_village," +
-            "ISNULL(dbo.TC_V2.id,'') AS id," +
-            "ISNULL(TC_V2.[f_name],'')+' '+isnull(TC_V2.[s_name],'')+' '+isnull(TC_V2.[t_name],'') AS full_name," +
-            "ISNULL(dbo.TC_V2.object_adress,'') AS object_adress," +
-            "ISNULL(CONVERT(VARCHAR,dbo.TC_V2.power_plit,104),'') AS power_plit," +
-            "CASE WHEN power_plit <> 0 THEN 'стаціонарною електроплитою' ELSE ' ' END AS power_plit_prod," +
-            "ISNULL(CONVERT(VARCHAR,dbo.TC_V2.request_power,104),'') AS request_power," +
-            "CASE WHEN TC_V2.reliabylity_class_3_val IS NOT NULL " +
-            "THEN 'третя категорія надійності'" +
-            "ELSE 'друга категорія надійності'" +
-            "END AS kategory," +
-            "        ISNULL(dbo.TC_V2.voltage,'') AS voltage," +
-            "CASE WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 2.1 AND dbo.TC_V2.request_power <= 3 THEN '16'" +
-            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 3.1 AND dbo.TC_V2.request_power <= 4 THEN '20'" +
-            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 4.1 AND dbo.TC_V2.request_power <= 5 THEN '25'" +
-            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 5.1 AND dbo.TC_V2.request_power <= 6 THEN '32'" +
-            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 6.1 AND dbo.TC_V2.request_power <= 8 THEN '40'" +
-            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 8.1 AND dbo.TC_V2.request_power <= 10 THEN '50'" +
-            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 10.1 AND dbo.TC_V2.request_power <= 11 THEN '63'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 0.1 AND dbo.TC_V2.request_power <= 3 THEN '16'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 3.1 AND dbo.TC_V2.request_power <= 4.9 THEN '20'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 5 AND dbo.TC_V2.request_power <= 8.4 THEN '25'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 8.5 AND dbo.TC_V2.request_power <= 10.5 THEN '32'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 10.6 AND dbo.TC_V2.request_power <= 13 THEN '40'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 13.1 AND dbo.TC_V2.request_power <= 15.5 THEN '50'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 15.6 AND dbo.TC_V2.request_power <= 19.5 THEN '63'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 19.6 AND dbo.TC_V2.request_power <= 24.5 THEN '80'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 24.6 AND dbo.TC_V2.request_power <= 31 THEN '100'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 31.1 AND dbo.TC_V2.request_power <= 39 THEN '120'" +
-            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 39.1 AND dbo.TC_V2.request_power <= 49 THEN '160'" +
-            " ELSE '-'" +
-            "END AS amperage," +
-            "        ISNULL(dbo.TC_V2.connection_treaty_number,'') AS connection_treaty_number," +
-            "ISNULL(dbo.TC_V2.constitutive_documents,'') AS constitutive_documents," +
-            "ISNULL(dbo.TC_V2.bank_identification_number,'') AS bank_identification_number," +
-            "ISNULL(dbo.TC_LIST_locality.name,'') AS customer_locality," +
-            "CASE" +
-            "  WHEN dbo.TC_LIST_locality.type = '1' THEN 'м. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150))" +
-            "  WHEN dbo.TC_LIST_locality.type = '2' THEN 'c. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150))" +
-            "  WHEN dbo.TC_LIST_locality.type = '3' THEN 'смт. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150))" +
-            "END AS name_locality," +
-            "ISNULL(dbo.TC_V2.customer_adress,'') AS customer_adress," +
-            "ISNULL(dbo.TC_V2.customer_telephone,'') AS customer_telephone," +
-            " ISNULL(dbo.TC_V2.customer_zipcode,'') AS customer_zipcode," +
+    String qry = "SELECT TOP 1 \n" +
+            "ISNULL(TUWeb.dbo.rem.Director,'') AS Director, \n" +
+            "ISNULL(TUWeb.dbo.rem.rem_name,'') AS rem_name, \n" +
+            "ISNULL(TUWeb.dbo.rem.contacts,'') AS contacts, \n" +
+            "ISNULL(TUWeb.dbo.rem.rem_licality,'') AS rem_licality, \n" +
+            "ISNULL(TUWeb.dbo.rem.dovirenist,'') AS dovirenist, \n" +
+            "ISNULL(TUWeb.dbo.rem.rek_bank_withOut_spec,'') AS rek_bank_withOut_spec, \n" +
+            "ISNULL(TUWeb.dbo.rem.rek_bank_with_spec,'') AS rek_bank_with_spec, \n" +
+            "ISNULL(TUWeb.dbo.rem.city_town_village, '') AS city_town_village, \n" +
+            "ISNULL(dbo.TC_V2.id,'') AS id, \n" +
+            "ISNULL(TC_V2.[f_name],'')+' '+isnull(TC_V2.[s_name],'')+' '+isnull(TC_V2.[t_name],'') AS full_name, \n" +
+            "ISNULL(dbo.TC_V2.object_adress,'') AS object_adress, \n" +
+            "ISNULL(CONVERT(VARCHAR,dbo.TC_V2.power_plit,104),'') AS power_plit, \n" +
+            "CASE WHEN power_plit <> 0 THEN 'стаціонарною електроплитою' ELSE ' ' END AS power_plit_prod, \n" +
+            "ISNULL(CONVERT(VARCHAR,dbo.TC_V2.request_power,104),'') AS request_power, \n" +
+            "CASE WHEN TC_V2.reliabylity_class_3_val IS NOT NULL  \n" +
+            "THEN 'третя категорія надійності' \n" +
+            "ELSE 'друга категорія надійності' \n" +
+            "END AS kategory, \n" +
+            "        ISNULL(dbo.TC_V2.voltage,'') AS voltage, \n" +
+            "CASE WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 2.1 AND dbo.TC_V2.request_power <= 3 THEN '16' \n" +
+            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 3.1 AND dbo.TC_V2.request_power <= 4 THEN '20' \n" +
+            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 4.1 AND dbo.TC_V2.request_power <= 5 THEN '25' \n" +
+            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 5.1 AND dbo.TC_V2.request_power <= 6 THEN '32' \n" +
+            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 6.1 AND dbo.TC_V2.request_power <= 8 THEN '40' \n" +
+            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 8.1 AND dbo.TC_V2.request_power <= 10 THEN '50' \n" +
+            "WHEN dbo.TC_V2.voltage = 220 AND dbo.TC_V2.request_power > 10.1 AND dbo.TC_V2.request_power <= 11 THEN '63' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 0.1 AND dbo.TC_V2.request_power <= 3 THEN '16' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 3.1 AND dbo.TC_V2.request_power <= 4.9 THEN '20' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 5 AND dbo.TC_V2.request_power <= 8.4 THEN '25' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 8.5 AND dbo.TC_V2.request_power <= 10.5 THEN '32' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 10.6 AND dbo.TC_V2.request_power <= 13 THEN '40' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 13.1 AND dbo.TC_V2.request_power <= 15.5 THEN '50' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 15.6 AND dbo.TC_V2.request_power <= 19.5 THEN '63' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 19.6 AND dbo.TC_V2.request_power <= 24.5 THEN '80' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 24.6 AND dbo.TC_V2.request_power <= 31 THEN '100' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 31.1 AND dbo.TC_V2.request_power <= 39 THEN '120' \n" +
+            "WHEN dbo.TC_V2.voltage = 380 AND dbo.TC_V2.request_power > 39.1 AND dbo.TC_V2.request_power <= 49 THEN '160' \n" +
+            " ELSE '-' \n" +
+            "END AS amperage, \n" +
+            "        ISNULL(dbo.TC_V2.connection_treaty_number,'') AS connection_treaty_number, \n" +
+            "ISNULL(dbo.TC_V2.constitutive_documents,'') AS constitutive_documents, \n" +
+            "ISNULL(dbo.TC_V2.bank_identification_number,'') AS bank_identification_number, \n" +
+            "ISNULL(dbo.TC_LIST_locality.name,'') AS customer_locality, \n" +
+            "CASE \n" +
+            "  WHEN dbo.TC_LIST_locality.type = '1' THEN 'м. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) \n" +
+            "  WHEN dbo.TC_LIST_locality.type = '2' THEN 'c. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) \n" +
+            "  WHEN dbo.TC_LIST_locality.type = '3' THEN 'смт. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) \n" +
+            "END AS name_locality, \n" +
+            "ISNULL(dbo.TC_V2.customer_adress,'') AS customer_adress, \n" +
+            "ISNULL(dbo.TC_V2.customer_telephone,'') AS customer_telephone, \n" +
+            " ISNULL(dbo.TC_V2.customer_zipcode,'') AS customer_zipcode, \n" +
 
-            " CASE" +
-            "  WHEN dbo.TC_V2.department_id = 190 THEN 'Богородчанський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 200 THEN 'Верховинський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 210 THEN 'Галицький р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 220 THEN 'Городенківський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 230 THEN 'Долинський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 240 THEN ''" +
-            "  WHEN dbo.TC_V2.department_id = 250 THEN 'Калуський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 260 THEN ''" +
-            "  WHEN dbo.TC_V2.department_id = 270 THEN 'Коломийський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 280 THEN 'Косівський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 290 THEN 'Тисминецький р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 300 THEN 'Надвірнянський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 310 THEN 'Рогатинський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 320 THEN 'Рожнятівський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 330 THEN 'Снятинський р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 340 THEN 'Тлумацький р-н, '" +
-            "  WHEN dbo.TC_V2.department_id = 350 THEN 'Яремчанський р-н, '" +
-            "  END AS customer_ray_center," +
+            " CASE \n" +
+            "  WHEN dbo.TC_V2.department_id = 190 THEN 'Богородчанський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 200 THEN 'Верховинський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 210 THEN 'Галицький р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 220 THEN 'Городенківський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 230 THEN 'Долинський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 240 THEN '' \n" +
+            "  WHEN dbo.TC_V2.department_id = 250 THEN 'Калуський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 260 THEN '' \n" +
+            "  WHEN dbo.TC_V2.department_id = 270 THEN 'Коломийський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 280 THEN 'Косівський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 290 THEN 'Тисминецький р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 300 THEN 'Надвірнянський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 310 THEN 'Рогатинський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 320 THEN 'Рожнятівський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 330 THEN 'Снятинський р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 340 THEN 'Тлумацький р-н, ' \n" +
+            "  WHEN dbo.TC_V2.department_id = 350 THEN 'Яремчанський р-н, ' \n" +
+            "  END AS customer_ray_center, \n" +
 
-            "          CASE" +
-            "  WHEN dbo.TC_LIST_locality.type = '1' THEN 'м. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress" +
-            "  WHEN dbo.TC_LIST_locality.type = '2' THEN 'c. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress" +
-            "  WHEN dbo.TC_LIST_locality.type = '1' THEN 'смт. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress" +
-            " END AS customer_adress_new" +
+            "          CASE \n" +
+            "  WHEN dbo.TC_LIST_locality.type = '1' THEN 'м. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress \n" +
+            "  WHEN dbo.TC_LIST_locality.type = '2' THEN 'c. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress \n" +
+            "  WHEN dbo.TC_LIST_locality.type = '3' THEN 'смт. ' + CAST(dbo.TC_LIST_locality.name AS VARCHAR(150)) + ', ' + dbo.TC_V2.customer_adress \n" +
+            " END AS customer_adress_new \n" +
 
-            " FROM TUWeb.dbo.rem, dbo.TC_V2" +
-            " JOIN dbo.TC_LIST_locality ON dbo.TC_V2.customer_locality = dbo.TC_LIST_locality.id" +
-            " and  dbo.TC_V2.name_locality = dbo.TC_LIST_locality.id" +
+            " FROM TUWeb.dbo.rem, dbo.TC_V2 \n" +
+            " JOIN dbo.TC_LIST_locality ON dbo.TC_V2.customer_locality = dbo.TC_LIST_locality.id \n" +
+            " and  dbo.TC_V2.name_locality = dbo.TC_LIST_locality.id \n" +
             " where TC_V2.id=" + request.getParameter("tu_id") +
             " and dbo.TC_V2.department_id = TUWeb.dbo.rem.rem_id ";
     System.out.println(qry);
@@ -138,8 +138,8 @@
       </td>
     </tr>
     <tr>
-      <td align="left"><%=rs.getString("city_town_village")%></td>
-      <td align="right">"___"________20__p.</td>
+      <td align="left"></td>
+      <td align="right">"___"________201_p.</td>
     </tr>
     <tr>
       <td colspan="2">
