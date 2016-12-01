@@ -9,16 +9,109 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d60e3da4-69bb-452d-afdc-552bf0a4003e" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\work\workdirectory\tu\target\tu\frame\blank\DKEE\agreement_on_the_use_of_electricity.jsp" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/oblenergo/users/UserController.java" afterPath="$PROJECT_DIR$/src/main/java/oblenergo/users/UserController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/DKEE/agreement_on_the_use_of_electric2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/DKEE/agreement_on_the_use_of_electric2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/blank/DKEE/agreement_on_the_use_of_electric2.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/blank/DKEE/agreement_on_the_use_of_electric2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/js/jsonDelete/jsonDeleteUser.js" afterPath="$PROJECT_DIR$/src/main/webapp/js/jsonDelete/jsonDeleteUser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/js/jsonDelete/jsonDeleteUser.js" afterPath="$PROJECT_DIR$/target/tu/js/jsonDelete/jsonDeleteUser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/tab.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/tab.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/tab.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/tab.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/users/users.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/users/users.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/users/users.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/users/users.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/AppealsImport.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/AppealsImport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/AppealsImport.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/AppealsImport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/AuthFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/AuthFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/AuthFilter.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/AuthFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/CharEncodingFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/CharEncodingFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/CharEncodingFilter.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/CharEncodingFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/CirilicForRTFformat.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/CirilicForRTFformat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/CirilicForRTFformat.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/CirilicForRTFformat.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/CodePageCirilRTF.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/CodePageCirilRTF.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/CodePageCirilRTF.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/CodePageCirilRTF.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/ComboBoxList.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/ComboBoxList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/ComboBoxList.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/ComboBoxList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/DBHelper.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/DBHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/DBHelper.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/DBHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVAdmissionAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVAdmissionAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVAdmissionAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVAdmissionAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVAdmissionConnectionAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVAdmissionConnectionAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVAdmissionConnectionAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVAdmissionConnectionAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVCustomerAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVCustomerAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVCustomerAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVCustomerAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDataobject2Action.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDataobject2Action.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVDataobjectAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVDataobjectAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDataobjectAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDataobjectAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVDesignAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVDesignAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDesignAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDesignAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVJoinPriceAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVJoinPriceAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVJoinPriceAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVJoinPriceAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVJoinPriceNSAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVJoinPriceNSAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVJoinPriceNSAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVJoinPriceNSAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVSupplychain.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVSupplychain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVSupplychain.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVSupplychain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVVkbAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVVkbAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVVkbAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVVkbAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVtundAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVtundAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVtundAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVtundAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/DataBase.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/DataBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/DataBase.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/DataBase.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewStrutsAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewStrutsAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewStrutsAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewStrutsAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DictionariAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DictionariAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DictionariAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DictionariAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DictionariActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DictionariActionForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DictionariActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DictionariActionForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/oe/tu/excel/ExportAllRemsXLS.class" afterPath="$PROJECT_DIR$/target/classes/oe/tu/excel/ExportAllRemsXLS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/oe/tu/excel/ExportAllRemsXLS.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/oe/tu/excel/ExportAllRemsXLS.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/FileUploadAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/FileUploadAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/FileUploadAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/FileUploadAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/FileUploadForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/FileUploadForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/FileUploadForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/FileUploadForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/GetListElement.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/GetListElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/GetListElement.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/GetListElement.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/GetMainGrid.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/GetMainGrid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/GetMainGrid.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/GetMainGrid.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/GetRTR.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/GetRTR.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/GetRTR.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/GetRTR.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/History.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/History.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/History.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/History.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/ListMaker.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/ListMaker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/ListMaker.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/ListMaker.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSuppluChAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSuppluChAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSuppluChAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSuppluChAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSupplyChForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSupplyChForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSupplyChForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSupplyChForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MailSender.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MailSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MailSender.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MailSender.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MaskFilter.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MaskFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MaskFilter.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MaskFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MyCoocie.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MyCoocie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MyCoocie.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MyCoocie.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassActionForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassActionForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/Row.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/Row.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/Row.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/Row.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/SQLUtils.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/SQLUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/SQLUtils.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/SQLUtils.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/filter/UserAuthFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/filter/UserAuthFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/filter/UserAuthFilter.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/filter/UserAuthFilter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginActionForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginActionForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/searchAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/searchAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/searchAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/searchAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/detalview/action/FileUploadAction.java" afterPath="$PROJECT_DIR$/src/main/java/detalview/action/FileUploadAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myapp/struts/FileUploadForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/myapp/struts/FileUploadForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/tu/META-INF/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/META-INF/context.xml" afterPath="$PROJECT_DIR$/target/tu/META-INF/context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/FileUpload/delete.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/FileUpload/delete.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/FileUpload/delete.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/FileUpload/delete.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/FileUpload/fileupload.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/FileUpload/fileupload.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/FileUpload/fileupload.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/FileUpload/fileupload.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/login.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/vkb_tab.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/vkb_tab.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tu.iws" />
@@ -62,95 +155,40 @@
     <favorites_list name="tu" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.45111385">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/Model/User.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1836">
-                  <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/oblenergo/users/UserController.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="3196">
-                  <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-                  <folding>
-                    <marker date="1479808994275" expanded="true" signature="3333:3408" placeholder="DELETE FROM ..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="users.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/users/users.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-14.269231" vertical-offset="598" max-vertical-offset="1479">
-                  <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
-                  <folding>
-                    <marker date="1479810677877" expanded="true" signature="614:721" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="tab.jsp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/tab.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.19136961" vertical-offset="1479" max-vertical-offset="10591">
-                  <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="struts-config.xml" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
-              <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="3383">
-                  <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1717">
-                  <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-                  <folding>
-                    <marker date="1477989950021" expanded="true" signature="506:627" placeholder="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="jsonDeleteUser.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jsonDelete/jsonDeleteUser.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="578">
-                  <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="DetalViewActionForm.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.24138" vertical-offset="36814" max-vertical-offset="52751">
+              <caret line="2364" column="41" selection-start-line="2364" selection-start-column="34" selection-end-line="2364" selection-end-column="41" />
+              <folding>
+                <marker date="1478071009887" expanded="true" signature="14570:35877" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tab.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/tab.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.2363634" vertical-offset="1888" max-vertical-offset="10591">
+              <caret line="128" column="47" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vkb_tab.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/vkb_tab.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.64497876" vertical-offset="2757" max-vertical-offset="4029">
+              <caret line="189" column="62" selection-start-line="189" selection-start-column="62" selection-end-line="189" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -164,9 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_bm/fiz.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/admission.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/MSupplyChForm.java" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationResource.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/ApplicationResource_uk_UA.properties" />
@@ -195,12 +230,10 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join/fiz.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join/jur.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/vkb_tab.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/rem.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/update.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Model/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
         <option value="$PROJECT_DIR$/tu.properties" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/filter/UserAuthFilter.java" />
@@ -208,13 +241,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewStrutsAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/users.css" />
-        <option value="$PROJECT_DIR$/src/main/java/detalview/action/FileUploadAction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/FileUploadForm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/DKEE/agreement_on_the_use_of_electric2.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/oblenergo/users/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jsonDelete/jsonDeleteUser.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/users/users.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/tab.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/detalview/action/FileUploadAction.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/FileUpload/delete.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/FileUploadForm.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/FileUpload/fileupload.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/vkb_tab.jsp" />
       </list>
     </option>
   </component>
@@ -305,7 +343,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -343,6 +380,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -434,7 +497,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="struts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -460,12 +527,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="Model" />
+              <option name="myItemId" value="myapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
@@ -1053,7 +1121,13 @@
       <workItem from="1478153725694" duration="12903000" />
       <workItem from="1478240547478" duration="3849000" />
       <workItem from="1479800524474" duration="8526000" />
-      <workItem from="1479822093926" duration="2193000" />
+      <workItem from="1479822093926" duration="3463000" />
+      <workItem from="1479891014692" duration="15000" />
+      <workItem from="1480000619629" duration="6411000" />
+      <workItem from="1480313162915" duration="1786000" />
+      <workItem from="1480401488894" duration="4003000" />
+      <workItem from="1480423483704" duration="4018000" />
+      <workItem from="1480573845440" duration="2397000" />
     </task>
     <task id="LOCAL-00001" summary="many large commit">
       <created>1452678557216</created>
@@ -1077,7 +1151,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="580312000" />
+    <option name="totallyTimeSpent" value="600212000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1124,19 +1198,19 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36708862" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2721519" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15833333" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15625" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28895614" sideWeight="0.5008026" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30907172" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19249593" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27320674" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1201,76 +1275,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/ChangestuAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16630435" vertical-offset="0" max-vertical-offset="986">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/ChangestuForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16630435" vertical-offset="0" max-vertical-offset="4760">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/CharEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53586954" vertical-offset="0" max-vertical-offset="920">
-          <caret line="35" column="18" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DictionariAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18478261" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.20108695" vertical-offset="355" max-vertical-offset="1275">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/loginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.020652173" vertical-offset="185" max-vertical-offset="1105">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/PassAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.18478261" vertical-offset="0" max-vertical-offset="969">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/PassActionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14782609" vertical-offset="0" max-vertical-offset="920">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/inscustomer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/main_grid.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
@@ -1296,14 +1300,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33271027" vertical-offset="10481" max-vertical-offset="23001">
           <caret line="650" column="8" selection-start-line="650" selection-start-column="8" selection-end-line="650" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3811074" vertical-offset="848" max-vertical-offset="1462">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1359,14 +1355,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8411215" vertical-offset="2015" max-vertical-offset="2652">
-          <caret line="145" column="21" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/FilterChain.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.22753346" vertical-offset="0" max-vertical-offset="523">
@@ -1385,7 +1373,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3941606" vertical-offset="5122" max-vertical-offset="9282">
           <caret line="339" column="34" selection-start-line="339" selection-start-column="34" selection-end-line="339" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1394,13 +1381,6 @@
         <state vertical-scroll-proportion="-4.4018693" vertical-offset="3341" max-vertical-offset="3876">
           <caret line="58" column="40" selection-start-line="58" selection-start-column="40" selection-end-line="58" selection-end-column="40" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3813084" vertical-offset="0" max-vertical-offset="782">
-          <caret line="12" column="207" selection-start-line="12" selection-start-column="207" selection-end-line="12" selection-end-column="207" />
         </state>
       </provider>
     </entry>
@@ -1432,27 +1412,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/FileUpload/delete.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3469388" vertical-offset="0" max-vertical-offset="731">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/FileUploadForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3878327" vertical-offset="459" max-vertical-offset="2380">
-          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/detalview/action/FileUploadAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4007421" vertical-offset="73" max-vertical-offset="1649">
-          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewStrutsAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.70871985" vertical-offset="94" max-vertical-offset="1139">
@@ -1464,14 +1423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33766234" vertical-offset="141" max-vertical-offset="680">
           <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contex.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5361781" vertical-offset="0" max-vertical-offset="539">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,13 +1440,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.7521739" vertical-offset="7528" max-vertical-offset="53006">
-          <caret line="348" column="33" selection-start-line="348" selection-start-column="33" selection-end-line="348" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/DKEE/agreement_on_the_use_of_electric2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.5782998" vertical-offset="2499" max-vertical-offset="8517">
@@ -1503,47 +1447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1836">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dic_ps.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oblenergo/users/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="3196">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <marker date="1479808994275" expanded="true" signature="3333:3408" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jsonDelete/jsonDeleteUser.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="1717">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding>
-            <marker date="1477989950021" expanded="true" signature="506:627" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1551,7 +1458,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17832167" vertical-offset="0" max-vertical-offset="3026">
           <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1562,24 +1468,200 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="3383">
           <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/users/users.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.269231" vertical-offset="598" max-vertical-offset="1479">
+        <state vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="1479">
           <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jsonDelete/jsonDeleteUser.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12934783" vertical-offset="0" max-vertical-offset="920">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oblenergo/users/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.36956522" vertical-offset="765" max-vertical-offset="3196">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.018478261" vertical-offset="68" max-vertical-offset="1836">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3811074" vertical-offset="848" max-vertical-offset="1462">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0739131" vertical-offset="1477" max-vertical-offset="2652">
+          <caret line="145" column="21" selection-start-line="145" selection-start-column="21" selection-end-line="145" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResource_uk_UA.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.9076396" vertical-offset="1673" max-vertical-offset="2550">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResource.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.140251" vertical-offset="1877" max-vertical-offset="2754">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/FileUploadForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="2380">
+          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/op_lyst/jur.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.92674" vertical-offset="510" max-vertical-offset="3400">
+          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/FileUpload/delete.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="731">
+          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contex.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2982456" vertical-offset="0" max-vertical-offset="627">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/detalview/action/FileUploadAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="63" max-vertical-offset="1649">
+          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/FileUpload/fileupload.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.664966" vertical-offset="306" max-vertical-offset="2465">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/appeals.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="4114">
+          <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
           <folding>
-            <marker date="1479810677877" expanded="true" signature="614:721" placeholder="..." />
+            <marker date="1476806320163" expanded="true" signature="-1:-1" placeholder="SELECT r.num..Request..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2931726" vertical-offset="619" max-vertical-offset="1717">
+          <caret line="70" column="35" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding>
+            <marker date="1480574752031" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
+          <caret line="22" column="163" selection-start-line="22" selection-start-column="155" selection-end-line="22" selection-end-column="163" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/admission.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.83935744" vertical-offset="267" max-vertical-offset="3366">
+          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/CharEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.7236364" vertical-offset="19" max-vertical-offset="646">
+          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.509091" vertical-offset="834" max-vertical-offset="4437">
+          <caret line="141" column="40" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
+          <folding>
+            <element signature="e#12782#12901#0" expanded="false" />
+            <marker date="1476806319517" expanded="true" signature="-1:-1" placeholder="SELECT r.num..Request..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.24138" vertical-offset="36814" max-vertical-offset="52751">
+          <caret line="2364" column="41" selection-start-line="2364" selection-start-column="34" selection-end-line="2364" selection-end-column="41" />
+          <folding>
+            <marker date="1478071009887" expanded="true" signature="14570:35877" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/tab.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19136961" vertical-offset="1479" max-vertical-offset="10591">
-          <caret line="93" column="8" selection-start-line="93" selection-start-column="8" selection-end-line="93" selection-end-column="8" />
+        <state vertical-scroll-proportion="-5.2363634" vertical-offset="1888" max-vertical-offset="10591">
+          <caret line="128" column="47" selection-start-line="128" selection-start-column="47" selection-end-line="128" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/vkb_tab.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.64497876" vertical-offset="2757" max-vertical-offset="4029">
+          <caret line="189" column="62" selection-start-line="189" selection-start-column="62" selection-end-line="189" selection-end-column="62" />
           <folding />
         </state>
       </provider>

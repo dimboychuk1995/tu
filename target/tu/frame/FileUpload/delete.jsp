@@ -10,7 +10,7 @@
     String db = (String) ses.getAttribute("db_name");
     Connection c = null;
     Statement s = null;
-    String path = "\\\\Obl-devel\\TUFiles\\";
+    String path = "\\\\Obl-java\\TUFiles\\";
     String file_name = request.getParameter("file");
     path+=file_name;
     InitialContext ic = new InitialContext();

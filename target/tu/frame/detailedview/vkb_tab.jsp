@@ -175,7 +175,7 @@
             <td></td>
             <td></td>
             <td>O1</td>
-            <td><html:text name="DetalViewActionForm" property="vkb_O1" size="14" value=""/></td>
+            <td><html:text name="DetalViewActionForm" property="vkb_O1" size="14"/></td>
 
         </tr>
         <tr>
@@ -183,7 +183,7 @@
             <td></td>
             <td></td>
             <td>O2</td>
-            <td><html:text name="DetalViewActionForm" property="vkb_O2" size="14" value=""/></td>
+            <td><html:text name="DetalViewActionForm" property="vkb_O2" size="14"/></td>
         </tr>
         <tr>
             <td>Довжина збудованої ПЛ-0,4кВ,км</td>

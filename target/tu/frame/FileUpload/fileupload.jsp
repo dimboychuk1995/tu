@@ -112,7 +112,7 @@
                     <option value="1">Куца Л.Є.</option>
                     <option value="2">Кушина О.М.</option>
                     <option value="3">Якцовий В.М.</option>
-                    <option value="4">Солонична О.В.</option>
+                    <option value="4">Ларченко О.В.</option>
                     <option value="5">Василь Остап'юк</option>
                 </select>
             </div>

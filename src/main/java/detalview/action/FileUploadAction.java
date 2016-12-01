@@ -41,8 +41,8 @@ public class FileUploadAction extends Action {
         String tu_id = request.getParameter("tu_id");
         FormFile file = fileUploadForm.getFile();
         String dtime = new SimpleDateFormat("yyyyMMdd_HHmmss").format(Calendar.getInstance().getTime());
-        String filePath = "http://10.93.104.55/FileManager/TUFiles/";
-        String filePath1 = "\\\\Obl-devel\\TUFiles\\";
+        String filePath = "http://10.93.105.25/TUFiles/";
+        String filePath1 = "\\\\Obl-java\\TUFiles\\";
         String mailSmtpHost = "10.93.1.63";
         String mailTo = "Dmytro.Boychuk@oe.if.ua";
         String mailFrom = "Dmytro.Boychuk@oe.if.ua";
