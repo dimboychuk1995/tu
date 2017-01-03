@@ -40,7 +40,7 @@
                 <div class="col-md-8">
                     <h1>Вхід в програму технічні умови </h1>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4">5
                     <p class="message">
                         До уваги користувачів!!!<br/> ПЗ "Технічні умови", для запобігання зависання, буде
                         перезавантажено кожного дня о 12:45, прохання не працювати в базі напротязі 5 хвилин!!!
@@ -51,23 +51,23 @@
                         <html:form  action="/frame/login" styleId="form-login" style="clear: both;">
                             <p id="form-login-username">
                                 <select name="rem" id="lang" class="inputbox form-control">
-                                    <option value="190">Богородчанський</option>
-                                    <option value="200">Верховинський</option>
-                                    <option value="210">Галицький</option>
-                                    <option value="220">Городенківський</option>
-                                    <option value="230">Долинський</option>
+                                    <%--<option value="190">Богородчанський</option>--%>
+                                    <%--<option value="200">Верховинський</option>--%>
+                                    <%--<option value="210">Галицький</option>--%>
+                                    <%--<option value="220">Городенківський</option>--%>
+                                    <%--<option value="230">Долинський</option>--%>
                                     <option value="240">Івано-Франківський</option>
-                                    <option value="250">Калуський</option>
-                                    <option value="260">Коломийський М</option>
-                                    <option value="270">Коломийський Р</option>
-                                    <option value="280">Косівський</option>
-                                    <option value="290">Лисецький</option>
-                                    <option value="300">Надвірнянський</option>
-                                    <option value="310">Рогатинський</option>
-                                    <option value="320">Рожнятівський</option>
-                                    <option value="330">Снятинський</option>
-                                    <option value="340">Тлумацький</option>
-                                    <option value="350">Яремчанський</option>
+                                    <%--<option value="250">Калуський</option>--%>
+                                    <%--<option value="260">Коломийський М</option>--%>
+                                    <%--<option value="270">Коломийський Р</option>--%>
+                                    <%--<option value="280">Косівський</option>--%>
+                                    <%--<option value="290">Лисецький</option>--%>
+                                    <%--<option value="300">Надвірнянський</option>--%>
+                                    <%--<option value="310">Рогатинський</option>--%>
+                                    <%--<option value="320">Рожнятівський</option>--%>
+                                    <%--<option value="330">Снятинський</option>--%>
+                                    <%--<option value="340">Тлумацький</option>--%>
+                                    <%--<option value="350">Яремчанський</option>--%>
                                     <option value="360">OE</option>
                                 </select>
                             </p>
@@ -80,7 +80,7 @@
                                                styleClass="form-control" size="15"/>
                             </p>
                             <div class="button_holder">
-                                <html:submit property="method" value="login" styleClass="btn btn-warning"/>
+                                <html:submit property="method" value="login" styleClass="btn btn-warning">Вхід</html:submit>
                             </div>
                         </html:form>
                     </div>

@@ -287,6 +287,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
     private String user_name;
     private HttpServletRequest request;
     private List typeJoinList;
+    private String power_join_nonstandart;
 
 
     private void initLists(ListMaker listMaker){
@@ -555,6 +556,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + ",counter_type"
                     + ",type_object"
                     + ",counter_number"
+                    + ",power_join_nonstandart"
                     + ",[taxpayer]) VALUES "
                     + "('1','"
                     + log.getId_rem() + "'" + ","
@@ -763,6 +765,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + formatData(counter_type, 0) + ","
                     + (type_object == null || "0".equals(type_object) ? "NULL" : "'" + type_object + "'") + ","
                     + formatData(counter_number, 0) + ","
+                    + formatData(power_join_nonstandart, 0) + ","
                     + formatData(taxpayer, 0) + ")";
 
 
@@ -1055,6 +1058,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + " counter_type=" + formatData(counter_type, 0) + ","
                     + " type_object=" + (type_object == null || "0".equals(type_object) ? "NULL" : "'" + type_object + "'") + ","
                     + " counter_number=" + formatData(counter_number, 0) + ","
+                    + " power_join_nonstandart=" + formatData(power_join_nonstandart, 0) + ","
                     + " selectedValues=" +
                     formatData(request.getParameterValues("selectedValues")==null ? null :Arrays.toString(request.getParameterValues("selectedValues")).replaceAll("\\[|\\]", ""), 0) + ","
                     + " taxpayer=" + formatData(taxpayer, 0) + " " + " WHERE id=" + tu_id;
@@ -1314,6 +1318,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                     + ",isnull(convert(varchar(15),counter_type),'') as counter_type "
                     + ",isnull(convert(varchar(15),type_object),'') as type_object "
                     + ",isnull(convert(varchar(15),counter_number),'') as counter_number   "
+                    + ",isnull(convert(varchar(15),power_join_nonstandart),'') as power_join_nonstandart   "
                     + " FROM TC_V2 WHERE " + tu_id + "=id";
 
             pstmt = Conn.prepareStatement(sql);
@@ -1537,6 +1542,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
                 replace_wire = rs.getString("replace_wire");
                 replace_opora = rs.getString("replace_opora");
                 counter_number = rs.getString("counter_number");
+                power_join_nonstandart = rs.getString("power_join_nonstandart");
                 counter_type = rs.getString("counter_type");
                 type_object = rs.getString("type_object");
             }
@@ -1979,6 +1985,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         replace_opora = null;
         counter_type = null;
         counter_number = null;
+        power_join_nonstandart = null;
         type_object = null;
         ntypical_agreement_date = null;
         reliabylity_class_2 = false;
@@ -2894,6 +2901,14 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
 
     public String getFunctional_target() {
         return functional_target;
+    }
+
+    public String getPower_join_nonstandart() {
+        return power_join_nonstandart;
+    }
+
+    public void setPower_join_nonstandart(String power_join_nonstandart) {
+        this.power_join_nonstandart = power_join_nonstandart;
     }
 
     public void setFunctional_target(String functional_target) {

@@ -75,6 +75,10 @@
                 <td>Сума оплати у випадку відмінності від вартості плати за приєднання, тис. грн.</td>
                 <td><html:text name="DetalViewActionForm" property="sum_other_price_ns"/></td>
             </tr>
+            <tr>
+                <td>Потужність(нестандартне(Поле тільки для читання))</td>
+                <td><input type="text" id="power_join_nonstandart" readonly="true"/></td>
+            </tr>
         </table>
 
 
