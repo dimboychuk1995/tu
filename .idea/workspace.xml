@@ -8,113 +8,15 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d60e3da4-69bb-452d-afdc-552bf0a4003e" name="Default" comment="proterminovani zovn">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/AppealsImport.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/AppealsImport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/AppealsImport.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/AppealsImport.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/AuthFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/AuthFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/AuthFilter.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/AuthFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/CharEncodingFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/CharEncodingFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/CharEncodingFilter.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/CharEncodingFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/CirilicForRTFformat.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/CirilicForRTFformat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/CirilicForRTFformat.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/CirilicForRTFformat.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/CodePageCirilRTF.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/CodePageCirilRTF.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/CodePageCirilRTF.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/CodePageCirilRTF.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/ComboBoxList.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/ComboBoxList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/ComboBoxList.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/ComboBoxList.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/DBHelper.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/DBHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/DBHelper.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/DBHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVAdmissionAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVAdmissionAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVAdmissionAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVAdmissionAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVAdmissionConnectionAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVAdmissionConnectionAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVAdmissionConnectionAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVAdmissionConnectionAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVCustomerAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVCustomerAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVCustomerAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVCustomerAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVDataobjectAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVDataobjectAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDataobjectAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDataobjectAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVDesignAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVDesignAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDesignAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVDesignAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVJoinPriceAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVJoinPriceAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVJoinPriceAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVJoinPriceAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVJoinPriceNSAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVJoinPriceNSAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVJoinPriceNSAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVJoinPriceNSAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVSupplychain.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVSupplychain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVSupplychain.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVSupplychain.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVVkbAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVVkbAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVVkbAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVVkbAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/DVtundAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/DVtundAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVtundAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/DVtundAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/DataBase.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/DataBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/DataBase.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/DataBase.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewStrutsAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewStrutsAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewStrutsAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewStrutsAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DictionariAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DictionariAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DictionariAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DictionariAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DictionariActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DictionariActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DictionariActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DictionariActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/oe/tu/excel/ExportAllRemsXLS.class" afterPath="$PROJECT_DIR$/target/classes/oe/tu/excel/ExportAllRemsXLS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/oe/tu/excel/ExportAllRemsXLS.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/oe/tu/excel/ExportAllRemsXLS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/GetListElement.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/GetListElement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/GetListElement.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/GetListElement.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/GetMainGrid.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/GetMainGrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/GetMainGrid.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/GetMainGrid.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/GetRTR.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tu/ajax/GetRTR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/GetRTR.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tu/ajax/GetRTR.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/History.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/History.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/ListMaker.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/ListMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/ListMaker.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/ListMaker.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSuppluChAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSuppluChAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSuppluChAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSuppluChAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSupplyChForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSupplyChForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSupplyChForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSupplyChForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MailSender.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MailSender.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MailSender.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MaskFilter.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MaskFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MaskFilter.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MaskFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MyCoocie.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/MyCoocie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MyCoocie.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/MyCoocie.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/Row.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/Row.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/Row.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/Row.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/SQLUtils.class" afterPath="$PROJECT_DIR$/target/classes/ua/ifr/oe/tc/list/SQLUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/SQLUtils.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/ua/ifr/oe/tc/list/SQLUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/filter/UserAuthFilter.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/filter/UserAuthFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/filter/UserAuthFilter.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/filter/UserAuthFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/searchAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/searchAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/searchAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/searchAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/tu/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/META-INF/context.xml" afterPath="$PROJECT_DIR$/target/tu/META-INF/context.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/dataobjects2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/dataobjects2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/detailedview/dataobjects2.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/detailedview/dataobjects2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/fiz.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/fiz.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/blank/dog_join/fiz.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/blank/dog_join/fiz.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/detailedview/join_price_ns.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/detailedview/join_price_ns.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/jur.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/jur.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/blank/dog_join/jur.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/blank/dog_join/jur.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/login.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/login.jsp" />
+    <list default="true" id="d60e3da4-69bb-452d-afdc-552bf0a4003e" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\work\workdirectory\tu\target\classes\com\myapp\struts\loginAction.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/detalview/action/FileUploadAction.class" afterPath="$PROJECT_DIR$/target/classes/detalview/action/FileUploadAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/FileUploadAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/detalview/action/FileUploadAction.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/FileUploadForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/FileUploadForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/FileUploadForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/FileUploadForm.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myapp/struts/loginActionForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/myapp/struts/loginActionForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tu.iml" afterPath="$PROJECT_DIR$/tu.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/tu_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/tu_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java" afterPath="$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tu.iws" />
@@ -162,8 +64,8 @@
       <file leaf-file-name="loginAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/loginAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="1105">
-              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="290" max-vertical-offset="1105">
+              <caret line="37" column="24" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -175,18 +77,6 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="969">
               <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68726593" vertical-offset="823" max-vertical-offset="1717">
-              <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-              <folding>
-                <marker date="1483434771911" expanded="true" signature="506:627" placeholder="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -204,25 +94,25 @@
       <file leaf-file-name="loginActionForm.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/loginActionForm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="3145">
-              <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="3162">
+              <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
               <folding>
-                <element signature="e#3407#3408#0" expanded="true" />
-                <element signature="e#3433#3434#0" expanded="true" />
-                <element signature="e#4300#4301#0" expanded="true" />
-                <element signature="e#4331#4332#0" expanded="true" />
-                <element signature="e#4414#4415#0" expanded="true" />
-                <element signature="e#4447#4448#0" expanded="true" />
+                <element signature="e#3445#3446#0" expanded="true" />
+                <element signature="e#3471#3472#0" expanded="true" />
+                <element signature="e#4338#4339#0" expanded="true" />
+                <element signature="e#4369#4370#0" expanded="true" />
+                <element signature="e#4452#4453#0" expanded="true" />
+                <element signature="e#4485#4486#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="md5ApacheCl.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="md5ApacheCl.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="560">
+              <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -299,10 +189,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/dataobjects2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/report/AJAX/db_8.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/loginAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/loginActionForm.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
       </list>
     </option>
   </component>
@@ -1293,7 +1183,7 @@
       <workItem from="1482243942108" duration="7552000" />
       <workItem from="1482486122695" duration="2109000" />
       <workItem from="1482737949096" duration="1823000" />
-      <workItem from="1483425462899" duration="7624000" />
+      <workItem from="1483425462899" duration="8050000" />
     </task>
     <task id="LOCAL-00001" summary="many large commit">
       <created>1452678557216</created>
@@ -1313,11 +1203,17 @@
       <option name="project" value="LOCAL" />
       <updated>1455272408839</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="zvit N8">
+      <created>1483434928444</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1483434928444</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="627388000" />
+    <option name="totallyTimeSpent" value="627814000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1352,6 +1248,7 @@
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Struts Assistant" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32980332" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1373,7 +1270,6 @@
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19249593" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27320674" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1432,7 +1328,8 @@
     </option>
     <MESSAGE value="many large commit" />
     <MESSAGE value="proterminovani zovn" />
-    <option name="LAST_COMMIT_MESSAGE" value="proterminovani zovn" />
+    <MESSAGE value="zvit N8" />
+    <option name="LAST_COMMIT_MESSAGE" value="zvit N8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1445,13 +1342,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tu.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.08306189" vertical-offset="0" max-vertical-offset="614">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/log4j-1.2.14.jar!/org/apache/log4j/Category.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34634975" vertical-offset="1411" max-vertical-offset="6239">
@@ -1789,26 +1679,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2737">
           <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/filter/UserAuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="969">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
           <folding />
         </state>
       </provider>
@@ -1821,36 +1695,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.68726593" vertical-offset="823" max-vertical-offset="1717">
+          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
+          <folding>
+            <marker date="1483434771911" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/filter/UserAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="969">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/struts-core-1.3.8.jar!/org/apache/struts/config/ActionForwardFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.1906542" vertical-offset="0" max-vertical-offset="595">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/loginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="1105">
-          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="86" max-vertical-offset="1105">
+          <caret line="37" column="24" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/loginActionForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="358" max-vertical-offset="3145">
-          <caret line="53" column="42" selection-start-line="53" selection-start-column="42" selection-end-line="53" selection-end-column="42" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="3162">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
-            <element signature="e#3407#3408#0" expanded="true" />
-            <element signature="e#3433#3434#0" expanded="true" />
-            <element signature="e#4300#4301#0" expanded="true" />
-            <element signature="e#4331#4332#0" expanded="true" />
-            <element signature="e#4414#4415#0" expanded="true" />
-            <element signature="e#4447#4448#0" expanded="true" />
+            <element signature="e#3445#3446#0" expanded="true" />
+            <element signature="e#3471#3472#0" expanded="true" />
+            <element signature="e#4338#4339#0" expanded="true" />
+            <element signature="e#4369#4370#0" expanded="true" />
+            <element signature="e#4452#4453#0" expanded="true" />
+            <element signature="e#4485#4486#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68726593" vertical-offset="823" max-vertical-offset="1717">
-          <caret line="70" column="34" selection-start-line="70" selection-start-column="34" selection-end-line="70" selection-end-column="34" />
-          <folding>
-            <marker date="1483434771911" expanded="true" signature="506:627" placeholder="..." />
-          </folding>
+        <state vertical-scroll-proportion="0.425" vertical-offset="0" max-vertical-offset="560">
+          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -48,6 +48,7 @@ public class loginActionForm extends org.apache.struts.action.ActionForm {
         Connection conn = ds.getConnection();
         PreparedStatement pstmt = conn.prepareStatement("{call dbo.TC_LOGIN(?,?,?)}");
         //System.out.println(md5ApacheCl.md5Apache("myPass"));
+        System.out.println("ppprrr");
         pstmt.setString(1, user);
         pstmt.setString(2, password);
         pstmt.setString(3, rem );

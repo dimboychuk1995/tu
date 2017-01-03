@@ -13,14 +13,4 @@ public class md5ApacheCl {
 
     return md5Hex;
   }
-
-  public void test() {
-    String pass = "thisMyPass";
-    System.out.println("");
-    System.out.println("");
-    System.out.println("");
-    System.out.println("");
-    System.out.println("");
-    System.out.println(md5ApacheCl.md5Apache(pass));
-  }
 }
