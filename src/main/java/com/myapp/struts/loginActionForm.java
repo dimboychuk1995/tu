@@ -47,10 +47,16 @@ public class loginActionForm extends org.apache.struts.action.ActionForm {
         DataSource ds = (DataSource)ic.lookup("java:comp/env/jdbc/TUWeb");
         Connection conn = ds.getConnection();
         PreparedStatement pstmt = conn.prepareStatement("{call dbo.TC_LOGIN(?,?,?)}");
-        //System.out.println(md5ApacheCl.md5Apache("myPass"));
-        System.out.println("ppprrr");
+
+        //md5ApacheCl.md5Apache();
+        System.out.println(password);
+
         pstmt.setString(1, user);
-        pstmt.setString(2, password);
+        if(password == null) {
+            pstmt.setString(2, null);
+        }else if (password != null){
+            pstmt.setString(2, password);
+        }
         pstmt.setString(3, rem );
         ResultSet rs=pstmt.executeQuery();
         rs.next();
@@ -191,7 +197,7 @@ public class loginActionForm extends org.apache.struts.action.ActionForm {
      * @param string
      */
     public void setPassword(String string) {
-        password = string;
+        password = md5ApacheCl.md5Apache(string);
     }
 
     /**

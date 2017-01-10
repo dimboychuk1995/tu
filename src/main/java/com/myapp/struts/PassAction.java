@@ -5,6 +5,7 @@
 
 package com.myapp.struts;
 
+import Utils.md5ApacheCl;
 import org.apache.struts.action.ActionForm;
 import org.apache.struts.action.ActionForward;
 import org.apache.struts.action.ActionMapping;
@@ -47,9 +48,9 @@ public class PassAction extends org.apache.struts.action.Action {
             Connection Conn = ds.getConnection();
             PreparedStatement pstmt = Conn.prepareStatement("{call dbo.TC_CH_PSWD(?,?,?,?)}");
             pstmt.setString(1, pass.getUser_name());
-            pstmt.setString(2, pass.getUser_pass());
-            pstmt.setString(3, pass.getNew_user_pass());
-            pstmt.setString(4, pass.getRnew_user_pass());
+            pstmt.setString(2, md5ApacheCl.md5Apache(pass.getUser_pass()));
+            pstmt.setString(3, md5ApacheCl.md5Apache(pass.getNew_user_pass()));
+            pstmt.setString(4, md5ApacheCl.md5Apache(pass.getRnew_user_pass()));
             //Якщо додати параметр (номер рему), то процедура не буде виконуватись для рористувачв в яких rem_id = 0
             //pstmt.setString(5, pass.getUser_id_rem());
             pstmt.executeUpdate();
