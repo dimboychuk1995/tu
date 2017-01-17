@@ -9,28 +9,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d60e3da4-69bb-452d-afdc-552bf0a4003e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/savePassImg/1.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/savePassImg/2.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/savePassImg/3.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/savePassImg/4.PNG" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/save_password.jsp" />
-      <change type="DELETED" beforePath="D:\work\workdirectory\tu\src\main\java\oblenergo\users\UserController.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/oe/tu/excel/ExportAllRemsXLS.class" afterPath="$PROJECT_DIR$/target/classes/oe/tu/excel/ExportAllRemsXLS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/oe/tu/excel/ExportAllRemsXLS.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/oe/tu/excel/ExportAllRemsXLS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/History.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/History.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSupplyChForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSupplyChForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSupplyChForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSupplyChForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/oe/tu/excel/ExportAllRemsXLS.java" afterPath="$PROJECT_DIR$/src/main/java/oe/tu/excel/ExportAllRemsXLS.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myapp/struts/History.java" afterPath="$PROJECT_DIR$/src/main/java/com/myapp/struts/History.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/savePassImg/1.PNG" afterPath="$PROJECT_DIR$/src/main/webapp/savePassImg/1.PNG" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/login.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/save_password.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/save_password.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tu.iws" />
@@ -78,10 +59,10 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.44767442" vertical-offset="568" max-vertical-offset="1734">
-              <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+            <state vertical-scroll-proportion="0.540856" vertical-offset="742" max-vertical-offset="1734">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
               <folding>
-                <marker date="1484642639533" expanded="true" signature="506:627" placeholder="..." />
+                <marker date="1484645476446" expanded="true" signature="506:627" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -90,8 +71,8 @@
       <file leaf-file-name="save_password.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/save_password.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
-              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
+              <caret line="15" column="249" selection-start-line="15" selection-start-column="249" selection-end-line="15" selection-end-column="249" />
               <folding />
             </state>
           </provider>
@@ -121,7 +102,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/ajax/checkDodDeal.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/msupplych/new.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/css/login.css" />
@@ -171,6 +151,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/History.java" />
         <option value="$PROJECT_DIR$/src/main/java/oblenergo/users/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/help/save_password.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/save_password.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
       </list>
     </option>
@@ -319,6 +300,32 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="savePassImg" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -363,6 +370,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\workdirectory\tu\src\main\webapp\savePassImg" />
       <recent name="D:\work\workdirectory\tu\src\main\webapp" />
       <recent name="D:\work\workdirectory\tu\src\main\webapp\frame" />
       <recent name="D:\work\workdirectory\tu\src\main\webapp\files\savePass" />
@@ -933,7 +941,7 @@
       <workItem from="1484203652551" duration="2606000" />
       <workItem from="1484546972321" duration="6062000" />
       <workItem from="1484637983116" duration="2863000" />
-      <workItem from="1484642499032" duration="144000" />
+      <workItem from="1484642499032" duration="1563000" />
     </task>
     <task id="LOCAL-00001" summary="many large commit">
       <created>1452678557216</created>
@@ -969,7 +977,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="656775000" />
+    <option name="totallyTimeSpent" value="658194000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -993,7 +1001,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1016,9 +1024,9 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39873418" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4008439" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2721519" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729166" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729166" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28895614" sideWeight="0.5008026" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -1375,6 +1383,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
           <caret line="38" column="152" selection-start-line="38" selection-start-column="152" selection-end-line="38" selection-end-column="152" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1410,6 +1419,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.4858694" vertical-offset="11798" max-vertical-offset="52972">
           <caret line="358" column="31" selection-start-line="358" selection-start-column="31" selection-end-line="358" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1417,6 +1427,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.1456522" vertical-offset="1207" max-vertical-offset="7293">
           <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1431,6 +1442,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
           <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1445,6 +1457,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="3162">
           <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1458,18 +1471,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/save_password.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="391">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="476">
+          <caret line="15" column="249" selection-start-line="15" selection-start-column="249" selection-end-line="15" selection-end-column="249" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44767442" vertical-offset="568" max-vertical-offset="1734">
-          <caret line="47" column="32" selection-start-line="47" selection-start-column="32" selection-end-line="47" selection-end-column="32" />
+        <state vertical-scroll-proportion="0.540856" vertical-offset="742" max-vertical-offset="1734">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
           <folding>
-            <marker date="1484642639533" expanded="true" signature="506:627" placeholder="..." />
+            <marker date="1484645476446" expanded="true" signature="506:627" placeholder="..." />
           </folding>
         </state>
       </provider>
