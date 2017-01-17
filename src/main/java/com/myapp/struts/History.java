@@ -20,7 +20,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
-public class History {
+public class   History {
 
     private String id;
     private String tc_id;

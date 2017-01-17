@@ -31,7 +31,8 @@ import java.util.ArrayList;
  *
  * @author us8610
  */
-public class ExportAllRemsXLS extends HttpServlet {
+public class
+        ExportAllRemsXLS extends HttpServlet {
 
     /**
      * Processes requests for both HTTP
