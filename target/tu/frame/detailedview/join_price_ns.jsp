@@ -56,7 +56,6 @@
                         $("#pdv1").attr("value",parseFloat(data.price_el_dev_1*.2).toFixed(2));
                         $("#price_join_nsj").attr("value",(parseFloat(data.price_el_dev*1.2).toFixed(2)));
                         $("#price_join_nsj1").attr("value",(parseFloat(data.price_el_dev_1*1.2).toFixed(2)));
-
                     }
                 })};
         </script>

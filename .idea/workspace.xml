@@ -9,28 +9,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d60e3da4-69bb-452d-afdc-552bf0a4003e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/ChangestuForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/ChangestuForm.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/oe/tu/excel/ExportAllRemsXLS.class" afterPath="$PROJECT_DIR$/target/classes/oe/tu/excel/ExportAllRemsXLS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/oe/tu/excel/ExportAllRemsXLS.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/oe/tu/excel/ExportAllRemsXLS.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/History.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/History.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/History.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSupplyChForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/MSupplyChForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSupplyChForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/MSupplyChForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/PassAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/PassAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginAction.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginAction.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginAction.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/loginActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/loginActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/login.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/blank/calc_ns_join_2.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/blank/calc_ns_join_2.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/letter/dod_deal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/letter/dod_deal.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/ajax/join_price_calc_ns_b.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/ajax/join_price_calc_ns_b.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/detailedview/join_price_ns.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/detailedview/join_price_ns.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_bm/jur.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_bm/jur.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/mainlayot.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/mainlayot.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/prod.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/prod.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/help/vvid.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/help/vvid.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp" />
     </list>
     <ignored path="tu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,44 +79,106 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
+      <file leaf-file-name="jur.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.0" vertical-offset="812" max-vertical-offset="1734">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2309" max-vertical-offset="5372">
+              <caret line="148" column="244" selection-start-line="148" selection-start-column="244" selection-end-line="148" selection-end-column="244" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dod_deal.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2581" max-vertical-offset="5219">
+              <caret line="164" column="207" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dodatki.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.9615383" vertical-offset="19938" max-vertical-offset="23120">
+              <caret line="1185" column="245" selection-start-line="1185" selection-start-column="245" selection-end-line="1185" selection-end-column="245" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roz_join.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2989" max-vertical-offset="5338">
+              <caret line="188" column="512" selection-start-line="188" selection-start-column="512" selection-end-line="188" selection-end-column="512" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dod_deal.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/letter/dod_deal.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2581" max-vertical-offset="5236">
+              <caret line="164" column="207" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dodatki.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.6538463" vertical-offset="19028" max-vertical-offset="29512">
+              <caret line="1131" column="101" selection-start-line="1131" selection-start-column="101" selection-end-line="1131" selection-end-column="101" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="prod.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/prod.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-8.153846" vertical-offset="1896" max-vertical-offset="3995">
+              <caret line="124" column="59" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="roz_join.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2989" max-vertical-offset="5406">
+              <caret line="188" column="513" selection-start-line="188" selection-start-column="513" selection-end-line="188" selection-end-column="513" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zmin.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2853" max-vertical-offset="5423">
+              <caret line="180" column="16" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
               <folding>
-                <marker date="1484900649114" expanded="true" signature="506:627" placeholder="..." />
+                <marker date="1488357438074" expanded="true" signature="1016:2285" placeholder="SELECT TC_V2..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mainlayot.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp">
+      <file leaf-file-name="jur.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8183183" vertical-offset="2294" max-vertical-offset="3230">
-              <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="save_password.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/save_password.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="476">
-              <caret line="15" column="249" selection-start-line="15" selection-start-column="249" selection-end-line="15" selection-end-column="249" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vvid.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="0.34673366" vertical-offset="1765" max-vertical-offset="3893">
+              <caret line="116" column="122" selection-start-line="116" selection-start-column="122" selection-end-line="116" selection-end-column="122" />
+              <folding>
+                <marker date="1488357447311" expanded="true" signature="937:1922" placeholder="SELECT TC_V2..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -130,21 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/msupplych/new.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/login.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/word_page_format.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/DKEE/agreement_on_the_use_of_electricity.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/Temp.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/xls_all.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/xls_vkb_from14.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join_nonstandart/jur.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join_nonstandart/fiz.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/xls_info.jsp" />
-        <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join/fiz.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join/jur.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/rem.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/update.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Model/User.java" />
@@ -164,8 +216,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/vkb_tab.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/fiz.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/jur.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/dataobjects2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/report/AJAX/db_8.jsp" />
@@ -179,8 +229,25 @@
         <option value="$PROJECT_DIR$/src/main/java/oblenergo/users/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/help/save_password.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/save_password.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_bm/jur.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/letter/dod_deal.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/prod.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp" />
       </list>
     </option>
   </component>
@@ -271,6 +338,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -334,7 +402,101 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="savePassImg" />
+              <option name="myItemId" value="frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detailedview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="detailedview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frame" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ajax" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -356,9 +518,90 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="struts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tu" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="myapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -372,7 +615,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BillingReport" />
-    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
@@ -970,7 +1213,11 @@
       <workItem from="1484546972321" duration="6062000" />
       <workItem from="1484637983116" duration="2863000" />
       <workItem from="1484642499032" duration="3278000" />
-      <workItem from="1484900630297" duration="133000" />
+      <workItem from="1484900630297" duration="21100000" />
+      <workItem from="1485411124828" duration="6620000" />
+      <workItem from="1487152059637" duration="1645000" />
+      <workItem from="1488180613425" duration="3961000" />
+      <workItem from="1488356537655" duration="914000" />
     </task>
     <task id="LOCAL-00001" summary="many large commit">
       <created>1452678557216</created>
@@ -1006,7 +1253,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="660042000" />
+    <option name="totallyTimeSpent" value="694149000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1053,13 +1300,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4008439" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39662448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2721519" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729166" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28895614" sideWeight="0.5008026" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24050634" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29957807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1136,378 +1383,397 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dic_ps.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/xls_nastya.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="572">
+        <state vertical-scroll-proportion="-0.38910505" vertical-offset="200" max-vertical-offset="1377">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/struts-config.xml">
-      <provider editor-type-id="com.intellij.struts.diagram.DiagramEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/xls_all.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="3383">
-          <caret line="15" column="73" selection-start-line="15" selection-start-column="73" selection-end-line="15" selection-end-column="73" />
+        <state vertical-scroll-proportion="-0.23752496" vertical-offset="1020" max-vertical-offset="4896">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/users/users.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="1479">
-          <caret line="57" column="35" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.44111776" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/jsonDelete/jsonDeleteUser.js">
+    <entry file="jar://C:/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.12934783" vertical-offset="0" max-vertical-offset="920">
-          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3811074" vertical-offset="848" max-vertical-offset="1462">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36956522" vertical-offset="969" max-vertical-offset="52173">
+          <caret line="112" column="51" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/menuClick126.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResource_uk_UA.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9076396" vertical-offset="1673" max-vertical-offset="2550">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.140251" vertical-offset="1877" max-vertical-offset="2754">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/FileUploadForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="454" max-vertical-offset="2380">
-          <caret line="64" column="51" selection-start-line="64" selection-start-column="51" selection-end-line="64" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/op_lyst/jur.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.92674" vertical-offset="510" max-vertical-offset="3400">
-          <caret line="124" column="23" selection-start-line="124" selection-start-column="23" selection-end-line="124" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/FileUpload/delete.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537" vertical-offset="0" max-vertical-offset="731">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/detalview/action/FileUploadAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="63" max-vertical-offset="1649">
-          <caret line="43" column="27" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/FileUpload/fileupload.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.664966" vertical-offset="306" max-vertical-offset="2465">
-          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/appeals.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1581" max-vertical-offset="4114">
-          <caret line="114" column="36" selection-start-line="114" selection-start-column="36" selection-end-line="114" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/admission.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.83935744" vertical-offset="267" max-vertical-offset="3366">
-          <caret line="28" column="25" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/CharEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.7236364" vertical-offset="19" max-vertical-offset="646">
-          <caret line="35" column="0" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.509091" vertical-offset="834" max-vertical-offset="4437">
-          <caret line="141" column="40" selection-start-line="141" selection-start-column="40" selection-end-line="141" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/fiz.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.961538" vertical-offset="2997" max-vertical-offset="5338">
-          <caret line="190" column="20" selection-start-line="190" selection-start-column="20" selection-end-line="190" selection-end-column="214" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/jur.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37459806" vertical-offset="2997" max-vertical-offset="5610">
-          <caret line="190" column="85" selection-start-line="190" selection-start-column="85" selection-end-line="190" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/vkb_tab.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75247526" vertical-offset="2757" max-vertical-offset="4029">
-          <caret line="189" column="62" selection-start-line="189" selection-start-column="62" selection-end-line="189" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/tab.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1939" max-vertical-offset="10591">
-          <caret line="127" column="49" selection-start-line="127" selection-start-column="49" selection-end-line="127" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.3232663" vertical-offset="585" max-vertical-offset="2550">
-          <caret line="104" column="37" selection-start-line="104" selection-start-column="37" selection-end-line="104" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/dataobjects2.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7964427" vertical-offset="4595" max-vertical-offset="6596">
-          <caret line="294" column="52" selection-start-line="294" selection-start-column="52" selection-end-line="294" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/report/AJAX/db_8.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31338027" vertical-offset="872" max-vertical-offset="2516">
-          <caret line="67" column="41" selection-start-line="67" selection-start-column="41" selection-end-line="67" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk1.8.0_101/src.zip!/java/util/logging/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51607144" vertical-offset="0" max-vertical-offset="560">
-          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/struts-core-1.3.8.jar!/org/apache/struts/config/ActionForwardFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1906542" vertical-offset="0" max-vertical-offset="595">
-          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/struts-core-1.3.8.jar!/org/apache/struts/action/ActionForm.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1906542" vertical-offset="0" max-vertical-offset="901">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/filter/UserAuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5523466" vertical-offset="255" max-vertical-offset="969">
-          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="1148" max-vertical-offset="2125">
+          <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.079422385" vertical-offset="109" max-vertical-offset="663">
-          <caret line="18" column="39" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="39" />
+        <state vertical-scroll-proportion="0.572327" vertical-offset="27" max-vertical-offset="663">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/pswd.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="680">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.018478261" vertical-offset="357" max-vertical-offset="2737">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/PassActionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14782609" vertical-offset="0" max-vertical-offset="920">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/contex.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20326087" vertical-offset="0" max-vertical-offset="920">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/PassAction.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/filter/UserAuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
-          <caret line="31" column="45" selection-start-line="31" selection-start-column="45" selection-end-line="31" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/pass.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="238">
-          <caret line="8" column="33" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/report/AJAX/db_9.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.276958" vertical-offset="1252" max-vertical-offset="3995">
-          <caret line="88" column="8" selection-start-line="88" selection-start-column="8" selection-end-line="88" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <caret line="38" column="152" selection-start-line="38" selection-start-column="152" selection-end-line="38" selection-end-column="152" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="1836">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tc/list/CodePageCirilRTF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tc/list/ComboBoxList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="765">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tc/list/CirilicForRTFformat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.7576087" vertical-offset="867" max-vertical-offset="2516">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.4858694" vertical-offset="11798" max-vertical-offset="52972">
-          <caret line="358" column="31" selection-start-line="358" selection-start-column="31" selection-end-line="358" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oe/tu/excel/ExportAllRemsXLS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.1456522" vertical-offset="1207" max-vertical-offset="7293">
-          <caret line="34" column="8" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25869566" vertical-offset="0" max-vertical-offset="920">
-          <caret line="14" column="3" selection-start-line="14" selection-start-column="3" selection-end-line="14" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/History.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <caret line="42" column="41" selection-start-line="42" selection-start-column="41" selection-end-line="42" selection-end-column="41" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/loginAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="185" max-vertical-offset="1105">
+        <state vertical-scroll-proportion="0.0" vertical-offset="469" max-vertical-offset="1105">
           <caret line="40" column="26" selection-start-line="40" selection-start-column="26" selection-end-line="40" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/loginActionForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="3162">
+        <state vertical-scroll-proportion="0.35220125" vertical-offset="473" max-vertical-offset="3162">
           <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1003">
+        <state vertical-scroll-proportion="0.33226323" vertical-offset="133" max-vertical-offset="1462">
+          <caret line="20" column="25" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17085427" vertical-offset="901" max-vertical-offset="2533">
+          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30533484" vertical-offset="258" max-vertical-offset="1241">
+          <caret line="31" column="274" selection-start-line="31" selection-start-column="274" selection-end-line="31" selection-end-column="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.2847571" vertical-offset="255" max-vertical-offset="3417">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="62" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.40522134" vertical-offset="408" max-vertical-offset="1717">
+          <caret line="45" column="285" selection-start-line="45" selection-start-column="285" selection-end-line="45" selection-end-column="285" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/toolbar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="340">
+          <caret line="8" column="60" selection-start-line="8" selection-start-column="60" selection-end-line="8" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/dhxtoolbar_002.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14782609" vertical-offset="0" max-vertical-offset="920">
+          <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/grid.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34510434" vertical-offset="1298" max-vertical-offset="1921">
+          <caret line="89" column="127" selection-start-line="89" selection-start-column="127" selection-end-line="89" selection-end-column="127" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/common/xmlmaingrid.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34673366" vertical-offset="1578" max-vertical-offset="2329">
+          <caret line="105" column="119" selection-start-line="105" selection-start-column="119" selection-end-line="105" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8443396" vertical-offset="13022" max-vertical-offset="52972">
+          <caret line="850" column="3" selection-start-line="850" selection-start-column="3" selection-end-line="850" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResource.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3322091" vertical-offset="585" max-vertical-offset="2754">
+          <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0032787" vertical-offset="1600" max-vertical-offset="3230">
+          <caret line="166" column="28" selection-start-line="166" selection-start-column="28" selection-end-line="166" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17114094" vertical-offset="0" max-vertical-offset="894">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1292">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/form.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.007829977" vertical-offset="7" max-vertical-offset="1258">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0536913" vertical-offset="942" max-vertical-offset="2346">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/save_password.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="476">
-          <caret line="15" column="249" selection-start-line="15" selection-start-column="249" selection-end-line="15" selection-end-column="249" />
+        <state vertical-scroll-proportion="0.34733257" vertical-offset="0" max-vertical-offset="881">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/admission.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3389262" vertical-offset="1197" max-vertical-offset="3366">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/admissionAndConnection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="13.730769" vertical-offset="357" max-vertical-offset="2074">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/ajax.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="907">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/appeals.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6017897" vertical-offset="3220" max-vertical-offset="4114">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/checkform.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.1413043" vertical-offset="1970" max-vertical-offset="2890">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/js/myscript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/js/customer_01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/oe/tu/excel/ExportAllRemsXLS.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.6402173" vertical-offset="5661" max-vertical-offset="7293">
+          <caret line="161" column="27" selection-start-line="161" selection-start-column="27" selection-end-line="161" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8826087" vertical-offset="1885" max-vertical-offset="3978">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/customer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="5.5" vertical-offset="262" max-vertical-offset="3910">
+          <caret line="183" column="13" selection-start-line="183" selection-start-column="13" selection-end-line="183" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/js/multiedit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.59375" vertical-offset="17" max-vertical-offset="561">
+          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.0" vertical-offset="812" max-vertical-offset="1734">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+        <state vertical-scroll-proportion="-20.653847" vertical-offset="840" max-vertical-offset="1734">
+          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
           <folding>
-            <marker date="1484900649114" expanded="true" signature="506:627" placeholder="..." />
+            <marker date="1488356766427" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/DKEE/agreement_on_the_use_of_electric2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8183183" vertical-offset="2294" max-vertical-offset="3230">
-          <caret line="167" column="32" selection-start-line="167" selection-start-column="32" selection-end-line="167" selection-end-column="32" />
+        <state vertical-scroll-proportion="-8.153846" vertical-offset="2304" max-vertical-offset="8517">
+          <caret line="148" column="75" selection-start-line="148" selection-start-column="75" selection-end-line="148" selection-end-column="75" />
+          <folding>
+            <marker date="1478183602937" expanded="true" signature="-1:-1" placeholder="SELECT TOP 1..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6538463" vertical-offset="923" max-vertical-offset="2363">
+          <caret line="66" column="358" selection-start-line="66" selection-start-column="358" selection-end-line="66" selection-end-column="358" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_bm/jur.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9615383" vertical-offset="1799" max-vertical-offset="4267">
+          <caret line="118" column="130" selection-start-line="118" selection-start-column="130" selection-end-line="118" selection-end-column="130" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9615383" vertical-offset="2309" max-vertical-offset="5372">
+          <caret line="148" column="244" selection-start-line="148" selection-start-column="244" selection-end-line="148" selection-end-column="244" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9615383" vertical-offset="2581" max-vertical-offset="5219">
+          <caret line="164" column="207" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9615383" vertical-offset="19938" max-vertical-offset="23120">
+          <caret line="1185" column="245" selection-start-line="1185" selection-start-column="245" selection-end-line="1185" selection-end-column="245" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9615383" vertical-offset="2989" max-vertical-offset="5338">
+          <caret line="188" column="512" selection-start-line="188" selection-start-column="512" selection-end-line="188" selection-end-column="512" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/letter/dod_deal.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9615383" vertical-offset="2581" max-vertical-offset="5236">
+          <caret line="164" column="207" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.6538463" vertical-offset="19028" max-vertical-offset="29512">
+          <caret line="1131" column="101" selection-start-line="1131" selection-start-column="101" selection-end-line="1131" selection-end-column="101" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/prod.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.153846" vertical-offset="1896" max-vertical-offset="3995">
+          <caret line="124" column="59" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9615383" vertical-offset="2989" max-vertical-offset="5406">
+          <caret line="188" column="513" selection-start-line="188" selection-start-column="513" selection-end-line="188" selection-end-column="513" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.9615383" vertical-offset="2853" max-vertical-offset="5423">
+          <caret line="180" column="16" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
+          <folding>
+            <marker date="1488357438074" expanded="true" signature="1016:2285" placeholder="SELECT TC_V2..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34673366" vertical-offset="1765" max-vertical-offset="3893">
+          <caret line="116" column="122" selection-start-line="116" selection-start-column="122" selection-end-line="116" selection-end-column="122" />
+          <folding>
+            <marker date="1488357447311" expanded="true" signature="937:1922" placeholder="SELECT TC_V2..." />
+          </folding>
         </state>
       </provider>
     </entry>

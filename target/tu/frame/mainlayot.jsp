@@ -164,7 +164,7 @@
                     <option>2013</option>
                     <option>2014</option>
                     <option>2015</option>
-                    <option>2016</option>
+                    <opt    ion>2016</option>
                     <option>2017</option>
                 </select><br/>
                 <input type="button" id="excelExport2" value="Експортувати" style="margin-left: 40%;">

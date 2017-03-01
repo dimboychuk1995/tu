@@ -29,7 +29,7 @@
         ds = (DataSource) ic.lookup("java:comp/env/jdbc/" + db);
         c = ds.getConnection();
         String SQL = ""
-                + "SELECT ((ISNULL(tv.request_power, 0) - ISNULL(tv.power_old, 0))*250+ISNULL(tv.price_rec_build,0)+ISNULL(tv.fact_costs_build,0)-isnull(tv.devellopment_price,0)) as price_el_dev, \n"
+                + "SELECT ((((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0))))*250+ISNULL(tv.price_rec_build,0)+ISNULL(tv.fact_costs_build,0)-isnull(tv.devellopment_price,0)) as price_el_dev, \n"
                 + "ISNULL(cast(((ISNULL(tv.cap_costs_build,0)-ISNULL(tv.unmount_devices_price,0))/NULLIF(s.ps_10_inc_rez,0)) AS NUMERIC(10,2)),0) AS p_price_join, \n"
                 + "ISNULL(CAST(((ISNULL(tv.request_power,0)/NULLIF(tv.sum_join_pow,0))*(ISNULL(tv.rez_pow_for_date,0)*250+(ISNULL(tv.sum_join_pow,0)-ISNULL(tv.rez_pow_for_date,0))*ISNULL(cast(((ISNULL(tv.cap_costs_build,0)-ISNULL(tv.unmount_devices_price,0))/NULLIF(s.ps_10_inc_rez,0)) as numeric(10,2)),0)+ISNULL(tv.price_rec_build,0)+ISNULL(tv.fact_costs_build,0)-isnull(tv.devellopment_price,0)))AS NUMERIC(10,2)),0) AS price_el_dev_1 \n"
                 + ",ISNULL(CAST(((ISNULL(tv.request_power,0)/NULLIF(tv.sum_join_pow,0))* ((ISNULL(tv.sum_join_pow,0) -  ISNULL(s.ps_10_reserv,0))/(NULLIF(s.ps_10_inc_rez,0)))*ISNULL(tv.cap_costs_build,0)) AS NUMERIC(15,2)),0) AS customer_participate \n"

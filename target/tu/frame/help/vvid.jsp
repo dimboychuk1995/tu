@@ -11,7 +11,7 @@
       <li>Обрати РЕМ</li>
       <li>Вписати користувача</li>
       <li>Вписати пароль</li>
-      <li>Натиснути кнопку «Вхід», або Enter на       клавіатурі.</li>
+      <li>Натиснути кнопку «Вхід», або Enter на клавіатурі.</li>
     </ol>
     <p align="center">  <br>
         <img width="513" height="307" src="help/image/index_clip_image002_0000.jpg"></p>
