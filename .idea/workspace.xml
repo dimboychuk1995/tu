@@ -9,33 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d60e3da4-69bb-452d-afdc-552bf0a4003e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/classes/com/myapp/struts/DetalViewActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" afterPath="$PROJECT_DIR$/target/tu/WEB-INF/classes/com/myapp/struts/DetalViewActionForm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" afterPath="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/blank/calc_ns_join_2.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/blank/calc_ns_join_2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/letter/dod_deal.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/letter/dod_deal.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/ajax/join_price_calc_ns_b.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/ajax/join_price_calc_ns_b.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/detailedview/join_price_ns.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/detailedview/join_price_ns.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_bm/jur.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_bm/jur.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/mainlayot.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/mainlayot.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/login.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/login.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/prod.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/prod.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/tu/frame/help/vvid.jsp" afterPath="$PROJECT_DIR$/target/tu/frame/help/vvid.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp" />
     </list>
     <ignored path="tu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,105 +57,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jur.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp">
+      <file leaf-file-name="join_price_calc.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2309" max-vertical-offset="5372">
-              <caret line="148" column="244" selection-start-line="148" selection-start-column="244" selection-end-line="148" selection-end-column="244" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dod_deal.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2581" max-vertical-offset="5219">
-              <caret line="164" column="207" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dodatki.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383" vertical-offset="19938" max-vertical-offset="23120">
-              <caret line="1185" column="245" selection-start-line="1185" selection-start-column="245" selection-end-line="1185" selection-end-column="245" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roz_join.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2989" max-vertical-offset="5338">
-              <caret line="188" column="512" selection-start-line="188" selection-start-column="512" selection-end-line="188" selection-end-column="512" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dod_deal.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/letter/dod_deal.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2581" max-vertical-offset="5236">
-              <caret line="164" column="207" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dodatki.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6538463" vertical-offset="19028" max-vertical-offset="29512">
-              <caret line="1131" column="101" selection-start-line="1131" selection-start-column="101" selection-end-line="1131" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="prod.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/prod.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.153846" vertical-offset="1896" max-vertical-offset="3995">
-              <caret line="124" column="59" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="roz_join.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2989" max-vertical-offset="5406">
-              <caret line="188" column="513" selection-start-line="188" selection-start-column="513" selection-end-line="188" selection-end-column="513" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="zmin.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.9615383" vertical-offset="2853" max-vertical-offset="5423">
-              <caret line="180" column="16" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.4295302" vertical-offset="245" max-vertical-offset="1207">
+              <caret line="37" column="117" selection-start-line="37" selection-start-column="117" selection-end-line="37" selection-end-column="117" />
               <folding>
-                <marker date="1488357438074" expanded="true" signature="1016:2285" placeholder="SELECT TC_V2..." />
+                <marker date="1488791658085" expanded="true" signature="1426:2288" placeholder="SELECT CASE ..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jur.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp">
+      <file leaf-file-name="db_9.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/report/AJAX/db_9.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.34673366" vertical-offset="1765" max-vertical-offset="3893">
-              <caret line="116" column="122" selection-start-line="116" selection-start-column="122" selection-end-line="116" selection-end-column="122" />
+            <state vertical-scroll-proportion="-11.884615" vertical-offset="1918" max-vertical-offset="3995">
+              <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
               <folding>
-                <marker date="1488357447311" expanded="true" signature="937:1922" placeholder="SELECT TC_V2..." />
+                <marker date="1476806320248" expanded="true" signature="790:4192" placeholder="SELECT numbe..." />
+                <marker date="1476806320248" expanded="true" signature="2021:2121" placeholder="SELECT CASE ..." />
+                <marker date="1476806320248" expanded="true" signature="3094:3155" placeholder="SELECT CASE ..." />
               </folding>
             </state>
           </provider>
@@ -197,7 +97,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/edit.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/update.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/Model/User.java" />
         <option value="$PROJECT_DIR$/tu.properties" />
@@ -235,7 +134,6 @@
         <option value="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_bm/jur.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp" />
@@ -248,6 +146,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/roz_join.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/zmin.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog/jur.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc.jsp" />
       </list>
     </option>
   </component>
@@ -338,7 +238,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -602,6 +501,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -1217,7 +1117,8 @@
       <workItem from="1485411124828" duration="6620000" />
       <workItem from="1487152059637" duration="1645000" />
       <workItem from="1488180613425" duration="3961000" />
-      <workItem from="1488356537655" duration="914000" />
+      <workItem from="1488356537655" duration="5026000" />
+      <workItem from="1488788496491" duration="1667000" />
     </task>
     <task id="LOCAL-00001" summary="many large commit">
       <created>1452678557216</created>
@@ -1253,7 +1154,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="694149000" />
+    <option name="totallyTimeSpent" value="699928000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1300,13 +1201,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39662448" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.57403433" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2721519" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20729166" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22083333" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28895614" sideWeight="0.5008026" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29957807" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30472103" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1383,32 +1284,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/xls_nastya.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.38910505" vertical-offset="200" max-vertical-offset="1377">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/xls_all.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.23752496" vertical-offset="1020" max-vertical-offset="4896">
-          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/help/vvid.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.44111776" vertical-offset="0" max-vertical-offset="1003">
-          <caret line="13" column="48" selection-start-line="13" selection-start-column="48" selection-end-line="13" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Java/jdk1.8.0_101/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.36956522" vertical-offset="969" max-vertical-offset="52173">
           <caret line="112" column="51" selection-start-line="112" selection-start-column="49" selection-end-line="112" selection-end-column="51" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1416,13 +1295,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="1148" max-vertical-offset="2125">
           <caret line="80" column="30" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.572327" vertical-offset="27" max-vertical-offset="663">
-          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
         </state>
       </provider>
     </entry>
@@ -1525,7 +1397,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3322091" vertical-offset="585" max-vertical-offset="2754">
           <caret line="46" column="9" selection-start-line="46" selection-start-column="9" selection-end-line="46" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1540,7 +1411,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.17114094" vertical-offset="0" max-vertical-offset="894">
           <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1571,7 +1441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34733257" vertical-offset="0" max-vertical-offset="881">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1653,17 +1522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.59375" vertical-offset="17" max-vertical-offset="561">
           <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.653847" vertical-offset="840" max-vertical-offset="1734">
-          <caret line="81" column="32" selection-start-line="81" selection-start-column="32" selection-end-line="81" selection-end-column="32" />
-          <folding>
-            <marker date="1488356766427" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1671,9 +1529,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.153846" vertical-offset="2304" max-vertical-offset="8517">
           <caret line="148" column="75" selection-start-line="148" selection-start-column="75" selection-end-line="148" selection-end-column="75" />
-          <folding>
-            <marker date="1478183602937" expanded="true" signature="-1:-1" placeholder="SELECT TOP 1..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1681,7 +1537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.6538463" vertical-offset="923" max-vertical-offset="2363">
           <caret line="66" column="358" selection-start-line="66" selection-start-column="358" selection-end-line="66" selection-end-column="358" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1689,7 +1544,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9615383" vertical-offset="1799" max-vertical-offset="4267">
           <caret line="118" column="130" selection-start-line="118" selection-start-column="130" selection-end-line="118" selection-end-column="130" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1697,7 +1551,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9615383" vertical-offset="2309" max-vertical-offset="5372">
           <caret line="148" column="244" selection-start-line="148" selection-start-column="244" selection-end-line="148" selection-end-column="244" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1705,7 +1558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9615383" vertical-offset="2581" max-vertical-offset="5219">
           <caret line="164" column="207" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1713,7 +1565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9615383" vertical-offset="19938" max-vertical-offset="23120">
           <caret line="1185" column="245" selection-start-line="1185" selection-start-column="245" selection-end-line="1185" selection-end-column="245" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1721,7 +1572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9615383" vertical-offset="2989" max-vertical-offset="5338">
           <caret line="188" column="512" selection-start-line="188" selection-start-column="512" selection-end-line="188" selection-end-column="512" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1729,7 +1579,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9615383" vertical-offset="2581" max-vertical-offset="5236">
           <caret line="164" column="207" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1737,7 +1586,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.6538463" vertical-offset="19028" max-vertical-offset="29512">
           <caret line="1131" column="101" selection-start-line="1131" selection-start-column="101" selection-end-line="1131" selection-end-column="101" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1745,7 +1593,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.153846" vertical-offset="1896" max-vertical-offset="3995">
           <caret line="124" column="59" selection-start-line="124" selection-start-column="59" selection-end-line="124" selection-end-column="59" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1753,7 +1600,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9615383" vertical-offset="2989" max-vertical-offset="5406">
           <caret line="188" column="513" selection-start-line="188" selection-start-column="513" selection-end-line="188" selection-end-column="513" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1761,9 +1607,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.9615383" vertical-offset="2853" max-vertical-offset="5423">
           <caret line="180" column="16" selection-start-line="180" selection-start-column="16" selection-end-line="180" selection-end-column="16" />
-          <folding>
-            <marker date="1488357438074" expanded="true" signature="1016:2285" placeholder="SELECT TC_V2..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1771,8 +1615,52 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34673366" vertical-offset="1765" max-vertical-offset="3893">
           <caret line="116" column="122" selection-start-line="116" selection-start-column="122" selection-end-line="116" selection-end-column="122" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7861635" vertical-offset="622" max-vertical-offset="1615">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk1.8.0_101/src.zip!/java/util/logging/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4365559" vertical-offset="0" max-vertical-offset="662">
+          <caret line="40" column="17" selection-start-line="40" selection-start-column="17" selection-end-line="40" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/AuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.22960725" vertical-offset="1" max-vertical-offset="663">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/report/AJAX/db_9.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.884615" vertical-offset="1918" max-vertical-offset="3995">
+          <caret line="131" column="50" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
           <folding>
-            <marker date="1488357447311" expanded="true" signature="937:1922" placeholder="SELECT TC_V2..." />
+            <marker date="1476806320248" expanded="true" signature="790:4192" placeholder="SELECT numbe..." />
+            <marker date="1476806320248" expanded="true" signature="2021:2121" placeholder="SELECT CASE ..." />
+            <marker date="1476806320248" expanded="true" signature="3094:3155" placeholder="SELECT CASE ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.4295302" vertical-offset="245" max-vertical-offset="1207">
+          <caret line="37" column="117" selection-start-line="37" selection-start-column="117" selection-end-line="37" selection-end-column="117" />
+          <folding>
+            <marker date="1488791658085" expanded="true" signature="1426:2288" placeholder="SELECT CASE ..." />
           </folding>
         </state>
       </provider>

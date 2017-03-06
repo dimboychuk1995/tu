@@ -27,13 +27,6 @@
     </head>
 
     <body>
-    <%--<script type="text/javascript">--%>
-        <%--$(document).ready(function(){--%>
-            <%--$('#lang').on('change', function(){--%>
-                <%--$('.button_holder').children().eq(0).removeAttr('disabled');--%>
-            <%--});--%>
-        <%--});--%>
-    <%--</script>--%>
     <div id="element-box" class="login">
         <div class="container">
             <div class="row square_login">
