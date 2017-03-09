@@ -35,17 +35,17 @@
                 + "           @date_registarion<'23.01.2015'  THEN rate2014_2 "
                 + "	 WHEN @date_registarion>='23.01.2015' and "
                 + "           @date_registarion < '26.02.2016'  THEN rate2015 "
-                + "  WHEN @stage_join = 1 and @date_registarion >= '26.02.2016' and @date_registarion <= '06.03.2017' THEN rate2016_Ist"
+                + "  WHEN @stage_join = 1 and @date_registarion >= '26.02.2016' and @date_registarion < '06.03.2017' THEN rate2016_Ist"
                 + "  WHEN @stage_join = 2 and @date_registarion >= '26.02.2016' THEN rate2016_IIst"
-                + "  WHEN @stage_join = 1 and @date_registation >= '06.03.2017' THEN rate2016_Ist"
+                + "  WHEN @stage_join = 1 and @date_registarion >= '06.03.2017' THEN rate2017_Ist"
                 + "	 ELSE 0 "
                 + "	 END AS rate "
                 + "FROM   [TUWeb].[dbo].[rate_of_payment]"
                 + "WHERE  id = " + id;
-        //System.out.println(SQL);
+        System.out.println(SQL);
         pstmt = c.prepareStatement(SQL);
         rs = pstmt.executeQuery();
-        rate = "0";
+        //rate = "0";
         while (rs.next()) {
             rate = rs.getString("rate");
         }

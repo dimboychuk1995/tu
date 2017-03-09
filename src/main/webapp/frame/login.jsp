@@ -50,7 +50,7 @@
                                     <option value="210">Галицький</option>
                                     <option value="220">Городенківський</option>
                                     <option value="230">Долинський</option>
-                                    <option value="240">Івано-Франківський</option>
+                                    <%--<option value="240">Івано-Франківський</option>--%>
                                     <option value="250">Калуський</option>
                                     <option value="260">Коломийський М</option>
                                     <option value="270">Коломийський Р</option>
