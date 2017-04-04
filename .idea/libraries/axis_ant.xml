@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="axis-ant">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/sqljdbc4-4.0.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
