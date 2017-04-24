@@ -587,6 +587,14 @@
                             </div>
                         </td>
                     </tr>
+                    <tr>
+                        <td>Технічні рекомендації</td>
+                        <td>
+                            <div class="doc_vud">
+                                <a href="#" target="_blank" class="button_vudaty">Видати</a>
+                            </div>
+                        </td>
+                    </tr>
                     <logic:equal value="2" name="DetalViewActionForm" property="type_join">
                         <tr>
                             <td>Розрахунок нестандартного приєднання</td>
