@@ -568,14 +568,12 @@
                                            class="button_vudaty">Видати</a>
                                     </logic:equal>
                                     <logic:notEqual value="1" name="DetalViewActionForm" property="customer_soc_status">
-                                        <logic:notEqual value="6" name="DetalViewActionForm"
-                                                        property="customer_soc_status">
+                                        <logic:notEqual value="6" name="DetalViewActionForm" property="customer_soc_status">
                                             <a href="blank/akt/jur.jsp?tu_id=<%= tu_id%>" target="_blank"
                                                class="button_vudaty">Видати</a>
                                         </logic:notEqual>
                                     </logic:notEqual>
                                 </logic:equal>
-
                             </div>
                         </td>
                     </tr>
@@ -583,7 +581,7 @@
                         <td>Акт ОЗ</td>
                         <td>
                             <div class="doc_vud">
-                                <a href="blank/akt_oz.jsp?tu_id=<%= tu_id%>" target="_blank" class="button_vudaty">Видати</a>
+                                    <a href="blank/akt_oz.jsp?tu_id=<%= tu_id%>" target="_blank" class="button_vudaty">Видати</a>
                             </div>
                         </td>
                     </tr>
@@ -591,7 +589,16 @@
                         <td>Технічні рекомендації</td>
                         <td>
                             <div class="doc_vud">
-                                <a href="#" target="_blank" class="button_vudaty">Видати</a>
+                                <logic:equal value="7" name="DetalViewActionForm" property="stage_join">
+                                    <a href="blank/technical_advice/technical_advice_type2.jsp?tu_id<%= tu_id%>" target="_blank" class="button_vudaty">Видати</a>
+                                </logic:equal>
+                                <logic:notEqual value="7" name="DetalViewActionForm" property="stage_join">
+                                    <logic:notEqual value="1" name="DetalViewActionForm" property="stage_join">
+                                        <logic:notEqual value="2" name="DetalViewActionForm" property="stage_join">
+                                            <a href="blank/technical_advice/technical_advice_type1.jsp?tu_id<%= tu_id%>" target="_blank" class="button_vudaty">Видати</a>
+                                        </logic:notEqual>
+                                    </logic:notEqual>
+                                </logic:notEqual>
                             </div>
                         </td>
                     </tr>
