@@ -590,12 +590,12 @@
                         <td>
                             <div class="doc_vud">
                                 <logic:equal value="7" name="DetalViewActionForm" property="stage_join">
-                                    <a href="blank/technical_advice/technical_advice_type2.jsp?tu_id<%= tu_id%>" target="_blank" class="button_vudaty">Видати</a>
+                                    <a href="blank/technical_advice/technical_advice_type2.jsp?tu_id=<%= tu_id%>" target="_blank" class="button_vudaty">Видати</a>
                                 </logic:equal>
                                 <logic:notEqual value="7" name="DetalViewActionForm" property="stage_join">
                                     <logic:notEqual value="1" name="DetalViewActionForm" property="stage_join">
                                         <logic:notEqual value="2" name="DetalViewActionForm" property="stage_join">
-                                            <a href="blank/technical_advice/technical_advice_type1.jsp?tu_id<%= tu_id%>" target="_blank" class="button_vudaty">Видати</a>
+                                            <a href="blank/technical_advice/technical_advice_type1.jsp?tu_id=<%= tu_id%>" target="_blank" class="button_vudaty">Видати</a>
                                         </logic:notEqual>
                                     </logic:notEqual>
                                 </logic:notEqual>

@@ -1,8 +1,4 @@
-    <%--
-    Document   : fiz
-    Created on : 16 лют 2011, 16:18:59
-    Author     : AsuSV
---%>
+
 <%@page import="ua.ifr.oe.tc.list.SQLUtils"%>
 <%@ taglib uri="http://struts.apache.org/tags-bean" prefix="bean" %>
 <%@ taglib uri="http://struts.apache.org/tags-logic" prefix="logic"%>
