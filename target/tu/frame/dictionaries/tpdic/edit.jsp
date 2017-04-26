@@ -46,6 +46,7 @@
                         $("#ps_t2").attr("value",data.ps_t2);
                         $("#ps_nav").attr("value",data.ps_nav);
                         $("#edit_date").attr("value",data.edit_date);
+                        $("#isRTR").attr("value",data.isRTR);
                     }
                 });
             }
@@ -91,6 +92,10 @@
                         <td><input type="text" id="ps_nav" name="ps_nav"></td>
                     </tr>
                     <tr>
+                        <td style="width: 40%">Маршрутизатор(1 - наявний, 0 - без маршрутизатора)</td>
+                        <td><input type="text" id="isRTR" name="isRTR"></td>
+                    </tr>
+                    <tr>
                         <td style="width: 40%">Дата останнього редагування</td>
                         <td><input type="text" id="edit_date" name="edit_date" readonly="true"></td>
                     </tr>
@@ -130,6 +135,10 @@
                         <tr>
                             <td style="width: 40%">Максимальне навантаження, кВт</td>
                             <td><input type="text" id="ps_nav_add" name="ps_nav_add"></td>
+                        </tr>
+                        <tr>
+                            <td style="width: 40%">Маршрутизатор(1 - наявний, 0 - без маршрутизатора)</td>
+                            <td><input type="text" id="isRTR_add" name="isRTR"></td>
                         </tr>
                     </table>
                 </fieldset>

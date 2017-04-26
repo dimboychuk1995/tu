@@ -25,11 +25,12 @@
             String ps_nom_nav_2 = request.getParameter("ps_t2");
             String ps_nav = request.getParameter("ps_nav");
             String ps_id = request.getParameter("tplist");
+            String isRTR = request.getParameter("isRTR");
             InitialContext ic = new InitialContext();
             Connection c = null;
             CallableStatement st = null;
             DataSource ds = (DataSource) ic.lookup("java:comp/env/jdbc/TUWeb");
-            String insertStoreProc = "{call updateTP(?,?,?,?)}";
+            String insertStoreProc = "{call updateTP(?,?,?,?,?)}";
             try {
                 c = ds.getConnection();
                 st=c.prepareCall(insertStoreProc);
@@ -37,6 +38,7 @@
                 st.setString(2, ps_nom_nav.replace(",", "."));
                 st.setString(3, ps_nom_nav_2.replace(",", "."));
                 st.setString(4, ps_nav.replace(",", "."));
+                st.setInt(5, Integer.parseInt(isRTR));
                 st.executeUpdate();
             } catch (SQLException sqlex) {
                 sqlex.printStackTrace();

@@ -9,11 +9,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d60e3da4-69bb-452d-afdc-552bf0a4003e" name="Default" comment="1 step to hesh&#10;">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/tu/tu.war" afterPath="$PROJECT_DIR$/classes/artifacts/tu/tu.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join_nonstandart/jur.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join_nonstandart/jur.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type1.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type1.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type2.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type2.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/tab.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/tab.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/add.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/add.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/ajax_show.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/ajax_show.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/edit.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/edit.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/update.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/update.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
     </list>
     <ignored path="tu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,63 +51,54 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tab.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/tab.jsp">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="592" column="101" lean-forward="false" selection-start-line="592" selection-start-column="101" selection-end-line="592" selection-end-column="101" />
+            <state relative-caret-position="17">
+              <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+              <folding>
+                <marker date="1493197169788" expanded="true" signature="506:627" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/edit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="359">
+              <caret line="140" column="64" lean-forward="false" selection-start-line="140" selection-start-column="64" selection-end-line="140" selection-end-column="64" />
+              <folding>
+                <element signature="n#style#0;n#legend#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#fieldset#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ajax_show.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/ajax_show.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="57" column="41" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+              <folding>
+                <marker date="1493214635997" expanded="true" signature="1046:1233" ph="SELECT ps_no... ps_tu_web" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="add.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/add.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="218">
+              <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="technical_advice_type1.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type1.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2720">
-              <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
-              <folding>
-                <marker date="1493192013300" expanded="true" signature="1147:1537" ph="select \n\tT... " />
-                <marker date="1493192013300" expanded="true" signature="1147:5720" ph="select \n\tT... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="1147:5753" ph="select \n\tT... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="1490:1536" ph="select custo... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="1490:1537" ph="select custo... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="1674:1721" ph="select custo... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="1674:1758" ph="select custo... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="2009:2051" ph="select jurid... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="2009:2052" ph="select jurid... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="2181:2224" ph="select jurid... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="2391:2753" ph="select (TUWe... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="2985:3055" ph="select f_nam... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="2985:3091" ph="select f_nam... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="3256:3326" ph="select f_nam... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="3256:3363" ph="select f_nam... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="3463:3533" ph="select f_nam... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="3463:3570" ph="select f_nam... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="4487:4557" ph="select f_nam... TC_V2" />
-                <marker date="1493192013300" expanded="true" signature="4487:4594" ph="select f_nam... TC_V2" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="technical_advice_type2.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type2.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="207" column="43" lean-forward="false" selection-start-line="207" selection-start-column="43" selection-end-line="207" selection-end-column="43" />
-              <folding>
-                <marker date="1493193503401" expanded="true" signature="1147:5720" ph="select \n\tT... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="1490:1537" ph="select custo... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="1674:1721" ph="select custo... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="2009:2052" ph="select jurid... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="2181:2224" ph="select jurid... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="2391:2753" ph="select (TUWe... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="2985:3055" ph="select f_nam... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="3256:3326" ph="select f_nam... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="3463:3533" ph="select f_nam... TC_V2" />
-                <marker date="1493193503401" expanded="true" signature="4487:4557" ph="select f_nam... TC_V2" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -150,10 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/myapp/filter/UserAuthFilter.java" />
-        <option value="$PROJECT_DIR$/contex.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewStrutsAction.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/css/users.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/DKEE/agreement_on_the_use_of_electric2.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/jsonDelete/jsonDeleteUser.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/users/users.jsp" />
@@ -195,12 +185,16 @@
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/dodatki.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/jur.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/vts/pravoch/dodatki.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join_nonstandart/jur.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type1.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/tab.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type2.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/ajax_show.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/update.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/add.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/edit.jsp" />
       </list>
     </option>
   </component>
@@ -285,8 +279,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -373,7 +365,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blank" />
+              <option name="myItemId" value="dictionaries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -403,79 +395,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="blank" />
+              <option name="myItemId" value="dictionaries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="technical_advice" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tc_join_nonstandart" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tu" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frame" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="blank" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DKEE" />
+              <option name="myItemId" value="tpdic" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -690,6 +614,8 @@
         </subPane>
       </pane>
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1469,7 +1395,8 @@
       <workItem from="1491298316559" duration="48000" />
       <workItem from="1491298895044" duration="9999000" />
       <workItem from="1491392718542" duration="3954000" />
-      <workItem from="1493009263525" duration="21502000" />
+      <workItem from="1493009263525" duration="24367000" />
+      <workItem from="1493206795935" duration="5273000" />
     </task>
     <task id="LOCAL-00001" summary="many large commit">
       <created>1452678557216</created>
@@ -1510,7 +1437,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="742374000" />
+    <option name="totallyTimeSpent" value="750512000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1547,8 +1474,8 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38965154" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39176345" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27138332" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1635,69 +1562,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/js/customer_01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/oe/tu/excel/ExportAllRemsXLS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="161" column="27" lean-forward="false" selection-start-line="161" selection-start-column="27" selection-end-line="161" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/customer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="183" column="13" lean-forward="false" selection-start-line="183" selection-start-column="13" selection-end-line="183" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/js/multiedit.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="66" column="358" lean-forward="false" selection-start-line="66" selection-start-column="358" selection-end-line="66" selection-end-column="358" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_bm/jur.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="118" column="130" lean-forward="false" selection-start-line="118" selection-start-column="130" selection-end-line="118" selection-end-column="130" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join_nonstandart/jur.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="148" column="244" lean-forward="false" selection-start-line="148" selection-start-column="244" selection-end-line="148" selection-end-column="244" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/letter/dod_deal.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="164" column="207" lean-forward="false" selection-start-line="164" selection-start-column="207" selection-end-line="164" selection-end-column="207" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_ch/rem/pravoch/roz_join.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1758,14 +1622,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="118" column="68" lean-forward="false" selection-start-line="118" selection-start-column="68" selection-end-line="118" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="30" column="28" lean-forward="false" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1942,21 +1798,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="343" column="41" lean-forward="false" selection-start-line="343" selection-start-column="41" selection-end-line="343" selection-end-column="41" />
-          <folding>
-            <marker date="1485177963050" expanded="true" signature="14613:36034" ph="INSERT INTO " />
-            <marker date="1485177963050" expanded="true" signature="36598:37962" ph="SELECT isnul... " />
-            <marker date="1485177963050" expanded="true" signature="41051:58085" ph="UPDATE TC_V2... " />
-            <marker date="1485177963050" expanded="true" signature="59275:77673" ph="SELECT id,is... TC_V2" />
-            <marker date="1485177963050" expanded="true" signature="68256:68332" ph="select isnul... ps_tu_web" />
-            <marker date="1485177963050" expanded="true" signature="68404:68507" ph="select isnul... ps_tu_web" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/searchAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -1969,10 +1810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-459">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1476806319838" expanded="true" signature="1244:1787" ph="SELECT ISNUL... " />
-            <marker date="1476806319838" expanded="true" signature="6079:6391" ph="SELECT ISNUL... Split" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1980,9 +1817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="236">
           <caret line="26" column="45" lean-forward="true" selection-start-line="26" selection-start-column="45" selection-end-line="26" selection-end-column="45" />
-          <folding>
-            <marker date="1476806319923" expanded="true" signature="1239:12589" ph="SELECT TC_V2... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1990,9 +1824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="178" column="8" lean-forward="false" selection-start-line="178" selection-start-column="8" selection-end-line="185" selection-end-column="18" />
-          <folding>
-            <marker date="1493036329352" expanded="true" signature="1146:13129" ph="SELECT TC_V2... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2000,17 +1831,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="132" column="2" lean-forward="true" selection-start-line="132" selection-start-column="2" selection-end-line="132" selection-end-column="2" />
-          <folding>
-            <marker date="1478183602937" expanded="true" signature="942:8095" ph="SELECT TOP 1... rem" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/report/AJAX/db_8.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type2.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="83" column="2" lean-forward="false" selection-start-line="83" selection-start-column="2" selection-end-line="83" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="-51">
+          <caret line="207" column="43" lean-forward="false" selection-start-line="207" selection-start-column="43" selection-end-line="207" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2720">
+          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
         </state>
       </provider>
     </entry>
@@ -2022,49 +1856,123 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type1.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2720">
-          <caret line="5" column="52" lean-forward="true" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        <state relative-caret-position="476">
+          <caret line="373" column="14" lean-forward="false" selection-start-line="373" selection-start-column="14" selection-end-line="373" selection-end-column="14" />
           <folding>
-            <marker date="1493192013300" expanded="true" signature="1147:1537" ph="select \n\tT... " />
-            <marker date="1493192013300" expanded="true" signature="1147:5720" ph="select \n\tT... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="1147:5753" ph="select \n\tT... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="1490:1536" ph="select custo... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="1490:1537" ph="select custo... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="1674:1721" ph="select custo... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="1674:1758" ph="select custo... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="2009:2051" ph="select jurid... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="2009:2052" ph="select jurid... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="2181:2224" ph="select jurid... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="2391:2753" ph="select (TUWe... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="2985:3055" ph="select f_nam... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="2985:3091" ph="select f_nam... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="3256:3326" ph="select f_nam... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="3256:3363" ph="select f_nam... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="3463:3533" ph="select f_nam... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="3463:3570" ph="select f_nam... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="4487:4557" ph="select f_nam... TC_V2" />
-            <marker date="1493192013300" expanded="true" signature="4487:4594" ph="select f_nam... TC_V2" />
+            <marker date="1485177963050" expanded="true" signature="14613:36034" ph="INSERT INTO " />
+            <marker date="1485177963050" expanded="true" signature="36598:37962" ph="SELECT isnul... " />
+            <marker date="1485177963050" expanded="true" signature="41051:58085" ph="UPDATE TC_V2... " />
+            <marker date="1485177963050" expanded="true" signature="59275:77673" ph="SELECT id,is... TC_V2" />
+            <marker date="1485177963050" expanded="true" signature="68256:68332" ph="select isnul... ps_tu_web" />
+            <marker date="1485177963050" expanded="true" signature="68404:68507" ph="select isnul... ps_tu_web" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/technical_advice/technical_advice_type2.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/report/AJAX/db_8.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="207" column="43" lean-forward="false" selection-start-line="207" selection-start-column="43" selection-end-line="207" selection-end-column="43" />
+        <state relative-caret-position="-714">
+          <caret line="75" column="39" lean-forward="false" selection-start-line="75" selection-start-column="39" selection-end-line="75" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionarisps_fid.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/dictionari.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/rem/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1493193503401" expanded="true" signature="1147:5720" ph="select \n\tT... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="1490:1537" ph="select custo... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="1674:1721" ph="select custo... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="2009:2052" ph="select jurid... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="2181:2224" ph="select jurid... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="2391:2753" ph="select (TUWe... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="2985:3055" ph="select f_nam... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="3256:3326" ph="select f_nam... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="3463:3533" ph="select f_nam... TC_V2" />
-            <marker date="1493193503401" expanded="true" signature="4487:4557" ph="select f_nam... TC_V2" />
+            <marker date="1476806320215" expanded="true" signature="2688:3161" ph="SELECT [rem_... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="52" column="36" lean-forward="false" selection-start-line="52" selection-start-column="36" selection-end-line="52" selection-end-column="36" />
+          <folding>
+            <marker date="1493197169788" expanded="true" signature="506:627" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/dicPS_FID.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-547">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476806320214" expanded="true" signature="1037:1110" ph="select dovid... dovidnikps110kv" />
+            <marker date="1476806320214" expanded="true" signature="1355:1449" ph="select aktne... aktnebalansu" />
+            <marker date="1476806320214" expanded="true" signature="1707:1802" ph="select fider... fiderdani" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/ajax_show.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="57" column="41" lean-forward="false" selection-start-line="57" selection-start-column="41" selection-end-line="57" selection-end-column="41" />
+          <folding>
+            <marker date="1493214635997" expanded="true" signature="1046:1233" ph="SELECT ps_no... ps_tu_web" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/update.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="38" column="40" lean-forward="true" selection-start-line="38" selection-start-column="40" selection-end-line="38" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="140" column="64" lean-forward="false" selection-start-line="140" selection-start-column="64" selection-end-line="140" selection-end-column="64" />
+          <folding>
+            <element signature="n#style#0;n#legend#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#0;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#2;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#3;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#4;n#table#0;n#fieldset#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#td#0;n#tr#5;n#table#0;n#fieldset#0;n#form#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
