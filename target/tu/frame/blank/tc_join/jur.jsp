@@ -317,8 +317,8 @@
 
         <table border="0" cellspacing="0" cellpadding="0">
             <tr>
-                <td width="391" valign="top"><p class="style2"><strong>Власник</strong></p></td>
-                <td width="240" valign="top"><p class="style2">Замовник</p></td>
+                <td width="391" valign="top"><p class="style2"><strong><b>Власник</b></strong></p></td>
+                <td width="240" valign="top"><p class="style2"><b>Замовник</b></p></td>
             </tr>
             <tr>
                 <td width="328" valign="top">М.П.

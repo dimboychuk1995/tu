@@ -308,8 +308,8 @@
         <br>
         <table border="0" cellspacing="0" cellpadding="0">
             <tr>
-                <td width="391" valign="top"><p class=""><strong>Власник</strong></p></td>
-                <td width="240" valign="top"><p class=""><strong>Замовник</strong></p></td>
+                <td width="391" valign="top"><p class=""><strong><b>Власник</b></strong></p></td>
+                <td width="240" valign="top"><p class=""><strong><b>Замовник</b></strong></p></td>
             </tr>
             <tr>
                 <td width="328" valign="top">М.П.
