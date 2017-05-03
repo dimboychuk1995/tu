@@ -19,7 +19,7 @@
         <script type="text/javascript">
             $(function(){
                         $('#le_table').jqGrid({
-                          url:'rez_serch_json.jsp?<%=request.getQueryString()%>',
+                          url:'.rez_serch_json.jsp?<%=request.getQueryString()%>',
                           datatype: 'json',
                           mtype: 'POST',
                           toolbar: [true,'top'],
@@ -57,6 +57,7 @@
                         $("#add").click(function(){
                             location.replace('changestuxp.jsp?tu_id=-1');
                         });
+                        console.log("I'm in rez_serch.jsp")
             });
             
         </script>

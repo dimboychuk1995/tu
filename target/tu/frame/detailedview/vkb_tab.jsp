@@ -34,21 +34,42 @@
             }
         });
     </script>
-    <%--<script type="text/javascript">--%>
-        <%--$(document).ready(function(){--%>
 
-            <%--var price = (--%>
-                    <%--($("input[ name='develop_price_akt']" ).val() + $("input[ name='develop_price_proj']" ).val() +--%>
-                    <%--$("input[ name='other_develop_price_proj']" ).val())/1.2).toFixed(2);--%>
-            <%--$( "input[ name='commissioning_price']" ).val(price);--%>
+    <script type="text/javascript">
+        $(document).ready(function(){
 
-            <%--var counter = (($("input[ name='counter_price']" ).val())/1.2).toFixed(2);--%>
-            <%--$( "input[ name='vkb_O1']" ).val(counter);--%>
+            if (!isNaN(parseFloat($("input[ name='develop_price_akt']" ).val()))){
+                $develop_price_akt = parseFloat($("input[ name='develop_price_akt']" ).val());
+            } else{
+                $develop_price_akt = 0;
+            }
 
-            <%--var O2 = ($("input[ name='commissioning_price']" ).val()- $( "input[ name='vkb_O1']" ).val()).toFixed(2);--%>
-            <%--$( "input[ name='vkb_O2']" ).val(O2);--%>
-        <%--});--%>
-    <%--</script>--%>
+            if (!isNaN(parseFloat($("input[ name='develop_price_proj']" ).val()))){
+                $develop_price_proj = parseFloat($("input[ name='develop_price_proj']" ).val());
+            } else{
+                $develop_price_proj = 0;
+            }
+
+            if (!isNaN(parseFloat($("input[ name='other_develop_price_proj']" ).val()))){
+                $other_develop_price_proj = parseFloat($("input[ name='other_develop_price_proj']" ).val())
+            } else{
+                $other_develop_price_proj = 0;
+            }
+
+            var price = (
+                    ($develop_price_akt + $develop_price_proj + $other_develop_price_proj)/1.2).toFixed(2);
+
+            $( "input[ name='commissioning_price']" ).val(price);
+
+            var counter = (($("input[ name='counter_price']" ).val())/1.2).toFixed(2);
+            $( "input[ name='vkb_O1']" ).val(counter);
+
+            var O2 = ($("input[ name='commissioning_price']" ).val()- $( "input[ name='vkb_O1']" ).val()).toFixed(2);
+            $( "input[ name='vkb_O2']" ).val(O2);
+        });
+    </script>
+
+
 </head>
 <body>
 <html:form action="/frame/detailedview/vkb">
@@ -62,9 +83,7 @@
                     <html:option value="3">технічне переоснащення</html:option>
                 </html:select>
             </td>
-            <td>
-                Вид ОЗ:
-            </td>
+            <td>Вид ОЗ:</td>
             <td>
                 <html:select property="type_OZ">
                     <html:option value="0">-</html:option>

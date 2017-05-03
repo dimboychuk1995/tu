@@ -341,7 +341,7 @@ public class DetalViewActionForm extends org.apache.struts.action.ActionForm {
         this.request = request;
         this.user_name = (String) session.getAttribute("user_name");
         this.db_name = "java:comp/env/jdbc/" + (String) session.getAttribute("db_name");
-        System.out.println("initSearch");
+        System.out.println(db_name + " initSearch");
         this.tu_id = "-1";
 
         try {

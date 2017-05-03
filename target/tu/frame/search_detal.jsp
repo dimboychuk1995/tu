@@ -31,8 +31,10 @@
             $("#button_s").click(function() {
                 $("#resalt").toggle("slide",{},50);
                 $("#search").toggle("slide",{},50);
+                console.log("I'm in search_1");
                 var str = $("form").serialize();
                 $("#rez_serch > iframe").attr("src","main_grid.jsp?"+str);
+                console.log("I'm in search_2");
                 return false;
             });
             $("#button_r").click(function() {
