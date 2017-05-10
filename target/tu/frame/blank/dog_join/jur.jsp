@@ -138,7 +138,7 @@
                 <strong>про стандартне приєднання до електричних мереж</strong></p>
             <table width="100%"><tr><td width="50%"><%=rs.getString("rem_licality").substring(0, rs.getString("rem_licality").indexOf(','))%></td><td align="right"><%=rs.getString("date_customer_contract_tc")%> р.</td></tr></table><br >
 
-            <div align="justify" style="text-align:justify; text-indent:20pt"><strong>ПАТ  «Прикарпаттяобленерго»</strong>, що здійснює ліцензовану діяльність з передачі  електроенергії,  в особі директора філії <strong>&quot;<%= rs.getString("rem_name")%> РЕМ&quot;</strong> <strong><%= rs.getString("director_rod")%></strong>, який діє  на підставі довіреності <%= rs.getString("dovirenist")%> року, далі - Виконавець послуг з однієї сторони, та &nbsp;<strong><%if (!rs.getString("customer_soc_status_1").equals("9")
+            <div align="justify" style="text-align:justify; text-indent:20pt"><strong>АТ «Прикарпаттяобленерго»</strong>, що здійснює ліцензовану діяльність з передачі  електроенергії,  в особі директора філії <strong>&quot;<%= rs.getString("rem_name")%> РЕМ&quot;</strong> <strong><%= rs.getString("director_rod")%></strong>, який діє  на підставі довіреності <%= rs.getString("dovirenist")%> року, далі - Виконавець послуг з однієї сторони, та &nbsp;<strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                         && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
                     <%= rs.getString("name")%></strong>, надалі ―
                 Замовник, <%if ((!rs.getString("customer_soc_status_1").equals("15")
@@ -204,7 +204,7 @@
                 <dl>
                     <dt>4.1. Плата за приєднання за цим Договором відповідно  до Постанови НКРЕ № 81 від 26.01.2017 «Про затвердження ставок плати за приєднання електроустановок для Автономної Республіки Крим, областей, міст Києва та Севастополя на 2017 рік», становить <strong>  <%= rs.getString("price_join").replace(".", ",")%></strong> грн. з ПДВ.</dt>
                     <div align="justify" style="text-align:justify; text-indent:20pt">Плата за приєднання вказується з урахуванням  діючих ставок та податку на додану вартість на день  здійснення платежу.<br></div>
-                    <dt>4.2. Замовник сплачує плату за приєднання,визначену в пункті 4.1 цього Договору, на поточний рахунок Виконавця послуг: п/р 26000011732450 в філії Івано-Франківське обласне управління ПАТ «Укрсоцбанк», Код ЄДРПОУ 00131564, в  термін до ____ днів з дня укладання Договору.</dt>
+                    <dt>4.2. Замовник сплачує плату за приєднання,визначену в пункті 4.1 цього Договору, на поточний рахунок Виконавця послуг: п/р 26000011732450 в філії Івано-Франківське обласне управління АТ«Укрсоцбанк», Код ЄДРПОУ 00131564, в  термін до ____ днів з дня укладання Договору.</dt>
 
                 </dl>
             </div>
@@ -270,13 +270,13 @@
                     <td width="355" valign="top"><span>Замовник:</span></td>
                 </tr>
                 <tr>
-                    <td width="328" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>
+                    <td width="328" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
                             <u>м. Івано-Франківськ, вул. Індустріальна, 34</u><br>
                         Код ЄДРПОУ 00131564<br>
-                        п/р 26000011732450 в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р 26000011732450 в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         тел: <%= rs.getString("contacts").replace("тел. (", "").replace(")", "")%><br><br>
-                            Директор філії ПАТ «Прикарпаттяобленерго»<br>
+                            Директор філії АТ«Прикарпаттяобленерго»<br>
                             “<%= rs.getString("rem_name")%> РЕМ”<br>
                         </p></td>
                             <td width="355" valign="top"><%if (rs.getString("customer_type").equals("1")) {%><strong><%if (!rs.getString("customer_soc_status_1").equals("9")

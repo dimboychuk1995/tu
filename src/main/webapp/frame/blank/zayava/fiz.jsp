@@ -123,7 +123,7 @@
                 <td width="319" valign="bottom"><p align="center">філії «<%=rs.getString("rem_name")%> РЕМ»</p></td>
             </tr>
             <tr>
-                <td width="319" valign="bottom"><p align="center">ПАТ “Прикарпаттяобленерго”</p></td>
+                <td width="319" valign="bottom"><p align="center">АТ“Прикарпаттяобленерго”</p></td>
             </tr>
             <tr>
                 <td width="319" valign="bottom"><p align="center"><%=rs.getString("director_dav")%></p></td>

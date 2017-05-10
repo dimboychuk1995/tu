@@ -105,7 +105,7 @@
         <div class="Section1">
             <table width="100%">
                 <tr><td width="50%">&nbsp; </td>
-                    <td><p><strong>Філія  ПАТ «Прикарпаттяобленерго»</strong><br>
+                    <td><p><strong>Філія  АТ«Прикарпаттяобленерго»</strong><br>
                             <strong>«<%= rs.getString("rem_name")%>»  РЕМ</strong></p>
                         <p><%=rs.getString("rem_licality")%></p>
                         <p><strong>№<%=rs.getString("No_letter")%> дата <%=rs.getString("Change_date_tc")%></strong></p> </td></tr>
@@ -120,7 +120,7 @@
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p>У зв’язку з закінченням <%= rs.getString("kinec")%> року строку дії договору № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року про приєднання надання доступу до електричних мереж (<%= rs.getString("object_name")%>),
-                що знаходиться за адресою <%= rs.getString("object_adress")%>, просимо Вас в 5 денний термін з  дати отримання даного повідомлення з’явитися в філію ПАТ «Прикарпаттяобленерго» <strong><em>&quot;<%= rs.getString("rem_name")%> РЕМ</em></strong>&quot; для впорядкування відносин між нашими сторонами.<br>
+                що знаходиться за адресою <%= rs.getString("object_adress")%>, просимо Вас в 5 денний термін з  дати отримання даного повідомлення з’явитися в філію АТ«Прикарпаттяобленерго» <strong><em>&quot;<%= rs.getString("rem_name")%> РЕМ</em></strong>&quot; для впорядкування відносин між нашими сторонами.<br>
                 За довідкою телефонувати за номером <%=rs.getString("contacts")%>,  <strong><em>виробничо-технічна група &quot; <%= rs.getString("rem_name")%> РЕМ</em></strong>&quot;. </p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>

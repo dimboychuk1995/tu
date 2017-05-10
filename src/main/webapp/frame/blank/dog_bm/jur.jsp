@@ -116,7 +116,7 @@
 
             <div style="text-align:justify; text-indent:20pt"><strong>Публічне акціонерне товариство  «Прикарпаттяобленерго»</strong>, надалі ― <strong>
                     Електропередавальна організація (далі – ЕО)</strong>, що здійснює  ліцензовану діяльність з передачі електроенергії, в особі технічного
-                директора  ПАТ «Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № 1202 від 13.02.2017 року, з однієї сторони, та <strong><%if (!rs.getString("customer_soc_status_1").equals("9")
+                директора  АТ«Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № 1202 від 13.02.2017 року, з однієї сторони, та <strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                             && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%>
                     <%= rs.getString("name")%></strong> надалі ― Замовник,
                 <%if ((!rs.getString("customer_soc_status_1").equals("15")
@@ -200,13 +200,13 @@
                     <td width="350" valign="top"><p>Замовник</p></td>
                 </tr>
                 <tr>
-                    <td width="345" valign="top"><strong>ПАТ «Прикарпаттяобленерго»</strong><br>
+                    <td width="345" valign="top"><strong>АТ«Прикарпаттяобленерго»</strong><br>
                         м.    Івано-Франківськ, вул. Індустріальна, 34<br>
                         Код ЄДРПОУ 00131564<br>
-                        п/р 26000011732450 в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р 26000011732450 в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <strong>Технічний    директор </strong><br>
-                        <strong>ПАТ    «Прикарпаттяобленерго»</strong><br><br><br></td>
+                        <strong>АТ   «Прикарпаттяобленерго»</strong><br><br><br></td>
                                 <td width="350" valign="top"><%if (rs.getString("customer_type").equals("1")) {%><p><strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> <%= rs.getString("name")%></strong>
                             <br>

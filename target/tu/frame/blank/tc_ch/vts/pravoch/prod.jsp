@@ -120,8 +120,8 @@
             <p><table width="100%"><tr><td width="50%" height="25">м. Івано-Франківськ</td>
                     <td align="right">“_____”______________ 20____ р.</td></tr></table></p>
         <p>&nbsp;</p>
-        <p style="text-align:justify; text-indent:20pt">ПАТ “Прикарпаттяобленерго”, що  діє за умовами та правилами Ліцензії 
-            АБ №  177333 (далі – <%=rs.getString("type_join_owner")%>), в особі Технічного директора ПАТ  «Прикарпаттяобленерго» Сеника Олега 
+        <p style="text-align:justify; text-indent:20pt">АТ“Прикарпаттяобленерго”, що  діє за умовами та правилами Ліцензії
+            АБ №  177333 (далі – <%=rs.getString("type_join_owner")%>), в особі Технічного директора АТ «Прикарпаттяобленерго» Сеника Олега
             Степановича, який діє на підставі  довіреності № 1202 від 13.02.2017 року, з однієї сторони, та
             <%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%>, 
 
@@ -154,14 +154,14 @@
         </tr>
         <tr>
             <td>
-                <p><strong>ПАТ    «Прикарпаттяобленерго»</strong><br>
+                <p><strong>АТ   «Прикарпаттяобленерго»</strong><br>
                     м. Івано-Франківськ, вул. Індустріальна 34 <br>
                     р/р 26003301757 МФО 336503<br>
                     Філія Івано-Франківського ОУ<br>АТ «Ощадбанк»<br>
                     Код ЄДРПОУ 00131564<br>
                     тел/факс: 594451 </p>
                 <p><strong>Технічний директор </strong><br>
-                    <strong>ПАТ    «Прикарпаттяобленерго»</strong></p>
+                    <strong>АТ   «Прикарпаттяобленерго»</strong></p>
             </td>
             <td width="350" valign="top"><strong><%= rs.getString("customer_soc_status")%><%= rs.getString("name")%></strong><br>
                 <strong><%= rs.getString("customer_adress")%></strong><br>
@@ -185,7 +185,7 @@
             <td width="400" valign="top"><p>Замовник</p></td>
         </tr>
         <tr>
-            <td width="400" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>
+            <td width="400" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
                     Філія “<u><%= rs.getString("rem_name")%></u> РЕМ”<br>
                     <u><%=rs.getString("rem_licality")%></u><br>
                     <%=rs.getString("rek_bank").substring(0, rs.getString("rek_bank").indexOf(','))%><br>
@@ -196,7 +196,7 @@
                     <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",   М") + 1, rs.getString("rek_bank").indexOf(",  к"))%><br>
                     <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",  к") + 1, rs.getString("rek_bank").indexOf('.'))%><br>
                     <%= rs.getString("contacts")%><br>
-                    Директор    філії ПАТ «Прикарпаттяобленерго»<br>
+                    Директор    філії АТ«Прикарпаттяобленерго»<br>
                     “<%= rs.getString("rem_name")%> РЕМ”<br>
                 </p></td>
             <td width="400" valign="top"><p><u><%=rs.getString("PIP")%></u></p>

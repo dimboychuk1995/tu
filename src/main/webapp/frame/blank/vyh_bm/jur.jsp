@@ -253,7 +253,7 @@
             <tr>
                 <td width="44" nowrap valign="top" align="center">1&nbsp;</td>
                 <td width="316" valign="top">Електропередавальна організація:</td>
-                <td width="312" colspan="3" valign="top" align="center"><strong>філія &quot;<%=rs.getString("rem_name")%> РЕМ&quot;    ПАТ &quot;ПрОЕ&quot;</strong></td>
+                <td width="312" colspan="3" valign="top" align="center"><strong>філія &quot;<%=rs.getString("rem_name")%> РЕМ&quot;    АТ&quot;ПрОЕ&quot;</strong></td>
             </tr>
             <tr>
                 <td width="44" nowrap valign="top" align="center">2&nbsp;</td>

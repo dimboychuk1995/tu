@@ -110,7 +110,7 @@
             <p><strong>&nbsp;</strong></p>
             <p>На вхідний № <%= rs.getString("in_namber")%> від <%= rs.getString("send_date_lenner")%> року <br>
                 «Продовження ТУ № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року»</p>
-            <p>ПАТ  «Прикарпаттяобленерго» продовжує термін дії ТУ № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> року на  підключення <%= rs.getString("object_name")%>, що знаходиться в <%= rs.getString("object_adress")%> з <%=rs.getString("send_date_lenner")%> до <%= rs.getString("Tc_continue_to")%> року.</p>
+            <p>АТ «Прикарпаттяобленерго» продовжує термін дії ТУ № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> року на  підключення <%= rs.getString("object_name")%>, що знаходиться в <%= rs.getString("object_adress")%> з <%=rs.getString("send_date_lenner")%> до <%= rs.getString("Tc_continue_to")%> року.</p>
             <p><%= rs.getString("Description_change")%>&nbsp;</p>
 
             <p><strong><%= rs.getString("golovnyi_ingener")%></strong><br>

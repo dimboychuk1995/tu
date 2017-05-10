@@ -25,24 +25,25 @@
         ds = (DataSource) ic.lookup("java:comp/env/jdbc/TUWeb");
         c = ds.getConnection();
 
-        String SQL = "DECLARE @date_registarion DATETIME = '"+date+"',"
-                + "@stage_join INTEGER = '"+stage_join+"'"
-                + " SELECT "
-                + "CASE  "
-                + "	 WHEN YEAR(@date_registarion)=2013 then [rate] "
-                + "	 WHEN YEAR(@date_registarion)=2014 and @date_registarion<'29.04.2014' THEN rate2014 "
-                + "	 WHEN @date_registarion>='29.04.2014' and "
-                + "           @date_registarion<'23.01.2015'  THEN rate2014_2 "
-                + "	 WHEN @date_registarion>='23.01.2015' and "
-                + "           @date_registarion < '26.02.2016'  THEN rate2015 "
-                + "  WHEN @stage_join = 1 and @date_registarion >= '26.02.2016' and @date_registarion < '06.03.2017' THEN rate2016_Ist"
-                + "  WHEN @stage_join = 2 and @date_registarion >= '26.02.2016' and @date_registarion < '06.03.2017' THEN rate2016_IIst"
-                + "  WHEN @stage_join = 1 and @date_registarion >= '06.03.2017' THEN rate2017_Ist"
-                + "  WHEN @stage_join = 2 and @date_registarion >= '06.03.2017' THEN 0"
-                + "	 ELSE 0 "
-                + "	 END AS rate "
-                + "FROM   [TUWeb].[dbo].[rate_of_payment]"
-                + "WHERE  id = " + id;
+        String SQL = "DECLARE \n" +
+                "@date_registarion DATETIME = '04.05.2017',\n" +
+                "@stage_join INTEGER = '3' \n" +
+                "\n" +
+                "SELECT \n" +
+                "CASE  \t \n" +
+                "WHEN YEAR(@date_registarion)=2013 then [rate] \t \n" +
+                "WHEN YEAR(@date_registarion)=2014 and @date_registarion<'29.04.2014' THEN rate2014 \t \n" +
+                "WHEN @date_registarion>='29.04.2014' and            @date_registarion<'23.01.2015'  THEN rate2014_2 \t \n" +
+                "WHEN @date_registarion>='23.01.2015' and            @date_registarion < '26.02.2016'  THEN rate2015   \n" +
+                "WHEN @stage_join = 1 and @date_registarion >= '26.02.2016' and @date_registarion < '06.03.2017' THEN rate2016_Ist  \n" +
+                "WHEN @stage_join = 2 and @date_registarion >= '26.02.2016' and @date_registarion < '06.05.2017' THEN rate2016_IIst  \n" +
+                "WHEN @stage_join = 1 and @date_registarion >= '06.03.2017' THEN rate2017_Ist  \n" +
+                "WHEN @stage_join = 2 and @date_registarion >= '06.05.2017' THEN rate2017_IIst\t\n" +
+                "WHEN @stage_join = 3\tTHEN rate2017_IIIst\t \n" +
+                "ELSE 0 \t \n" +
+                "END AS rate \n" +
+                "FROM   [TUWeb].[dbo].[rate_of_payment]\n" +
+                "WHERE  id = " + id;
         System.out.println(SQL);
         pstmt = c.prepareStatement(SQL);
         rs = pstmt.executeQuery();

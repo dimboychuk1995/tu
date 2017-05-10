@@ -113,7 +113,7 @@
                         <td align="right"><strong><%=rs.getString("date_contract")%></strong> р.</td></tr></table>
 
                 <div style="text-align:justify; text-indent:20pt"><strong>Публічне акціонерне товариство «Прикарпаттяобленерго»</strong>,&nbsp;надалі ―
-                    <strong>Електропередавальна організація (далі – ЕО)</strong>,&nbsp;що здійснює ліцензовану діяльність з передачі електроенергії, в особі технічного директора  ПАТ «Прикарпаттяобленерго»&nbsp;
+                    <strong>Електропередавальна організація (далі – ЕО)</strong>,&nbsp;що здійснює ліцензовану діяльність з передачі електроенергії, в особі технічного директора  АТ«Прикарпаттяобленерго»&nbsp;
                     <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 1202 від 13.02.2017
                     &nbsp;року, з однієї сторони, та&nbsp;<strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
@@ -174,13 +174,13 @@
                         <td width="355" valign="top"><p>Замовник:</p></td>
                     </tr>
                     <tr>
-                        <td width="355" valign="top"><strong>ПАТ «Прикарпаттяобленерго»</strong> <br>
+                        <td width="355" valign="top"><strong>АТ«Прикарпаттяобленерго»</strong> <br>
                             <strong>м.    Івано-Франківськ, вул. Індустріальна, 34</strong><br>
                             Код ЄДРПОУ 00131564<br>
-                            п/р 26000011732450 в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                            п/р 26000011732450 в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
                             Код МФО 300023<br>
                             <p><strong>Технічний    директор </strong><br>
-                                <strong>ПАТ    «Прикарпаттяобленерго»</strong><br></td>
+                                <strong>АТ   «Прикарпаттяобленерго»</strong><br></td>
                                     <td width="355" valign="top"><%if (rs.getString("customer_type").equals("1")) {%><p><strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%><%= rs.getString("name")%></strong>
                                 <br>

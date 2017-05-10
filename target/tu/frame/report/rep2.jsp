@@ -35,14 +35,14 @@ DateFormat df = new SimpleDateFormat("dd.MM.yyyy");
     <button type="button" class="create">Сформувати додаток 2</button>
 </div>
 <div id="my" class="text" rep="3">
-    <h3>Інформація щодо кількості та вартості виданих технічних умов на приєднання по ПАТ "Прикарпаттяобленерго" всі РЕМ</h3>
+    <h3>Інформація щодо кількості та вартості виданих технічних умов на приєднання по АТ"Прикарпаттяобленерго" всі РЕМ</h3>
     <strong>Період</strong>&nbsp;&nbsp;&nbsp;
     з  <input type="text" name="vid" class="datepicker FromDate"  value="<%=df.format(from)%>">
     по <input type="text" name="do" class="datepicker TillDate"  value="<%=df.format(till)%>">
     <button type="button" class="create">Сформувати додаток 3</button>
 </div>
 <div id="my" class="text" rep="31">
-    <h3>Інформація щодо кількості та вартості виданих технічних умов на приєднання по ПАТ "Прикарпаттяобленерго" </h3>
+    <h3>Інформація щодо кількості та вартості виданих технічних умов на приєднання по АТ"Прикарпаттяобленерго" </h3>
     <strong>Період</strong>&nbsp;&nbsp;&nbsp;
     з  <input type="text" name="vid" class="datepicker FromDate"  value="<%=df.format(from)%>">
     по <input type="text" name="do" class="datepicker TillDate"  value="<%=df.format(till)%>">

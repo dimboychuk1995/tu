@@ -136,12 +136,12 @@
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <div style="text-align:justify;">
-            <p style="text-indent: 40px">Філія ПАТ «Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ», отримала Вашу заяву <%= rs.getString("registration_date")%> року, щодо приєднання електроустановок <%= rs.getString("object_name")%>, що знаходяться за адресою: <%= rs.getString("object_adress")%>, до мереж ПАТ «Прикарпаттяобленерго».</p>
+            <p style="text-indent: 40px">Філія АТ«Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ», отримала Вашу заяву <%= rs.getString("registration_date")%> року, щодо приєднання електроустановок <%= rs.getString("object_name")%>, що знаходяться за адресою: <%= rs.getString("object_adress")%>, до мереж АТ«Прикарпаттяобленерго».</p>
             <p style="text-indent: 40px">
                 При визначенні типу приєднання, встановлено, що приєднання Ваших електроустановок відноситься до нестандартного приєднання, а саме:</p> 
             <p style="text-indent: 40px"><%=rs.getString("description_change")%></p>
-            <p style="text-indent: 40px">Просимо Вас звернутися у філію ПАТ «Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ» <strong><%= rs.getString("day_15")%></strong> року, що знаходиться за адресою: <%= rs.getString("rem_licality")%> для отримання проекту договору про нестандартне приєднання та технічних умов.</p>
-            <p style="text-indent: 40px">У разі відмови від приєднання, яке не є стандартним, просимо письмово повідомити про це філію ПАТ «Прикарпаттяобленерго» до <strong><%= rs.getString("day_15")%></strong> року. </p> </div>
+            <p style="text-indent: 40px">Просимо Вас звернутися у філію АТ«Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ» <strong><%= rs.getString("day_15")%></strong> року, що знаходиться за адресою: <%= rs.getString("rem_licality")%> для отримання проекту договору про нестандартне приєднання та технічних умов.</p>
+            <p style="text-indent: 40px">У разі відмови від приєднання, яке не є стандартним, просимо письмово повідомити про це філію АТ«Прикарпаттяобленерго» до <strong><%= rs.getString("day_15")%></strong> року. </p> </div>
         <p>&nbsp;</p>
 
         <strong>З поваю, <br/>

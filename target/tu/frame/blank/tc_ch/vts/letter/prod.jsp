@@ -108,12 +108,12 @@
                 <%=rs.getString("customer_adress")%></p>
             <p><strong>&nbsp;</strong></p>
             <p><strong>Директору філії<br>
-                    ПАТ «Прикарпаттяобленерго»<br>
+                    АТ«Прикарпаттяобленерго»<br>
                     <%= rs.getString("rem_name")%> РЕМ<br>
                     п. <%= rs.getString("director_dav")%></strong></p>
             <p>На вхідний № <%= rs.getString("in_namber")%> від <%= rs.getString("send_date_lenner")%> року <br>
                 «Продовження ТУ № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року»</p>
-            <p>ПАТ  «Прикарпаттяобленерго» продовжує термін дії ТУ № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> року ( <%= rs.getString("object_name")%>, що знаходиться в <%= rs.getString("object_adress")%>) з <%=rs.getString("send_date_lenner")%> до <%= rs.getString("Tc_continue_to")%> року.</p>
+            <p>АТ «Прикарпаттяобленерго» продовжує термін дії ТУ № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> року ( <%= rs.getString("object_name")%>, що знаходиться в <%= rs.getString("object_adress")%>) з <%=rs.getString("send_date_lenner")%> до <%= rs.getString("Tc_continue_to")%> року.</p>
             <p>&nbsp;</p>
             <p align="left"><strong>О. С. Сеник<br>
                     Технічний директор</strong></p>

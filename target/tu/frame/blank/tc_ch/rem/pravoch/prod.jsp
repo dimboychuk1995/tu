@@ -118,7 +118,7 @@
                     <td align="right">“_____”______________ 20___ р.</td></tr></table></p><p>&nbsp;</p>
         <p style="text-align:justify; text-indent:20pt"><strong>Публічне акціонерне товариство «Прикарпаттяобленерго»,  філія “<%= rs.getString("rem_name")%> 
                 РЕМ”</strong>, 
-            надалі – <strong>Електропередавальна організація (далі – ЕО)</strong>,  в особі директора філії ПАТ 
+            надалі – <strong>Електропередавальна організація (далі – ЕО)</strong>,  в особі директора філії АТ
             «Прикарпаттяобленерго» “<%= rs.getString("rem_name")%> РЕМ” <%= rs.getString("director_rod")%>, який діє на підставі
             Положення про філію  та довіреності <%= rs.getString("dovirenist")%> р., з однієї сторони, та житель 
             <u><%= rs.getString("type_c")%> <%= rs.getString("customer_adress")%></u> <strong><%=rs.getString("name")%></strong>, 
@@ -139,7 +139,7 @@
             <td width="400" valign="top"><p>Замовник</p></td>
         </tr>
         <tr>
-            <td width="400" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>
+            <td width="400" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
                     Філія “<u><%= rs.getString("rem_name")%></u> РЕМ”<br>
                     <u><%=rs.getString("rem_licality")%></u><br>
                     <%=rs.getString("rek_bank").substring(0, rs.getString("rek_bank").indexOf(','))%><br>
@@ -150,7 +150,7 @@
                     <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",   М") + 1, rs.getString("rek_bank").indexOf(",  к"))%><br>
                     <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",  к") + 1, rs.getString("rek_bank").indexOf('.'))%><br>
                     <%= rs.getString("contacts")%><br>
-                    Директор    філії ПАТ «Прикарпаттяобленерго»<br>
+                    Директор    філії АТ«Прикарпаттяобленерго»<br>
                     “<%= rs.getString("rem_name")%> РЕМ”<br>
                 </p></td>
             <td width="400" valign="top"><p><u><%=rs.getString("PIP")%></u></p>
@@ -175,14 +175,14 @@
         </tr>
         <tr>
             <td>
-                <p><strong>ПАТ    «Прикарпаттяобленерго»</strong><br>
+                <p><strong>АТ   «Прикарпаттяобленерго»</strong><br>
                     м. Івано-Франківськ, вул. Індустріальна 34 <br>
                     р/р 26003301757 МФО 336503<br>
                     Філія Івано-Франківського ОУ АТ<br>АТ «Ощадбанк»<br>
                     Код ЄДРПОУ 00131564<br>
                     тел/факс: 594451 </p>
                 <p><strong>Технічний директор </strong><br>
-                    <strong>ПАТ    «Прикарпаттяобленерго»</strong></p>
+                    <strong>АТ   «Прикарпаттяобленерго»</strong></p>
             </td>
             <td width="350" valign="top"><strong><%= rs.getString("customer_soc_status")%><%= rs.getString("name")%></strong><br>
                 <strong><%= rs.getString("customer_adress")%></strong><br>

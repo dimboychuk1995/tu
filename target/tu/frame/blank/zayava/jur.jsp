@@ -119,7 +119,7 @@
                 <td width="321" valign="top"><p align="center">Технічному директору</p></td>
             </tr>
             <tr>
-                <td width="321" valign="top"><p align="center">ПАТ &quot;Прикарпаттяобленерго&quot;</p></td>
+                <td width="321" valign="top"><p align="center">АТ&quot;Прикарпаттяобленерго&quot;</p></td>
             </tr>
             <tr>
                 <td width="321" valign="bottom"><p align="center">Сенику О.С.</p></td>

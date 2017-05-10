@@ -125,10 +125,10 @@
         <p>&nbsp;</p>
         <p align="center"><strong>Шановний <%= rs.getString("s_name")%> <%= rs.getString("t_name")%></strong></p>
         <div style="text-align:justify; text-indent:20pt"> На виконання  вимог «Правил приєднання електроустановок до електромереж», затверджених  Постановою НКРЕ № 32 від 17.01.2013 року, та умов укладеного між 
-            ПАТ «Прикарпаттяобленерго» та <%if (rs.getString("customer_soc_status").equals("1") || rs.getString("customer_soc_status").equals("6")) {%><%= rs.getString("customer_soc_status1").toLowerCase()%> <%} else {%><%= rs.getString("customer_soc_status1")%><%}%>  <%= rs.getString("name")%>  Договору про приєднання № <%= rs.getString("number")%> від <%=rs.getString("date_contract")%> року,   ПАТ «Прикарпаттяобленерго» розробило  проект зовнішнього електропостачання _______. 
+            АТ«Прикарпаттяобленерго» та <%if (rs.getString("customer_soc_status").equals("1") || rs.getString("customer_soc_status").equals("6")) {%><%= rs.getString("customer_soc_status1").toLowerCase()%> <%} else {%><%= rs.getString("customer_soc_status1")%><%}%>  <%= rs.getString("name")%>  Договору про приєднання № <%= rs.getString("number")%> від <%=rs.getString("date_contract")%> року,   АТ«Прикарпаттяобленерго» розробило  проект зовнішнього електропостачання _______.
         </div>
         <div  style="text-align:justify; text-indent:20pt">Оскільки запроектовані мережі  будуть проходити по земельній ділянці (межі  земельної ділянки), що знаходиться за адресою ____________  перебувають у Вашій власності (користуванні),  просимо Вас погодити* даний проект зовнішнього електропостачання та повернути  його у філію 
-            ПАТ «Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ», що знаходиться за адресою: <%= rs.getString("rem_licality")%>, до «__» ______2013 року.</div>
+            АТ«Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ», що знаходиться за адресою: <%= rs.getString("rem_licality")%>, до «__» ______2013 року.</div>
         <div  style="text-align:justify; text-indent:20pt">* на аркуші «Зовнішні мережі» в графі «Погоджено»  необхідно проставити відмітку «Погоджую» та прописом вказати своє П.І.П.,  поставити підпис та дату погодження, печатку (для юридичних осіб).</div>
         <div  style="text-align:justify; text-indent:20pt">Додатки:</div>
         1. Проект зовнішнього електропостачання.<br>
@@ -136,7 +136,7 @@
         <p><br>
             <strong>З повагою</strong><br>
             <strong>Директор  філії</strong><br>
-            ПАТ «Прикарпаттяобленерго»<br>
+            АТ«Прикарпаттяобленерго»<br>
             «<%= rs.getString("rem_name")%> РЕМ»<strong></strong><br>
             <strong><%= rs.getString("Director")%></strong></p>
     </p>

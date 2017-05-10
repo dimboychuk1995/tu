@@ -99,7 +99,7 @@
                 про розірвання договору про  надання доступу<br>
                 до електричних мереж № <%= rs.getString("number")%> від <%= rs.getString("date_customer_contract_tc")%> року </p>
             <table width="100%"><tr><td width="50%"><%=rs.getString("rem_licality").substring(0, rs.getString("rem_licality").indexOf(','))%></td><td align="right">“___”_____________ 2013 року</td></tr></table>
-            <p style="text-align:justify; text-indent:20pt">Філія ПАТ  «Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ» надалі ― <strong>Власник</strong>, в особі директора філії ПАТ «Прикарпаттяобленерго» “<%= rs.getString("rem_name")%> РЕМ” <%= rs.getString("director_rod")%>, який діє на підставі довіреності  <%= rs.getString("dovirenist")%> р., з однієї сторони, та <strong><%= rs.getString("customer_soc_status")%><%= rs.getString("name")%></strong>,  надалі ― Замовник, який діє на підставі <%= rs.getString("constitutive_documents")%>,  з іншої сторони, далі ― Сторони, уклали даний Додатковий правочин про наступне:</p>
+            <p style="text-align:justify; text-indent:20pt">Філія АТ «Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ» надалі ― <strong>Власник</strong>, в особі директора філії АТ«Прикарпаттяобленерго» “<%= rs.getString("rem_name")%> РЕМ” <%= rs.getString("director_rod")%>, який діє на підставі довіреності  <%= rs.getString("dovirenist")%> р., з однієї сторони, та <strong><%= rs.getString("customer_soc_status")%><%= rs.getString("name")%></strong>,  надалі ― Замовник, який діє на підставі <%= rs.getString("constitutive_documents")%>,  з іншої сторони, далі ― Сторони, уклали даний Додатковий правочин про наступне:</p>
             <ol>
                 <li>Сторони дійшли згоди розірвати Договір про надання  доступу до електричних мереж № <%= rs.getString("number")%> від <%=rs.getString("date_customer_contract_tc")%>р.</li>
                 <li>З моменту набрання чинності даного Додаткового  правочину сторони не вважають себе пов’язаними будь-якими правами і  зобов’язаннями за Договором про надання доступу до електричних мереж № <%= rs.getString("number")%> від <%=rs.getString("date_customer_contract_tc")%>р.</li>
@@ -116,7 +116,7 @@
                     <td width="355" valign="top"><p>Замовник</p></td>
                 </tr>
                 <tr>
-                    <td width="355" valign="top"><p><strong>Філія ПАТ «Прикарпаттяобленерго»</strong><br>
+                    <td width="355" valign="top"><p><strong>Філія АТ«Прикарпаттяобленерго»</strong><br>
                             <strong>“<u><%= rs.getString("rem_name")%></u> РЕМ”</strong></p>
                         <u><%=rs.getString("rem_licality")%></u><br>
                         <%=rs.getString("rek_bank").substring(0, rs.getString("rek_bank").indexOf(','))%><br>
@@ -127,7 +127,7 @@
                         <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",   М") + 1, rs.getString("rek_bank").indexOf(",  к"))%><br>
                         <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",  к") + 1, rs.getString("rek_bank").indexOf('.'))%><br>
                         <%= rs.getString("contacts")%><br>
-                        Директор    філії ПАТ «Прикарпаттяобленерго»<br>
+                        Директор    філії АТ«Прикарпаттяобленерго»<br>
                         “<%= rs.getString("rem_name")%> РЕМ”</td>
                     <td width="355" valign="top"><p><strong><u><%= rs.getString("customer_soc_status")%> "<%= rs.getString("name")%>"</u></strong>
                             <br>

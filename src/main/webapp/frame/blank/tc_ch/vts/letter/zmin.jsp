@@ -109,12 +109,12 @@
             </table>
             <p>&nbsp;</p>
             <p><strong>Директору філії<br>
-                    ПАТ «Прикарпаттяобленерго»<br>
+                    АТ«Прикарпаттяобленерго»<br>
                     “<%= rs.getString("rem_name")%> РЕМ”<br>
                     п. <%= rs.getString("director_dav")%></strong></p>
             <p> «Зміни ТУ № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року»</p>
             <p>&nbsp;</p>
-            <p>ПАТ  «Прикарпаттяобленерго» вносить зміни в технічні умови № <%= rs.getString("number")%>  від 
+            <p>АТ «Прикарпаттяобленерго» вносить зміни в технічні умови № <%= rs.getString("number")%>  від
                 <%= rs.getString("date_contract")%> року ( 
                 <u><strong><%= rs.getString("object_name")%></strong></u> в 
                 <u><strong><%= rs.getString("object_adress")%></strong></u>), а саме:</p>

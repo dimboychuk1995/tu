@@ -177,7 +177,7 @@
         <div class="Section1">
             <p align="right" class="style1">7.51-ПР-1-ТД-1.4.Д</p>
             <p align="center">
-                 &nbsp;<span class="style1">ФІЛІЯ ПАТ «ПРИКАРПАТТЯОБЛЕНЕРГО»<br>
+                 &nbsp;<span class="style1">ФІЛІЯ АТ«ПРИКАРПАТТЯОБЛЕНЕРГО»<br>
                 “<%=rs.getString("rem_name").toUpperCase()%> РАЙОН ЕЛЕКТРИЧНИХ МЕРЕЖ”</span></p>
 
             <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
@@ -188,7 +188,7 @@
                     <td valign="top"><p align="right"><strong><%= rs.getString("customer_soc_status")%><br/>
                                 <%= rs.getString("name")%><br/>
                                 Директору філії<br/>
-                                ПАТ «Прикарпаттяобленерго»<br/>
+                                АТ«Прикарпаттяобленерго»<br/>
                                 <%=rs.getString("rem_name")%> РЕМ<br/>
                                 п. <%= rs.getString("director_dav")%></strong></p></td>
                 </tr>

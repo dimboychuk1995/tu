@@ -144,14 +144,14 @@
             <p>щодо прострочення виконання зобов’язання</p>
             <p>&nbsp;</p>
             <p>&nbsp;</p>
-            <p style="text-indent: 40px"><%= rs.getString("date_contract")%>  року між Вами та ПАТ «Прикарпаттяобленерго» укладено договір № <%= rs.getString("number")%>
+            <p style="text-indent: 40px"><%= rs.getString("date_contract")%>  року між Вами та АТ«Прикарпаттяобленерго» укладено договір № <%= rs.getString("number")%>
                 від <%= rs.getString("date_contract")%> року про <%=rs.getString("type_join")%> до електричних мереж (далі - Договір).</p>
             <div style="text-align:justify;">
                 <p style="text-indent: 40px">Пунктом 4.2. Договору  передбачено,  що Замовник сплачує плату  за <%=rs.getString("type_join")%> , визначену в пункті 4.1 цього Договору, на поточний рахунок  Надавача послуг в термін до 10 днів з дня укладання Договору на підставі  виставленого рахунку. </p>
                 <p style="text-indent: 40px">Так, <%= rs.getString("day_10")%> року був останнім  днем для оплати плати за <%=rs.getString("type_join")%>  в сумі <%=rs.getString("price_join").replace(".", ",")%> грн.</p>
                 <p style="text-indent: 40px">Відповідно до п. 5.3. Договору за  порушення строків виконання зобов'язання за цим Договором винна сторона сплачує  іншій Стороні пеню у розмірі 0,1 відсотка вартості приєднання за кожний день  прострочення, а за прострочення понад тридцять днів додатково стягується штраф  у розмірі семи відсотків вказаної вартості.</p>
                 <p style="text-indent: 40px"><strong>Таким чином, Вам необхідно сплатити плату за <%=rs.getString("type_join")%>  з  урахуванням вимог п. 5.3. Договору. </strong></p>
-                <p style="text-indent: 40px">У разі Вашої відмови виконувати  свої зобов’язання по Договору та відмови від Договору у повному обсязі ПАТ  «Прикарпаттяобленерго», керуючись п.&nbsp;7.2. Договору, ст.&nbsp;651  Цивільного кодексу України, пропонує укласти додатковий правочин про розірвання  договору про <%=rs.getString("type_join")%>  до електричних мереж.</p>
+                <p style="text-indent: 40px">У разі Вашої відмови виконувати  свої зобов’язання по Договору та відмови від Договору у повному обсязі АТ «Прикарпаттяобленерго», керуючись п.&nbsp;7.2. Договору, ст.&nbsp;651  Цивільного кодексу України, пропонує укласти додатковий правочин про розірвання  договору про <%=rs.getString("type_join")%>  до електричних мереж.</p>
                 <p style="text-indent: 40px"><u>Враховуючи вищенаведене, просимо  провести оплату до <%= rs.getString("day_20")%> року на умовах укладеного Договору, або у вказаний  строк підписати та повернути електропередавальній компанії два примірники  додаткового правочину до Договору</u>.</p>
                 <p style="text-indent: 40px">Додаток: додатковий правочин про розірвання договору  № <%= rs.getString("number")%>  про <%=rs.getString("type_join")%>  до електричних мереж від <%= rs.getString("date_contract")%> року</p>
             </div>
@@ -186,7 +186,7 @@
             <p align="center">&nbsp;</p>
             <table width="100%"> <tr><td width="50%">м. Івано-Франківськ</td>
                 <td align="right">“___”_____________ 201_ року</td></tr></table>
-            <div style="text-align:justify;"><p style="text-indent: 40px">ПАТ «Прикарпаттяобленерго», що здійснює ліцензовану  діяльність з передачі електроенергії, в особі <%if (rs.getString("type_join2").equals("1")) {%>директора філії &quot;<%= rs.getString("rem_name")%> РЕМ&quot;  <%= rs.getString("director_rod")%>, який діє на підставі довіреності <%= rs.getString("dovirenist")%> року<%} else {%> Технічного директора ПАТ «Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі довіреності № 1202 від 13.02.2017<%}%> (Виконавець послуг), з однієї сторони, та <strong><%if (!rs.getString("customer_soc_status").equals("9")
+            <div style="text-align:justify;"><p style="text-indent: 40px">АТ«Прикарпаттяобленерго», що здійснює ліцензовану  діяльність з передачі електроенергії, в особі <%if (rs.getString("type_join2").equals("1")) {%>директора філії &quot;<%= rs.getString("rem_name")%> РЕМ&quot;  <%= rs.getString("director_rod")%>, який діє на підставі довіреності <%= rs.getString("dovirenist")%> року<%} else {%> Технічного директора АТ«Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі довіреності № 1202 від 13.02.2017<%}%> (Виконавець послуг), з однієї сторони, та <strong><%if (!rs.getString("customer_soc_status").equals("9")
                     && !rs.getString("customer_soc_status").equals("12")) {%> <%= rs.getString("customer_soc_status1")%><%}%>
                     <%= rs.getString("name")%></strong>, надалі ―
                 Замовник, <%if ((!rs.getString("customer_soc_status").equals("15")
@@ -205,7 +205,7 @@
                     <td width="355" valign="top"><span>Замовник:</span></td>
                 </tr>
                 <tr>
-                    <td width="400" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>
+                    <td width="400" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
                         Філія “<u><%= rs.getString("rem_name")%></u> РЕМ”<br>
                         <u><%=rs.getString("rem_licality")%></u><br>
                             <%=rs.getString("rek_bank").substring(0, rs.getString("rek_bank").indexOf(','))%><br>
@@ -216,7 +216,7 @@
                             <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",   М") + 1, rs.getString("rek_bank").indexOf(",  к"))%><br>
                             <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",  к") + 1, rs.getString("rek_bank").indexOf('.'))%><br>
                             <%= rs.getString("contacts")%><br>
-                        Директор    філії ПАТ «Прикарпаттяобленерго»<br>
+                        Директор    філії АТ«Прикарпаттяобленерго»<br>
                         “<%= rs.getString("rem_name")%> РЕМ”<br>
                     </p></td>
                     <td width="355" valign="top"><%if (rs.getString("customer_type").equals("1")) {%><u><%if (!rs.getString("customer_soc_status").equals("9")
@@ -253,18 +253,18 @@
                     <td width="355" valign="top"><span>Замовник:</span></td>
                 </tr>
                 <tr>
-                    <td width="328" valign="top"><p>ПАТ «Прикарпаттяобленерго»<br>
+                    <td width="328" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
                         <u>м. Івано-Франківськ, вул. Індустріальна, 34</u><br>
                         <% if ((rs.getString("type_join2").equals("1")) || (rs.getString("type_join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("type_join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("type_join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р 26009305757  в філії Івано-Франківське обласне управління АТ «Ощадбанк»<br>
+                        п/р 26009305757  в філії Івано-Франківське обласне управління ПАТ «Ощадбанк»<br>
                         Код МФО 336503 <br>
                         <% } %>
-                        Технічний директор<br> ПАТ «Прикарпаттяобленерго»<br>
+                        Технічний директор<br> АТ«Прикарпаттяобленерго»<br>
                     </p></td>
                     <td width="355" valign="top"><%if (rs.getString("customer_type").equals("1")) {%><u><%if (!rs.getString("customer_soc_status").equals("9")
                             && !rs.getString("customer_soc_status").equals("12")) {%> <%= rs.getString("customer_soc_status2")%><br><%}%><%= rs.getString("name2")%></u>

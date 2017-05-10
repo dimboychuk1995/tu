@@ -103,7 +103,7 @@
                 <tr><td><%=rs.getString("customer_adress")%></td></tr></table> 		
             <p> «Зміни ТУ № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року»</p>
             <p>&nbsp;</p>
-            <p>Філія ПАТ  «Прикарпаттяобленерго» “<%= rs.getString("rem_name")%> РЕМ” вносить зміни в технічні умови <br>
+            <p>Філія АТ «Прикарпаттяобленерго» “<%= rs.getString("rem_name")%> РЕМ” вносить зміни в технічні умови <br>
                 № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року (
                 <u><strong><%= rs.getString("object_name")%></strong></u> в  <strong><u><%= rs.getString("object_adress")%></u></strong>):
 

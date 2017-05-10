@@ -106,13 +106,13 @@
             <p>&nbsp;</p>
             <p>Копія: <br>
                 <strong>Директору  філії </strong><br>
-                <strong>ПАТ  «Прикарпаттяобленерго»</strong><br>
+                <strong>АТ «Прикарпаттяобленерго»</strong><br>
                 <strong><%= rs.getString("rem_name")%></strong><br>
                 <strong>п.<%= rs.getString("director_dav")%></strong></p>
             <p><strong>&nbsp;</strong></p>
             <p>Про розірвання договору</p>
             <p>&nbsp;</p>
-            <p style="text-align:justify;text-indent:20pt">Між  ПАТ «Прикарпаттяобленерго» та <%= rs.getString("name")%> укладено Договір № <%= rs.getString("number")%>
+            <p style="text-align:justify;text-indent:20pt">Між  АТ«Прикарпаттяобленерго» та <%= rs.getString("name")%> укладено Договір № <%= rs.getString("number")%>
                 від <%= rs.getString("date_contract")%> року про надання доступу до електричних мереж.</p>
             <p style="text-align:justify;text-indent:20pt">Згідно  з умовами Договору  № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року п. 2.1.1,
                 Наше товариство розробило та направило Вам (лист вих. № ________________ від _________року) кошторисну
@@ -138,7 +138,7 @@
                 до електричних мереж № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> р.</p>
             <p align="center">&nbsp;</p>
             <table width="100%"> <tr><td width="50%">м. Івано-Франківськ</td><td align="right">“___”_____________ 2013 року</td></tr></table>
-            <p><strong>Публічне акціонерне товариство «Прикарпаттяобленерго»</strong>, надалі ― <strong>Власник</strong>, в особі технічного директора  ПАТ «Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі  довіреності № 653 від 29.03.2013 року, з однієї сторони, та <strong><%= rs.getString("customer_soc_status")%><%= rs.getString("name")%></strong>,  надалі ― Замовник, який діє на підставі <%= rs.getString("constitutive_documents")%>,  з іншої сторони, далі ― Сторони, уклали даний Додатковий правочин про наступне:</p>
+            <p><strong>Публічне акціонерне товариство «Прикарпаттяобленерго»</strong>, надалі ― <strong>Власник</strong>, в особі технічного директора  АТ«Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі  довіреності № 653 від 29.03.2013 року, з однієї сторони, та <strong><%= rs.getString("customer_soc_status")%><%= rs.getString("name")%></strong>,  надалі ― Замовник, який діє на підставі <%= rs.getString("constitutive_documents")%>,  з іншої сторони, далі ― Сторони, уклали даний Додатковий правочин про наступне:</p>
             <ol>
                 <li>Сторони дійшли згоди розірвати Договір про надання  доступу до електричних мереж № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> р.</li>
                 <li>З моменту набрання чинності даного Додаткового  правочину сторони не вважають себе пов’язаними  будь-якими правами і зобов’язаннями за Договором про  надання доступу до електричних мереж  № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> р.</li>
@@ -155,14 +155,14 @@
                     <td width="355" valign="top"><p>Замовник</p></td>
                 </tr>
                 <tr>
-                    <td width="355" valign="top"><p><strong>ПАТ    «Прикарпаттяобленерго»</strong></p>
+                    <td width="355" valign="top"><p><strong>АТ   «Прикарпаттяобленерго»</strong></p>
                         <p>м. Івано-Франківськ, вул.    Індустріальна, 34<br>
                             р/р 26003301757 МФО 336503<br>
-                            Філія Івано-Франківського ОУ АТ<br>АТ «Ощадбанк»<br>
+                            Філія Івано-Франківського ОУ АТ<br>ПАТ «Ощадбанк»<br>
                             Код ЄДРПОУ 00131564<br>
                             тел./факс: 594451</p>
                         <p><strong>Технічний директор </strong><br>
-                            <strong>ПАТ «Прикарпаттяобленерго»</strong><strong> </strong></p></td>
+                            <strong>АТ«Прикарпаттяобленерго»</strong><strong> </strong></p></td>
                     <td width="350" valign="top"><font size="-1"><strong><%= rs.getString("customer_soc_status")%><%= rs.getString("name")%></strong></font><br>
                         <font size="-1"><strong><u><%=rs.getString("type_c")%> <%= rs.getString("customer_adress")%></u></strong><br>
                             р/р <%=rs.getString("bank_account")%>МФО <%= rs.getString("bank_mfo")%> <br>
