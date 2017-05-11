@@ -152,7 +152,7 @@
     <body>
         <div class="Section1">
             <p align="center">
-                 &nbsp;<span class="style1">ФІЛІЯ АТ«ПРИКАРПАТТЯОБЛЕНЕРГО»<br/>
+                 &nbsp;<span class="style1">ФІЛІЯ АТ «ПРИКАРПАТТЯОБЛЕНЕРГО»<br/>
                     “<%=rs.getString("rem_name").toUpperCase()%> РАЙОН ЕЛЕКТРИЧНИХ МЕРЕЖ”</span></p>
             <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
                 <tr>

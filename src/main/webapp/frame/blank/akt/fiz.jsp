@@ -123,7 +123,7 @@
         <p align="center"><strong>Акт</strong><br />
             <strong>розмежування балансової належності електромереж та експлуатаційної  відповідальності сторін </strong><br />
             Споживач  електроенергії: <strong><%= rs.getString("PIP")%>, <%= rs.getString("type_o")%><%= rs.getString("customer_adress")%></strong><br />
-            та <strong>філія АТ«Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ»</strong><br />
+            та <strong>філія АТ «Прикарпаттяобленерго» «<%= rs.getString("rem_name")%> РЕМ»</strong><br />
             в особі  <strong>директора <%= rs.getString("director_rod")%></strong><br /></p> 
         цим актом установили:
         <div align="justify" style="text-align:justify">

@@ -198,7 +198,7 @@
                         <p>м. Івано-Франківськ, вул. Індустріальна 34 <br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -206,7 +206,7 @@
                         Код МФО 336503 <br>
                         <% } %>
                         <p><strong>Технічний директор </strong><br>
-                            <strong>АТ«Прикарпаттяобленерго»</strong></p>
+                            <strong>АТ «Прикарпаттяобленерго»</strong></p>
                     </td>
                     <td width="350" valign="top"><font size="-1"><strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong></font><br>
                         <strong><u><%=rs.getString("type_c")%> <%= rs.getString("customer_adress")%></u></strong><br>
@@ -230,11 +230,11 @@
                 <td width="329" valign="top"><p>Замовник:</p></td>
                 </tr>
                 <tr>
-                    <td width="328" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
+                    <td width="328" valign="top"><p>АТ «Прикарпаттяобленерго»<br>
                             <u>м. Івано-Франківськ, вул. Індустріальна, 34</u><br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -242,7 +242,7 @@
                         Код МФО 336503 <br>
                         <% } %>
                             тел: <%= rs.getString("contacts").replace("тел. (", "").replace(")", "")%><br>
-                            Директор філії АТ«Прикарпаттяобленерго»<br>
+                            Директор філії АТ «Прикарпаттяобленерго»<br>
                             “<%= rs.getString("rem_name")%> РЕМ”<br>
                         </p></td>
                     <td width="329" valign="top"><p><u><%=rs.getString("PIP")%></u>
@@ -268,11 +268,11 @@
                 </tr>
                 <tr>
                     <td width="295" valign="top"><p>
-                            <strong>АТ«Прикарпаттяобленерго»</strong><br>
+                            <strong>АТ «Прикарпаттяобленерго»</strong><br>
                             м. Івано-Франківськ, вул. Індустріальна 34 <br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -280,7 +280,7 @@
                         Код МФО 336503 <br>
                         <% } %>
                             <strong>Технічний директор </strong><br>
-                            <strong>АТ«Прикарпаттяобленерго»</strong><br>
+                            <strong>АТ «Прикарпаттяобленерго»</strong><br>
                         </p></td>
                     <td width="421" valign="top"><p><strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong><br>
                             <strong><%=rs.getString("type_c")%> <%= rs.getString("customer_adress")%></strong><br>

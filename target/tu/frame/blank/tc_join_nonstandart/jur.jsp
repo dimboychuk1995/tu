@@ -225,7 +225,7 @@
     <body>
         <div class="Section1">
             <p align="right" class="style1">ОП 4.1-Ж</p>
-            <p align="center"><span class="style1"><span class="style11">АТ«ПРИКАРПАТТЯОБЛЕНЕРГО»</span><br>
+            <p align="center"><span class="style1"><span class="style11">АТ «ПРИКАРПАТТЯОБЛЕНЕРГО»</span><br>
             </span></p>
             <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
                 <tr>
@@ -236,7 +236,7 @@
                     <td valign="top"><p align="right"><strong><%if (!rs.getString("customer_soc_status_1").equals("7") && !rs.getString("customer_soc_status_1").equals("8") && !rs.getString("customer_soc_status_1").equals("9") && !rs.getString("customer_soc_status_1").equals("10") && !rs.getString("customer_soc_status_1").equals("12") && !rs.getString("customer_soc_status_1").equals("15") && !rs.getString("customer_soc_status_1").equals("13")) {%><%= rs.getString("customer_soc_status0")%>
                             <%= rs.getString("name")%><br><%} else if (rs.getString("customer_soc_status_1").equals("15")) {%><%= rs.getString("customer_soc_status0")%><br/><%= rs.getString("PIP")%><br><%} else {%><%=rs.getString("name")%><br><%}%>
                         Директору філії<br>
-                        АТ«Прикарпаттяобленерго»<br>
+                        АТ «Прикарпаттяобленерго»<br>
                             <%=rs.getString("rem_name")%> РЕМ<br>
                         п. <%= rs.getString("director_dav")%></strong></p></td>
                 </tr>
@@ -364,7 +364,7 @@
                 <dt>1.5 Вимоги до ізоляції, захисту від перенапруги: <strong><%= rs.getString("do11")%></strong></dt>
                 <dt>1.6 Вимоги до кошторисної частини проекту: <strong>проектно-кошторисну документацію розробляється відповідно до вимог ДСТУ Б Д.1.1-1:2013 Правила визначення вартості будівництва.</strong></dt>
                 <dt>1.7 Вимоги до оформлення проектно-кошторисної документації: <strong>визначити терміни будівництва мереж від точки забезпечення потужності до точки приєднання.</strong></dt>
-                <dt>2 До початку будівництва проект погодити з АТ«Прикарпаттяобленерго». На стадії проектування траси ЛЕП погодити із  землевласниками (землекористувачами), усіма зацікавленими організаціями та АТ«Прикарпаттяобленерго».</dt>
+                <dt>2 До початку будівництва проект погодити з АТ «Прикарпаттяобленерго». На стадії проектування траси ЛЕП погодити із  землевласниками (землекористувачами), усіма зацікавленими організаціями та АТ «Прикарпаттяобленерго».</dt>
                 <dt>3 У випадку наявності існуючих ЛЕП в зоні забудови, винести їх з даної зони відповідно до технічного завдання, отриманого в філії «<%=rs.getString("rem_name")%> РЕМ»</dt>
             </dl>
         </div>
@@ -377,7 +377,7 @@
             <td width="240" valign="top"><p class="style2">Замовник</p></td>
         </tr>
         <tr>
-            <td width="328" valign="top"><p><strong>АТ«Прикарпаттяобленерго»</strong><br>
+            <td width="328" valign="top"><p><strong>АТ «Прикарпаттяобленерго»</strong><br>
                 Технічний директор <br>
                 Сеник Олег Степанович</p>
                 М.П.

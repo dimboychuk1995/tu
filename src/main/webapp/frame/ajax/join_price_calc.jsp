@@ -26,8 +26,8 @@
         c = ds.getConnection();
 
         String SQL = "DECLARE \n" +
-                "@date_registarion DATETIME = '04.05.2017',\n" +
-                "@stage_join INTEGER = '3' \n" +
+                "@date_registarion DATETIME = '"+date+"'," +
+                "@stage_join INTEGER = '"+stage_join+"'" +
                 "\n" +
                 "SELECT \n" +
                 "CASE  \t \n" +
@@ -39,7 +39,8 @@
                 "WHEN @stage_join = 2 and @date_registarion >= '26.02.2016' and @date_registarion < '06.05.2017' THEN rate2016_IIst  \n" +
                 "WHEN @stage_join = 1 and @date_registarion >= '06.03.2017' THEN rate2017_Ist  \n" +
                 "WHEN @stage_join = 2 and @date_registarion >= '06.05.2017' THEN rate2017_IIst\t\n" +
-                "WHEN @stage_join = 3\tTHEN rate2017_IIIst\t \n" +
+                "WHEN @stage_join = 3 \t" +
+                "THEN rate2017_IIIst\t \n" +
                 "ELSE 0 \t \n" +
                 "END AS rate \n" +
                 "FROM   [TUWeb].[dbo].[rate_of_payment]\n" +

@@ -162,7 +162,7 @@
                 <td width="50%">м. Івано-Франківськ</td>
                 <td align="right">___.___._____ р.</td></tr></table><br >
 
-        <div align="justify" style="text-align:justify;"><strong>АТ«Прикарпаттяобленерго»</strong>, в особі технічного директора <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № 1202 від 13.02.2017 з однієї сторони, та <% if (rs.getString("customer_type").equals("0")) {%>громадянин(ка) <strong><%=rs.getString("PIP")%></strong>, (далі – Замовник), <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>,<%} else {
+        <div align="justify" style="text-align:justify;"><strong>АТ «Прикарпаттяобленерго»</strong>, в особі технічного директора <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № 1202 від 13.02.2017 з однієї сторони, та <% if (rs.getString("customer_type").equals("0")) {%>громадянин(ка) <strong><%=rs.getString("PIP")%></strong>, (далі – Замовник), <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>,<%} else {
             %> <%if (!rs.getString("customer_soc_status_1").equals("9")
                         && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
             <%= rs.getString("name")%></strong>, (далі ―
@@ -187,9 +187,9 @@
             <td width="329" valign="top"><p>Замовник:</p></td>
         </tr>
         <tr>
-            <td width="328" valign="top"><p><strong>АТ«Прикарпаттяобленерго»</strong><br>
+            <td width="328" valign="top"><p><strong>АТ «Прикарпаттяобленерго»</strong><br>
                 Код ЄДРПОУ 00131564<br>
-                п/р  26003011732479 в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                п/р  26003011732479 в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                 Код МФО 300023<br>
                     <strong>Технічний директор <br>
                         АТ «Прикарпаттяобленерго»</strong><br>
@@ -217,9 +217,9 @@
             <td width="355" valign="top"><span>Замовник:</span></td>
         </tr>
         <tr>
-            <td width="328" valign="top"><p><strong>АТ«Прикарпаттяобленерго»</strong><br>
+            <td width="328" valign="top"><p><strong>АТ «Прикарпаттяобленерго»</strong><br>
                 Код ЄДРПОУ 00131564<br>
-                п/р  26003011732479 в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                п/р  26003011732479 в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                 Код МФО 300023<br>
                     <strong>Технічний директор <br>
                         АТ «Прикарпаттяобленерго</strong><strong>»</strong><br>
@@ -276,13 +276,13 @@
     <br>
     <b>Копія:</b><br>
     <b>Директору філії</b><br> 
-    <b>АТ«Прикарпаттяобленерго»</b><br>
+    <b>АТ «Прикарпаттяобленерго»</b><br>
     <b><%=rs.getString("rem_name")%> РЕМ</b><br>
     <b><%=rs.getString("director_dav")%></b><br><br>
     <center><b>ТЕХНІЧНЕ РІШЕННЯ</b></center>
     <center><b>про погодження проектно-кошторисної документації</b></center>
     <br>
-    <div align="justify" style="text-align:justify; text-indent: 40px;">АТ«Прикарпаттяобленерго» розглянуло Робочий проект електропостачання <%=rs.getString("object_name")%> в <%=rs.getString("type_o")%><%=rs.getString("object_adress")%> розроблений  _________ та погоджує його.</div>
+    <div align="justify" style="text-align:justify; text-indent: 40px;">АТ «Прикарпаттяобленерго» розглянуло Робочий проект електропостачання <%=rs.getString("object_name")%> в <%=rs.getString("type_o")%><%=rs.getString("object_adress")%> розроблений  _________ та погоджує його.</div>
     <br><br>
     <div align="justify" style="text-align:justify;">Додаток: Додаткова угода до договору № <%= rs.getString("number")%> від <%= rs.getString("date_contract")%> року про нестандартне приєднання до електричних мереж –  на 1 арк. в 1 прим.</div>
     <br><br><br><b>О. С. Сеник<b/><br><b>Технічний директор</b><br>

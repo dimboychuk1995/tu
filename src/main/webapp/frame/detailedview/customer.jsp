@@ -26,7 +26,7 @@
 <script type="text/javascript">
     function my(){
         if ($("#type_join").val()=='1'){
-            $("#stage_join [value='3'],#stage_join [value='4'],#stage_join [value='5'],#stage_join [value='7']").attr("disabled","disabled");
+            $("#stage_join [value='4'],#stage_join [value='5'],#stage_join [value='7']").attr("disabled","disabled");
             $("#stage_join [value='0'],#stage_join [value='1'], #stage_join [value='2']").removeAttr("disabled");
         }  else
             if ($("#type_join").val()=='2'){

@@ -325,11 +325,11 @@
                 </tr>
                 <tr>
                     <td width="295" valign="top"><p>
-                            <strong>АТ«Прикарпаттяобленерго»</strong><br>
+                            <strong>АТ «Прикарпаттяобленерго»</strong><br>
                             м. Івано-Франківськ, вул. Індустріальна 34 <br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -337,7 +337,7 @@
                         Код МФО 336503 <br>
                         <% } %>
                             <strong>Технічний директор </strong><br>
-                            <strong>АТ«Прикарпаттяобленерго»</strong><br>
+                            <strong>АТ «Прикарпаттяобленерго»</strong><br>
                         </p></td>
                     <td width="421" valign="top"><p><strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong><br>
                             <strong><%=rs.getString("type_c")%> <%= rs.getString("customer_adress")%></strong><br>
@@ -361,11 +361,11 @@
                     <td>Замовник</td>
                 </tr>
                 <tr>
-                    <td width="328" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
+                    <td width="328" valign="top"><p>АТ «Прикарпаттяобленерго»<br>
                             <u>м. Івано-Франківськ, вул. Індустріальна, 34</u><br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -373,7 +373,7 @@
                         Код МФО 336503 <br>
                         <% } %>
                             тел: <%= rs.getString("contacts").replace("тел. (", "").replace(")", "")%><br>
-                            Директор філії АТ«Прикарпаттяобленерго»<br>
+                            Директор філії АТ «Прикарпаттяобленерго»<br>
                             “<%= rs.getString("rem_name")%> РЕМ”<br>
                         </p></td>
                     <td width="421" valign="top"><p><strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong><br>
@@ -401,11 +401,11 @@
                 </tr>
                 <tr>
                     <td width="295" valign="top"><p>
-                            <strong>АТ«Прикарпаттяобленерго»</strong><br>
+                            <strong>АТ «Прикарпаттяобленерго»</strong><br>
                             м. Івано-Франківськ, вул. Індустріальна 34 <br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -413,7 +413,7 @@
                         Код МФО 336503 <br>
                         <% } %>
                             <strong>Технічний директор </strong><br>
-                            <strong>АТ«Прикарпаттяобленерго»</strong><br>
+                            <strong>АТ «Прикарпаттяобленерго»</strong><br>
                         </p></td>
                     <td width="421" valign="top"><p><strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong><br>
                             <strong><%=rs.getString("type_c")%> <%= rs.getString("customer_adress")%></strong><br>
@@ -439,7 +439,7 @@
         <div class="Section1">
             <p align="right" class="style1">ОП 4.1-Ґ</p>
             <p align="center">
-                 &nbsp;<span class="style1">ФІЛІЯ АТ«ПРИКАРПАТТЯОБЛЕНЕРГО»<br>
+                 &nbsp;<span class="style1">ФІЛІЯ АТ «ПРИКАРПАТТЯОБЛЕНЕРГО»<br>
                     “<%=rs.getString("rem_name").toUpperCase()%> РАЙОН ЕЛЕКТРИЧНИХ МЕРЕЖ”</span></p>
 
             <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="font-size: 11pt">
@@ -554,7 +554,7 @@
 <%} else if (rs.getString("join2").equals("2")) {%>
 <div class="Section1">
     <p align="right" class="style1">ОП 4.1-Ж</p>
-    <p align="center"><span class="style1"><span class="style11">АТ«ПРИКАРПАТТЯОБЛЕНЕРГО»</span><br>
+    <p align="center"><span class="style1"><span class="style11">АТ «ПРИКАРПАТТЯОБЛЕНЕРГО»</span><br>
         </span></p>
     <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
         <tr>
@@ -565,7 +565,7 @@
             <td valign="top"><p align="right"><strong><%if (!rs.getString("customer_soc_status_1").equals("7") && !rs.getString("customer_soc_status_1").equals("8") && !rs.getString("customer_soc_status_1").equals("9") && !rs.getString("customer_soc_status_1").equals("10") && !rs.getString("customer_soc_status_1").equals("12") && !rs.getString("customer_soc_status_1").equals("15") && !rs.getString("customer_soc_status_1").equals("13")) {%><%= rs.getString("customer_soc_status0")%>
                         <%= rs.getString("name")%><br><%} else if (rs.getString("customer_soc_status_1").equals("15")) {%><%= rs.getString("customer_soc_status0")%><br/><%= rs.getString("PIP")%><br><%} else {%><%=rs.getString("name")%><br><%}%>
                         Директору філії<br>
-                        АТ«Прикарпаттяобленерго»<br>
+                        АТ «Прикарпаттяобленерго»<br>
                         <%=rs.getString("rem_name")%> РЕМ<br>
                         п. <%= rs.getString("director_dav")%></strong></p></td>
         </tr>
@@ -694,13 +694,13 @@
             <dt>1.5 Вимоги до ізоляції, захисту від перенапруги: <strong><%= rs.getString("do11")%></strong></dt>
             <dt>1.6 Вимоги до кошторисної частини проекту: <strong>проектно-кошторисну документацію розробляється відповідно до вимог ДСТУ Б Д.1.1-1:2013 Правила визначення вартості будівництва.</strong></dt>
             <dt>1.7 Вимоги до оформлення проектно-кошторисної документації: <strong>визначити терміни будівництва мереж від точки забезпечення потужності до точки приєднання.</strong></dt>
-            <dt>2 До початку будівництва проект погодити з АТ«Прикарпаттяобленерго». На стадії проектування траси ЛЕП погодити із  землевласниками (землекористувачами), усіма зацікавленими організаціями та АТ«Прикарпаттяобленерго».</dt>
+            <dt>2 До початку будівництва проект погодити з АТ «Прикарпаттяобленерго». На стадії проектування траси ЛЕП погодити із  землевласниками (землекористувачами), усіма зацікавленими організаціями та АТ «Прикарпаттяобленерго».</dt>
         </dl>
     </div>
     <%} else {%>
     <div class="Section1">
         <p align="right"><SPAN lang="UK">7.51-ПР-1-ТД-1.4.Д</SPAN></p>
-        <p align="center">АТ«ПРИКАРПАТТЯОБЛЕНЕРГО»</p>
+        <p align="center">АТ «ПРИКАРПАТТЯОБЛЕНЕРГО»</p>
 
         <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%">
             <tr>
@@ -710,7 +710,7 @@
                 <td valign="top"><p align="right"><strong><%= rs.getString("customer_soc_status")%><br>
                             <%= rs.getString("name")%><br> 
                             Директору філії<br>
-                            АТ«Прикарпаттяобленерго»<br>
+                            АТ «Прикарпаттяобленерго»<br>
                             <%=rs.getString("rem_name")%> РЕМ<br>
                             п. <%= rs.getString("director_dav")%></strong></p></td>
             </tr>
@@ -859,7 +859,7 @@
             <dt>7.9 Вимоги до ізоляції, захисту від  перенапруги: <u>відсутні</u>.</dt>
             <dt>7.10 Специфічні вимоги щодо живлення  електроустановок Замовника, які стосуються резервного живлення, допустимості  паралельної роботи елементів електричної мережі:
                 <%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%> <strong>
-                    встановити блокуючий пристрій для неможливості подачі генерованої напруги в мережі АТ«Прикарпаттяобленерго». Встановити АВР
+                    встановити блокуючий пристрій для неможливості подачі генерованої напруги в мережі АТ «Прикарпаттяобленерго». Встановити АВР
                     на напрузі 0,4 кВ (централізовано на вводах в споруду чи децентралізовано у електроприймачів І категорії по надійності 
                     електропостачання). <% if (rs.getString("reliabylity_class_2").toUpperCase().equals("TRUE") || rs.getString("reliabylity_class_3").toUpperCase().equals("TRUE")) {%> <%=rs.getString("do8")%><%}%></strong><%} else {%><%=rs.getString("do8")%><%}%> </dt></dl>
         <dl>
@@ -1059,7 +1059,7 @@
             <dt>7.9 Вимоги до ізоляції, захисту від  перенапруги: відсутні.</dt>
             <dt>7.10 Специфічні вимоги щодо живлення  електроустановок Замовника, які стосуються резервного живлення, допустимості  паралельної роботи елементів електричної мережі:
                 <%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%><strong>
-                    встановити блокуючий пристрій для неможливості подачі генерованої напруги в мережі АТ«Прикарпаттяобленерго». Встановити АВР
+                    встановити блокуючий пристрій для неможливості подачі генерованої напруги в мережі АТ «Прикарпаттяобленерго». Встановити АВР
                     на напрузі 0,4 кВ (централізовано на вводах в споруду чи децентралізовано у електроприймачів І категорії по надійності 
                     електропостачання). <%if (rs.getString("reliabylity_class_2").toUpperCase().equals("TRUE") || rs.getString("reliabylity_class_3").toUpperCase().equals("TRUE")) {%> <%=rs.getString("do8")%><%}%></strong><%} else {%><%=rs.getString("do8")%><%}%></dt>
         </dl>
@@ -1098,7 +1098,7 @@
             </tr>
             <tr>
                 <td width="391" valign="top"><p class="style1">М. П.</p>
-                    <p class="style1">Головний інженер філії АТ«Прикарпаттяобленерго»</p>
+                    <p class="style1">Головний інженер філії АТ «Прикарпаттяобленерго»</p>
                     <p class="style1">"<%= rs.getString("rem_name")%>" РЕМ</p>
                     <p class="style1"><%= rs.getString("golovnyi_ingener")%></p>
                     <p class="style1">____________<br>
@@ -1128,7 +1128,7 @@
                     <td align="right"><font size="-1"><strong><%=rs.getString("date_contract")%></strong> р.</font></td></tr></table>
 
             <div style="text-align:justify; text-indent:20pt"><font size="-1"><strong>Публічне акціонерне товариство «Прикарпаттяобленерго»</strong>,&nbsp;надалі ―
-                    <strong>Електропередавальна організація (далі – ЕО)</strong>,&nbsp;що здійснює ліцензовану діяльність з передачі електроенергії, в особі технічного директора  АТ«Прикарпаттяобленерго»&nbsp;
+                    <strong>Електропередавальна організація (далі – ЕО)</strong>,&nbsp;що здійснює ліцензовану діяльність з передачі електроенергії, в особі технічного директора  АТ «Прикарпаттяобленерго»&nbsp;
                     <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 1202 від 13.02.2017
                     &nbsp;року, з однієї сторони, та&nbsp;<strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong>, надалі ―
                     Замовник, <%if (!rs.getString("customer_soc_status_1").equals("15")
@@ -1183,7 +1183,7 @@
 
             <div style="text-align:justify; text-indent:20pt"><font size="-1"><strong>Публічне акціонерне товариство  «Прикарпаттяобленерго»</strong>, надалі ― <strong>
                         Електропередавальна організація (далі – ЕО)</strong>, що здійснює  ліцензовану діяльність з передачі електроенергії, в особі технічного
-                    директора  АТ«Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № <strong>816</strong>
+                    директора  АТ «Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>, який діє на підставі довіреності № <strong>816</strong>
                     &nbsp;від&nbsp;<strong>11.08.2014</strong> року, з однієї сторони, та <strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%>
                         <%= rs.getString("name")%></strong> надалі ― Замовник,
@@ -1271,11 +1271,11 @@
                 </tr>
                 <tr>
                     <td width="295" valign="top"><p>
-                            <strong>АТ«Прикарпаттяобленерго»</strong><br>
+                            <strong>АТ «Прикарпаттяобленерго»</strong><br>
                             м. Івано-Франківськ, вул. Індустріальна 34 <br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -1283,7 +1283,7 @@
                         Код МФО 336503 <br>
                         <% } %>
                             <strong>Технічний директор </strong><br>
-                            <strong>АТ«Прикарпаттяобленерго»</strong><br>
+                            <strong>АТ «Прикарпаттяобленерго»</strong><br>
                         </p></td>
                     <td width="355" valign="top"><p><font size="-1"><strong><u><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></u></strong>
                                 <br>
@@ -1311,11 +1311,11 @@
                     <td width="329" valign="top"><p>Замовник:</p></td>
                 </tr>
                 <tr>
-                    <td width="328" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
+                    <td width="328" valign="top"><p>АТ «Прикарпаттяобленерго»<br>
                             <u>м. Івано-Франківськ, вул. Індустріальна, 34</u><br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -1323,7 +1323,7 @@
                         Код МФО 336503 <br>
                         <% } %>
                             тел: <%= rs.getString("contacts").replace("тел. (", "").replace(")", "")%><br>
-                            Директор філії АТ«Прикарпаттяобленерго»<br>
+                            Директор філії АТ «Прикарпаттяобленерго»<br>
                             “<%= rs.getString("rem_name")%> РЕМ”<br>
                         </p></td>
                     <td width="329" valign="top"><p><u><%=rs.getString("PIP")%></u>
@@ -1348,11 +1348,11 @@
                     <td width="355" valign="top"><p><font size="-1">Замовник:</font></p></td>
                   </tr>
                   <tr>
-                    <td width="355" valign="top"><font size="-1"><strong>АТ«Прикарпаттяобленерго»</strong> <br>
+                    <td width="355" valign="top"><font size="-1"><strong>АТ «Прикарпаттяобленерго»</strong> <br>
                     <strong>м.    Івано-Франківськ, вул. Індустріальна, 34</strong><br>
                         <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                         Код ЄДРПОУ 00131564<br>
-                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <% } else { %>
                         Код ЄДРПОУ 00131564<br>
@@ -1450,7 +1450,7 @@
             <dl>
                 <dt>4.1. Плата за приєднання за цим Договором відповідно  до Постанови НКРЕ № 81 від 26.01.2017 «Про затвердження ставок плати за приєднання електроустановок для Автономної Республіки Крим, областей, міст Києва та Севастополя на 2015 рік», становить <strong>  <%= rs.getString("price_join").replace(".", ",")%></strong> грн. з ПДВ.</dt>
                 <div align="justify" style="text-align:justify; text-indent:20pt">Плата за приєднання вказується з урахуванням  діючих ставок та податку на додану вартість на день  здійснення платежу.<br></div>
-                <dt>4.2. Замовник сплачує плату за приєднання,визначену в пункті 4.1 цього Договору, на поточний рахунок Виконавця послуг: п/р <%if (rs.getString("type_join").equals("1")){%>26000011732450<%} else{ %>26003011732479<%}%>в філії Івано-Франківське обласне управління АТ«Укрсоцбанк», Код ЄДРПОУ 00131564, в  термін до ____ днів з дня укладання Договору.</dt>
+                <dt>4.2. Замовник сплачує плату за приєднання,визначену в пункті 4.1 цього Договору, на поточний рахунок Виконавця послуг: п/р <%if (rs.getString("type_join").equals("1")){%>26000011732450<%} else{ %>26003011732479<%}%>в філії Івано-Франківське обласне управління ПАТ «Укрсоцбанк», Код ЄДРПОУ 00131564, в  термін до ____ днів з дня укладання Договору.</dt>
             </dl>
         </div>
         <div align="center"><strong>5.  Відповідальність сторін</strong></div>
@@ -1515,11 +1515,11 @@
                 <td width="329" valign="top"><p>Замовник:</p></td>
             </tr>
             <tr>
-                <td width="328" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
+                <td width="328" valign="top"><p>АТ «Прикарпаттяобленерго»<br>
                         <u>м. Івано-Франківськ, вул. Індустріальна, 34</u><br>
                     <% if ((rs.getString("type_join").equals("1")) || (rs.getString("type_join").equals("2"))) { %>
                     Код ЄДРПОУ 00131564<br>
-                    п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                    п/р <% if (rs.getString("type_join").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                     Код МФО 300023<br>
                     <% } else { %>
                     Код ЄДРПОУ 00131564<br>
@@ -1527,7 +1527,7 @@
                     Код МФО 336503 <br>
                     <% } %>
                         тел: <%= rs.getString("contacts").replace("тел. (", "").replace(")", "")%><br>
-                        Директор філії АТ«Прикарпаттяобленерго»<br>
+                        Директор філії АТ «Прикарпаттяобленерго»<br>
                         “<%= rs.getString("rem_name")%> РЕМ”<br>
                     </p></td><td width="329" valign="top"><p><strong><%=rs.getString("PIP")%></strong><br>
                         <%=rs.getString("type_c")%> <%=rs.getString("customer_adress")%><br>
@@ -1557,7 +1557,7 @@
                 <td width="50%">м. Івано-Франківськ</td>
                 <td align="right"><%=rs.getString("date_customer_contract_tc")%> р.</td></tr></table><br >
 
-        <div align="justify" style="text-align:justify;"><strong>АТ«Прикарпаттяобленерго»</strong>, в особі технічного директора АТ«Прикарпаттяобленерго»&nbsp; <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 816&nbsp;від 11.08.2014&nbsp;з однієї сторони (далі - Виконавець послуг), та громадянин (ка) <strong><%=rs.getString("PIP")%></strong>, (далі – Замовник), <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>, з іншої сторони (далі – Сторони), уклали цей  договір про нестандартне приєднання електроустановок Замовника до електричних мереж (далі –  Договір).<br>
+        <div align="justify" style="text-align:justify;"><strong>АТ «Прикарпаттяобленерго»</strong>, в особі технічного директора АТ «Прикарпаттяобленерго»&nbsp; <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 816&nbsp;від 11.08.2014&nbsp;з однієї сторони (далі - Виконавець послуг), та громадянин (ка) <strong><%=rs.getString("PIP")%></strong>, (далі – Замовник), <strong><%=rs.getString("constitutive_documents")%></strong>, ідентифікаційний код <%=rs.getString("bank_identification_number")%>, з іншої сторони (далі – Сторони), уклали цей  договір про нестандартне приєднання електроустановок Замовника до електричних мереж (далі –  Договір).<br>
         </div>
         <div align="justify" style="text-align:justify; text-indent:20pt">При виконанні умов цього Договору Сторони  зобов'язуються діяти відповідно до чинного законодавства, зокрема, Правил  приєднання електроустановок до електричних мереж, затверджених постановою  Національної комісії, що здійснює державне регулювання у сфері енергетики № 32 від 17.01.2013 року, Методики розрахунку плати за приєднання,  затвердженою Постановою НКРЕ № 115 від 28.02.2013 року, Закону України «Про  електроенергетику», Закону України «Про регулювання містобудівної діяльності».<br> 
         </div>
@@ -1684,11 +1684,11 @@
                 <td width="329" valign="top"><p>Замовник:</p></td>
             </tr>
             <tr>
-                <td width="328" valign="top"><p><strong>АТ«Прикарпаттяобленерго»</strong><br>
+                <td width="328" valign="top"><p><strong>АТ «Прикарпаттяобленерго»</strong><br>
                         м. Івано-Франківськ, вул. Індустріальна, 34<br>
                     <% if ((rs.getString("join2").equals("1")) || (rs.getString("join2").equals("2"))) { %>
                     Код ЄДРПОУ 00131564<br>
-                    п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                    п/р <% if (rs.getString("join2").equals("1")) { %>26000011732450 <%} else { %> 26003011732479 <% } %> в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                     Код МФО 300023<br>
                     <% } else { %>
                     Код ЄДРПОУ 00131564<br>

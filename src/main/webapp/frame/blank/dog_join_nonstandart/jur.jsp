@@ -146,7 +146,7 @@
             <table width="100%"><tr><td width="50%">м. Івано-Франківськ</td>
                     <td align="right"><%=rs.getString("date_customer_contract_tc")%> р.</td></tr></table><br >
 
-            <div align="justify" style="text-align:justify;"><strong>АТ«Прикарпаттяобленерго»</strong>, в особі технічного директора АТ«Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>,&nbsp;який  діє на підставі довіреності № 1202 від 13.02.2017 з  однієї сторони (далі - Виконавець послуг), та <strong>
+            <div align="justify" style="text-align:justify;"><strong>АТ «Прикарпаттяобленерго»</strong>, в особі технічного директора АТ «Прикарпаттяобленерго» <strong>Сеника Олега Степановича</strong>,&nbsp;який  діє на підставі довіреності № 1202 від 13.02.2017 з  однієї сторони (далі - Виконавець послуг), та <strong>
                     <%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%> <%= rs.getString("customer_soc_status")%><%}%> 
                     <%= rs.getString("name")%></strong>, (далі ―
@@ -258,10 +258,10 @@
                     <td width="355" valign="top"><span>Замовник:</span></td>
                 </tr>
                 <tr>
-                    <td width="328" valign="top"><p><strong>АТ«Прикарпаттяобленерго»</strong><br>
+                    <td width="328" valign="top"><p><strong>АТ «Прикарпаттяобленерго»</strong><br>
                             м. Івано-Франківськ, вул. Індустріальна, 34<br>
                         Код ЄДРПОУ 00131564<br>
-                        п/р 26003011732479 в Івано-Франківське відділення №340 АТ«Укрсоцбанк»<br>
+                        п/р 26003011732479 в Івано-Франківське відділення №340 ПАТ «Укрсоцбанк»<br>
                         Код МФО 300023<br>
                         <strong>Технічний директор <br>
                                 АТ «Прикарпаттяобленерго</strong><strong>»</strong><br>

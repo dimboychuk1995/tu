@@ -109,7 +109,7 @@
             </table>
             <p>&nbsp;</p>
             <p><strong>Директору філії<br>
-                    АТ«Прикарпаттяобленерго»<br>
+                    АТ «Прикарпаттяобленерго»<br>
                     “<%= rs.getString("rem_name")%> РЕМ”<br>
                     п. <%= rs.getString("director_dav")%></strong></p>
             <p> «Зміни ТУ № <%= rs.getString("number")%>  від <%= rs.getString("date_contract")%> року»</p>

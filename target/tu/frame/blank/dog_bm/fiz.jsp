@@ -108,7 +108,7 @@
                 <span class="style1">про надання доступу до  електричних мереж будівельних електромеханізмів</span></p>
             <table width="100%"><tr><td width="50%"><%=rs.getString("rem_licality").substring(0, rs.getString("rem_licality").indexOf(','))%></td><td align="right"><%= rs.getString("date_customer_contract_tc")%> року.</td></tr></table>
 
-            <div style="text-align:justify; text-indent:20pt"><strong>Публічне  акціонерне товариство «Прикарпаттяобленерго»</strong>, <strong>“<u><%= rs.getString("rem_name")%></u> РЕМ”</strong>, надалі ― <strong>Електропередавальна  організація (далі – ЕО)</strong>, що здійснює ліцензовану діяльність з передачі  електроенергії, в особі в особі директора філії АТ«Прикарпаттяобленерго» “<%=rs.getString("rem_name")%> РЕМ” <strong><%= rs.getString("director_rod")%></strong>, який діє на  підставі Положення про філію та довіреності <%= rs.getString("dovirenist")%> р., з однієї сторони, та громадянин (ка) <strong><%=rs.getString("PIP")%></strong> (житель <%=rs.getString("type_c")%> <%=rs.getString("customer_adress")%>), надалі – Замовник, <u><%=rs.getString("constitutive_documents")%></u>, ідентифікаційний код <%=rs.getString("bank_identification_number")%> з іншої сторони, далі ― Сторони,  уклали цей Договір на доступ електроустановок Замовника до електричних мереж ЕО  (надалі ― Договір).</div>
+            <div style="text-align:justify; text-indent:20pt"><strong>Публічне  акціонерне товариство «Прикарпаттяобленерго»</strong>, <strong>“<u><%= rs.getString("rem_name")%></u> РЕМ”</strong>, надалі ― <strong>Електропередавальна  організація (далі – ЕО)</strong>, що здійснює ліцензовану діяльність з передачі  електроенергії, в особі в особі директора філії АТ «Прикарпаттяобленерго» “<%=rs.getString("rem_name")%> РЕМ” <strong><%= rs.getString("director_rod")%></strong>, який діє на  підставі Положення про філію та довіреності <%= rs.getString("dovirenist")%> р., з однієї сторони, та громадянин (ка) <strong><%=rs.getString("PIP")%></strong> (житель <%=rs.getString("type_c")%> <%=rs.getString("customer_adress")%>), надалі – Замовник, <u><%=rs.getString("constitutive_documents")%></u>, ідентифікаційний код <%=rs.getString("bank_identification_number")%> з іншої сторони, далі ― Сторони,  уклали цей Договір на доступ електроустановок Замовника до електричних мереж ЕО  (надалі ― Договір).</div>
             <div style="text-align:justify; text-indent:20pt">При виконанні умов цього  Договору, а також вирішенні всіх питань, що не обумовлені цим Договором,  сторони зобов'язуються керуватися Законом України “Про електроенергетику”,  Законом України &quot;Про архітектурну діяльність&quot;, Законом України “Про  основи містобудування” та іншими нормативно-правовими актами.</div>
             <div style="text-align:justify; text-indent:20pt">Підписавши  цей Договір, Сторони підтверджують, що відповідно до законодавства та  установчих документів, мають право укладати цей Договір, його укладання  відповідає справжнім намірам сторін, які ґрунтуються на правильному розумінні  предмету та всіх інших умов договору, наслідків його виконання та свідомо  бажають настання цих наслідків.</div>
             <p align="center"><strong>1 Предмет Договору</strong></p>
@@ -158,7 +158,7 @@
                     <td width="50%" valign="top"><p>Замовник:</p></td>
                 </tr>
                 <tr>
-                    <td width="345" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
+                    <td width="345" valign="top"><p>АТ «Прикарпаттяобленерго»<br>
                             Філія “<u><%= rs.getString("rem_name")%></u> РЕМ”<br>
                 <u><%=rs.getString("rem_licality")%></u><br>
                 <%=rs.getString("rek_bank").substring(0, rs.getString("rek_bank").indexOf(','))%><br>
@@ -169,7 +169,7 @@
                 <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",   М") + 1, rs.getString("rek_bank").indexOf(",  к"))%><br>
                 <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",  к") + 1, rs.getString("rek_bank").indexOf('.'))%><br>
                 <%= rs.getString("contacts")%><br>
-                Директор    філії АТ«Прикарпаттяобленерго»<br>
+                Директор    філії АТ «Прикарпаттяобленерго»<br>
                 “<%= rs.getString("rem_name")%> РЕМ”<br>
                 _________________    <u><%=rs.getString("Director")%></u><br>
                         (підпис)                                             (П.І.Б.)</p></td>

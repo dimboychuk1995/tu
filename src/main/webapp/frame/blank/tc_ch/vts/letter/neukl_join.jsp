@@ -124,7 +124,7 @@
             <p>&nbsp;</p>
             <p>&nbsp;</p>
             <p><strong>Директор  філії</strong><br>
-                АТ«Прикарпаттяобленерго»<br>
+                АТ «Прикарпаттяобленерго»<br>
                 <%= rs.getString("rem_name")%> РЕМ<strong></strong><br>
                 <strong><%= rs.getString("Director")%></strong></p>
         </div>

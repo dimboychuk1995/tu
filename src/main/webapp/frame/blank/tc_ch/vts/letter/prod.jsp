@@ -108,7 +108,7 @@
                 <%=rs.getString("customer_adress")%></p>
             <p><strong>&nbsp;</strong></p>
             <p><strong>Директору філії<br>
-                    АТ«Прикарпаттяобленерго»<br>
+                    АТ «Прикарпаттяобленерго»<br>
                     <%= rs.getString("rem_name")%> РЕМ<br>
                     п. <%= rs.getString("director_dav")%></strong></p>
             <p>На вхідний № <%= rs.getString("in_namber")%> від <%= rs.getString("send_date_lenner")%> року <br>

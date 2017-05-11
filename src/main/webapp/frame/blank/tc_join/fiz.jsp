@@ -186,7 +186,7 @@
         <div class="Section1">
             <p align="right" class="style1">ОП 4.1-Ґ</p>
             <p align="center">
-                 &nbsp;<span class="style1">ФІЛІЯ АТ«ПРИКАРПАТТЯОБЛЕНЕРГО»<br/>
+                 &nbsp;<span class="style1">ФІЛІЯ АТ «ПРИКАРПАТТЯОБЛЕНЕРГО»<br/>
                     “<%=rs.getString("rem_name").toUpperCase()%> РАЙОН ЕЛЕКТРИЧНИХ МЕРЕЖ”</span></p>
 
             <table border="0" cellspacing="0" cellpadding="0" align="center" width="100%">
@@ -313,7 +313,7 @@
             </tr>
             <tr>
                 <td width="328" valign="top">М.П.
-                    <br>Головний інженер філії АТ«Прикарпаттяобленерго»<br>
+                    <br>Головний інженер філії АТ «Прикарпаттяобленерго»<br>
                     “<%= rs.getString("rem_name")%> РЕМ”<br>
                     <u><%=rs.getString("golovnyi_ingener")%></u>					  
                 </td>

@@ -193,7 +193,7 @@ $(document).ready(function(){
     <body>
         <div class="Section1">
             <p align="right">7.51-ПР-1-ТД-1.4.М</p>
-            <p align="center">&nbsp;<span class="style1">АТ«ПРИКАРПАТТЯОБЛЕНЕРГО»</span></p>
+            <p align="center">&nbsp;<span class="style1">АТ «ПРИКАРПАТТЯОБЛЕНЕРГО»</span></p>
             <table border="0" align="center" cellpadding="0" cellspacing="0" width="100%" style="font-size: 11pt">
                 <tr>
 
@@ -202,7 +202,7 @@ $(document).ready(function(){
                         <p class="style1">Обов’язковий    додаток до проекту.</p></td>
                     <td valign="top"><p class="style1" align="right"><strong><%= rs.getString("customer_soc_status")%><br><%= rs.getString("name")%><br>
                                 Директору філії<br>
-                                АТ«Прикарпаттяобленерго»<br>
+                                АТ «Прикарпаттяобленерго»<br>
                                 <%=rs.getString("rem_name")%> РЕМ<br>
                                 п. <%= rs.getString("director_dav")%></strong></p></td>
                 </tr>
@@ -398,7 +398,7 @@ $(document).ready(function(){
                 <dt>7.9 Вимоги до ізоляції, захисту від  перенапруги: відсутні.</dt>
                 <dt>7.10 Специфічні вимоги щодо живлення  електроустановок Замовника, які стосуються резервного живлення, допустимості  паралельної роботи елементів електричної мережі:
                     <%if (rs.getString("reliabylity_class_1").toUpperCase().equals("TRUE")) {%><strong>
-                        встановити блокуючий пристрій для неможливості подачі генерованої напруги в мережі АТ«Прикарпаттяобленерго». Встановити АВР
+                        встановити блокуючий пристрій для неможливості подачі генерованої напруги в мережі АТ «Прикарпаттяобленерго». Встановити АВР
                         на напрузі 0,4 кВ (централізовано на вводах в споруду чи децентралізовано у електроприймачів І категорії по надійності 
                         електропостачання). <%if (rs.getString("reliabylity_class_2").toUpperCase().equals("TRUE") || rs.getString("reliabylity_class_3").toUpperCase().equals("TRUE")) {%> <%=rs.getString("do8")%><%}%></strong><%} else {%><%=rs.getString("do8")%><%}%></dt>
             </dl>
@@ -414,7 +414,7 @@ $(document).ready(function(){
         </tr>
         <tr>
             <td width="328" valign="top">М.П.
-                <br>Технічний директор АТ«Прикарпаттяобленерго»<br>
+                <br>Технічний директор АТ «Прикарпаттяобленерго»<br>
                 <u>Сеник Олег Степанович</u>
             </td>
             <td width="329" valign="top">М.П.<br>

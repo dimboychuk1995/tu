@@ -157,7 +157,7 @@
                 <p><strong>АТ   «Прикарпаттяобленерго»</strong><br>
                     м. Івано-Франківськ, вул. Індустріальна 34 <br>
                     р/р 26003301757 МФО 336503<br>
-                    Філія Івано-Франківського ОУ<br>АТ «Ощадбанк»<br>
+                    Філія Івано-Франківського ОУ<br>ПАТ «Ощадбанк»<br>
                     Код ЄДРПОУ 00131564<br>
                     тел/факс: 594451 </p>
                 <p><strong>Технічний директор </strong><br>
@@ -185,7 +185,7 @@
             <td width="400" valign="top"><p>Замовник</p></td>
         </tr>
         <tr>
-            <td width="400" valign="top"><p>АТ«Прикарпаттяобленерго»<br>
+            <td width="400" valign="top"><p>АТ «Прикарпаттяобленерго»<br>
                     Філія “<u><%= rs.getString("rem_name")%></u> РЕМ”<br>
                     <u><%=rs.getString("rem_licality")%></u><br>
                     <%=rs.getString("rek_bank").substring(0, rs.getString("rek_bank").indexOf(','))%><br>
@@ -196,7 +196,7 @@
                     <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",   М") + 1, rs.getString("rek_bank").indexOf(",  к"))%><br>
                     <%=rs.getString("rek_bank").substring(rs.getString("rek_bank").indexOf(",  к") + 1, rs.getString("rek_bank").indexOf('.'))%><br>
                     <%= rs.getString("contacts")%><br>
-                    Директор    філії АТ«Прикарпаттяобленерго»<br>
+                    Директор    філії АТ «Прикарпаттяобленерго»<br>
                     “<%= rs.getString("rem_name")%> РЕМ”<br>
                 </p></td>
             <td width="400" valign="top"><p><u><%=rs.getString("PIP")%></u></p>
