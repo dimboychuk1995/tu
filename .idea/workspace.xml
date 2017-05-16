@@ -10,7 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d60e3da4-69bb-452d-afdc-552bf0a4003e" name="Default" comment="1 step to hesh&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java" afterPath="$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
     </list>
     <ignored path="tu.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,45 +50,33 @@
       <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
+            <state relative-caret-position="187">
+              <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
               <folding>
-                <marker date="1494507412599" expanded="true" signature="506:627" ph="..." />
+                <marker date="1494666493636" expanded="true" signature="506:627" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calc_ns_join_1.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_1.jsp">
+      <file leaf-file-name="context.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="47" lean-forward="true" selection-start-line="35" selection-start-column="47" selection-end-line="35" selection-end-column="47" />
-              <folding>
-                <marker date="1476806319838" expanded="true" signature="7101:8702" ph="SELECT \n CA... " />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="join_price_ns.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1105">
-              <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+            <state relative-caret-position="426">
+              <caret line="38" column="287" lean-forward="false" selection-start-line="38" selection-start-column="287" selection-end-line="38" selection-end-column="287" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="join_price_calc_ns_b.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp">
+      <file leaf-file-name="AppealsImport.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="125" column="23" lean-forward="false" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+            <state relative-caret-position="418">
+              <caret line="163" column="35" lean-forward="true" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
               <folding>
-                <marker date="1494576542343" expanded="true" signature="1347:9017" ph="SELECT ((((I... TC_V2" />
-                <marker date="1494576542343" expanded="true" signature="7983:9017" ph="SELECT ((((I... TC_V2" />
+                <element signature="e#12834#12953#0" expanded="true" />
+                <marker date="1494917832296" expanded="true" signature="2911:8498" ph="SELECT r.num... Request" />
               </folding>
             </state>
           </provider>
@@ -128,12 +118,18 @@
       <find>АТ «Ощадбанк»</find>
       <find>АТ«</find>
       <find>АТ «Укрсоцбанк</find>
+      <find>LkdS17cm</find>
+      <find>LuridicalReport</find>
+      <find>MPPv2</find>
     </findStrings>
     <replaceStrings>
       <replace>АТ</replace>
       <replace>ПАТ «Ощадбанк»</replace>
       <replace>АТ «</replace>
       <replace>ПАТ «Укрсоцбанк</replace>
+      <replace>0000</replace>
+      <replace>JuridicalReport</replace>
+      <replace>MPP</replace>
     </replaceStrings>
     <dirStrings>
       <dir>D:\work\workdirectory\tu\src\main\webapp\frame</dir>
@@ -156,8 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Utils/md5ApacheCl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/loginAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/loginActionForm.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/myapp/struts/PassAction.java" />
         <option value="$PROJECT_DIR$/src/main/java/oe/tu/excel/ExportAllRemsXLS.java" />
@@ -205,8 +199,10 @@
         <option value="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/blank/AccountConnection.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/detailedview/customer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/frame/login.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/META-INF/context.xml" />
       </list>
     </option>
   </component>
@@ -291,9 +287,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1375,7 +1371,8 @@
       <workItem from="1493270145315" duration="26727000" />
       <workItem from="1493898647828" duration="2422000" />
       <workItem from="1494393072005" duration="19561000" />
-      <workItem from="1494565715322" duration="4931000" />
+      <workItem from="1494565715322" duration="8868000" />
+      <workItem from="1494825001964" duration="11289000" />
     </task>
     <task id="LOCAL-00001" summary="many large commit">
       <created>1452678557216</created>
@@ -1416,7 +1413,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="805155000" />
+    <option name="totallyTimeSpent" value="820381000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1453,12 +1450,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33262935" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32952693" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3938754" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27138332" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22291666" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20625" sideWeight="0.4975923" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28895614" sideWeight="0.5008026" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36958817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1470,7 +1468,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39869282" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19249593" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36958817" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1541,71 +1538,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="748">
-          <caret line="44" column="25" lean-forward="false" selection-start-line="44" selection-start-column="25" selection-end-line="44" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/dictionaries/tpdic/edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2380">
-          <caret line="140" column="64" lean-forward="false" selection-start-line="140" selection-start-column="64" selection-end-line="140" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join/jur.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="329" column="62" lean-forward="false" selection-start-line="329" selection-start-column="62" selection-end-line="329" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/tc_join/fiz.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="312" column="17" lean-forward="false" selection-start-line="309" selection-start-column="12" selection-end-line="312" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/fiz.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="203" column="253" lean-forward="false" selection-start-line="203" selection-start-column="253" selection-end-line="203" selection-end-column="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/dog_join/jur.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="204" column="253" lean-forward="false" selection-start-line="204" selection-start-column="253" selection-end-line="204" selection-end-column="253" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/mainlayot.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="143" column="28" lean-forward="false" selection-start-line="143" selection-start-column="28" selection-end-line="143" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/GetMainGrid.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3237">
-          <caret line="34" column="13" lean-forward="false" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/ApplicationResource.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
           <caret line="84" column="0" lean-forward="false" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/xls_info_ns_1.jsp">
@@ -1656,7 +1596,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5100">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1830,9 +1769,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="183">
           <caret line="278" column="60" lean-forward="false" selection-start-line="278" selection-start-column="60" selection-end-line="278" selection-end-column="64" />
-          <folding>
-            <marker date="1494486828856" expanded="true" signature="1120:7005" ph="SELECT TC_V2... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1856,7 +1792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="697">
           <caret line="80" column="26" lean-forward="false" selection-start-line="80" selection-start-column="26" selection-end-line="80" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1872,9 +1807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
           <caret line="39" column="32" lean-forward="false" selection-start-line="39" selection-start-column="32" selection-end-line="39" selection-end-column="32" />
-          <folding>
-            <marker date="1494417761765" expanded="true" signature="1471:2540" ph="SELECT \nCAS... " />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1886,37 +1818,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="1579" column="33" lean-forward="true" selection-start-line="1579" selection-start-column="33" selection-end-line="1579" selection-end-column="33" />
-          <folding>
-            <marker date="1493794553775" expanded="true" signature="14624:36045" ph="INSERT INTO " />
-            <marker date="1493794553775" expanded="true" signature="36609:37973" ph="SELECT isnul... " />
-            <marker date="1493794553775" expanded="true" signature="41062:58096" ph="UPDATE TC_V2... " />
-            <marker date="1493794553775" expanded="true" signature="59286:77684" ph="SELECT id,is... TC_V2" />
-            <marker date="1493794553775" expanded="true" signature="68267:68343" ph="select isnul... ps_tu_web" />
-            <marker date="1493794553775" expanded="true" signature="68415:68518" ph="select isnul... ps_tu_web" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="64" column="36" lean-forward="false" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-          <folding>
-            <marker date="1494507412599" expanded="true" signature="506:627" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/calc_ns_join_2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-306">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <marker date="1485423110149" expanded="true" signature="1848:4585" ph="SELECT \n CA... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1105">
+          <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1455">
+          <caret line="139" column="31" lean-forward="true" selection-start-line="139" selection-start-column="31" selection-end-line="139" selection-end-column="31" />
+          <folding>
+            <marker date="1494576542343" expanded="true" signature="1347:9017" ph="SELECT ((((I... TC_V2" />
+            <marker date="1494576542343" expanded="true" signature="7983:9017" ph="SELECT ((((I... TC_V2" />
           </folding>
         </state>
       </provider>
@@ -1931,22 +1856,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/detailedview/join_price_ns.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/blank/newtemplate.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1105">
-          <caret line="42" column="15" lean-forward="false" selection-start-line="42" selection-start-column="15" selection-end-line="42" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/ajax/join_price_calc_ns_b.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/FileUploadForm.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="125" column="23" lean-forward="false" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+        <state relative-caret-position="-34">
+          <caret line="59" column="23" lean-forward="false" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
           <folding>
-            <marker date="1494576542343" expanded="true" signature="1347:9017" ph="SELECT ((((I... TC_V2" />
-            <marker date="1494576542343" expanded="true" signature="7983:9017" ph="SELECT ((((I... TC_V2" />
+            <marker date="1480076336177" expanded="true" signature="3209:3477" ph="INSERT INTO " />
+            <marker date="1480076336177" expanded="true" signature="4404:4479" ph="DELETE FROM " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/javax.servlet.jar!/javax/servlet/http/HttpServletResponse.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="32" lean-forward="true" selection-start-line="36" selection-start-column="32" selection-end-line="36" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20128">
+          <caret line="1184" column="37" lean-forward="true" selection-start-line="1184" selection-start-column="37" selection-end-line="1184" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/frame/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="20" column="25" lean-forward="true" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
+          <folding>
+            <marker date="1494666493636" expanded="true" signature="506:627" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/DetalViewActionForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="1598" column="40" lean-forward="true" selection-start-line="1598" selection-start-column="40" selection-end-line="1598" selection-end-column="40" />
+          <folding>
+            <marker date="1493794553775" expanded="true" signature="14624:36045" ph="INSERT INTO " />
+            <marker date="1493794553775" expanded="true" signature="36609:37973" ph="SELECT isnul... " />
+            <marker date="1493794553775" expanded="true" signature="41062:58096" ph="UPDATE TC_V2... " />
+            <marker date="1493794553775" expanded="true" signature="59286:77684" ph="SELECT id,is... TC_V2" />
+            <marker date="1493794553775" expanded="true" signature="68267:68343" ph="select isnul... ps_tu_web" />
+            <marker date="1493794553775" expanded="true" signature="68415:68518" ph="select isnul... ps_tu_web" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myapp/struts/CharEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/sqljdbc4-4.0.jar!/com/microsoft/sqlserver/jdbc/SQLServerException.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="170" column="0" lean-forward="false" selection-start-line="170" selection-start-column="0" selection-end-line="170" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/ifr/oe/tu/ajax/AppealsImport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="163" column="35" lean-forward="true" selection-start-line="163" selection-start-column="35" selection-end-line="163" selection-end-column="35" />
+          <folding>
+            <element signature="e#12834#12953#0" expanded="true" />
+            <marker date="1494917832296" expanded="true" signature="2911:8498" ph="SELECT r.num... Request" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/META-INF/context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="38" column="287" lean-forward="false" selection-start-line="38" selection-start-column="287" selection-end-line="38" selection-end-column="287" />
+          <folding />
         </state>
       </provider>
     </entry>
