@@ -79,7 +79,7 @@ public class AppealsImport extends HttpServlet {
         String rem_id = request.getParameter("rem_id");
         String db = "PR" + rem_id + "_MPP";
         try {
-            ic = new InitialContext();
+             ic = new InitialContext();
             DataSource ds = (DataSource) ic.lookup("java:comp/env/jdbc/" + db);
             String SQL = ""
                     + "SELECT r.number, "
@@ -161,10 +161,10 @@ public class AppealsImport extends HttpServlet {
                     + "       LEFT JOIN Organization.Street AS s4 "
                     + "              ON a4.StreetId = s4.StreetId "
                     + "WHERE  r.Number = ?";
+            System.out.println(SQL + " " + num_zver);
             c = ds.getConnection();
             pstmt = c.prepareStatement(SQL);
             pstmt.setString(1, num_zver);
-            System.out.println(SQL + " " + num_zver);
             rs = pstmt.executeQuery();
             if (!rs.next()) {
                 throw new SQLException();

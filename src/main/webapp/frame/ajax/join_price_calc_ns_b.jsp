@@ -36,7 +36,7 @@
         String ch_rez = "SELECT \n" +
                 "      [ch_rez1] as ch_rez1\n" +
                 "      ,[ch_rez2] as ch_rez2    \n" +
-                "  FROM [TUWeb260].[dbo].[TC_V2]\n" +
+                "  FROM [dbo].[TC_V2]\n" +
                 "  where id = '" + request.getParameter("tu_id") + "'";
         pstmt = c.prepareStatement(ch_rez);
         rs = pstmt.executeQuery();
@@ -153,17 +153,28 @@
                     + " where tv.id='" + request.getParameter("tu_id") + "'";
 
         }else{
-            SQL = "DECLARE @connection_price numeric(10,2),@connection_price_temp numeric(10,2), @price_conn numeric(10,2)= 542.93                 SET @connection_price_temp =(SELECT (isnull(tv.request_power,0)) FROM TC_V2 tv where tv.id=4152 ) \n" +
+            SQL = "DECLARE @connection_price numeric(10,2),@connection_price_temp numeric(10,2), @price_conn numeric(10,2)= 542.93                 SET @connection_price_temp =(SELECT (isnull(tv.request_power,0)) FROM TC_V2 tv where tv.id=" + request.getParameter("tu_id") + " ) \n" +
                     "               SET @connection_price =(SELECT CASE     WHEN @connection_price_temp<=15 THEN 1287.97  \n" +
                     "                \t\t\t\t\t  WHEN @connection_price_temp>15 AND @connection_price_temp<=150 THEN 1321.99  \n" +
                     "                \t\t\t\t\t  WHEN @connection_price_temp>150 AND @connection_price_temp<=500 THEN 2284.26  \n" +
                     "                \t\t\t\t\t  WHEN @connection_price_temp>500 AND @connection_price_temp<=10000 THEN 2462.39  \n" +
-                    "                \t\t\t\t\t  ELSE 0 END)\n" +
-                    "SELECT\n" +
-                    "CAST(((((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0))))*250+ISNULL(tv.price_rec_build,0)+ISNULL(cast(@connection_price AS NUMERIC(10,2)),0)+@price_conn-ISNULL(tv.devellopment_price,0)) AS NUMERIC(10,2)) AS price_el_dev  \n" +
-                    ",CAST(((((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0))))*250+ISNULL(tv.price_rec_build,0)+ISNULL(cast(@connection_price AS NUMERIC(10,2)),0)+@price_conn-ISNULL(tv.devellopment_price,0))*.2 AS NUMERIC(10,2)) AS pdv  \n" +
-                    ",CAST(((((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0))))*250+ISNULL(tv.price_rec_build,0)+ISNULL(cast(@connection_price AS NUMERIC(10,2)),0)+@price_conn-ISNULL(tv.devellopment_price,0))*1.2 AS NUMERIC(10,2)) AS price  \n" +
-                    "\tFROM TC_V2 tv where tv.id='" + request.getParameter("tu_id") + "'";
+                    "                \t\t\t\t\t  ELSE 0 END) SELECT   \n" +
+                    " CASE tv.customer_type \n" +
+                    "\t\t\t\tWHEN 0 THEN ISNULL(tv.f_name,'') + ' ' + ISNULL(tv.s_name,'') + ' ' + ISNULL(tv.t_name,'') \n" +
+                    "\t\t\t\tELSE isnull(tv.juridical,'')  \n" +
+                    "        END AS [name] \n" +
+                    "        ,tv.number AS number \n" +
+                    "                ,(((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0)))) AS request_power \n" +
+                    "                ,@connection_price AS connection_price \n" +
+                    "                ,(((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0))))*250 as reserve                 ,250 AS Hpj  \n" +
+                    "                ,ISNULL(tv.price_rec_build,0) AS price_rec_build  \n" +
+                    "                ,@price_conn  AS price_conn  \n" +
+                    "                ,ISNULL(tv.devellopment_price,0) AS devellopment_price  \n" +
+                    "                ,CAST(((((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0))))*250+ISNULL(tv.price_rec_build,0)+ISNULL(cast(@connection_price AS NUMERIC(10,2)),0)+@price_conn-ISNULL(tv.devellopment_price,0)) AS NUMERIC(10,2)) AS price_el_dev  \n" +
+                    "                ,CAST(((((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0))))*250+ISNULL(tv.price_rec_build,0)+ISNULL(cast(@connection_price AS NUMERIC(10,2)),0)+@price_conn-ISNULL(tv.devellopment_price,0))*.2 AS NUMERIC(10,2)) AS pdv  \n" +
+                    "                ,CAST(((((ISNULL(reliabylity_class_1_val,0) - ISNULL(reliabylity_class_1_val_old,0))*2) + ((ISNULL(reliabylity_class_2_val,0) - ISNULL(reliabylity_class_2_val_old,0))*2) + ((ISNULL(reliabylity_class_3_val,0) - ISNULL(reliabylity_class_3_val_old,0))))*250+ISNULL(tv.price_rec_build,0)+ISNULL(cast(@connection_price AS NUMERIC(10,2)),0)+@price_conn-ISNULL(tv.devellopment_price,0))*1.2 AS NUMERIC(10,2)) AS price  \n" +
+                    "                FROM TC_V2 tv " +
+                    " where tv.id='" + request.getParameter("tu_id") + "'";
         }
 
 

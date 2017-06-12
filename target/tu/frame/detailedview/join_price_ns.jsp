@@ -48,8 +48,6 @@
                     url: 'ajax/join_price_calc_ns_b.jsp?tu_id='+tuid,
                     dataType : "json",
                     success: function (data, textStatus) {
-                        $("#ch_rez1").attr("value",parseFloat(data.ch_rez1));
-                        $("#ch_rez2").attr("value",parseFloat(data.ch_rez2));
                         $("#price_el_dev").attr("value",parseFloat(data.price_el_dev));
                         $("#price_el_dev_1").val(parseFloat(data.price_el_dev_1));
                         $("#p_price_join").attr("value",parseFloat(data.p_price_join));

@@ -300,7 +300,7 @@
                     <td><p align="right">“_____”______________    201_ р.</p></td>
                 </tr>
             </table>
-            <p style="text-align:justify;text-indent:20pt"><strong>АТ“Прикарпаттяобленерго”,</strong> що&nbsp; діє за  умовами та правилами Ліцензії АБ № 177333 (далі – <%=rs.getString("executor_template")%>), в особі технічного директора АТ «Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі  довіреності № 1202 від 13.02.2017 року, з однієї сторони,  та  <strong><%if (!rs.getString("customer_soc_status_1").equals("9")
+            <p style="text-align:justify;text-indent:20pt"><strong>АТ“Прикарпаттяобленерго”,</strong> що&nbsp; діє за  умовами та правилами Ліцензії АБ № 177333 (далі – <%=rs.getString("executor_template")%>), в особі технічного директора АТ «Прикарпаттяобленерго» Сеника Олега Степановича, який діє на підставі  довіреності № 14 від 10.05.2017 року, з однієї сторони,  та  <strong><%if (!rs.getString("customer_soc_status_1").equals("9")
                                 && !rs.getString("customer_soc_status_1").equals("12")) {%><%= rs.getString("customer_soc_status")%><%}%> <%= rs.getString("name")%></strong>, надалі ― Замовник, <%if ((!rs.getString("customer_soc_status_1").equals("15")
                                             && !rs.getString("customer_soc_status_1").equals("11")) && (rs.getString("customer_type").equals("1"))) {%> в особі <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}
                                                         if (rs.getString("customer_type").equals("1")) {%> який діє на підставі <%}%><strong><%= rs.getString("constitutive_documents")%></strong>, з іншої сторони, (далі – Сторони), враховуючи заяву  Замовника від <%= rs.getString("send_date_lenner")%> року, домовились про наступне: </p>
@@ -1129,7 +1129,7 @@
 
             <div style="text-align:justify; text-indent:20pt"><font size="-1"><strong>Публічне акціонерне товариство «Прикарпаттяобленерго»</strong>,&nbsp;надалі ―
                     <strong>Електропередавальна організація (далі – ЕО)</strong>,&nbsp;що здійснює ліцензовану діяльність з передачі електроенергії, в особі технічного директора  АТ «Прикарпаттяобленерго»&nbsp;
-                    <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 1202 від 13.02.2017
+                    <strong>Сеника Олега Степановича</strong>,&nbsp;який діє на підставі довіреності № 14 від 10.05.2017
                     &nbsp;року, з однієї сторони, та&nbsp;<strong><%= rs.getString("customer_soc_status")%> <%= rs.getString("name")%></strong>, надалі ―
                     Замовник, <%if (!rs.getString("customer_soc_status_1").equals("15")
                                 && !rs.getString("customer_soc_status_1").equals("11")) {%> в особі <strong><%= rs.getString("customer_post")%>&nbsp;<%= rs.getString("PIP")%></strong>,<%}%> який діє на підставі <strong><u><%= rs.getString("constitutive_documents")%></u></strong>

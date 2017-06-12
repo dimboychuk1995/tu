@@ -94,6 +94,8 @@
                 <html:option value="63">63</html:option>
                 <html:option value="80">80</html:option>
                 <html:option value="100">100</html:option>
+                <html:option value="125">125</html:option>
+                <html:option value="150">150</html:option>
             </html:select>
             </td>
         </tr>
